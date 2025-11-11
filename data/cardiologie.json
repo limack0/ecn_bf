@@ -1,107 +1,4082 @@
 {
   "quizzes": [
     {
-      "question": "Quelle est la première intention thérapeutique dans l'infarctus du myocarde avec sus-décalage du segment ST?",
+      "question": "Quel est le traitement de première intention de l'hémorragie digestive haute par ulcère gastroduodénal?",
       "type": "single",
       "options": [
-        {"text": "Aspirine + Clopidogrel", "correct": false},
-        {"text": "Angioplastie primaire", "correct": true},
-        {"text": "Thrombolyse", "correct": false},
-        {"text": "Traitement médical seul", "correct": false}
+        {"text": "Traitement médical seul", "correct": false},
+        {"text": "Endoscopie digestive haute avec hémostase", "correct": true},
+        {"text": "Chirurgie en urgence", "correct": false},
+        {"text": "Embolisation artérielle", "correct": false}
       ],
-      "explanation": "L'angioplastie primaire est le traitement de première intention lorsqu'elle est disponible dans les délais (<90 minutes)."
+      "explanation": "L'endoscopie digestive haute avec hémostase est le traitement de référence des hémorragies ulcéreuses."
     },
     {
-      "question": "Quels sont les facteurs de risque modifiables de l'insuffisance cardiaque?",
+      "question": "Quels sont les critères de gravité d'une pancréatite aiguë?",
       "type": "multiple",
       "options": [
-        {"text": "Hypertension artérielle", "correct": true},
+        {"text": "Score de Ranson ≥ 3", "correct": true},
+        {"text": "Hémoconcentration", "correct": true},
+        {"text": "Épanchement pleural", "correct": true},
+        {"text": "Hyperleucocytose", "correct": false},
+        {"text": "Hypocalcémie", "correct": true}
+      ],
+      "explanation": "Les critères de Ranson et les signes d'organe (épanchement pleural) définissent la gravité d'une pancréatite aiguë."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente de cirrhose en France?",
+      "type": "single",
+      "options": [
+        {"text": "Alcool", "correct": true},
+        {"text": "Hépatite B", "correct": false},
+        {"text": "Hépatite C", "correct": false},
+        {"text": "NASH", "correct": false}
+      ],
+      "explanation": "L'alcool reste la première cause de cirrhose en France, devant les hépatites virales et la NASH."
+    },
+    {
+      "question": "Quels signes évoquent une ascite infectée?",
+      "type": "multiple",
+      "options": [
+        {"text": "Douleur abdominale", "correct": true},
+        {"text": "Fièvre", "correct": true},
+        {"text": "Aggravation de l'ascite", "correct": true},
+        {"text": "Encéphalopathie", "correct": true},
+        {"text": "Ictère", "correct": false}
+      ],
+      "explanation": "La triade classique est douleur abdominale, fièvre et aggravation de l'ascite. L'encéphalopathie est un signe de gravité."
+    },
+    {
+      "question": "Au cours des artériopathies artérioscléreuses, toutes les propositions suivantes sont justes sauf une. Laquelle ?",
+      "type": "single",
+      "options": [
+        {"text": "Le tabac constitue le principal facteur de risque", "correct": false},
+        {"text": "La mesure de la pression systolique à la cheville est un élément important de la surveillance", "correct": false},
+        {"text": "L'oblitération fémorale superficielle est une indication élective d'une angioplastie", "correct": true},
+        {"text": "La mortalité coronaire est d'environ 20 % à 5 ans", "correct": false},
+        {"text": "Une artériographie est nécessaire en cas d'ischémie critique", "correct": false}
+      ],
+      "explanation": "le pontage est préférable."
+    },
+    {
+      "question": "Le syndrome de Conn est caractérisé par les signes biologiques suivants, sauf un. Lequel ?",
+      "type": "single",
+      "options": [
+        {"text": "Hypokaliémie", "correct": false},
+        {"text": "Hyponatrémie", "correct": true},
+        {"text": "Alcalose métabolique", "correct": false},
+        {"text": "Aldostéronurie accrue", "correct": false},
+        {"text": "Cortisol plasmatique normal", "correct": false}
+      ],
+      "explanation": "aucune."
+    },
+    {
+      "question": "A l'occasion d'un accident hémorragique sévère au cours d'un surdosage thérapeutique par l'héparine, indiquez la mesure qui vous paraît la plus appropriée :",
+      "type": "single",
+      "options": [
+        {"text": "Demander en urgence un taux de prothrombine", "correct": false},
+        {"text": "Injecter en urgence du PPSB à la dose de 20 U/kg", "correct": false},
+        {"text": "Injecter du sulfate de protamine par voie intraveineuse à la même dose en unités que celle de la dernière injection d'héparine", "correct": true},
+        {"text": "Injecter 20 mg de vitamine K par voie intraveineuse", "correct": false},
+        {"text": "Transfuser du plasma frais congelé pour neutraliser l'héparine circulante", "correct": false}
+      ],
+      "explanation": "La protamine neutralise l'héparine (1 mg pour 100 UI d'héparine)."
+    },
+    {
+      "question": "Parmi les bactéries suivantes, quelle est celle qui est un agent d'endocardite d'Osler ?",
+      "type": "single",
+      "options": [
+        {"text": "Haemophilus ducreyi", "correct": false},
+        {"text": "Leptospira pomona", "correct": false},
+        {"text": "Haemophilus influenzae", "correct": false},
+        {"text": "Streptococcus faecalis", "correct": true},
+        {"text": "Salmonella typhimurium", "correct": false}
+      ],
+      "explanation": "Rechercher une porte d'entrée digestive."
+    },
+    {
+      "question": "En l'an 2000, dans les pays industrialisés, quel est le groupe de cardiopathies le plus fréquemment responsable d'insuffisance cardiaque ?",
+      "type": "single",
+      "options": [
+        {"text": "Les valvulopathies", "correct": false},
+        {"text": "Les cardiopathies ischémiques", "correct": true},
+        {"text": "Les cardiopathies hypertensives", "correct": false},
+        {"text": "Les cardiopathies congénitales", "correct": false},
+        {"text": "Les cardiomyopathies idiopathiques", "correct": false}
+      ],
+      "explanation": "aucune."
+    },
+    {
+      "question": "Une hyponatrémie avec déplétion sodée s'observe au cours :",
+      "type": "single",
+      "options": [
+        {"text": "Du syndrome de sécrétion inappropriée d'ADH", "correct": false},
+        {"text": "De l'insuffisance cardiaque congestive", "correct": false},
+        {"text": "De l'insuffisance surrénale aiguë", "correct": true},
+        {"text": "Des traitements par diurétiques de l'anse", "correct": false},
+        {"text": "Du syndrome hépatorénal", "correct": false}
+      ],
+      "explanation": "B et E : Rétention hydrosodée. A : Rétention d'eau pure."
+    },
+    {
+      "question": "Parmi les 5 cardiopathies suivantes, quelle(s) est (sont) celle(s) qui peut (peuvent) entraîner la survenue d'un angor :",
+      "type": "multiple",
+      "options": [
+        {"text": "Rétrécissement aortique", "correct": true},
+        {"text": "Rétrécissement mitral", "correct": false},
+        {"text": "Insuffisance aortique", "correct": true},
+        {"text": "Insuffisance mitrale", "correct": true},
+        {"text": "Anévrysme de l'aorte thoracique descendante", "correct": false}
+      ],
+      "explanation": "C ; D : Rare mais possible. E : Par contre, les anévrysmes de l'aorte ascendante peuvent entrainer un angor."
+    },
+    {
+      "question": "Le tabac augmente le risque :",
+      "type": "multiple",
+      "options": [
+        {"text": "De cancer bronchique à petites cellules", "correct": true},
+        {"text": "De bronchite chronique obstructive", "correct": true},
+        {"text": "De mésothéliome", "correct": false},
+        {"text": "De fibrose interstitielle diffuse", "correct": false},
+        {"text": "De syndrome ventilatoire restrictif", "correct": false}
+      ],
+      "explanation": "B ; E : Au contraire, syndrome obstructif."
+    },
+    {
+      "question": "A propos de la responsabilité disciplinaire du médecin, quelles sont les propositions exactes ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Elle est appréciée en fonction des règles énoncées dans le code de déontologie", "correct": true},
+        {"text": "La première instance en matière de juridiction ordinale est le Conseil Départemental de l'Ordre des Médecins", "correct": false},
+        {"text": "Elle ne peut s'appliquer qu'aux médecins thésés", "correct": false},
+        {"text": "Les médecins du Service Public Hospitalier ne peuvent être considérés comme responsables au plan disciplinaire que devant leur administration", "correct": false},
+        {"text": "Le Conseil National de l'Ordre des Médecins comporte une instance d'appel", "correct": true}
+      ],
+      "explanation": "E. Le dernier recours est le Conseil d’État.; La première instance est le Conseil Régional de l'Ordre."
+    },
+    {
+      "question": "Lors de l'auscultation d'une sténose mitrale le(s)quel(s) de ces signes s'attend - on à trouver ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Un souffle diastolique latéro - sternal gauche", "correct": true},
+        {"text": "Un troisième bruit", "correct": false},
+        {"text": "Un claquement d'ouverture", "correct": false},
+        {"text": "Une diminution d'intensité du premier bruit", "correct": false},
+        {"text": "Un roulement diastolique de pointe", "correct": true}
+      ],
+      "explanation": "Le dernier recours est le Conseil d’État.; La première instance est le Conseil Régional de l'Ordre."
+    },
+    {
+      "question": "Chez un patient présentant une insuffisance surrénale aiguë, il faut en urgence administrer :",
+      "type": "multiple",
+      "options": [
+        {"text": "De l'hydrocortisone par voie veineuse", "correct": true},
+        {"text": "Du sérum glucosé", "correct": true},
+        {"text": "Seule ment de l'hydrocortisone per os", "correct": false},
+        {"text": "Du potassium", "correct": false},
+        {"text": "Du sérum salé", "correct": true}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "A quel(s) diagnostic(s) faut - il penser en premier devant un jeune adulte apyrétique qui consulte pour une douleur thoracique gauche et une dyspnée aiguë ?",
+      "type": "single",
+      "options": [
+        {"text": "Pneumonie franche lobaire aiguë", "correct": false},
+        {"text": "Pleurésie", "correct": false},
+        {"text": "Pneumothorax spontané", "correct": true},
+        {"text": "Embolie pulmonaire", "correct": false},
+        {"text": "Péricardite aiguë bénigne", "correct": false}
+      ],
+      "explanation": "A : Fébrile. B : Rarement aigue. E : Douleur mediothoracique."
+    },
+    {
+      "question": "Un malade est traité depuis 8 jours par l'héparine (perfusion continue) pour une thrombose veineuse. Il est décidé de prendre le relais par les AVK.",
+      "type": "single",
+      "options": [
+        {"text": "La dose initiale d'AVK doit être élevée (dose charge) pour accélérer le taux de prothrombine", "correct": false},
+        {"text": "Il est possible d'équilibrer un traitement AVK en moins de 3 jours", "correct": false},
+        {"text": "Le traitement par l'héparine doit toujours être arrêté 2 jours après la première prise d'AVK", "correct": false},
+        {"text": "L'INR doit être mesurée 36 - 48 heures après la 1ère prise d'AVK puis 36 - 48 heures après chaque modification posologique jusqu'à obtenir 2 INR stables", "correct": true},
+        {"text": "L'adaptation posologique des AVK s'effectue principalement selon l'hypocoagulabilité mesurée par TCA", "correct": false}
+      ],
+      "explanation": "aucune."
+    },
+    {
+      "question": "L’aspirine",
+      "type": "single",
+      "options": [
+        {"text": "Stimule la phospholipase A2", "correct": false},
+        {"text": "Stimule les contractions utérines", "correct": false},
+        {"text": "Ne franchit pas la barrière foeto - placentaire", "correct": false},
+        {"text": "Est un puissant inducteur enzymatique", "correct": false},
+        {"text": "Aucune de ces réponses", "correct": true}
+      ],
+      "explanation": "A : Inhibe la cyclo - oxygenase."
+    },
+    {
+      "question": "Quel symptôme peut - on trouver au stade 1 des artériopathies des membres inférieurs selon la classification de Leriche et Fontaine ?",
+      "type": "single",
+      "options": [
+        {"text": "Claudication intermittente à moins de 150 mètres", "correct": false},
+        {"text": "Claudication intermittente à plus de 500 mètres", "correct": false},
+        {"text": "Douleur nocturne du pied", "correct": false},
+        {"text": "Trouble trophique d’un orteil", "correct": false},
+        {"text": "Aucun de ces signes", "correct": true}
+      ],
+      "explanation": "A et B témoignent d'un stade II.; C du stade III.;D du stade IV."
+    },
+    {
+      "question": "L'infarctus du myocarde sous - endocardique est caractérisé à la phase aiguë par tous les éléments suivants sauf un. Lequel ?",
+      "type": "single",
+      "options": [
+        {"text": "Atteinte ventriculaire gauche non transmurale", "correct": false},
+        {"text": "Elévation enzymatique", "correct": false},
+        {"text": "Apparition d'ondes Q significatives sur l'ECG", "correct": true},
+        {"text": "Lésion sous - endocardique sur l'ECG", "correct": false},
+        {"text": "Douleur constrictive médio - thoracique prolongée", "correct": false}
+      ],
+      "explanation": "L'apparition d'une onde Q signe la lésion transmurale."
+    },
+    {
+      "question": "Au lendemain d'une perte de connaissance survenue sans témoins, un examen complémentaire peut apporter la certitude que le patient a convulsé (l'ECG est normal). Lequel ?",
+      "type": "single",
+      "options": [
+        {"text": "Electroencéphalogramme", "correct": true},
+        {"text": "Electromyogramme", "correct": false},
+        {"text": "Hyperkaliémie", "correct": false},
+        {"text": "Elévation de la C.P.K.", "correct": false},
+        {"text": "Alcoolémie", "correct": false}
+      ],
+      "explanation": "En montrant des signes de la série comitiale."
+    },
+    {
+      "question": "La péricardite chronique constrictive s’accompagne des modifications suivantes :",
+      "type": "multiple",
+      "options": [
+        {"text": "Les pressions systoliques (pressions intracardiaques) sont abaissées", "correct": true},
+        {"text": "Les pressions diastoliques sont élevées", "correct": true},
+        {"text": "Il y a un dip - plateau", "correct": true},
+        {"text": "Il existe un gradient intra - ventriculaire", "correct": false},
+        {"text": "Il existe un gradient auriculo - ventriculaire", "correct": false}
+      ],
+      "explanation": "B ; C."
+    },
+    {
+      "question": "L’oedème aigu du poumon d’origine hémodynamique (indiquer la ou les bonnes réponses) :",
+      "type": "multiple",
+      "options": [
+        {"text": "Traduit une insuffisance cardiaque droite sévère", "correct": false},
+        {"text": "Peut compliquer un rétrécissement mitral serré", "correct": true},
+        {"text": "Est dû à un bronchospasme", "correct": false},
+        {"text": "Est toujours la conséquence d’une élévation de la pression capillaire pulmonaire", "correct": true},
+        {"text": "Traduit une altération de la fonction cardiaque gauche", "correct": true}
+      ],
+      "explanation": "D ; E : contrairement a l'oedème lésionnel ou la pression capillaire est basse. E : la dysfonction VG entraine une élévation de la pression capillaire."
+    },
+    {
+      "question": "Quelle(s) est (sont) la(les) caractéristique(s) des endocardites bactériennes aiguës tricuspidiennes ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Fréquente chez les héroïnomanes", "correct": true},
+        {"text": "Staphylocoque souvent responsable", "correct": true},
+        {"text": "Végétations souvent très volumineuses à l'échographie", "correct": true},
+        {"text": "Embolies pulmonaires septiques fréquentes", "correct": true},
+        {"text": "Traitement chirurgical toujours nécessaire", "correct": false}
+      ],
+      "explanation": "B ; C ; D ; A et B : Par injection intraveineuses de bactéries. Et D : Classique.;E : Sauf pour les endocardites a champignons, un traitement médical suffit en général."
+    },
+    {
+      "question": "Quels sont les facteurs favorisant une poussée d'insuffisance cardiaque ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Une infection broncho - pulmonaire", "correct": true},
+        {"text": "Une intervention chirurgicale abdominale", "correct": true},
+        {"text": "Un stress modéré", "correct": true},
+        {"text": "Un écart de régime", "correct": true},
+        {"text": "Un trouble du rythme", "correct": true}
+      ],
+      "explanation": "B ; C ; D ; E ; C : Peut déclencher une poussée ischémique."
+    },
+    {
+      "question": "La mortalité par maladies cardiovasculaires (MCV) varie dans le temps en France et cette évolution peut être associée à plusieurs facteurs possibles :",
+      "type": "multiple",
+      "options": [
+        {"text": "La mortalité par MCV augmente, ce qui est associé à une augmentation de l'hypertension artérielle", "correct": true},
+        {"text": "La mortalité par MCV augmente, ce qui est associé à une augmentation du tabagisme", "correct": true},
+        {"text": "La mortalité par MCV augmente mais on ne sait pas exactement pour quelle(s) raison(s)", "correct": false},
+        {"text": "La mortalité par MCV diminue ce qui s'explique par des facteurs démographiques", "correct": false},
+        {"text": "La mortalité par MCV diminue, mais on ne sait pas exactement pour quelle(s) raison(s)", "correct": false}
+      ],
+      "explanation": "B."
+    },
+    {
+      "question": "Quels sont les signes suffisants et nécessaires pour diagnostiquer un arrêt cardio - respiratoire ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Mydriase", "correct": false},
+        {"text": "Cyanose", "correct": false},
+        {"text": "Perte de connaissance", "correct": false},
+        {"text": "Absence de pouls", "correct": true},
+        {"text": "Arrêt respiratoire", "correct": true}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Une IVG peut se compliquer :",
+      "type": "multiple",
+      "options": [
+        {"text": "De rétention placentaire", "correct": true},
+        {"text": "D'infection génitale", "correct": true},
+        {"text": "De perforation utérine", "correct": true},
+        {"text": "De rupture du col de l'utérus", "correct": true},
+        {"text": "D'immunisation rhésus", "correct": true}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Une femme de 35 ans a une valve de Starr mitrale implantée pour maladie mitrale rhumatismale. Quelle est la réponse exacte ?",
+      "type": "single",
+      "options": [
+        {"text": "Un traitement anticoagulant oral par antivitamines K est nécessaire pendant un an", "correct": false},
+        {"text": "Un traitement héparinique est nécessaire pendant un mois, relayé par un traitement antiagrégant plaquettaire", "correct": false},
+        {"text": "Un traitement anticoagulant oral par les antivitamines K doit être poursuivi « à vie »", "correct": true},
+        {"text": "Un traitement héparinique est nécessaire pendant le premier mois postopératoire. Passé ce délai, aucun traitement modifiant l'hémostase", "correct": false},
+        {"text": "Un traitement exclusif par antiagrégants plaquettaires est entrepris d'emblée", "correct": false}
+      ],
+      "explanation": "Viser un INR entre 3 et 3,5."
+    },
+    {
+      "question": "Concernant les cavités cardiaques, indiquez la ou les proposition(s) exacte(s)",
+      "type": "multiple",
+      "options": [
+        {"text": "Les oreillettes servent à l'admission du sang des vaisseaux", "correct": true},
+        {"text": "Les oreillettes servent à l'émission du sang dans les vaisseaux", "correct": false},
+        {"text": "Les ventricules servent à l'admission du sang des vaisseaux", "correct": false},
+        {"text": "Les ventricules servent à l'émission du sang dans les vaisseaux", "correct": true}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant l’artère coronaire gauche , indiquez la ou les proposition(s) exacte(s)",
+      "type": "multiple",
+      "options": [
+        {"text": "L’artère coronaire gauche passe entre le tronc pulmonaire et l ’auricule gauche", "correct": true},
+        {"text": "Elle chemine dans le sillon atrio-ventriculaire gauche", "correct": false},
+        {"text": "Elle donne une artère interventriculaire postérieure", "correct": false},
+        {"text": "Elle donne une artère circonflexe", "correct": true},
+        {"text": "Elle donne une artère marginale pour le bord gauche", "correct": false}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant l ’ innervation du cœur , indiquez la ou les proposition(s) exacte(s)",
+      "type": "multiple",
+      "options": [
+        {"text": "L’innervation du cœur est exclusivement intrinsèque de par le système autonome", "correct": false},
+        {"text": "Le nœud d’Aschoff - Tawara correspond au nœud atrio -ventriculaire", "correct": true},
+        {"text": "Du nœud sino -atrial part le faisceau de His", "correct": false},
+        {"text": "Le faisceau de His chemine dans le septum interventriculaire", "correct": true},
+        {"text": "Le faisceau de His se divise en deux branches destinées à chacun des ventricules", "correct": true}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant le cœur , indiquez la ou les proposition(s) exacte(s)",
+      "type": "single",
+      "options": [
+        {"text": "La base du cœur repose sur le diaphragme", "correct": false},
+        {"text": "L’ostium aortique possède trois valves : antérieure, postérieure gauche et postérieure droite", "correct": false},
+        {"text": "L’artère coronaire gauche chemine dans le sillon interventriculaire antérieur", "correct": false},
+        {"text": "La branche droite du faisceau de His chemine dans la bandelette ansiforme", "correct": true},
+        {"text": "Les o stia veineux de l’atrium droit sont chacun obturés d’une valve", "correct": false}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant le cœur , indiquez la ou les proposition(s) exacte(s)",
+      "type": "single",
+      "options": [
+        {"text": "Sa base correspond à sa face inférieure", "correct": false},
+        {"text": "Le drainage veineux du ventricule droit s’effectue par la grande veine coronaire", "correct": false},
+        {"text": "Le septum atrio-ventriculaire accole le ventricule droit à l’atrium gauche", "correct": false},
+        {"text": "Le nœud sinusal se prolonge par le faisceau de His", "correct": false},
+        {"text": "Il est en rapport avec l’œsophage thoracique", "correct": true}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant le cœur , indiquez la ou les proposition(s) exacte(s)",
+      "type": "multiple",
+      "options": [
+        {"text": "Il pré sente trois faces : antérieure, latérale droite et diaphragmatique", "correct": false},
+        {"text": "Le cœur droit collecte le sang hypo-oxygéné", "correct": true},
+        {"text": "Les cordages permettent d ’évit er un reflux sanguin vers les oreillettes lors de la contraction des ventricules", "correct": true},
+        {"text": "La lame pariétale du péricarde séreux tapisse la face interne du péricarde fibreux", "correct": true},
+        {"text": "La valvule tricuspide est munie de trois valves", "correct": false}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant les gros vaisseaux, indiquez la ou les proposition(s) exacte(s)",
+      "type": "multiple",
+      "options": [
+        {"text": "L’aorte descendante donne des collatérales pariétales et viscérales", "correct": true},
+        {"text": "L’aorte thoracique descendante appartient au médiastin postérieur", "correct": true},
+        {"text": "Le canal thoracique décrit un trajet ascendant dans l’espace médiastinal postérieur et se jette dans le système cave au niveau du confluent de Pirogoff gauche", "correct": true},
+        {"text": "Un tronc veineux brachio-céphalique résulte de l’union d’une veine jugulaire externe et d’une veine subclavière", "correct": false},
+        {"text": "L’aorte thoracique se termine en se divisant en artères iliaques communes droite et gauche", "correct": false}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant les gros vaisseaux, indiquez la ou les proposition(s) exacte(s)",
+      "type": "multiple",
+      "options": [
+        {"text": "Les artères coronaires naissent de la portion initiale dilatée de l ’aorte", "correct": true},
+        {"text": "Les branches des troncs supra-aortiques assurent la vascularisation de l’ensemble de la tête, des membres supérieurs et du thorax", "correct": true},
+        {"text": "Le nerf récurrent gauche décrit une crosse de dehors en dedans sous l’artère subclavière gauche", "correct": false},
+        {"text": "Aucune de ces réponses n’est vraie", "correct": false}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant le cœur , indiquez la ou les proposition(s) exacte(s)",
+      "type": "multiple",
+      "options": [
+        {"text": "Sa base regarde en bas, en arrière à gauche", "correct": false},
+        {"text": "Sa pointe est en regard du 6 ème espace intercostal", "correct": false},
+        {"text": "Le cœur repose sur la foliole antérieure du diaphragme", "correct": true},
+        {"text": "À son origine, le tronc pulmonaire est antérieur à l'aorte", "correct": true},
+        {"text": "Le ventricule droit est plus épais que le gauche", "correct": false}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant l ’ anatomie interne du cœur , indiquez la ou les proposition(s) exacte(s)",
+      "type": "multiple",
+      "options": [
+        {"text": "La valvule mitrale est constituée de 3 valves", "correct": false},
+        {"text": "Le ventricule droit est formé de 3 parois", "correct": false},
+        {"text": "Les colonnes charnues de 3 ème ordre voient le départ des cordages", "correct": false},
+        {"text": "L'orifice pulmonaire comporte deux valvules postérieures", "correct": true},
+        {"text": "L'orifice aortique est formé de valvules antérieure droite, antérieure gauche et postérieure", "correct": true}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant la vascularisation du cœur , indiquez la ou les proposition(s) exacte(s)",
+      "type": "multiple",
+      "options": [
+        {"text": "Les coronaires naissent au niveau du sinus de Valsalva", "correct": true},
+        {"text": "La coronaire gauche se termine à la face antérieure du cœur", "correct": true},
+        {"text": "L'artère circonflexe nait de la coronaire droite", "correct": false},
+        {"text": "La veine coronaire droite se termine à la face inférieure du cœur", "correct": true}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant l ’ innervation du cœur , indiquez la ou les proposition(s) exacte(s)",
+      "type": "multiple",
+      "options": [
+        {"text": "Il existe un système intrinsèque et un système extrinsèque", "correct": true},
+        {"text": "Le nœud sinusal est situé dans la partie antérieure du cœur", "correct": false},
+        {"text": "Le nœud atrio -ventriculaire se poursuit par le faisceau de His droit", "correct": false},
+        {"text": "Le tronc common du faisceau de His se divise en 2 branches : supérieure et inférieure", "correct": false},
+        {"text": "Le tronc common du faisceau de His se propage dans la face supérieure du ventricule droit", "correct": false}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant l ’ aorte thoracique, indiquez la ou les proposition(s) exacte(s)",
+      "type": "multiple",
+      "options": [
+        {"text": "Sa portion ascendante se dirige en haut, en avant et à droite", "correct": true},
+        {"text": "L ’ arc aortique adm et une double concavité : inférieure et droite", "correct": true},
+        {"text": "La crosse de l'aorte donne d'arr ière en avant : subclavière gauche , carotide commune gauche et tronc artériel brachio-céphalique", "correct": true},
+        {"text": "L'aorte thoracique descendante nait en T4-T5 et se termine en T12", "correct": true},
+        {"text": "L'aorte thoracique donne des artères intercosta les postérieures, bronchiques et péricardiques", "correct": true}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant les orifices du cœur , indiquez la ou les proposition(s) exacte(s)",
+      "type": "multiple",
+      "options": [
+        {"text": "La valvule tricuspide, munie de trois valves, relie le ventricule à l'oreillette gauche", "correct": false},
+        {"text": "Les valves des valvules auriculo-ventriculaires sont relié aux piliers des oreillettes par les cordages", "correct": false},
+        {"text": "Le sinus coronaire s'ouvre dans l'oreillette droite", "correct": true},
+        {"text": "Les valv es sigmoïdes sont formées d e trois valvules en « nids de pigeon »", "correct": true},
+        {"text": "La veine cave inférieure s'ouvre dans l'oreillette droite par une valvule", "correct": true}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Concernant le cœur , indiquez la ou les proposition(s) exacte(s)",
+      "type": "multiple",
+      "options": [
+        {"text": "La veine subclavière droite naît du tronc veineux brachio céphalique droit", "correct": false},
+        {"text": "Le cœur a une base et 3 faces : antérieure (sterno costale), inférieure (diaphragmatique) et latérale gauche (pulmonaire)", "correct": false},
+        {"text": "La crosse de l’aorte donne 3 troncs principaux d’avant en arrière : SCG, CCG et TABC", "correct": false},
+        {"text": "Le nerf récurrent droit passe en dessous de la crosse de l’aorte", "correct": false},
+        {"text": "Les nerfs phréniques passent en avant des gros vaisseaux et se retrouvent donc en avant des troncs veineux", "correct": false}
+      ],
+      "explanation": ""
+    },
+    {
+      "question": "Quelle est la définition de l'hypertension artérielle selon les recommandations de l'ESC 2018 ?",
+      "type": "single",
+      "options": [
+        {"text": "PA ≥ 130/80 mmHg", "correct": false},
+        {"text": "PA ≥ 140/90 mmHg", "correct": true},
+        {"text": "PA ≥ 150/90 mmHg", "correct": false},
+        {"text": "PA ≥ 160/100 mmHg", "correct": false}
+      ],
+      "explanation": "L'hypertension artérielle est définie par une pression artérielle systolique ≥ 140 mmHg et/ou diastolique ≥ 90 mmHg selon les recommandations européennes."
+    },
+    {
+      "question": "Quels sont les signes ECG typiques de l'hypertrophie ventriculaire gauche ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Indice de Sokolow-Lyon > 35 mm", "correct": true},
+        {"text": "Onde R en aVL > 11 mm", "correct": true},
+        {"text": "Déviation axiale droite", "correct": false},
+        {"text": "Troubles de repolarisation en latéral", "correct": true},
+        {"text": "Bloc de branche droit", "correct": false}
+      ],
+      "explanation": "Les critères électrocardiographiques de l'HVG incluent l'indice de Sokolow-Lyon, l'onde R haute en aVL et les troubles de repolarisation."
+    },
+    {
+      "question": "Quel est le traitement de première ligne pour l'angine de poitrine stable ?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibiteurs calciques", "correct": false},
+        {"text": "Bêta-bloquants", "correct": true},
+        {"text": "Nitrates à longue durée d'action", "correct": false},
+        {"text": "Ivabradine", "correct": false}
+      ],
+      "explanation": "Les bêta-bloquants sont recommandés en première intention pour le traitement de l'angine stable selon les guidelines."
+    },
+    {
+      "question": "Quelles sont les complications potentielles de l'infarctus du myocarde aigu ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Insuffisance cardiaque", "correct": true},
+        {"text": "Arythmies ventriculaires", "correct": true},
+        {"text": "Rupture cardiaque", "correct": true},
+        {"text": "Péricardite", "correct": true},
+        {"text": "Hypertension artérielle", "correct": false}
+      ],
+      "explanation": "Les complications incluent l'insuffisance cardiaque, les arythmies, la rupture et la péricardite post-infarctus."
+    },
+    {
+      "question": "Quelle est la dose de charge d'aspirine dans le syndrome coronarien aigu ?",
+      "type": "single",
+      "options": [
+        {"text": "75 mg", "correct": false},
+        {"text": "150-300 mg", "correct": true},
+        {"text": "500 mg", "correct": false},
+        {"text": "1 g", "correct": false}
+      ],
+      "explanation": "La dose de charge d'aspirine est de 150-300 mg dans le SCA pour une inhibition rapide de l'agrégation plaquettaire."
+    },
+    {
+      "question": "Quels sont les critères diagnostiques de la myocardite selon les recommandations ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Élévation des troponines", "correct": true},
+        {"text": "Anomalies à l'IRM cardiaque", "correct": true},
+        {"text": "Biopsie endomyocardique positive", "correct": true},
+        {"text": "Fièvre isolée", "correct": false},
+        {"text": "Dysfonction ventriculaire à l'échocardiographie", "correct": true}
+      ],
+      "explanation": "Le diagnostic de myocardite repose sur des critères cliniques, biologiques, imageriques et histologiques."
+    },
+    {
+      "question": "Quelle classe NYHA correspond à une limitation modérée des activités physiques ?",
+      "type": "single",
+      "options": [
+        {"text": "Classe I", "correct": false},
+        {"text": "Classe II", "correct": false},
+        {"text": "Classe III", "correct": true},
+        {"text": "Classe IV", "correct": false}
+      ],
+      "explanation": "La classe III NYHA correspond à une limitation marquée des activités physiques avec symptômes pour efforts modérés."
+    },
+    {
+      "question": "Quels sont les traitements de première ligne de l'insuffisance cardiaque à fraction d'éjection réduite ?",
+      "type": "multiple",
+      "options": [
+        {"text": "IEC ou ARA II", "correct": true},
+        {"text": "Bêta-bloquants", "correct": true},
+        {"text": "Antagonistes de l'aldostérone", "correct": true},
+        {"text": "Digoxine", "correct": false},
+        {"text": "Inhibiteurs de la neprilysine", "correct": true}
+      ],
+      "explanation": "Les traitements de base de l'ICFER incluent IEC/ARAII/ARNI, bêta-bloquants et antialdostérone."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente de sténose aortique chez l'adulte âgé ?",
+      "type": "single",
+      "options": [
+        {"text": "Rhumatisme articulaire aigu", "correct": false},
+        {"text": "Dégénérative calcifiée", "correct": true},
+        {"text": "Bicuspidie aortique", "correct": false},
+        {"text": "Endocardite", "correct": false}
+      ],
+      "explanation": "La sténose aortique dégénérative calcifiée est la plus fréquente chez les patients âgés."
+    },
+    {
+      "question": "Quels sont les signes cliniques de l'insuffisance aortique ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Souffle diastolique décrescendo", "correct": true},
+        {"text": "Pression différentielle augmentée", "correct": true},
+        {"text": "Dyspnée d'effort", "correct": true},
+        {"text": "Œdèmes des membres inférieurs", "correct": true},
+        {"text": "Cyanose", "correct": false}
+      ],
+      "explanation": "Les signes incluent le souffle diastolique, la pression pulsée large et les signes d'insuffisance cardiaque."
+    },
+    {
+      "question": "Quelle est la stratégie thérapeutique initiale dans la fibrillation auriculaire récente ?",
+      "type": "single",
+      "options": [
+        {"text": "Contrôle de la fréquence cardiaque", "correct": true},
+        {"text": "Cardioversion immédiate", "correct": false},
+        {"text": "Ablation par cathéter", "correct": false},
+        {"text": "Amiodarone en charge", "correct": false}
+      ],
+      "explanation": "Le contrôle de la fréquence est la stratégie initiale, suivi d'une évaluation pour rythme ou fréquence."
+    },
+    {
+      "question": "Quels sont les facteurs de risque du score CHA2DS2-VASc pour l'anticoagulation dans la FA ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Insuffisance cardiaque", "correct": true},
+        {"text": "Hypertension", "correct": true},
+        {"text": "Âge ≥ 75 ans", "correct": true},
         {"text": "Diabète", "correct": true},
-        {"text": "Âge", "correct": false},
-        {"text": "Tabagisme", "correct": true},
-        {"text": "Antécédents familiaux", "correct": false}
+        {"text": "AVC antérieur", "correct": true}
       ],
-      "explanation": "L'HTA, le diabète et le tabagisme sont des facteurs modifiables, contrairement à l'âge et aux antécédents familiaux."
+      "explanation": "Le score inclut IC, HTA, âge, diabète, AVC, maladie vasculaire, âge 65-74, sexe féminin."
     },
     {
-      "question": "Quel est le traitement de première intention de l'hypertension artérielle non compliquée chez le sujet jeune?",
+      "question": "Quelle est la conduite à tenir en cas de tachycardie ventriculaire soutenue ?",
       "type": "single",
       "options": [
-        {"text": "Diurétique thiazidique", "correct": false},
-        {"text": "Bêta-bloquant", "correct": false},
-        {"text": "Inhibiteur de l'enzyme de conversion", "correct": true},
-        {"text": "Antagoniste du calcium", "correct": false}
+        {"text": "Adénosine IV", "correct": false},
+        {"text": "Cardioversion électrique si instable", "correct": true},
+        {"text": "Bêta-bloquants oraux", "correct": false},
+        {"text": "Massage carotidien", "correct": false}
       ],
-      "explanation": "Les IEC sont recommandés en première intention chez le sujet jeune en raison de leur bon profil d'efficacité et de tolérance."
+      "explanation": "La cardioversion est indiquée en cas d'instabilité hémodynamique."
     },
     {
-      "question": "Quels signes évoquent une tamponnade cardiaque?",
+      "question": "Quels sont les critères d'un bloc atrioventriculaire du troisième degré ?",
       "type": "multiple",
       "options": [
-        {"text": "Pouls paradoxal", "correct": true},
-        {"text": "Hypotension artérielle", "correct": true},
-        {"text": "Turgescence jugulaire", "correct": true},
-        {"text": "Bradycardie", "correct": false},
-        {"text": "Souffle cardiaque", "correct": false}
+        {"text": "Dissociation AV complète", "correct": true},
+        {"text": "Rythme d'échappement ventriculaire", "correct": true},
+        {"text": "PR prolongé", "correct": false},
+        {"text": "Ondes P non conduites", "correct": true},
+        {"text": "QRS large", "correct": true}
       ],
-      "explanation": "La triade de Beck associe hypotension, turgescence jugulaire et bruits cardiaques assourdis. Le pouls paradoxal est très évocateur."
+      "explanation": "Le BAV3 est caractérisé par une dissociation complète avec rythme d'échappement."
     },
     {
-      "question": "Quelle est la conduite à tenir devant une fibrillation atriale rapide mal tolérée?",
+      "question": "Quelle est la cible LDL-cholestérol chez un patient à très haut risque cardiovasculaire ?",
       "type": "single",
       "options": [
-        {"text": "Digitaliques", "correct": false},
-        {"text": "Choc électrique externe", "correct": true},
-        {"text": "Amiodarone IV", "correct": false},
-        {"text": "Bêta-bloquant oral", "correct": false}
+        {"text": "< 1,8 mmol/L", "correct": false},
+        {"text": "< 1,4 mmol/L", "correct": true},
+        {"text": "< 2,6 mmol/L", "correct": false},
+        {"text": "< 3,0 mmol/L", "correct": false}
       ],
-      "explanation": "La cardioversion électrique est indiquée en urgence devant une FA mal tolérée avec instabilité hémodynamique."
+      "explanation": "Selon les guidelines ESC 2019, la cible est < 1,4 mmol/L pour le très haut risque."
+    },
+    {
+      "question": "Quels sont les agents pharmacologiques utilisés dans le test d'effort pour l'ischémie myocardique ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dobutamine", "correct": true},
+        {"text": "Adénosine", "correct": true},
+        {"text": "Dipyridamole", "correct": true},
+        {"text": "Regadenoson", "correct": true},
+        {"text": "Atropine", "correct": false}
+      ],
+      "explanation": "Les tests pharmacologiques utilisent dobutamine pour stress inotrope ou adénosine/dipyridamole pour vasodilatation."
+    },
+    {
+      "question": "Quelle est la définition de l'insuffisance cardiaque à fraction d'éjection préservée ?",
+      "type": "single",
+      "options": [
+        {"text": "FEVG < 40%", "correct": false},
+        {"text": "FEVG 40-49%", "correct": false},
+        {"text": "FEVG ≥ 50%", "correct": true},
+        {"text": "FEVG < 30%", "correct": false}
+      ],
+      "explanation": "L'ICFEP est définie par une FEVG ≥ 50% avec signes d'IC et anomalies diastoliques."
+    },
+    {
+      "question": "Quels sont les marqueurs biologiques de l'insuffisance cardiaque ?",
+      "type": "multiple",
+      "options": [
+        {"text": "BNP ou NT-proBNP", "correct": true},
+        {"text": "Troponine", "correct": true},
+        {"text": "D-dimères", "correct": false},
+        {"text": "CRP", "correct": false},
+        {"text": "Créatinine", "correct": true}
+      ],
+      "explanation": "Le BNP est spécifique de l'IC, la troponine pour ischémie, la créatinine pour fonction rénale."
+    },
+    {
+      "question": "Quelle est la indication principale du défibrillateur implantable ?",
+      "type": "single",
+      "options": [
+        {"text": "Prévention primaire chez patients à haut risque de mort subite", "correct": true},
+        {"text": "Fibrillation auriculaire", "correct": false},
+        {"text": "Bloc AV de 1er degré", "correct": false},
+        {"text": "Extrasystoles ventriculaires bénignes", "correct": false}
+      ],
+      "explanation": "Le DAI est indiqué en prévention primaire ou secondaire de la mort subite arrhythmique."
+    },
+    {
+      "question": "Quels sont les symptômes de la coarctation de l'aorte ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypertension artérielle des membres supérieurs", "correct": true},
+        {"text": "Hypotension des membres inférieurs", "correct": true},
+        {"text": "Souffle systolique", "correct": true},
+        {"text": "Retard de pouls fémoral", "correct": true},
+        {"text": "Cyanose", "correct": false}
+      ],
+      "explanation": "La coarctation cause une HTA proximale et une hypotension distale avec retard pulsatile."
+    },
+    {
+      "question": "Quelle est la complication la plus fréquente de l'endocardite infectieuse ?",
+      "type": "single",
+      "options": [
+        {"text": "Insuffisance cardiaque", "correct": true},
+        {"text": "Embolie cérébrale", "correct": false},
+        {"text": "Abcès annulaire", "correct": false},
+        {"text": "Glomérulonéphrite", "correct": false}
+      ],
+      "explanation": "L'IC est la complication la plus fréquente due à la destruction valvulaire."
+    },
+    {
+      "question": "Quels organismes sont les plus courants dans l'endocardite sur valve native ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Streptocoques", "correct": true},
+        {"text": "Staphylocoques", "correct": true},
+        {"text": "Enterocoques", "correct": true},
+        {"text": "HACEK", "correct": true},
+        {"text": "Candida", "correct": false}
+      ],
+      "explanation": "Les streptocoques et staphylocoques sont les plus fréquents."
+    },
+    {
+      "question": "Quelle est la durée recommandée de l'antibiothérapie dans l'endocardite infectieuse ?",
+      "type": "single",
+      "options": [
+        {"text": "2 semaines", "correct": false},
+        {"text": "4-6 semaines", "correct": true},
+        {"text": "8 semaines", "correct": false},
+        {"text": "3 mois", "correct": false}
+      ],
+      "explanation": "La durée est généralement 4-6 semaines selon l'organisme et la valve."
+    },
+    {
+      "question": "Quels sont les critères de Duke pour le diagnostic d'endocardite infectieuse ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Critères majeurs: hémocultures positives, écho positive", "correct": true},
+        {"text": "Critères mineurs: fièvre, facteurs prédisposants", "correct": true},
+        {"text": "2 majeurs ou 1 majeur + 3 mineurs", "correct": true},
+        {"text": "5 mineurs", "correct": true},
+        {"text": "Élévation de la VS seulement", "correct": false}
+      ],
+      "explanation": "Les critères de Duke sont utilisés pour le diagnostic définitif ou possible."
+    },
+    {
+      "question": "Quelle est la prise en charge initiale de l'œdème pulmonaire cardiogénique ?",
+      "type": "single",
+      "options": [
+        {"text": "Ox individus, diurétiques IV, nitrates", "correct": true},
+        {"text": "Bêta-bloquants", "correct": false},
+        {"text": "Antiarythmiques", "correct": false},
+        {"text": "Anticoagulants", "correct": false}
+      ],
+      "explanation": "La prise en charge inclut oxygène, furosémide IV, nitrates pour réduire la précharge."
+    },
+    {
+      "question": "Quels sont les signes radiologiques de l'insuffisance cardiaque gauche ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Redistribution pulmonaire", "correct": true},
+        {"text": "Lignes de Kerley", "correct": true},
+        {"text": "Épanchement pleural", "correct": true},
+        {"text": "Cardiomégalie", "correct": true},
+        {"text": "Pneumothorax", "correct": false}
+      ],
+      "explanation": "Les signes incluent redistribution, lignes de Kerley, cardiomégalie."
+    },
+    {
+      "question": "Quelle est la classification de Killip pour l'infarctus du myocarde ?",
+      "type": "single",
+      "options": [
+        {"text": "Classe I: pas d'IC", "correct": false},
+        {"text": "Classe IV: choc cardiogénique", "correct": false},
+        {"text": "Elle évalue la sévérité de l'IC dans l'IDM", "correct": true},
+        {"text": "Classe III: OAP", "correct": false}
+      ],
+      "explanation": "La classification Killip évalue la gravité de l'IC dans l'IDM aigu."
+    },
+    {
+      "question": "Quels sont les indications de l'angioplastie coronarienne ?",
+      "type": "multiple",
+      "options": [
+        {"text": "SCA avec sus-décalage ST", "correct": true},
+        {"text": "Angor stable symptomatique malgré traitement médical", "correct": true},
+        {"text": "Lésions multivaisseaux", "correct": true},
+        {"text": "Fonction VG préservée", "correct": false},
+        {"text": "Test d'ischémie positif", "correct": true}
+      ],
+      "explanation": "L'angioplastie est indiquée dans les SCA et angor réfractaire."
+    },
+    {
+      "question": "Quelle est la durée de la double antiagrégation plaquettaire après stent nu ?",
+      "type": "single",
+      "options": [
+        {"text": "1 mois", "correct": true},
+        {"text": "3 mois", "correct": false},
+        {"text": "6 mois", "correct": false},
+        {"text": "12 mois", "correct": false}
+      ],
+      "explanation": "Pour stent nu, 1 mois de DAPT est recommandée."
+    },
+    {
+      "question": "Quels sont les effets secondaires des statines ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Myalgies", "correct": true},
+        {"text": "Élévation des transaminases", "correct": true},
+        {"text": "Rhabdomyolyse", "correct": true},
+        {"text": "Hypotension", "correct": false},
+        {"text": "Bradycardie", "correct": false}
+      ],
+      "explanation": "Les statines peuvent causer des troubles musculaires et hépatiques."
+    },
+    {
+      "question": "Quelle est la cible tensionnelle chez un patient diabétique hypertendu ?",
+      "type": "single",
+      "options": [
+        {"text": "< 140/90 mmHg", "correct": false},
+        {"text": "< 130/80 mmHg", "correct": true},
+        {"text": "< 120/80 mmHg", "correct": false},
+        {"text": "< 150/90 mmHg", "correct": false}
+      ],
+      "explanation": "La cible est < 130/80 mmHg pour les hypertendus diabétiques."
+    },
+    {
+      "question": "Quels sont les mécanismes de l'insuffisance cardiaque diastolique ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Altération de la relaxation ventriculaire", "correct": true},
+        {"text": "Rigidité ventriculaire augmentée", "correct": true},
+        {"text": "Hypertrophie concentrique", "correct": true},
+        {"text": "Dilatation ventriculaire", "correct": false},
+        {"text": "Fraction d'éjection réduite", "correct": false}
+      ],
+      "explanation": "L'IC diastolique implique des anomalies de relaxation et compliance."
+    },
+    {
+      "question": "Quelle est la place de l'échocardiographie dans le diagnostic de la péricardite ?",
+      "type": "single",
+      "options": [
+        {"text": "Détection de l'épanchement péricardique", "correct": true},
+        {"text": "Diagnostic de tamponnade", "correct": false},
+        {"text": "Évaluation de la constriction", "correct": false},
+        {"text": "Toutes les précédentes", "correct": false}
+      ],
+      "explanation": "L'écho détecte l'épanchement et signe de tamponnade."
+    },
+    {
+      "question": "Quels sont les traitements de la tamponnade cardiaque ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Péricardiocentèse", "correct": true},
+        {"text": "Remplissage vasculaire", "correct": true},
+        {"text": "Inotropes", "correct": true},
+        {"text": "Diurétiques", "correct": false},
+        {"text": "Bêta-bloquants", "correct": false}
+      ],
+      "explanation": "La péricardiocentèse est urgente, avec remplissage et inotropes si besoin."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente de myocardiopathie dilatée ?",
+      "type": "single",
+      "options": [
+        {"text": "Idiopathique", "correct": true},
+        {"text": "Ischémique", "correct": false},
+        {"text": "Toxique", "correct": false},
+        {"text": "Virale", "correct": false}
+      ],
+      "explanation": "La myocardiopathie dilatée est souvent idiopathique ou post-virale."
+    },
+    {
+      "question": "Quels sont les signes de la cardiomyopathie hypertrophique ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Souffle systolique éjectionnel", "correct": true},
+        {"text": "Hypertrophie septale asymétrique", "correct": true},
+        {"text": "Obstruction dynamique de la voie d'éjection", "correct": true},
+        {"text": "Dilatation ventriculaire", "correct": false},
+        {"text": "Fraction d'éjection réduite", "correct": false}
+      ],
+      "explanation": "La CMH est caractérisée par hypertrophie et obstruction dynamique."
+    },
+    {
+      "question": "Quelle est la prise en charge de la dissection aortique type A ?",
+      "type": "single",
+      "options": [
+        {"text": "Chirurgie en urgence", "correct": true},
+        {"text": "Traitement médical seul", "correct": false},
+        {"text": "Stent endovasculaire", "correct": false},
+        {"text": "Observation", "correct": false}
+      ],
+      "explanation": "La dissection type A nécessite une chirurgie urgente."
+    },
+    {
+      "question": "Quels sont les facteurs de risque de l'athérosclérose ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Tabagisme", "correct": true},
+        {"text": "Hypertension", "correct": true},
+        {"text": "Dyslipidémie", "correct": true},
+        {"text": "Diabète", "correct": true},
+        {"text": "Sédentarité", "correct": true}
+      ],
+      "explanation": "Les facteurs de risque classiques de l'athérosclérose."
+    },
+    {
+      "question": "Quelle est la définition du choc cardiogénique ?",
+      "type": "single",
+      "options": [
+        {"text": "Hypotension avec hypoperfusion malgré remplissage adéquat due à dysfonction cardiaque", "correct": true},
+        {"text": "Hypotension due à sepsis", "correct": false},
+        {"text": "Hypotension distributive", "correct": false},
+        {"text": "Hypotension hypovolémique", "correct": false}
+      ],
+      "explanation": "Le choc cardiogénique est défini par une dysfonction cardiaque causant hypoperfusion."
+    },
+    {
+      "question": "Quels sont les traitements du choc cardiogénique ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Inotropes (dobutamine)", "correct": true},
+        {"text": "Vasopresseurs (noradrénaline)", "correct": true},
+        {"text": "Assistance circulatoire", "correct": true},
+        {"text": "Revascularisation si ischémique", "correct": true},
+        {"text": "Diurétiques", "correct": false}
+      ],
+      "explanation": "La prise en charge inclut inotropes, vasopresseurs et assistance si nécessaire."
+    },
+    {
+      "question": "Quelle est la place de l'IRM cardiaque en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Évaluation de la viabilité myocardique", "correct": false},
+        {"text": "Diagnostic de myocardite", "correct": false},
+        {"text": "Évaluation des cardiomyopathies", "correct": false},
+        {"text": "Toutes les précédentes", "correct": true}
+      ],
+      "explanation": "L'IRM est utile pour viabilité, inflammation, structure."
+    },
+    {
+      "question": "Quels sont les critères de Framingham pour l'insuffisance cardiaque ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dyspnée paroxystique nocturne", "correct": true},
+        {"text": "Turgescence jugulaire", "correct": true},
+        {"text": "Râles pulmonaires", "correct": true},
+        {"text": "Cardiomégalie", "correct": true},
+        {"text": "Œdème aigu du poumon", "correct": true}
+      ],
+      "explanation": "Les critères de Framingham pour le diagnostic de l'IC."
+    },
+    {
+      "question": "Quelle est la dose de prasugrel dans le SCA ?",
+      "type": "single",
+      "options": [
+        {"text": "60 mg charge, 10 mg/j", "correct": true},
+        {"text": "300 mg charge, 75 mg/j", "correct": false},
+        {"text": "180 mg charge, 90 mg x2/j", "correct": false},
+        {"text": "5 mg/j", "correct": false}
+      ],
+      "explanation": "Le prasugrel est utilisé en dose de charge 60 mg puis 10 mg/j dans le SCA."
+    },
+    {
+      "question": "Quels sont les effets secondaires des bêta-bloquants ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Bradycardie", "correct": true},
+        {"text": "Hypotension", "correct": true},
+        {"text": "Bronchospasme", "correct": true},
+        {"text": "Fatigue", "correct": true},
+        {"text": "Tachycardie", "correct": false}
+      ],
+      "explanation": "Les bêta-bloquants peuvent causer bradycardie, hypotension, bronchospasme."
+    },
+    {
+      "question": "Quelle est la classification Forrester pour l'infarctus du myocarde ?",
+      "type": "single",
+      "options": [
+        {"text": "Basée sur hémodynamique: pression capillaire et index cardiaque", "correct": true},
+        {"text": "Basée sur localisation ECG", "correct": false},
+        {"text": "Basée sur enzymes", "correct": false},
+        {"text": "Basée sur symptômes", "correct": false}
+      ],
+      "explanation": "La classification Forrester évalue l'hémodynamique dans l'IDM."
+    },
+    {
+      "question": "Quels sont les signes de la tétralogie de Fallot ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Sténose pulmonaire", "correct": true},
+        {"text": "Communication interventriculaire", "correct": true},
+        {"text": "Chevauchement aortique", "correct": true},
+        {"text": "Hypertrophie VD", "correct": true},
+        {"text": "Transposition des gros vaisseaux", "correct": false}
+      ],
+      "explanation": "La tétralogie inclut SP, CIV, chevauchement aortique, HVD."
+    },
+    {
+      "question": "Quelle est la conduite à tenir en cas de bradycardie sinusale symptomatique ?",
+      "type": "single",
+      "options": [
+        {"text": "Atropine IV", "correct": true},
+        {"text": "Adrénaline", "correct": false},
+        {"text": "Pacemaker temporaire si nécessaire", "correct": false},
+        {"text": "Toutes les précédentes", "correct": false}
+      ],
+      "explanation": "L'atropine est le traitement initial, puis pacing si persistant."
+    },
+    {
+      "question": "Quels sont les critères pour l'implantation d'un pacemaker en cas de bloc AV ?",
+      "type": "multiple",
+      "options": [
+        {"text": "BAV2 type Mobitz II", "correct": true},
+        {"text": "BAV3", "correct": true},
+        {"text": "BAV1 asymptomatique", "correct": false},
+        {"text": "Syndrome du sinus malade avec pauses", "correct": true},
+        {"text": "Bloc sino-auriculaire", "correct": true}
+      ],
+      "explanation": "Les indications incluent BAV avancés symptomatiques ou non."
+    },
+    {
+      "question": "Quelle est la différence entre angor stable et instable ?",
+      "type": "single",
+      "options": [
+        {"text": "Angor instable est de novo, croissant ou au repos", "correct": true},
+        {"text": "Angor stable est déclenché par effort", "correct": false},
+        {"text": "Angor instable est un SCA", "correct": false},
+        {"text": "Toutes les précédentes", "correct": false}
+      ],
+      "explanation": "L'angor instable est un syndrome coronarien aigu sans élévation ST."
+    },
+    {
+      "question": "Quels sont les tests pour évaluer l'ischémie myocardique ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Test d'effort ECG", "correct": true},
+        {"text": "Scintigraphie myocardique", "correct": true},
+        {"text": "Échographie de stress", "correct": true},
+        {"text": "IRM de stress", "correct": true},
+        {"text": "Holter ECG", "correct": false}
+      ],
+      "explanation": "Les tests de provocation d'ischémie incluent effort, scintigraphie, écho stress."
+    },
+    {
+      "question": "Quelle est la dose d'héparine non fractionnée dans le SCA ST+ ?",
+      "type": "single",
+      "options": [
+        {"text": "60 UI/kg IV bolus, puis perfusion", "correct": true},
+        {"text": "100 UI/kg", "correct": false},
+        {"text": "5000 UI IV", "correct": false},
+        {"text": "Aucune", "correct": false}
+      ],
+      "explanation": "Dose bolus 60 UI/kg (max 4000 UI), puis perfusion ajustée au TCA."
+    },
+    {
+      "question": "Quels sont les antiarythmiques de classe Ic ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Flecainide", "correct": true},
+        {"text": "Propafenone", "correct": true},
+        {"text": "Amiodarone", "correct": false},
+        {"text": "Sotalol", "correct": false},
+        {"text": "Lidocaine", "correct": false}
+      ],
+      "explanation": "Classe Ic : flecainide, propafenone, pour arythmies supraventriculaires."
+    },
+    {
+      "question": "Quelle est la physiopathologie de la maladie de Takayasu ?",
+      "type": "single",
+      "options": [
+        {"text": "Vasculite des grosses artères", "correct": true},
+        {"text": "Aneurysme aortique", "correct": false},
+        {"text": "Thrombose veineuse", "correct": false},
+        {"text": "Embolie pulmonaire", "correct": false}
+      ],
+      "explanation": "Takayasu est une vasculite affectant l'aorte et ses branches."
+    },
+    {
+      "question": "Quels sont les signes de l'embolie pulmonaire ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dyspnée aiguë", "correct": true},
+        {"text": "Douleur thoracique", "correct": true},
+        {"text": "Hémoptysie", "correct": true},
+        {"text": "Tachycardie", "correct": true},
+        {"text": "Hypoxémie", "correct": true}
+      ],
+      "explanation": "Les signes cliniques de l'EP sont non spécifiques mais incluent dyspnée, douleur, tachycardie."
+    },
+    {
+      "question": "Quelle est la stratégie thérapeutique dans l'embolie pulmonaire massive ?",
+      "type": "single",
+      "options": [
+        {"text": "Thrombolyse", "correct": true},
+        {"text": "Héparine seule", "correct": false},
+        {"text": "Embolectomie", "correct": false},
+        {"text": "Filtre cave", "correct": false}
+      ],
+      "explanation": "La thrombolyse est indiquée dans l'EP massive avec instabilité."
+    },
+    {
+      "question": "Quels sont les examens pour le diagnostic de l'EP ?",
+      "type": "multiple",
+      "options": [
+        {"text": "D-dimères", "correct": true},
+        {"text": "Angio-TDM pulmonaire", "correct": true},
+        {"text": "Scintigraphie V/P", "correct": true},
+        {"text": "Échographie veineuse des MI", "correct": true},
+        {"text": "Radiographie thoracique", "correct": false}
+      ],
+      "explanation": "Le diagnostic repose sur D-dimères, imagerie (TDM, scintigraphie), echo veineuse."
+    },
+    {
+      "question": "Quelle est la durée de l'anticoagulation après EP provoquée ?",
+      "type": "single",
+      "options": [
+        {"text": "3 mois", "correct": true},
+        {"text": "6 mois", "correct": false},
+        {"text": "12 mois", "correct": false},
+        {"text": "À vie", "correct": false}
+      ],
+      "explanation": "Pour EP provoquée, 3 mois d'anticoagulation sont recommandés."
+    },
+    {
+      "question": "Quels sont les types de cardiomyopathie restrictive ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Amylose cardiaque", "correct": true},
+        {"text": "Hémochromatose", "correct": true},
+        {"text": "Sarcoidose", "correct": true},
+        {"text": "Ischémique", "correct": false},
+        {"text": "Dilatée", "correct": false}
+      ],
+      "explanation": "Les causes incluent amylose, hémochromatose, sarcoidose."
+    },
+    {
+      "question": "Quelle est la place de la transplantation cardiaque ?",
+      "type": "single",
+      "options": [
+        {"text": "IC terminale réfractaire", "correct": true},
+        {"text": "Angor stable", "correct": false},
+        {"text": "FA isolée", "correct": false},
+        {"text": "HTA", "correct": false}
+      ],
+      "explanation": "La transplantation est indiquée dans l'IC avancée réfractaire."
+    },
+    {
+      "question": "Quels sont les critères pour la resynchronisation cardiaque ?",
+      "type": "multiple",
+      "options": [
+        {"text": "IC NYHA II-IV", "correct": true},
+        {"text": "FEVG ≤ 35%", "correct": true},
+        {"text": "QRS ≥ 130 ms", "correct": true},
+        {"text": "Bloc de branche gauche", "correct": true},
+        {"text": "Traitement médical optimal", "correct": true}
+      ],
+      "explanation": "La CRT est indiquée en IC avec dyssynchronie."
+    },
+    {
+      "question": "Quelle est la définition de la mort subite cardiaque ?",
+      "type": "single",
+      "options": [
+        {"text": "Décès inattendu d'origine cardiaque dans l'heure suivant les symptômes", "correct": true},
+        {"text": "Décès dans 24 heures", "correct": false},
+        {"text": "Décès sans cause", "correct": false},
+        {"text": "Décès par arythmie", "correct": false}
+      ],
+      "explanation": "La MSC est un décès soudain d'origine cardiaque."
+    },
+    {
+      "question": "Quels sont les causes de mort subite chez le jeune ?",
+      "type": "multiple",
+      "options": [
+        {"text": "CMH", "correct": true},
+        {"text": "Syndrome de Brugada", "correct": true},
+        {"text": "QT long", "correct": true},
+        {"text": "Commotio cordis", "correct": true},
+        {"text": "IDM", "correct": false}
+      ],
+      "explanation": "Les causes incluent cardiomyopathies et canalopathies."
+    },
+    {
+      "question": "Quelle est la conduite à tenir en cas de torsade de pointes ?",
+      "type": "single",
+      "options": [
+        {"text": "Magnésium IV, correction électrolytes, cardioversion si instable", "correct": true},
+        {"text": "Amiodarone", "correct": false},
+        {"text": "Lidocaine", "correct": false},
+        {"text": "Adénosine", "correct": false}
+      ],
+      "explanation": "Le magnésium est le traitement de choix pour la TdP."
+    },
+    {
+      "question": "Quels sont les signes ECG du syndrome de Brugada ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Sus-décalage ST en V1-V3", "correct": true},
+        {"text": "Morphologie en dôme ou saddle", "correct": true},
+        {"text": "Bloc de branche droit", "correct": true},
+        {"text": "QT prolongé", "correct": false},
+        {"text": "Onde delta", "correct": false}
+      ],
+      "explanation": "Le Brugada est caractérisé par sus-ST en précordiales droites."
+    },
+    {
+      "question": "Quelle est la prise en charge de l'hypertension artérielle en urgence ?",
+      "type": "single",
+      "options": [
+        {"text": "Réduction PA de 25% en 1 heure si encéphalopathie", "correct": true},
+        {"text": "Réduction immédiate à normale", "correct": false},
+        {"text": "Observation", "correct": false},
+        {"text": "Diurétiques oraux", "correct": false}
+      ],
+      "explanation": "La réduction PA doit être progressive en urgence hypertensive."
+    },
+    {
+      "question": "Quels sont les agents utilisés en HTA urgence ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Labetalol", "correct": true},
+        {"text": "Nicardipine", "correct": true},
+        {"text": "Nitroprussiate", "correct": true},
+        {"text": "Urapidil", "correct": true},
+        {"text": "Amlodipine", "correct": false}
+      ],
+      "explanation": "Les agents IV pour contrôle rapide de la PA."
+    },
+    {
+      "question": "Quelle est la cible PA en prévention secondaire après AVC ?",
+      "type": "single",
+      "options": [
+        {"text": "< 130/80 mmHg", "correct": true},
+        {"text": "< 140/90 mmHg", "correct": false},
+        {"text": "< 120/70 mmHg", "correct": false},
+        {"text": "< 150/90 mmHg", "correct": false}
+      ],
+      "explanation": "La cible est < 130/80 mmHg en prévention secondaire."
+    },
+    {
+      "question": "Quels sont les examens pour l'évaluation de l'HTA secondaire ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dosage rénine-aldostérone", "correct": true},
+        {"text": "Échodoppler rénal", "correct": true},
+        {"text": "Cortisol urinaire", "correct": true},
+        {"text": "Catécholamines urinaires", "correct": true},
+        {"text": "TSH", "correct": true}
+      ],
+      "explanation": "Recherche de causes secondaires comme hyperaldostéronisme, sténose rénale, phéochromocytome."
+    },
+    {
+      "question": "Quelle est la définition de l'hypotension orthostatique ?",
+      "type": "single",
+      "options": [
+        {"text": "Chute de PAS ≥ 20 mmHg ou PAD ≥ 10 mmHg à la station debout", "correct": true},
+        {"text": "Chute de 10 mmHg", "correct": false},
+        {"text": "Augmentation de FC > 30 bpm", "correct": false},
+        {"text": "Symptômes seulement", "correct": false}
+      ],
+      "explanation": "Définition standard de l'hypotension orthostatique."
+    },
+    {
+      "question": "Quels sont les causes d'hypotension orthostatique ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypovolémie", "correct": true},
+        {"text": "Dysautonomie", "correct": true},
+        {"text": "Médicaments (antiHTA)", "correct": true},
+        {"text": "Neuropathie", "correct": true},
+        {"text": "Hypervolémie", "correct": false}
+      ],
+      "explanation": "Les causes incluent hypovolémie, dysfonction autonome, médicaments."
+    },
+    {
+      "question": "Quelle est la prise en charge de l'hypotension orthostatique ?",
+      "type": "single",
+      "options": [
+        {"text": "Mesures non pharmacologiques, fludrocortisone, midodrine", "correct": true},
+        {"text": "Bêta-bloquants", "correct": false},
+        {"text": "Diurétiques", "correct": false},
+        {"text": "Vasodilatateurs", "correct": false}
+      ],
+      "explanation": "Traitement étape par étape, débutant par non pharma."
+    },
+    {
+      "question": "Quels sont les types de valvuloplastie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Mitral", "correct": true},
+        {"text": "Aortique", "correct": true},
+        {"text": "Pulmonaire", "correct": true},
+        {"text": "Tricuspide", "correct": true},
+        {"text": "Ventriculaire", "correct": false}
+      ],
+      "explanation": "Valvuloplastie percutanée pour sténoses valvulaire."
+    },
+    {
+      "question": "Quelle est la indication principale de la valvuloplastie mitrale ?",
+      "type": "single",
+      "options": [
+        {"text": "Sténose mitrale rhumatismale sans calcifications", "correct": true},
+        {"text": "Insuffisance mitrale", "correct": false},
+        {"text": "Sténose aortique", "correct": false},
+        {"text": "Endocardite", "correct": false}
+      ],
+      "explanation": "La VPM est indiquée dans la SM rhumatismale pliable."
+    },
+    {
+      "question": "Quels sont les risques de la chirurgie valvulaire ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Infection prothétique", "correct": true},
+        {"text": "Thromboembolie", "correct": true},
+        {"text": "Dégénérescence prothétique", "correct": true},
+        {"text": "Bloc AV", "correct": true},
+        {"text": "Hypertension", "correct": false}
+      ],
+      "explanation": "Risques post-op de remplacement valvulaire."
+    },
+    {
+      "question": "Quelle est la différence entre prothèse mécanique et biologique ?",
+      "type": "single",
+      "options": [
+        {"text": "Mécanique nécessite anticoagulation à vie, biologique non", "correct": true},
+        {"text": "Biologique plus durable", "correct": false},
+        {"text": "Mécanique pour jeunes", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Les mécaniques sont durables mais nécessitent AVK, les biologiques non mais dégénèrent."
+    },
+    {
+      "question": "Quels sont les signes de la sténose mitrale ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Roulement diastolique", "correct": true},
+        {"text": "Claquement d'ouverture", "correct": true},
+        {"text": "B1 sourd", "correct": true},
+        {"text": "Souffle systolique", "correct": false},
+        {"text": "Dyspnée", "correct": true}
+      ],
+      "explanation": "Signes auscultatoires de la SM."
+    },
+    {
+      "question": "Quelle est la surface valvulaire mitrale normale ?",
+      "type": "single",
+      "options": [
+        {"text": "4-6 cm²", "correct": true},
+        {"text": "2-3 cm²", "correct": false},
+        {"text": "1-2 cm²", "correct": false},
+        {"text": "<1 cm²", "correct": false}
+      ],
+      "explanation": "La surface normale est 4-6 cm², sténose si <2 cm²."
+    },
+    {
+      "question": "Quels sont les critères échographiques de gravité de la sténose aortique ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Vitesse max > 4 m/s", "correct": true},
+        {"text": "Gradient moyen > 40 mmHg", "correct": true},
+        {"text": "Surface valvulaire < 1 cm²", "correct": true},
+        {"text": "FEVG réduite", "correct": true},
+        {"text": "Hypertrophie VG", "correct": true}
+      ],
+      "explanation": "Critères de SA serrée."
+    },
+    {
+      "question": "Quelle est l'indication chirurgicale dans la SA ?",
+      "type": "single",
+      "options": [
+        {"text": "SA serrée symptomatique", "correct": true},
+        {"text": "SA modérée", "correct": false},
+        {"text": "SA asymptomatique", "correct": false},
+        {"text": "SA avec FEVG normale", "correct": false}
+      ],
+      "explanation": "Le remplacement est indiqué dans la SA serrée symptomatique."
+    },
+    {
+      "question": "Quels sont les types d'insuffisance mitrale ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Organique (dégénérative, rhumatismale)", "correct": true},
+        {"text": "Fonctionnelle (ischémique, dilatée)", "correct": true},
+        {"text": "Congénitale", "correct": true},
+        {"text": "Infectieuse", "correct": true},
+        {"text": "Traumatique", "correct": true}
+      ],
+      "explanation": "Classification de l'IM."
+    },
+    {
+      "question": "Quelle est la quantification de l'insuffisance valvulaire à l'écho ?",
+      "type": "single",
+      "options": [
+        {"text": "Surface régurgitante, volume régurgitant, vena contracta", "correct": true},
+        {"text": "Gradient transvalvulaire", "correct": false},
+        {"text": "Vitesse max", "correct": false},
+        {"text": "Surface valvulaire", "correct": false}
+      ],
+      "explanation": "Méthodes pour quantifier la régurgitation."
+    },
+    {
+      "question": "Quels sont les signes de l'insuffisance tricuspide ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Souffle systolique holosystolique", "correct": true},
+        {"text": "Turgescence jugulaire", "correct": true},
+        {"text": "Hépatomégalie", "correct": true},
+        {"text": "Ascite", "correct": true},
+        {"text": "Œdèmes MI", "correct": true}
+      ],
+      "explanation": "Signes d'IC droite dus à l'IT."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente d'insuffisance tricuspide ?",
+      "type": "single",
+      "options": [
+        {"text": "Fonctionnelle secondaire à IC gauche", "correct": true},
+        {"text": "Rhumatismale", "correct": false},
+        {"text": "Endocardite", "correct": false},
+        {"text": "Congénitale", "correct": false}
+      ],
+      "explanation": "L'IT est souvent fonctionnelle due à dilatation annulaire."
+    },
+    {
+      "question": "Quels sont les examens pour le diagnostic de la maladie coronarienne ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Coronarographie", "correct": true},
+        {"text": "TDM coronaire", "correct": true},
+        {"text": "Test d'effort", "correct": true},
+        {"text": "Échocardiographie", "correct": true},
+        {"text": "IRM cardiaque", "correct": true}
+      ],
+      "explanation": "Examens pour détecter l'ischémie et les lésions coronaires."
+    },
+    {
+      "question": "Quelle est la classification TIMI pour le risque dans le SCA ?",
+      "type": "single",
+      "options": [
+        {"text": "Score de risque pour événement majeur à 14 jours", "correct": true},
+        {"text": "Score de saignement", "correct": false},
+        {"text": "Score de gravité", "correct": false},
+        {"text": "Score hémodynamique", "correct": false}
+      ],
+      "explanation": "Le TIMI risk score évalue le risque dans les SCA sans ST+."
+    },
+    {
+      "question": "Quels sont les inhibiteurs de P2Y12 ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Clopidogrel", "correct": true},
+        {"text": "Prasugrel", "correct": true},
+        {"text": "Ticagrelor", "correct": true},
+        {"text": "Cangrelor", "correct": true},
+        {"text": "Aspirine", "correct": false}
+      ],
+      "explanation": "Inhibiteurs plaquettaires utilisés dans les SCA."
+    },
+    {
+      "question": "Quelle est la durée de DAPT après SCA avec stent pharmacoactif ?",
+      "type": "single",
+      "options": [
+        {"text": "12 mois", "correct": true},
+        {"text": "6 mois", "correct": false},
+        {"text": "3 mois", "correct": false},
+        {"text": "À vie", "correct": false}
+      ],
+      "explanation": "12 mois de DAPT est standard après SCA."
+    },
+    {
+      "question": "Quels sont les signes ECG de l'hyperkaliémie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Onde T pointue", "correct": true},
+        {"text": "Allongement PR", "correct": true},
+        {"text": "QRS large", "correct": true},
+        {"text": "Bloc AV", "correct": true},
+        {"text": "QT court", "correct": false}
+      ],
+      "explanation": "Signes progressifs de l'hyperK."
+    },
+    {
+      "question": "Quelle est la prise en charge de l'hyperkaliémie sévère ?",
+      "type": "single",
+      "options": [
+        {"text": "Calcium IV, insuline-glucose, salbutamol, résines", "correct": true},
+        {"text": "Potassium IV", "correct": false},
+        {"text": "Diurétiques", "correct": false},
+        {"text": "Bicarbonate", "correct": false}
+      ],
+      "explanation": "Traitement urgent pour protéger le cœur et éliminer le K."
+    },
+    {
+      "question": "Quels sont les signes de l'hypokaliémie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Onde U", "correct": true},
+        {"text": "Sous-décalage ST", "correct": true},
+        {"text": "Arythmies ventriculaires", "correct": true},
+        {"text": "Paralysie", "correct": true},
+        {"text": "Onde T pointue", "correct": false}
+      ],
+      "explanation": "Signes ECG et cliniques de l'hypoK."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente d'hypokaliémie ?",
+      "type": "single",
+      "options": [
+        {"text": "Diurétiques", "correct": true},
+        {"text": "Vomissements", "correct": false},
+        {"text": "Diarrhée", "correct": false},
+        {"text": "Hyperaldostéronisme", "correct": false}
+      ],
+      "explanation": "Les diurétiques sont une cause courante."
+    },
+    {
+      "question": "Quels sont les traitements de la maladie de Raynaud ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Inhibiteurs calciques", "correct": true},
+        {"text": "Aspirine", "correct": true},
+        {"text": "Protection contre le froid", "correct": true},
+        {"text": "Iloprost", "correct": true},
+        {"text": "Bêta-bloquants", "correct": false}
+      ],
+      "explanation": "Traitement symptomatique et vasodilateurs."
+    },
+    {
+      "question": "Quelle est la classification de la maladie veineuse chronique ?",
+      "type": "single",
+      "options": [
+        {"text": "CEAP", "correct": true},
+        {"text": "NYHA", "correct": false},
+        {"text": "Killip", "correct": false},
+        {"text": "TIMI", "correct": false}
+      ],
+      "explanation": "La classification CEAP pour l'insuffisance veineuse."
+    },
+    {
+      "question": "Quels sont les traitements de la thrombose veineuse profonde ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Anticoagulants", "correct": true},
+        {"text": "HBPM puis AVK ou AOD", "correct": true},
+        {"text": "Compression", "correct": true},
+        {"text": "Thrombolyse si massive", "correct": true},
+        {"text": "Aspirine seule", "correct": false}
+      ],
+      "explanation": "Prise en charge standard de la TVP."
+    },
+    {
+      "question": "Quelle est la prévention de la maladie thromboembolique veineuse ?",
+      "type": "single",
+      "options": [
+        {"text": "HBPM en situation à risque", "correct": true},
+        {"text": "Aspirine", "correct": false},
+        {"text": "Mobilisation précoce", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "La prophylaxie par HBPM en chirurgie ou immobilité."
+    },
+    {
+      "question": "Quels sont les signes de la lymphangite ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Cordon rouge douloureux", "correct": true},
+        {"text": "Fièvre", "correct": true},
+        {"text": "Adénopathie", "correct": true},
+        {"text": "Œdème", "correct": true},
+        {"text": "Cyanose", "correct": false}
+      ],
+      "explanation": "Signes d'infection lymphatique."
+    },
+    {
+      "question": "Quelle est la prise en charge du lymphœdème ?",
+      "type": "single",
+      "options": [
+        {"text": "Drainage lymphatique, contention", "correct": true},
+        {"text": "Chirurgie", "correct": false},
+        {"text": "Antibiotiques", "correct": false},
+        {"text": "Diurétiques", "correct": false}
+      ],
+      "explanation": "Traitement conservateur du lymphœdème."
+    },
+    {
+      "question": "Quels sont les types d'anévrismes aortiques ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Thoracique", "correct": true},
+        {"text": "Abdominal", "correct": true},
+        {"text": "Dissectant", "correct": true},
+        {"text": "Fusiforme", "correct": true},
+        {"text": "Sacciforme", "correct": true}
+      ],
+      "explanation": "Classification des anévrismes."
+    },
+    {
+      "question": "Quelle est l'indication chirurgicale pour l'anévrisme de l'aorte abdominale ?",
+      "type": "single",
+      "options": [
+        {"text": "Diamètre > 5,5 cm", "correct": true},
+        {"text": "> 4 cm", "correct": false},
+        {"text": "> 6 cm", "correct": false},
+        {"text": "Symptomatique", "correct": false}
+      ],
+      "explanation": "Seuil pour réparation élective."
+    },
+    {
+      "question": "Quels sont les facteurs de risque de rupture d'anévrisme aortique ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Diamètre large", "correct": true},
+        {"text": "Croissance rapide", "correct": true},
+        {"text": "Tabagisme", "correct": true},
+        {"text": "HTA", "correct": true},
+        {"text": "Âge", "correct": true}
+      ],
+      "explanation": "Facteurs augmentant le risque de rupture."
+    },
+    {
+      "question": "Quelle est la prise en charge de la dissection aortique type B ?",
+      "type": "single",
+      "options": [
+        {"text": "Traitement médical, contrôle PA", "correct": true},
+        {"text": "Chirurgie", "correct": false},
+        {"text": "Stent", "correct": false},
+        {"text": "Observation", "correct": false}
+      ],
+      "explanation": "La type B est généralement médicale sauf complications."
+    },
+    {
+      "question": "Quels sont les signes de la claudication intermittente ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Douleur à la marche", "correct": true},
+        {"text": "Soulagée par le repos", "correct": true},
+        {"text": "IPS < 0,9", "correct": true},
+        {"text": "Troubles trophiques", "correct": false},
+        {"text": "Pâleur au surélévation", "correct": true}
+      ],
+      "explanation": "Signes de l'AOMI."
+    },
+    {
+      "question": "Quelle est la classification de Leriche pour l'AOMI ?",
+      "type": "single",
+      "options": [
+        {"text": "Stade 1: asymptomatique, stade 4: gangrène", "correct": true},
+        {"text": "Stade A B C", "correct": false},
+        {"text": "Class 1-4", "correct": false},
+        {"text": "Fontaine stages", "correct": false}
+      ],
+      "explanation": "Classification Fontaine pour l'AOMI."
+    },
+    {
+      "question": "Quels sont les traitements de l'AOMI ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Arrêt tabac", "correct": true},
+        {"text": "Marche", "correct": true},
+        {"text": "Antiagrégants", "correct": true},
+        {"text": "Angioplastie", "correct": true},
+        {"text": "Pontage", "correct": true}
+      ],
+      "explanation": "Prise en charge médicale et revascularisation."
+    },
+    {
+      "question": "Quelle est la définition de l'artérite de Buerger ?",
+      "type": "single",
+      "options": [
+        {"text": "Thromboangiite obliterante chez fumeurs jeunes", "correct": true},
+        {"text": "Athérosclérose", "correct": false},
+        {"text": "Vasculite géante", "correct": false},
+        {"text": "Takayasu", "correct": false}
+      ],
+      "explanation": "Buerger est une vasculite des petites artères chez fumeurs."
+    },
+    {
+      "question": "Quels sont les signes de l'artérite de Buerger ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Claudication", "correct": true},
+        {"text": "Phénomène de Raynaud", "correct": true},
+        {"text": "Thrombophlébites migratrices", "correct": true},
+        {"text": "Ulcerations", "correct": true},
+        {"text": "Gangrène", "correct": true}
+      ],
+      "explanation": "Signes cliniques de Buerger."
+    },
+    {
+      "question": "Quelle est la prise en charge de l'artérite de Buerger ?",
+      "type": "single",
+      "options": [
+        {"text": "Arrêt tabac strict", "correct": true},
+        {"text": "Corticoides", "correct": false},
+        {"text": "Immunosupresseurs", "correct": false},
+        {"text": "Chirurgie", "correct": false}
+      ],
+      "explanation": "L'arrêt du tabac est essentiel."
+    },
+    {
+      "question": "Quels sont les types de vasculites cardiaques ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Takayasu", "correct": true},
+        {"text": " Horton", "correct": true},
+        {"text": "Kawasaki", "correct": true},
+        {"text": "Behçet", "correct": true},
+        {"text": "Polyartérite noueuse", "correct": true}
+      ],
+      "explanation": "Vasculites affectant le cœur ou vaisseaux."
+    },
+    {
+      "question": "Quelle est la complication cardiaque de la maladie de Kawasaki ?",
+      "type": "single",
+      "options": [
+        {"text": "Anévrysmes coronaires", "correct": true},
+        {"text": "Péricardite", "correct": false},
+        {"text": "Myocardite", "correct": false},
+        {"text": "Valvulite", "correct": false}
+      ],
+      "explanation": "Anévrysmes coronaires chez l'enfant."
+    },
+    {
+      "question": "Quels sont les traitements de la maladie de Kawasaki ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ig IV", "correct": true},
+        {"text": "Aspirine", "correct": true},
+        {"text": "Corticoides", "correct": true},
+        {"text": "Anticoagulants", "correct": false},
+        {"text": "Antibiotiques", "correct": false}
+      ],
+      "explanation": "IgIV et aspirine en phase aiguë."
+    },
+    {
+      "question": "Quelle est la définition de la syncope vasovagale ?",
+      "type": "single",
+      "options": [
+        {"text": "Perte de connaissance due à réflexe vaso-dépresseur/cardio-inhibiteur", "correct": true},
+        {"text": "Syncope arythmique", "correct": false},
+        {"text": "Syncope orthostatique", "correct": false},
+        {"text": "Syncope epileptique", "correct": false}
+      ],
+      "explanation": "La syncope vasovagale est la plus courante."
+    },
+    {
+      "question": "Quels sont les examens pour l'évaluation de la syncope ?",
+      "type": "multiple",
+      "options": [
+        {"text": "ECG", "correct": true},
+        {"text": "Tilt test", "correct": true},
+        {"text": "Holter", "correct": true},
+        {"text": "Écho cardiaque", "correct": true},
+        {"text": "EEG", "correct": true}
+      ],
+      "explanation": "Évaluation cardiaque et neurologique si nécessaire."
+    },
+    {
+      "question": "Quelle est la prise en charge de la syncope vasovagale récurrente ?",
+      "type": "single",
+      "options": [
+        {"text": "Mesures éducationnelles, contre-manœuvres", "correct": true},
+        {"text": "Pacemaker", "correct": false},
+        {"text": "Défibrillateur", "correct": false},
+        {"text": "Chirurgie", "correct": false}
+      ],
+      "explanation": "Traitement non pharmacologique en premier."
+    },
+    {
+      "question": "Quels sont les types de bloc sino-auriculaire ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Type 1: ralentissement progressif", "correct": true},
+        {"text": "Type 2: pauses brusques", "correct": true},
+        {"text": "Type 3: bloc complet", "correct": true},
+        {"text": "Type 4: tachycardie", "correct": false},
+        {"text": "Type 5: fibrillation", "correct": false}
+      ],
+      "explanation": "Classification des BSA."
+    },
+    {
+      "question": "Quelle est la indication de pacemaker dans le syndrome du sinus malade ?",
+      "type": "single",
+      "options": [
+        {"text": "Symptomatique avec pauses > 3 s", "correct": true},
+        {"text": "Asymptomatique", "correct": false},
+        {"text": "Bradycardie < 50 bpm", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Pacemaker si symptômes liés à dysfonction sinusale."
+    },
+    {
+      "question": "Quels sont les signes ECG de la préexcitation ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Onde delta", "correct": true},
+        {"text": "PR court", "correct": true},
+        {"text": "QRS large", "correct": true},
+        {"text": "QT long", "correct": false},
+        {"text": "ST élevé", "correct": false}
+      ],
+      "explanation": "Signes du WPW."
+    },
+    {
+      "question": "Quelle est la prise en charge de la tachycardie par réentrée sur voie accessoire ?",
+      "type": "single",
+      "options": [
+        {"text": "Adénosine si QRS étroit, cardioversion si instable", "correct": true},
+        {"text": "Amiodarone", "correct": false},
+        {"text": "Bêta-bloquants", "correct": false},
+        {"text": "Digoxine", "correct": false}
+      ],
+      "explanation": "Traitement aigu de la tachycardie orthodromique."
+    },
+    {
+      "question": "Quels sont les risques du syndrome de WPW ?",
+      "type": "multiple",
+      "options": [
+        {"text": "FA avec conduction rapide", "correct": true},
+        {"text": "FV", "correct": true},
+        {"text": "Mort subite", "correct": true},
+        {"text": "Tachycardie orthodromique", "correct": true},
+        {"text": "Bradycardie", "correct": false}
+      ],
+      "explanation": "Risque d'arythmie ventriculaire en cas de FA."
+    },
+    {
+      "question": "Quelle est la traitement curatif du WPW ?",
+      "type": "single",
+      "options": [
+        {"text": "Ablation de la voie accessoire", "correct": true},
+        {"text": "Médicaments antiarythmiques", "correct": false},
+        {"text": "Pacemaker", "correct": false},
+        {"text": "DAI", "correct": false}
+      ],
+      "explanation": "L'ablation est le traitement définitif."
+    },
+    {
+      "question": "Quels sont les syndromes de QT long ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Romano-Ward", "correct": true},
+        {"text": "Jervell-Lange-Nielsen", "correct": true},
+        {"text": "Acquis (médicaments)", "correct": true},
+        {"text": "Brugada", "correct": false},
+        {"text": "ARVC", "correct": false}
+      ],
+      "explanation": "Types génétique et acquis."
+    },
+    {
+      "question": "Quelle est la prise en charge du QT long ?",
+      "type": "single",
+      "options": [
+        {"text": "Bêta-bloquants, DAI si risque haut", "correct": true},
+        {"text": "Amiodarone", "correct": false},
+        {"text": "Ablation", "correct": false},
+        {"text": "Pacemaker", "correct": false}
+      ],
+      "explanation": "Bêta-bloquants en prévention, DAI pour mort subite rescapée."
+    },
+    {
+      "question": "Quels sont les signes ECG du QT long ?",
+      "type": "multiple",
+      "options": [
+        {"text": "QTc > 440 ms homme, > 460 ms femme", "correct": true},
+        {"text": "Torsades de pointes", "correct": true},
+        {"text": "Onde T alternante", "correct": true},
+        {"text": "U prominente", "correct": true},
+        {"text": "QRS large", "correct": false}
+      ],
+      "explanation": "Signes diagnostiques."
+    },
+    {
+      "question": "Quelle est la définition de la cardiomyopathie arythmogène du ventricule droit ?",
+      "type": "single",
+      "options": [
+        {"text": "Remplacement fibro-graisseux du myocarde VD", "correct": true},
+        {"text": "Hypertrophie", "correct": false},
+        {"text": "Dilatation", "correct": false},
+        {"text": "Restriction", "correct": false}
+      ],
+      "explanation": "ARVC est une cardiomyopathie génétique."
+    },
+    {
+      "question": "Quels sont les critères diagnostiques de l'ARVC ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Critères Task Force : ECG, imagerie, histologie", "correct": true},
+        {"text": "Onde epsilon", "correct": true},
+        {"text": "TV soutenue", "correct": true},
+        {"text": "Dysfonction VD", "correct": true},
+        {"text": "Mutation desmosomale", "correct": true}
+      ],
+      "explanation": "Critères pour le diagnostic."
+    },
+    {
+      "question": "Quelle est la prise en charge de l'ARVC ?",
+      "type": "single",
+      "options": [
+        {"text": "DAI pour prévention mort subite", "correct": true},
+        {"text": "Ablation", "correct": false},
+        {"text": "Bêta-bloquants", "correct": false},
+        {"text": "Transplant", "correct": false}
+      ],
+      "explanation": "Le DAI est central dans la gestion."
+    },
+    {
+      "question": "Quels sont les types de pacemaker ?",
+      "type": "multiple",
+      "options": [
+        {"text": "VVIR", "correct": true},
+        {"text": "DDDR", "correct": true},
+        {"text": "AAIR", "correct": true},
+        {"text": "CRT-P", "correct": true},
+        {"text": "ICD", "correct": false}
+      ],
+      "explanation": "Modes de stimulation."
+    },
+    {
+      "question": "Quelle est la complication la plus fréquente des pacemakers ?",
+      "type": "single",
+      "options": [
+        {"text": "Infection de poche", "correct": true},
+        {"text": "Fracture de sonde", "correct": false},
+        {"text": "Displacement", "correct": false},
+        {"text": "Batterie épuisée", "correct": false}
+      ],
+      "explanation": "L'infection est une complication sérieuse."
+    },
+    {
+      "question": "Quels sont les indications du holter ECG ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Syncope", "correct": true},
+        {"text": "Palpitations", "correct": true},
+        {"text": "Évaluation arythmie", "correct": true},
+        {"text": "Contrôle traitement", "correct": true},
+        {"text": "Routine", "correct": false}
+      ],
+      "explanation": "Pour documenter les arythmies intermittentes."
+    },
+    {
+      "question": "Quelle est la durée d'un holter standard ?",
+      "type": "single",
+      "options": [
+        {"text": "24-48 heures", "correct": true},
+        {"text": "7 jours", "correct": false},
+        {"text": "1 mois", "correct": false},
+        {"text": "Continu", "correct": false}
+      ],
+      "explanation": "Holter 24h pour monitoring."
+    },
+    {
+      "question": "Quels sont les types d'enregistreurs implantables ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Loop recorder", "correct": true},
+        {"text": "Pour syncope récurrente", "correct": true},
+        {"text": "Détection arythmie", "correct": true},
+        {"text": "Durée 3 ans", "correct": true},
+        {"text": "Extérieur", "correct": false}
+      ],
+      "explanation": "Pour investigation longue durée."
+    },
+    {
+      "question": "Quelle est la place de l'électrophysiologie en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Diagnostic et ablation des arythmies", "correct": true},
+        {"text": "Implantation pacemaker", "correct": false},
+        {"text": "Coronarographie", "correct": false},
+        {"text": "Écho", "correct": false}
+      ],
+      "explanation": "Étude EP pour arythmies."
+    },
+    {
+      "question": "Quels sont les risques de l'ablation par radiofréquence ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Bloc AV", "correct": true},
+        {"text": "Tamponnade", "correct": true},
+        {"text": "Embolie", "correct": true},
+        {"text": "Infection", "correct": true},
+        {"text": "Radiation", "correct": true}
+      ],
+      "explanation": "Complications potentielles de l'ablation."
+    },
+    {
+      "question": "Quelle est la succès rate de l'ablation de la FA ?",
+      "type": "single",
+      "options": [
+        {"text": "60-80% pour paroxystique", "correct": true},
+        {"text": "100%", "correct": false},
+        {"text": "50%", "correct": false},
+        {"text": "90%", "correct": false}
+      ],
+      "explanation": "Succès variable selon type de FA."
+    },
+    {
+      "question": "Quels sont les anticoagulants oraux directs ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dabigatran", "correct": true},
+        {"text": "Rivaroxaban", "correct": true},
+        {"text": "Apixaban", "correct": true},
+        {"text": "Edoxaban", "correct": true},
+        {"text": "Warfarine", "correct": false}
+      ],
+      "explanation": "AOD vs AVK."
+    },
+    {
+      "question": "Quelle est la indication des AOD dans la FA ?",
+      "type": "single",
+      "options": [
+        {"text": "FA non valvulaire avec CHA2DS2-VASc ≥ 2 hommes, ≥ 3 femmes", "correct": true},
+        {"text": "FA valvulaire", "correct": false},
+        {"text": "Tous les FA", "correct": false},
+        {"text": "Score 1", "correct": false}
+      ],
+      "explanation": "AOD préférés aux AVK dans la FA non valvulaire."
+    },
+    {
+      "question": "Quels sont les avantages des AOD sur les AVK ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Moins de saignements intracrâniens", "correct": true},
+        {"text": "Pas de monitoring INR", "correct": true},
+        {"text": "Début d'action rapide", "correct": true},
+        {"text": "Antidote disponible pour certains", "correct": true},
+        {"text": "Moins efficaces", "correct": false}
+      ],
+      "explanation": "Avantages des AOD."
+    },
+    {
+      "question": "Quelle est la conduite à tenir en cas de saignement sous AOD ?",
+      "type": "single",
+      "options": [
+        {"text": "Arrêt AOD, support, antidote si disponible", "correct": true},
+        {"text": "Vit K", "correct": false},
+        {"text": "PPSB", "correct": false},
+        {"text": "Héparine", "correct": false}
+      ],
+      "explanation": "Gestion des saignements sous AOD."
+    },
+    {
+      "question": "Quels sont les facteurs de risque de saignement sous anticoagulant ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Âge > 75", "correct": true},
+        {"text": "Insuffisance rénale", "correct": true},
+        {"text": "Anémie", "correct": true},
+        {"text": "HAS-BLED score", "correct": true},
+        {"text": "Jeune âge", "correct": false}
+      ],
+      "explanation": "Score HAS-BLED pour risque hémorragique."
+    },
+    {
+      "question": "Quelle est la définition de la péricardite aiguë ?",
+      "type": "single",
+      "options": [
+        {"text": "Inflammation du péricarde avec ou sans épanchement", "correct": true},
+        {"text": "Épanchement seul", "correct": false},
+        {"text": "Constriction", "correct": false},
+        {"text": "Tamponnade", "correct": false}
+      ],
+      "explanation": "Péricardite aiguë est inflammatoire."
+    },
+    {
+      "question": "Quels sont les causes de péricardite ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Virale", "correct": true},
+        {"text": "Bactérienne", "correct": true},
+        {"text": "Post-IDM", "correct": true},
+        {"text": "Uré mique", "correct": true},
+        {"text": "Neoplasique", "correct": true}
+      ],
+      "explanation": "Étiologies variées."
+    },
+    {
+      "question": "Quelle est la prise en charge de la péricardite aiguë ?",
+      "type": "single",
+      "options": [
+        {"text": "Aspirine ou colchicine", "correct": true},
+        {"text": "Corticoides", "correct": false},
+        {"text": "Antibiotiques", "correct": false},
+        {"text": "Péricardectomie", "correct": false}
+      ],
+      "explanation": "Traitement anti-inflammatoire."
+    },
+    {
+      "question": "Quels sont les signes ECG de la péricardite ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Sus-décalage ST concave vers le haut", "correct": true},
+        {"text": "Sous-décalage PR", "correct": true},
+        {"text": "Ondes Q", "correct": false},
+        {"text": "Bloc AV", "correct": false},
+        {"text": "Arythmies", "correct": false}
+      ],
+      "explanation": "Signes typiques de péricardite."
+    },
+    {
+      "question": "Quelle est la différence entre péricardite et myocardite ?",
+      "type": "single",
+      "options": [
+        {"text": "Myocardite implique le myocarde avec troponine élevée", "correct": true},
+        {"text": "Même chose", "correct": false},
+        {"text": "Péricardite est virale seulement", "correct": false},
+        {"text": "Myocardite est bactérienne", "correct": false}
+      ],
+      "explanation": "Distinction clinique et biologique."
+    },
+    {
+      "question": "Quels sont les signes de la constriction péricardique ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Signe de Kussmaul", "correct": true},
+        {"text": "Pulsus paradoxus", "correct": true},
+        {"text": "Knock péricardique", "correct": true},
+        {"text": "Ascite", "correct": true},
+        {"text": "Dyspnée", "correct": true}
+      ],
+      "explanation": "Signes de constriction."
+    },
+    {
+      "question": "Quelle est la prise en charge de la constriction péricardique ?",
+      "type": "single",
+      "options": [
+        {"text": "Péricardectomie", "correct": true},
+        {"text": "Diurétiques", "correct": false},
+        {"text": "Anti-inflammatoires", "correct": false},
+        {"text": "Observation", "correct": false}
+      ],
+      "explanation": "Traitement chirurgical."
+    },
+    {
+      "question": "Quels sont les types d'épanchement péricardique ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Séreux", "correct": true},
+        {"text": "Hémorragique", "correct": true},
+        {"text": "Purulent", "correct": true},
+        {"text": "Chyleux", "correct": true},
+        {"text": "Gaz", "correct": false}
+      ],
+      "explanation": "Types selon composition."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente d'épanchement péricardique ?",
+      "type": "single",
+      "options": [
+        {"text": "Idiopathique/virale", "correct": true},
+        {"text": "Néoplasique", "correct": false},
+        {"text": "Uré mique", "correct": false},
+        {"text": "Post-chirurgie", "correct": false}
+      ],
+      "explanation": "Souvent idiopathique."
+    },
+    {
+      "question": "Quels sont les signes de tamponnade ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Pulsus paradoxus", "correct": true},
+        {"text": "Hypotension", "correct": true},
+        {"text": "Turgescence jugulaire", "correct": true},
+        {"text": "B1 sourd", "correct": true},
+        {"text": "Dyspnée", "correct": true}
+      ],
+      "explanation": "Triade de Beck et signes cliniques."
+    },
+    {
+      "question": "Quelle est la prise en charge de la tamponnade ?",
+      "type": "single",
+      "options": [
+        {"text": "Péricardiocentèse urgente", "correct": true},
+        {"text": "Diurétiques", "correct": false},
+        {"text": "Inotropes", "correct": false},
+        {"text": "Observation", "correct": false}
+      ],
+      "explanation": "Drainage en urgence."
+    },
+    {
+      "question": "Quels sont les examens pour le diagnostic de péricardite constrictive ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Échocardiographie", "correct": true},
+        {"text": "TDM/IRM", "correct": true},
+        {"text": "Cathétérisme cardiaque", "correct": true},
+        {"text": "Biopsie", "correct": true},
+        {"text": "ECG", "correct": true}
+      ],
+      "explanation": "Imagerie et hémodynamique."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente de constriction péricardique ?",
+      "type": "single",
+      "options": [
+        {"text": "Idiopathique", "correct": true},
+        {"text": "Post-radiation", "correct": false},
+        {"text": "Post-chirurgie", "correct": false},
+        {"text": "Tuberculose", "correct": false}
+      ],
+      "explanation": "Souvent idiopathique ou post-virale."
+    },
+    {
+      "question": "Quels sont les signes ECG de l'infarctus antérieur ?",
+      "type": "multiple",
+      "options": [
+        {"text": "ST elevation en V1-V4", "correct": true},
+        {"text": "Onde Q en V1-V4", "correct": true},
+        {"text": "Réciproque en II III aVF", "correct": true},
+        {"text": "Bloc de branche gauche", "correct": false},
+        {"text": "Tachycardie ventriculaire", "correct": false}
+      ],
+      "explanation": "Signes de l'IDM antérieur."
+    },
+    {
+      "question": "Quelle est la artère coupable dans l'IDM inférieur ?",
+      "type": "single",
+      "options": [
+        {"text": "Coronaire droite", "correct": true},
+        {"text": "Interventriculaire antérieure", "correct": false},
+        {"text": "Circonflexe", "correct": false},
+        {"text": "Marginale", "correct": false}
+      ],
+      "explanation": "La CD irrigue la paroi inférieure."
+    },
+    {
+      "question": "Quels sont les complications arythmiques de l'IDM ?",
+      "type": "multiple",
+      "options": [
+        {"text": "FV", "correct": true},
+        {"text": "TV", "correct": true},
+        {"text": "BAV", "correct": true},
+        {"text": "FA", "correct": true},
+        {"text": "Bloc sino-auriculaire", "correct": true}
+      ],
+      "explanation": "Arythmies post-IDM."
+    },
+    {
+      "question": "Quelle est la fenêtre thérapeutique pour la thrombolyse dans l'IDM ST+ ?",
+      "type": "single",
+      "options": [
+        {"text": "< 12 heures", "correct": true},
+        {"text": "< 24 heures", "correct": false},
+        {"text": "< 6 heures", "correct": false},
+        {"text": "< 3 heures", "correct": false}
+      ],
+      "explanation": "Thrombolyse si angioplastie non disponible dans 120 min."
+    },
+    {
+      "question": "Quels sont les contre-indications à la thrombolyse ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Saignement actif", "correct": true},
+        {"text": "AVC récent", "correct": true},
+        {"text": "Trauma majeur", "correct": true},
+        {"text": "Hypertension sévère", "correct": true},
+        {"text": "Grossesse", "correct": true}
+      ],
+      "explanation": "Contre-indications absolues et relatives."
+    },
+    {
+      "question": "Quelle est la définition du NSTEMI ?",
+      "type": "single",
+      "options": [
+        {"text": "SCA sans sus-ST mais avec élévation troponine", "correct": true},
+        {"text": "Angor instable", "correct": false},
+        {"text": "IDM avec Q", "correct": false},
+        {"text": "IDM transmural", "correct": false}
+      ],
+      "explanation": "NSTEMI est SCA avec nécrose."
+    },
+    {
+      "question": "Quels sont les traitements du NSTEMI ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Antiagrégants doubles", "correct": true},
+        {"text": "Anticoagulants", "correct": true},
+        {"text": "Coronarographie dans 72h", "correct": true},
+        {"text": "Bêta-bloquants", "correct": true},
+        {"text": "Thrombolyse", "correct": false}
+      ],
+      "explanation": "Prise en charge invasive ou conservative selon risque."
+    },
+    {
+      "question": "Quelle est la score GRACE pour le risque dans le SCA ?",
+      "type": "single",
+      "options": [
+        {"text": "Risque de décès à 6 mois", "correct": true},
+        {"text": "Risque saignement", "correct": false},
+        {"text": "Risque récidive", "correct": false},
+        {"text": "Risque IC", "correct": false}
+      ],
+      "explanation": "Score GRACE pour stratification du risque."
+    },
+    {
+      "question": "Quels sont les biomarqueurs dans le SCA ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Troponine ultrasensible", "correct": true},
+        {"text": "CK-MB", "correct": true},
+        {"text": "Myoglobine", "correct": true},
+        {"text": "BNP", "correct": false},
+        {"text": "D-dimères", "correct": false}
+      ],
+      "explanation": "Marqueurs de nécrose myocardique."
+    },
+    {
+      "question": "Quelle est la sensibilité de la troponine ultrasensible ?",
+      "type": "single",
+      "options": [
+        {"text": "Détection précoce de nécrose", "correct": true},
+        {"text": "Spécifique 100%", "correct": false},
+        {"text": "Élévation en 3h", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "La hs-Tn permet diagnostic précoce."
+    },
+    {
+      "question": "Quels sont les types de stents coronaires ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Nu (bare metal)", "correct": true},
+        {"text": "Pharmacoactif (drug-eluting)", "correct": true},
+        {"text": "Biorésorbable", "correct": true},
+        {"text": "Couvert", "correct": true},
+        {"text": "Veineux", "correct": false}
+      ],
+      "explanation": "Types de stents."
+    },
+    {
+      "question": "Quelle est la complication la plus fréquente des stents ?",
+      "type": "single",
+      "options": [
+        {"text": "Resténose", "correct": true},
+        {"text": "Thrombose de stent", "correct": false},
+        {"text": "Migration", "correct": false},
+        {"text": "Rupture", "correct": false}
+      ],
+      "explanation": "La resténose est réduite avec DES."
+    },
+    {
+      "question": "Quels sont les facteurs de risque de thrombose de stent ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Arrêt précoce DAPT", "correct": true},
+        {"text": "Stent mal déployé", "correct": true},
+        {"text": "Diabète", "correct": true},
+        {"text": "Insuffisance rénale", "correct": true},
+        {"text": "Âge jeune", "correct": false}
+      ],
+      "explanation": "Risques de thrombose."
+    },
+    {
+      "question": "Quelle est la durée de DAPT après DES ?",
+      "type": "single",
+      "options": [
+        {"text": "6-12 mois", "correct": true},
+        {"text": "1 mois", "correct": false},
+        {"text": "3 mois", "correct": false},
+        {"text": "À vie", "correct": false}
+      ],
+      "explanation": "6 mois pour angor stable, 12 pour SCA."
+    },
+    {
+      "question": "Quels sont les pontages coronariens courants ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Artère mammaire interne", "correct": true},
+        {"text": "Veine saphène", "correct": true},
+        {"text": "Artère radiale", "correct": true},
+        {"text": "Artère gastroépiploïque", "correct": true},
+        {"text": "Veine cave", "correct": false}
+      ],
+      "explanation": "Greffons utilisés en CABG."
+    },
+    {
+      "question": "Quelle est l'indication du pontage coronarien ?",
+      "type": "single",
+      "options": [
+        {"text": "Maladie trivascule ou tronc commun", "correct": true},
+        {"text": "Lésion univasculaire", "correct": false},
+        {"text": "Angor stable", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "CABG pour maladie complexe."
+    },
+    {
+      "question": "Quels sont les avantages du pontage sur l'angioplastie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Meilleure survie en trivascule", "correct": true},
+        {"text": "Moins de récidive", "correct": true},
+        {"text": "Pour diabétiques", "correct": true},
+        {"text": "Moins invasif", "correct": false},
+        {"text": "Récupération rapide", "correct": false}
+      ],
+      "explanation": "Avantages du CABG."
+    },
+    {
+      "question": "Quelle est la complication post-CABG ?",
+      "type": "single",
+      "options": [
+        {"text": "Médiastinite", "correct": false},
+        {"text": "Péricardite", "correct": false},
+        {"text": "FA", "correct": false},
+        {"text": "Toutes", "correct": true}
+      ],
+      "explanation": "Complications post-op."
+    },
+    {
+      "question": "Quels sont les objectifs de la réhabilitation cardiaque ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Exercice physique", "correct": true},
+        {"text": "Éducation thérapeutique", "correct": true},
+        {"text": "Contrôle facteurs de risque", "correct": true},
+        {"text": "Support psychologique", "correct": true},
+        {"text": "Chirurgie", "correct": false}
+      ],
+      "explanation": "Objectifs de la rehab."
+    },
+    {
+      "question": "Quelle est la durée de la réhabilitation cardiaque ?",
+      "type": "single",
+      "options": [
+        {"text": "3-6 mois", "correct": true},
+        {"text": "1 semaine", "correct": false},
+        {"text": "1 an", "correct": false},
+        {"text": "À vie", "correct": false}
+      ],
+      "explanation": "Programme structuré post-event."
+    },
+    {
+      "question": "Quels sont les bénéfices de la réhabilitation cardiaque ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Réduction mortalité", "correct": true},
+        {"text": "Amélioration qualité de vie", "correct": true},
+        {"text": "Réduction réhospitalisations", "correct": true},
+        {"text": "Meilleur contrôle FRCV", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "Bénéfices prouvés."
+    },
+    {
+      "question": "Quelle est la place de l'activité physique en prévention cardiovasculaire ?",
+      "type": "single",
+      "options": [
+        {"text": "30 min/j modérée", "correct": true},
+        {"text": "1h/semaine", "correct": false},
+        {"text": "Intense quotidien", "correct": false},
+        {"text": "Aucune", "correct": false}
+      ],
+      "explanation": "Recommandations pour AP."
+    },
+    {
+      "question": "Quels sont les FRCV modifiables ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Tabac", "correct": true},
+        {"text": "HTA", "correct": true},
+        {"text": "Dyslipidémie", "correct": true},
+        {"text": "Diabète", "correct": true},
+        {"text": "Obésité", "correct": true}
+      ],
+      "explanation": "FRCV à cibler en prévention."
+    },
+    {
+      "question": "Quelle est la cible glycémique chez le diabétique avec MCV ?",
+      "type": "single",
+      "options": [
+        {"text": "HbA1c < 7%", "correct": true},
+        {"text": "< 6%", "correct": false},
+        {"text": "< 8%", "correct": false},
+        {"text": "< 9%", "correct": false}
+      ],
+      "explanation": "Cible pour contrôle glycémique."
+    },
+    {
+      "question": "Quels sont les traitements hypolipémiants ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Statines", "correct": true},
+        {"text": "Fibrates", "correct": true},
+        {"text": "Ezetimibe", "correct": true},
+        {"text": "PCSK9 inhibiteurs", "correct": true},
+        {"text": "Niacine", "correct": true}
+      ],
+      "explanation": "Agents pour dyslipidémie."
+    },
+    {
+      "question": "Quelle est la cible LDL en prévention secondaire ?",
+      "type": "single",
+      "options": [
+        {"text": "< 1,8 mmol/L", "correct": true},
+        {"text": "< 2,6 mmol/L", "correct": false},
+        {"text": "< 3,0 mmol/L", "correct": false},
+        {"text": "< 1,4 mmol/L si très haut risque", "correct": false}
+      ],
+      "explanation": "Cible en secondaire."
+    },
+    {
+      "question": "Quels sont les bénéfices de l'arrêt tabac ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Réduction risque CV de 50% en 1 an", "correct": true},
+        {"text": "Amélioration respiration", "correct": true},
+        {"text": "Réduction risque cancer", "correct": true},
+        {"text": "Amélioration qualité vie", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "Bénéfices de l'arrêt."
+    },
+    {
+      "question": "Quelle est la prise en charge de l'arrêt tabac ?",
+      "type": "single",
+      "options": [
+        {"text": "TSN, varénicline, bupropion", "correct": true},
+        {"text": "Hypnose", "correct": false},
+        {"text": "Acupuncture", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Aides au sevrage."
+    },
+    {
+      "question": "Quels sont les objectifs de pression artérielle en prévention primaire ?",
+      "type": "multiple",
+      "options": [
+        {"text": "< 140/90 mmHg", "correct": true},
+        {"text": "< 130/80 si diabète ou IRC", "correct": true},
+        {"text": "< 120/80 si haut risque", "correct": true},
+        {"text": "< 150/90 chez âgé", "correct": true},
+        {"text": "< 160/100", "correct": false}
+      ],
+      "explanation": "Cibles selon profil."
+    },
+    {
+      "question": "Quelle est la place de l'aspirine en prévention primaire ?",
+      "type": "single",
+      "options": [
+        {"text": "Non recommandée sauf risque haut", "correct": true},
+        {"text": "Systématique", "correct": false},
+        {"text": "Seulement si diabète", "correct": false},
+        {"text": "Jamais", "correct": false}
+      ],
+      "explanation": "Aspirine primaire controversée en raison du risque saignement."
+    },
+    {
+      "question": "Quels sont les scores de risque CV ?",
+      "type": "multiple",
+      "options": [
+        {"text": "SCORE", "correct": true},
+        {"text": "Framingham", "correct": true},
+        {"text": "ASCVD", "correct": true},
+        {"text": "QRISK", "correct": true},
+        {"text": "CHA2DS2-VASc", "correct": false}
+      ],
+      "explanation": "Scores pour estimation du risque à 10 ans."
+    },
+    {
+      "question": "Quelle est la définition du diabète gestationnel ?",
+      "type": "single",
+      "options": [
+        {"text": "Glycémie anormale pendant grossesse", "correct": true},
+        {"text": "Diabète préexistant", "correct": false},
+        {"text": "Hyperglycémie post-partum", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Diabète survenant pendant la grossesse."
+    },
+    {
+      "question": "Quels sont les risques cardiovasculaires du diabète ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Athérosclérose accélérée", "correct": true},
+        {"text": "IDM", "correct": true},
+        {"text": "AVC", "correct": true},
+        {"text": "AOMI", "correct": true},
+        {"text": "IC", "correct": true}
+      ],
+      "explanation": "Le diabète est un FRCV majeur."
+    },
+    {
+      "question": "Quelle est la place des SGLT2 inhibiteurs en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Réduction risque CV et IC chez diabétiques", "correct": true},
+        {"text": "Hypoglycémiants seulement", "correct": false},
+        {"text": "Pour HTA", "correct": false},
+        {"text": "Pour dyslipidémie", "correct": false}
+      ],
+      "explanation": "Bénéfices CV des gliflozines."
+    },
+    {
+      "question": "Quels sont les traitements de l'hypercholestérolémie familiale ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Statines hautes doses", "correct": true},
+        {"text": "Ezetimibe", "correct": true},
+        {"text": "PCSK9 i", "correct": true},
+        {"text": "LDL aphérèse", "correct": true},
+        {"text": "Fibrates", "correct": false}
+      ],
+      "explanation": "Traitement intensif du LDL."
+    },
+    {
+      "question": "Quelle est la définition de l'hypertriglycéridémie sévère ?",
+      "type": "single",
+      "options": [
+        {"text": "> 10 mmol/L", "correct": true},
+        {"text": "> 5 mmol/L", "correct": false},
+        {"text": "> 2 mmol/L", "correct": false},
+        {"text": "> 1 mmol/L", "correct": false}
+      ],
+      "explanation": "Risque de pancréatite."
+    },
+    {
+      "question": "Quels sont les traitements de l'hypertriglycéridémie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Fibrates", "correct": true},
+        {"text": "Oméga-3", "correct": true},
+        {"text": "Statines", "correct": true},
+        {"text": "Régime", "correct": true},
+        {"text": "Insuline", "correct": false}
+      ],
+      "explanation": "Gestion des TG."
+    },
+    {
+      "question": "Quelle est la place des biomarqueurs en prévention CV ?",
+      "type": "single",
+      "options": [
+        {"text": "hs-CRP pour risque intermédiaire", "correct": true},
+        {"text": "BNP", "correct": false},
+        {"text": "Troponine", "correct": false},
+        {"text": "D-dimères", "correct": false}
+      ],
+      "explanation": "hs-CRP pour raffiner le risque."
+    },
+    {
+      "question": "Quels sont les objectifs de poids en prévention CV ?",
+      "type": "multiple",
+      "options": [
+        {"text": "IMC < 25 kg/m²", "correct": true},
+        {"text": "Tour de taille < 94 cm homme, < 80 cm femme", "correct": true},
+        {"text": "Perte de poids 5-10% si obèse", "correct": true},
+        {"text": "Régime méditerranéen", "correct": true},
+        {"text": "Fasting", "correct": false}
+      ],
+      "explanation": "Gestion du poids."
+    },
+    {
+      "question": "Quelle est la recommandation pour l'alcool en prévention CV ?",
+      "type": "single",
+      "options": [
+        {"text": "< 10 g/j femmes, < 20 g/j hommes", "correct": true},
+        {"text": "Aucun", "correct": false},
+        {"text": "Vin rouge", "correct": false},
+        {"text": "Illimité", "correct": false}
+      ],
+      "explanation": "Limitation de l'alcool."
+    },
+    {
+      "question": "Quels sont les effets CV de la pollution air ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Augmentation risque IDM", "correct": true},
+        {"text": "HTA", "correct": true},
+        {"text": "Arythmies", "correct": true},
+        {"text": "IC", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "Impact de la pollution."
+    },
+    {
+      "question": "Quelle est la place de la vaccination en prévention CV ?",
+      "type": "single",
+      "options": [
+        {"text": "Grippe annuelle pour patients CV", "correct": true},
+        {"text": "Pneumocoque", "correct": false},
+        {"text": "HPV", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Vaccin grippe réduit risque événements CV."
+    },
+    {
+      "question": "Quels sont les aspects psychosociaux en cardiologie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dépression augmente risque CV", "correct": true},
+        {"text": "Stress", "correct": true},
+        {"text": "Isolation sociale", "correct": true},
+        {"text": "Support social protecteur", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "Facteurs psychosociaux."
+    },
+    {
+      "question": "Quelle est la définition de la cardiotoxicité des chimiothérapies ?",
+      "type": "single",
+      "options": [
+        {"text": "Dysfonction VG due à traitement anticancéreux", "correct": true},
+        {"text": "Arythmies", "correct": false},
+        {"text": "Ischémie", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Cardiotoxicité des anthracyclines etc."
+    },
+    {
+      "question": "Quels sont les agents cardiotoxiques ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Anthracyclines", "correct": true},
+        {"text": "Trastuzumab", "correct": true},
+        {"text": "5-FU", "correct": true},
+        {"text": "Cisplatine", "correct": true},
+        {"text": "Aspirine", "correct": false}
+      ],
+      "explanation": "Chimio cardiotoxiques."
+    },
+    {
+      "question": "Quelle est la surveillance de la cardiotoxicité ?",
+      "type": "single",
+      "options": [
+        {"text": "Écho avec FEVG, strain", "correct": true},
+        {"text": "Troponine", "correct": false},
+        {"text": "BNP", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Monitoring par imagerie et biomarqueurs."
+    },
+    {
+      "question": "Quels sont les traitements préventifs de la cardiotoxicité ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dexrazoxane", "correct": true},
+        {"text": "IEC", "correct": true},
+        {"text": "Bêta-bloquants", "correct": true},
+        {"text": "Statines", "correct": true},
+        {"text": "Diurétiques", "correct": false}
+      ],
+      "explanation": "Stratégies de cardio-protection."
+    },
+    {
+      "question": "Quelle est la place de la télémédecine en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Suivi IC, arythmies", "correct": true},
+        {"text": "Consultations", "correct": false},
+        {"text": "Monitoring devices", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Applications de la télémédecine."
+    },
+    {
+      "question": "Quels sont les dispositifs implantables pour monitoring ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Loop recorder", "correct": true},
+        {"text": "Pacemaker avec télétransmission", "correct": true},
+        {"text": "DAI avec monitoring", "correct": true},
+        {"text": "Moniteur pression pulmonaire", "correct": true},
+        {"text": "Holter externe", "correct": false}
+      ],
+      "explanation": "Devices pour télé-suivi."
+    },
+    {
+      "question": "Quelle est la définition de la santé connectée en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Utilisation apps, wearables pour monitoring CV", "correct": true},
+        {"text": "Réseaux sociaux", "correct": false},
+        {"text": "Téléconsultation", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Santé connectée pour patients."
+    },
+    {
+      "question": "Quels sont les bénéfices de la télémédecine en IC ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Réduction réhospitalisations", "correct": true},
+        {"text": "Amélioration adhésion", "correct": true},
+        {"text": "Détection précoce décompensation", "correct": true},
+        {"text": "Réduction mortalité", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "Bénéfices prouvés."
+    },
+    {
+      "question": "Quelle est la place de l'IA en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Analyse ECG, imagerie, prédiction risque", "correct": true},
+        {"text": "Diagnostic", "correct": false},
+        {"text": "Traitement", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Applications de l'IA."
+    },
+    {
+      "question": "Quels sont les défis de l'IA en médecine ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Validation", "correct": true},
+        {"text": "Données", "correct": true},
+        {"text": "Éthique", "correct": true},
+        {"text": "Intégration", "correct": true},
+        {"text": "Coût", "correct": true}
+      ],
+      "explanation": "Défis à surmonter."
+    },
+    {
+      "question": "Quelle est la définition de la médecine personnalisée en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Traitement basé sur génétique, biomarqueurs", "correct": true},
+        {"text": "Traitement standard", "correct": false},
+        {"text": "Chirurgie", "correct": false},
+        {"text": "Prévention", "correct": false}
+      ],
+      "explanation": "Médecine précision."
+    },
+    {
+      "question": "Quels sont les exemples de médecine personnalisée ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Pharmacogénétique pour clopidogrel", "correct": true},
+        {"text": "Génétique pour CMH", "correct": true},
+        {"text": "Biomarqueurs pour traitement IC", "correct": true},
+        {"text": "Imaging avancé", "correct": true},
+        {"text": "Routine ECG", "correct": false}
+      ],
+      "explanation": "Applications."
+    },
+    {
+      "question": "Quelle est la place de la génétique en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Diagnostic cardiomyopathies, canalopathies", "correct": true},
+        {"text": "Risque familial", "correct": false},
+        {"text": "Dépistage", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Génétique des maladies cardiaques héritées."
+    },
+    {
+      "question": "Quels sont les tests génétiques en cardiologie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Panels pour CMH", "correct": true},
+        {"text": "Sequençage exome", "correct": true},
+        {"text": "Test CYP2C19 pour clopidogrel", "correct": true},
+        {"text": "Karyotype", "correct": true},
+        {"text": "PCR routine", "correct": false}
+      ],
+      "explanation": "Tests génétiques."
+    },
+    {
+      "question": "Quelle est la définition de la thérapie génique en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Correction génétique pour maladies héritées", "correct": true},
+        {"text": "Stem cells", "correct": false},
+        {"text": "Regénération", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Thérapie génique émergente."
+    },
+    {
+      "question": "Quels sont les avancées en thérapie cellulaire pour IC ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Stem cells pour régénération myocardique", "correct": true},
+        {"text": "iPS cells", "correct": true},
+        {"text": "Essais cliniques", "correct": true},
+        {"text": "Approuvé", "correct": false},
+        {"text": "Routine", "correct": false}
+      ],
+      "explanation": "Recherche en thérapie cellulaire."
+    },
+    {
+      "question": "Quelle est la place des biomatériaux en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Prothèses valvulaire, stents", "correct": true},
+        {"text": "Patchs", "correct": false},
+        {"text": "Cœurs artificiels", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Biomatériaux pour devices."
+    },
+    {
+      "question": "Quels sont les développements en impression 3D en cardiologie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Modèles pour planification chirurgicale", "correct": true},
+        {"text": "Valves imprimées", "correct": true},
+        {"text": "Tissus cardiaques", "correct": true},
+        {"text": "Organes complets", "correct": true},
+        {"text": "Routine", "correct": false}
+      ],
+      "explanation": "Applications de l'impression 3D."
+    },
+    {
+      "question": "Quelle est la définition de la cardio-oncologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Gestion des risques CV chez patients cancer", "correct": true},
+        {"text": "Cancer du cœur", "correct": false},
+        {"text": "Chimio", "correct": false},
+        {"text": "Radiothérapie", "correct": false}
+      ],
+      "explanation": "Spécialité émergente."
+    },
+    {
+      "question": "Quels sont les objectifs de la cardio-oncologie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Prévention cardiotoxicité", "correct": true},
+        {"text": "Surveillance", "correct": true},
+        {"text": "Traitement complications CV", "correct": true},
+        {"text": "Optimisation thérapie cancer", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "Objectifs."
+    },
+    {
+      "question": "Quelle est la place de l'exercice en IC ?",
+      "type": "single",
+      "options": [
+        {"text": "Recommandé pour améliorer capacité fonctionnelle", "correct": true},
+        {"text": "Contre-indiqué", "correct": false},
+        {"text": "Seulement marche", "correct": false},
+        {"text": "Intense", "correct": false}
+      ],
+      "explanation": "Exercice supervisé en IC."
+    },
+    {
+      "question": "Quels sont les bénéfices de l'exercice en prevention CV ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Réduction PA", "correct": true},
+        {"text": "Amélioration profil lipidique", "correct": true},
+        {"text": "Contrôle glycémie", "correct": true},
+        {"text": "Perte de poids", "correct": true},
+        {"text": "Réduction stress", "correct": true}
+      ],
+      "explanation": "Bénéfices multiples."
+    },
+    {
+      "question": "Quelle est la recommandation pour le dépistage de l'AAA ?",
+      "type": "single",
+      "options": [
+        {"text": "Écho abdominale chez hommes 65-75 ans fumeurs", "correct": true},
+        {"text": "Tous les 50 ans", "correct": false},
+        {"text": "Femmes", "correct": false},
+        {"text": "Annuel", "correct": false}
+      ],
+      "explanation": "Dépistage USPSTF."
+    },
+    {
+      "question": "Quels sont les facteurs de risque de l'AAA ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Tabac", "correct": true},
+        {"text": "Âge", "correct": true},
+        {"text": "Sexe masculin", "correct": true},
+        {"text": "Histoire familiale", "correct": true},
+        {"text": "Diabète", "correct": false}
+      ],
+      "explanation": "FRC de AAA."
+    },
+    {
+      "question": "Quelle est la définition de la maladie cardiaque rhumatismale ?",
+      "type": "single",
+      "options": [
+        {"text": "Valvulopathie post-RAA", "correct": true},
+        {"text": "Cardite aiguë", "correct": false},
+        {"text": "Toutes", "correct": false},
+        {"text": "Congénitale", "correct": false}
+      ],
+      "explanation": "Sequelles du RAA."
+    },
+    {
+      "question": "Quels sont les critères de Jones pour le RAA ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Majeurs: cardite, arthrite, chorée, nodules, érythème", "correct": true},
+        {"text": "Mineurs: fièvre, arthralgie, PR prolongé, VS élevée", "correct": true},
+        {"text": "Preuve de strepto antérieur", "correct": true},
+        {"text": "2 majeurs ou 1 majeur + 2 mineurs", "correct": true},
+        {"text": "3 mineurs", "correct": false}
+      ],
+      "explanation": "Critères diagnostiques."
+    },
+    {
+      "question": "Quelle est la prophylaxie du RAA ?",
+      "type": "single",
+      "options": [
+        {"text": "Pénicilline pour prévention secondaire", "correct": true},
+        {"text": "Vaccin", "correct": false},
+        {"text": "Aspirine", "correct": false},
+        {"text": "Corticoides", "correct": false}
+      ],
+      "explanation": "Prévention des récidives."
+    },
+    {
+      "question": "Quels sont les valvulopathies dans le RAA ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Sténose mitrale", "correct": true},
+        {"text": "Insuffisance mitrale", "correct": true},
+        {"text": "Sténose aortique", "correct": true},
+        {"text": "Insuffisance aortique", "correct": true},
+        {"text": "Tricuspide", "correct": true}
+      ],
+      "explanation": "Valves affectées."
+    },
+    {
+      "question": "Quelle est la place de l'antibiothérapie dans l'endocardite prophylaxie ?",
+      "type": "single",
+      "options": [
+        {"text": "Pour patients haut risque avant procédures", "correct": true},
+        {"text": "Systématique", "correct": false},
+        {"text": "Jamais", "correct": false},
+        {"text": "Après", "correct": false}
+      ],
+      "explanation": "Prophylaxie endocardite."
+    },
+    {
+      "question": "Quels sont les patients à haut risque pour prophylaxie endocardite ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Prothèse valvulaire", "correct": true},
+        {"text": "Endocardite antérieure", "correct": true},
+        {"text": "Cardiopathie congénitale cyanogène", "correct": true},
+        {"text": "Valvulopathie native", "correct": false},
+        {"text": "Pacemaker", "correct": false}
+      ],
+      "explanation": "Groupes à risque."
+    },
+    {
+      "question": "Quelle est la antibiotique utilisée en prophylaxie ?",
+      "type": "single",
+      "options": [
+        {"text": "Amoxicilline 2g 1h avant", "correct": true},
+        {"text": "Vancomycine", "correct": false},
+        {"text": "Clindamycine si allergie", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Régime standard."
+    },
+    {
+      "question": "Quels sont les procédures nécessitant prophylaxie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dentaire avec manipulation gingivale", "correct": true},
+        {"text": "Respiratoire", "correct": true},
+        {"text": "GI/GU si infection", "correct": true},
+        {"text": "Endoscopie sans biopie", "correct": false},
+        {"text": "Cathétérisme cardiaque", "correct": false}
+      ],
+      "explanation": "Procédures à bactériémie."
+    },
+    {
+      "question": "Quelle est la définition de la cardiomyopathie peripartum ?",
+      "type": "single",
+      "options": [
+        {"text": "IC avec FEVG réduite en fin grossesse ou post-partum", "correct": true},
+        {"text": "HTA gravidique", "correct": false},
+        {"text": "Péricardite", "correct": false},
+        {"text": "Embolie", "correct": false}
+      ],
+      "explanation": "CMPP est une forme d'IC dilatée."
+    },
+    {
+      "question": "Quels sont les facteurs de risque de la CMPP ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Âge > 30", "correct": true},
+        {"text": "Multipare", "correct": true},
+        {"text": "Grossesse gémellaire", "correct": true},
+        {"text": "Origine africaine", "correct": true},
+        {"text": "Tabac", "correct": true}
+      ],
+      "explanation": "FRC de CMPP."
+    },
+    {
+      "question": "Quelle est la prise en charge de la CMPP ?",
+      "type": "single",
+      "options": [
+        {"text": "Traitement IC standard, évit er IEC en grossesse", "correct": true},
+        {"text": "Transplant", "correct": false},
+        {"text": "Assistance", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Gestion comme IC."
+    },
+    {
+      "question": "Quels sont les risques cardiovasculaires de la grossesse ?",
+      "type": "multiple",
+      "options": [
+        {"text": "HTA gravidique", "correct": true},
+        {"text": "Prééclampsie", "correct": true},
+        {"text": "IC", "correct": true},
+        {"text": "Embolie amniotique", "correct": true},
+        {"text": "Dissection aortique", "correct": true}
+      ],
+      "explanation": "Risques CV en grossesse."
+    },
+    {
+      "question": "Quelle est la classification WHO pour risque CV en grossesse ?",
+      "type": "single",
+      "options": [
+        {"text": "Classe 1-4 selon risque maternel", "correct": true},
+        {"text": "NYHA", "correct": false},
+        {"text": "Killip", "correct": false},
+        {"text": "TIMI", "correct": false}
+      ],
+      "explanation": "Classification pour conseil contraception et suivi."
+    },
+    {
+      "question": "Quels sont les cardiopathies contre-indiquant la grossesse ?",
+      "type": "multiple",
+      "options": [
+        {"text": "HTP", "correct": true},
+        {"text": "SA serrée", "correct": true},
+        {"text": "Marfan avec aorte >45 mm", "correct": true},
+        {"text": "FEVG <30%", "correct": true},
+        {"text": "FA", "correct": false}
+      ],
+      "explanation": "Classe 4 WHO."
+    },
+    {
+      "question": "Quelle est la prise en charge CV en grossesse ?",
+      "type": "single",
+      "options": [
+        {"text": "Suivi multidisciplinaire", "correct": true},
+        {"text": "Médicaments sécurisés", "correct": false},
+        {"text": "Écho régulière", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Gestion adaptée."
+    },
+    {
+      "question": "Quels sont les anticoagulants en grossesse ?",
+      "type": "multiple",
+      "options": [
+        {"text": "HBPM", "correct": true},
+        {"text": "AVK après 1er trimestre si nécessaire", "correct": true},
+        {"text": "AOD contre-indiqués", "correct": true},
+        {"text": "Aspirine basse dose", "correct": true},
+        {"text": "Fondaparinux", "correct": false}
+      ],
+      "explanation": "Anticoagulation en grossesse."
+    },
+    {
+      "question": "Quelle est la définition de la cardiogériatrie ?",
+      "type": "single",
+      "options": [
+        {"text": "Gestion CV chez personne âgée", "correct": true},
+        {"text": "Pédiatrie", "correct": false},
+        {"text": "Sport", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Spécificités chez l'âgé."
+    },
+    {
+      "question": "Quels sont les défis en cardiogériatrie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Polymorbidité", "correct": true},
+        {"text": "Polypharmacie", "correct": true},
+        {"text": "Fragilité", "correct": true},
+        {"text": "Cognition", "correct": true},
+        {"text": "Jeunesse", "correct": false}
+      ],
+      "explanation": "Défis chez l'âgé."
+    },
+    {
+      "question": "Quelle est la cible PA chez l'âgé ?",
+      "type": "single",
+      "options": [
+        {"text": "< 150/90 mmHg si >80 ans", "correct": true},
+        {"text": "< 130/80", "correct": false},
+        {"text": "Identique", "correct": false},
+        {"text": "Plus haute", "correct": false}
+      ],
+      "explanation": "Cible assouplie chez très âgé."
+    },
+    {
+      "question": "Quels sont les traitements en IC chez l'âgé ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Même que jeunes, ajustés", "correct": true},
+        {"text": "Doses basses", "correct": true},
+        {"text": "Surveillance rénale", "correct": true},
+        {"text": "Éviter déshydratation", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "Adaptation aux âgés."
+    },
+    {
+      "question": "Quelle est la place de l'évaluation gériatrique en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Évaluation globale pour décision thérapeutique", "correct": true},
+        {"text": "Inutile", "correct": false},
+        {"text": "Seulement cognition", "correct": false},
+        {"text": "Pour tous", "correct": false}
+      ],
+      "explanation": "EGA pour patients âgés fragiles."
+    },
+    {
+      "question": "Quels sont les scores de fragilité ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Fried", "correct": true},
+        {"text": "Rockwood", "correct": true},
+        {"text": "CGA", "correct": true},
+        {"text": "CHA2DS2", "correct": false},
+        {"text": "GRACE", "correct": false}
+      ],
+      "explanation": "Scores pour fragilité."
+    },
+    {
+      "question": "Quelle est la définition de la cardio-pédiatrie ?",
+      "type": "single",
+      "options": [
+        {"text": "Cardiologie chez l'enfant", "correct": true},
+        {"text": "Congénitale", "correct": false},
+        {"text": "Acquise", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Spécialité pédiatrique."
+    },
+    {
+      "question": "Quels sont les cardiopathies congénitales courantes ?",
+      "type": "multiple",
+      "options": [
+        {"text": "CIV", "correct": true},
+        {"text": "CIA", "correct": true},
+        {"text": "Tétralogie de Fallot", "correct": true},
+        {"text": "Coarctation", "correct": true},
+        {"text": "Transposition", "correct": true}
+      ],
+      "explanation": "CC fréquentes."
+    },
+    {
+      "question": "Quelle est la prise en charge des CC cyanogènes ?",
+      "type": "single",
+      "options": [
+        {"text": "Chirurgie corrective", "correct": true},
+        {"text": "Oxygène", "correct": false},
+        {"text": "Prostaglandine pour canal", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Gestion des CC."
+    },
+    {
+      "question": "Quels sont les signes de CC chez le nouveau-né ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Cyanose", "correct": true},
+        {"text": "Souffle", "correct": true},
+        {"text": "IC", "correct": true},
+        {"text": "Hypoxie", "correct": true},
+        {"text": "Asymptomatique", "correct": true}
+      ],
+      "explanation": "Présentation variable."
+    },
+    {
+      "question": "Quelle est la place de l'échographie fœtale en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Dépistage CC prénatal", "correct": true},
+        {"text": "Routine", "correct": false},
+        {"text": "Si risque", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Écho fœtale pour CC."
+    },
+    {
+      "question": "Quels sont les risques de grossesse chez femmes avec CC ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Selon type CC", "correct": true},
+        {"text": "IC", "correct": true},
+        {"text": "Arythmies", "correct": true},
+        {"text": "Embolie", "correct": true},
+        {"text": "Fœtal", "correct": true}
+      ],
+      "explanation": "Risques materno-fœtaux."
+    },
+    {
+      "question": "Quelle est la définition de la cardiologie du sport ?",
+      "type": "single",
+      "options": [
+        {"text": "Évaluation CV chez athlètes", "correct": true},
+        {"text": "Prévention", "correct": false},
+        {"text": "Dépistage MSC", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Cardio sport."
+    },
+    {
+      "question": "Quels sont les changements CV chez l'athlète ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Cœur d'athlète : hypertrophie, bradycardie", "correct": true},
+        {"text": "Dilatation cavités", "correct": true},
+        {"text": "Anomalies ECG", "correct": true},
+        {"text": "Hypertrophie pathologique", "correct": false},
+        {"text": "Arythmies", "correct": false}
+      ],
+      "explanation": "Adaptations physiologiques."
+    },
+    {
+      "question": "Quelle est la dépistage pour MSC chez athlètes ?",
+      "type": "single",
+      "options": [
+        {"text": "ECG, écho si anomalie", "correct": true},
+        {"text": "IRM", "correct": false},
+        {"text": "Test effort", "correct": false},
+        {"text": "Génétique", "correct": false}
+      ],
+      "explanation": "Dépistage préparticipation."
+    },
+    {
+      "question": "Quels sont les causes de MSC chez athlète ?",
+      "type": "multiple",
+      "options": [
+        {"text": "CMH", "correct": true},
+        {"text": "ARVC", "correct": true},
+        {"text": "Canalopathies", "correct": true},
+        {"text": "Commotio cordis", "correct": true},
+        {"text": "Doping", "correct": true}
+      ],
+      "explanation": "Causes chez jeunes athlètes."
+    },
+    {
+      "question": "Quelle est la recommandation pour sport en cas de CMH ?",
+      "type": "single",
+      "options": [
+        {"text": "Éviter sport intense/compétition", "correct": true},
+        {"text": "Autorisé si asymptomatique", "correct": false},
+        {"text": "Avec DAI", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Restriction sportive."
+    },
+    {
+      "question": "Quels sont les effets du doping sur le cœur ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Anabolisants : hypertrophie, IC", "correct": true},
+        {"text": "EPO : thrombose", "correct": true},
+        {"text": "Stimulants : arythmies", "correct": true},
+        {"text": "Diurétiques : électrolytes", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "Risques du doping."
+    },
+    {
+      "question": "Quelle est la définition de la cardiologie interventionnelle ?",
+      "type": "single",
+      "options": [
+        {"text": "Procédures percutanées pour maladies CV", "correct": true},
+        {"text": "Chirurgie", "correct": false},
+        {"text": "Médicaments", "correct": false},
+        {"text": "Imagerie", "correct": false}
+      ],
+      "explanation": "Interventionnelle."
+    },
+    {
+      "question": "Quels sont les procédures interventionnelles ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Angioplastie coronaire", "correct": true},
+        {"text": "TAVI", "correct": true},
+        {"text": "Fermeture CIA", "correct": true},
+        {"text": "Ablation", "correct": true},
+        {"text": "Pontage", "correct": false}
+      ],
+      "explanation": "Procédures cath lab."
+    },
+    {
+      "question": "Quelle est la place du TAVI ?",
+      "type": "single",
+      "options": [
+        {"text": "Remplacement aortique percutané pour SA serrée à haut risque chir", "correct": true},
+        {"text": "Tous patients", "correct": false},
+        {"text": "Jeunes", "correct": false},
+        {"text": "Bas risque", "correct": false}
+      ],
+      "explanation": "TAVI pour SA."
+    },
+    {
+      "question": "Quels sont les complications du TAVI ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Bloc AV", "correct": true},
+        {"text": "Fuite paravalvulaire", "correct": true},
+        {"text": "AVC", "correct": true},
+        {"text": "Thrombose", "correct": true},
+        {"text": "Infection", "correct": true}
+      ],
+      "explanation": "Complications du TAVI."
+    },
+    {
+      "question": "Quelle est la définition de la fermeture de l'auricule gauche ?",
+      "type": "single",
+      "options": [
+        {"text": "Procédure pour prévention thromboembolie dans FA", "correct": true},
+        {"text": "Pour IC", "correct": false},
+        {"text": "Pour arythmie", "correct": false},
+        {"text": "Pour SA", "correct": false}
+      ],
+      "explanation": "LAA closure pour patients contre-indiqués aux anticoagulants."
+    },
+    {
+      "question": "Quels sont les dispositifs pour fermeture auricule ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Watchman", "correct": true},
+        {"text": "Amplatzer", "correct": true},
+        {"text": "Lariat", "correct": true},
+        {"text": "Clip", "correct": false},
+        {"text": "Stent", "correct": false}
+      ],
+      "explanation": "Devices pour LAAO."
+    },
+    {
+      "question": "Quelle est la place du Mitraclip ?",
+      "type": "single",
+      "options": [
+        {"text": "Réparation mitrale percutanée pour IM fonctionnelle", "correct": true},
+        {"text": "Pour SM", "correct": false},
+        {"text": "Pour IA", "correct": false},
+        {"text": "Pour SA", "correct": false}
+      ],
+      "explanation": "Mitraclip pour IM."
+    },
+    {
+      "question": "Quels sont les indications du Mitraclip ?",
+      "type": "multiple",
+      "options": [
+        {"text": "IM sévère symptomatique", "correct": true},
+        {"text": "Haut risque chir", "correct": true},
+        {"text": "IM fonctionnelle", "correct": true},
+        {"text": "IM organique", "correct": true},
+        {"text": "Bas risque", "correct": false}
+      ],
+      "explanation": "Indications."
+    },
+    {
+      "question": "Quelle est la définition de l'assistance ventriculaire gauche ?",
+      "type": "single",
+      "options": [
+        {"text": "Dispositif pour support hémodynamique en IC terminale", "correct": true},
+        {"text": "Pacemaker", "correct": false},
+        {"text": "DAI", "correct": false},
+        {"text": "CRT", "correct": false}
+      ],
+      "explanation": "LVAD pour bridge ou destination."
+    },
+    {
+      "question": "Quels sont les types d'assistance ventriculaire ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Impella", "correct": true},
+        {"text": "HeartMate", "correct": true},
+        {"text": "ECMO", "correct": true},
+        {"text": "Ballon intra-aortique", "correct": true},
+        {"text": "Cœur artificiel total", "correct": true}
+      ],
+      "explanation": "Dispositifs d'assistance."
+    },
+    {
+      "question": "Quelle est la complication des LVAD ?",
+      "type": "single",
+      "options": [
+        {"text": "Infection driveline, thrombose pompe, saignement", "correct": true},
+        {"text": "Aucune", "correct": false},
+        {"text": "Arythmie", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Complications des LVAD."
+    },
+    {
+      "question": "Quels sont les critères pour transplantation cardiaque ?",
+      "type": "multiple",
+      "options": [
+        {"text": "IC terminale", "correct": true},
+        {"text": "VO2 max < 14 ml/kg/min", "correct": true},
+        {"text": "Pas de contre-indication", "correct": true},
+        {"text": "Âge < 65", "correct": true},
+        {"text": "Tous", "correct": false}
+      ],
+      "explanation": "Critères d'éligibilité."
+    },
+    {
+      "question": "Quelle est la survie après transplantation cardiaque ?",
+      "type": "single",
+      "options": [
+        {"text": "50% à 10 ans", "correct": true},
+        {"text": "90% à 1 an", "correct": false},
+        {"text": "75% à 5 ans", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Survie post-transplant."
+    },
+    {
+      "question": "Quels sont les complications post-transplantation ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Rejet", "correct": true},
+        {"text": "Infection", "correct": true},
+        {"text": "Vasculopathie greffon", "correct": true},
+        {"text": "Malignité", "correct": true},
+        {"text": "Insuffisance rénale", "correct": true}
+      ],
+      "explanation": "Complications sous immunosuppresseurs."
+    },
+    {
+      "question": "Quelle est la définition de la recherche en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Études pour avancer connaissances et traitements", "correct": true},
+        {"text": "Clinique", "correct": false},
+        {"text": "Fondamentale", "correct": false},
+        {"text": "Translationnelle", "correct": false}
+      ],
+      "explanation": "Recherche CV."
+    },
+    {
+      "question": "Quels sont les domaines de recherche en cardiologie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Génétique", "correct": true},
+        {"text": "Imagerie avancée", "correct": true},
+        {"text": "Thérapies innovantes", "correct": true},
+        {"text": "Prévention", "correct": true},
+        {"text": "Épidémiologie", "correct": true}
+      ],
+      "explanation": "Domaines divers."
+    },
+    {
+      "question": "Quelle est la place des essais cliniques en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Test nouveaux traitements", "correct": true},
+        {"text": "Phase 1-4", "correct": false},
+        {"text": "Randomisés", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Essais pour évidence."
+    },
+    {
+      "question": "Quels sont les exemples d'essais phares en cardiologie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "PARADIGM-HF pour sacubitril/valsartan", "correct": true},
+        {"text": "CANTOS pour anti-inflammatoire", "correct": true},
+        {"text": "COMPASS pour rivaroxaban", "correct": true},
+        {"text": "DAPA-HF pour dapagliflozine", "correct": true},
+        {"text": "ISIS-2 pour aspirine", "correct": true}
+      ],
+      "explanation": "Essais marquants."
+    },
+    {
+      "question": "Quelle est la définition de la méta-analyse en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Synthèse d'essais pour évidence plus forte", "correct": true},
+        {"text": "Étude unique", "correct": false},
+        {"text": "Review", "correct": false},
+        {"text": "Cohorte", "correct": false}
+      ],
+      "explanation": "Méta-analyses pour guidelines."
+    },
+    {
+      "question": "Quels sont les guidelines en cardiologie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "ESC guidelines", "correct": true},
+        {"text": "AHA/ACC", "correct": true},
+        {"text": "Pour HTA, IC, SCA, etc", "correct": true},
+        {"text": "Mis à jour régulier", "correct": true},
+        {"text": "Nationales", "correct": true}
+      ],
+      "explanation": "Recommandations basées sur évidence."
+    },
+    {
+      "question": "Quelle est la place des sociétés savantes en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "ESC, AHA, SFC", "correct": true},
+        {"text": "Formation", "correct": false},
+        {"text": "Congrès", "correct": false},
+        {"text": "Guidelines", "correct": false}
+      ],
+      "explanation": "Sociétés pour avancée science."
+    },
+    {
+      "question": "Quels sont les congrès majeurs en cardiologie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "ESC Congress", "correct": true},
+        {"text": "AHA Scientific Sessions", "correct": true},
+        {"text": "ACC Annual Meeting", "correct": true},
+        {"text": "EuroPCR", "correct": true},
+        {"text": "TCT", "correct": true}
+      ],
+      "explanation": "Congrès pour présentations."
+    },
+    {
+      "question": "Quelle est la définition de l'éthique en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Consentement, confidentialité, équité", "correct": true},
+        {"text": "Recherche", "correct": false},
+        {"text": "Pratique", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Éthique médicale."
+    },
+    {
+      "question": "Quels sont les défis éthiques en cardiologie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Allocation ressources", "correct": true},
+        {"text": "Fin de vie", "correct": true},
+        {"text": "Recherche sur humains", "correct": true},
+        {"text": "Génétique", "correct": true},
+        {"text": "IA", "correct": true}
+      ],
+      "explanation": "Questions éthiques."
+    },
+    {
+      "question": "Quelle est la place de l'éducation thérapeutique en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Amélioration adhésion, autogestion", "correct": true},
+        {"text": "Pour IC, post-IDM", "correct": false},
+        {"text": "Multidisciplinaire", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "ETE pour patients chroniques."
+    },
+    {
+      "question": "Quels sont les composants de l'ETE ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Connaissance maladie", "correct": true},
+        {"text": "Médicaments", "correct": true},
+        {"text": "Régime, exercice", "correct": true},
+        {"text": "Signes alarme", "correct": true},
+        {"text": "Support", "correct": true}
+      ],
+      "explanation": "Contenu de l'ETE."
+    },
+    {
+      "question": "Quelle est la définition de la qualité de vie en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Outcome patient-reported", "correct": true},
+        {"text": "Survie", "correct": false},
+        {"text": "Fonction", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "QoL comme mesure."
+    },
+    {
+      "question": "Quels sont les outils pour mesurer QoL ?",
+      "type": "multiple",
+      "options": [
+        {"text": "SF-36", "correct": true},
+        {"text": "MLHFQ pour IC", "correct": true},
+        {"text": "EQ-5D", "correct": true},
+        {"text": "KCCQ", "correct": true},
+        {"text": "NYHA", "correct": false}
+      ],
+      "explanation": "Questionnaires QoL."
+    },
+    {
+      "question": "Quelle est la place de la palliative care en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Pour IC avancée, symptoms management", "correct": true},
+        {"text": "End of life", "correct": false},
+        {"text": "Integrated care", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Palliative in CV disease."
+    },
+    {
+      "question": "Quels sont les aspects de la palliative in IC ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Symptom relief", "correct": true},
+        {"text": "Advance directives", "correct": true},
+        {"text": "Psychosocial support", "correct": true},
+        {"text": "Deactivation devices", "correct": true},
+        {"text": "Curative", "correct": false}
+      ],
+      "explanation": "Palliative approach."
+    },
+    {
+      "question": "Quelle est la définition de la santé publique en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Prévention populationnelle, policies", "correct": true},
+        {"text": "Individuelle", "correct": false},
+        {"text": "Hospital", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Public health CV."
+    },
+    {
+      "question": "Quels sont les programmes de prévention CV ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Anti-tabac laws", "correct": true},
+        {"text": "Promotion AP", "correct": true},
+        {"text": "Nutrition policies", "correct": true},
+        {"text": "Screening HTA", "correct": true},
+        {"text": "Vaccination", "correct": true}
+      ],
+      "explanation": "Interventions public health."
+    },
+    {
+      "question": "Quelle est la épidémiologie des MCV ?",
+      "type": "single",
+      "options": [
+        {"text": "Principale cause de décès mondial", "correct": true},
+        {"text": "En baisse en pays développés", "correct": false},
+        {"text": "En hausse en pays en développement", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Épidémio MCV."
+    },
+    {
+      "question": "Quels sont les disparités en santé CV ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Genre", "correct": true},
+        {"text": "Ethnie", "correct": true},
+        {"text": "Socioéconomique", "correct": true},
+        {"text": "Géographique", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "Disparities in CV care."
+    },
+    {
+      "question": "Quelle est la place de la global health en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Adresse MCV en pays low-income", "correct": true},
+        {"text": "Access to care", "correct": false},
+        {"text": "Training", "correct": false},
+        {"text": "Research", "correct": false}
+      ],
+      "explanation": "Global CV health."
+    },
+    {
+      "question": "Quels sont les objectifs de développement durable liés à MCV ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Réduction 1/3 mortalité MNC d'ici 2030", "correct": true},
+        {"text": "SDG 3.4", "correct": true},
+        {"text": "Prévention FRCV", "correct": true},
+        {"text": "Access treatments", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "ONU SDGs."
+    },
+    {
+      "question": "Quelle est la définition de la COVID-19 impact CV ?",
+      "type": "single",
+      "options": [
+        {"text": "Myocardite, thrombose, IC", "correct": true},
+        {"text": "Respiratoire seulement", "correct": false},
+        {"text": "Neurologique", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Impact CV de COVID."
+    },
+    {
+      "question": "Quels sont les complications CV de la COVID-19 ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Myocardite", "correct": true},
+        {"text": "SCA", "correct": true},
+        {"text": "Arythmies", "correct": true},
+        {"text": "Thromboembolie", "correct": true},
+        {"text": "Long COVID CV", "correct": true}
+      ],
+      "explanation": "Complications."
+    },
+    {
+      "question": "Quelle est la prise en charge CV en COVID-19 ?",
+      "type": "single",
+      "options": [
+        {"text": "Anticoagulation prophylactique", "correct": true},
+        {"text": "Monitoring", "correct": false},
+        {"text": "Traitement spécifique", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Gestion CV en pandemic."
+    },
+    {
+      "question": "Quels sont les vaccins COVID et risque CV ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Myocardite rare avec mRNA", "correct": true},
+        {"text": "Thrombose avec adenoviral", "correct": true},
+        {"text": "Bénéfice > risque", "correct": true},
+        {"text": "Recommandés pour patients CV", "correct": true},
+        {"text": "Contre-indiqués", "correct": false}
+      ],
+      "explanation": "Risques vaccinaux rares."
+    },
+    {
+      "question": "Quelle est la définition de la long COVID CV ?",
+      "type": "single",
+      "options": [
+        {"text": "Symptômes persistants CV post-COVID", "correct": true},
+        {"text": "Acute", "correct": false},
+        {"text": "Respiratoire", "correct": false},
+        {"text": "Neurologique", "correct": false}
+      ],
+      "explanation": "Long COVID with CV manifestations."
+    },
+    {
+      "question": "Quels sont les symptômes de long COVID CV ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Palpitations", "correct": true},
+        {"text": "Dyspnée", "correct": true},
+        {"text": "Fatigue", "correct": true},
+        {"text": "Douleur thoracique", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "Symptômes persistants."
+    },
+    {
+      "question": "Quelle est la prise en charge de long COVID CV ?",
+      "type": "single",
+      "options": [
+        {"text": "Symptomatique, évaluation CV", "correct": true},
+        {"text": "Antiviraux", "correct": false},
+        {"text": "Vaccin", "correct": false},
+        {"text": "Observation", "correct": false}
+      ],
+      "explanation": "Gestion long COVID."
+    },
+    {
+      "question": "Quels sont les impacts de la pandemic sur soins CV ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Retard diagnostics", "correct": true},
+        {"text": "Réduction admissions SCA", "correct": true},
+        {"text": "Télémedicine augmentation", "correct": true},
+        {"text": "Augmentation mortalité CV", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "Impact pandemic."
+    },
+    {
+      "question": "Quelle est la définition de la e-health en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Utilisation technologies digitales pour santé CV", "correct": true},
+        {"text": "Apps", "correct": false},
+        {"text": "Wearables", "correct": false},
+        {"text": "Télémed", "correct": false}
+      ],
+      "explanation": "E-health CV."
+    },
+    {
+      "question": "Quels sont les exemples de e-health en cardiologie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Apps pour monitoring FC", "correct": true},
+        {"text": "Wearables ECG", "correct": true},
+        {"text": "Téléconsultations", "correct": true},
+        {"text": "Big data for research", "correct": true},
+        {"text": "Social media", "correct": true}
+      ],
+      "explanation": "Exemples."
+    },
+    {
+      "question": "Quelle est la place des wearables en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Détection FA, monitoring activité", "correct": true},
+        {"text": "Diagnostic définitif", "correct": false},
+        {"text": "Remplacement ECG", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Utilité des wearables."
+    },
+    {
+      "question": "Quels sont les défis de la e-health ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Data privacy", "correct": true},
+        {"text": "Validation", "correct": true},
+        {"text": "Accessibilité", "correct": true},
+        {"text": "Intégration EHR", "correct": true},
+        {"text": "Coût", "correct": true}
+      ],
+      "explanation": "Défis."
+    },
+    {
+      "question": "Quelle est la définition de la big data en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Analyse large datasets pour insights", "correct": true},
+        {"text": "Small data", "correct": false},
+        {"text": "Routine", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Big data CV."
+    },
+    {
+      "question": "Quels sont les applications de big data en cardiologie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Prédiction risque", "correct": true},
+        {"text": "Personnalisation traitement", "correct": true},
+        {"text": "Épidémiologie", "correct": true},
+        {"text": "Recherche", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "Applications."
+    },
+    {
+      "question": "Quelle est la place de la blockchain en santé ?",
+      "type": "single",
+      "options": [
+        {"text": "Sécurité data, EHR", "correct": true},
+        {"text": "Cryptomonnaie", "correct": false},
+        {"text": "Routine", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Blockchain for health data."
+    },
+    {
+      "question": "Quels sont les futurs en cardiologie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Médecine précision", "correct": true},
+        {"text": "Thérapie génique", "correct": true},
+        {"text": "IA", "correct": true},
+        {"text": "Nanotechnologie", "correct": true},
+        {"text": "Cœurs bioimprimés", "correct": true}
+      ],
+      "explanation": "Futurs développements."
+    },
+    {
+      "question": "Quelle est la définition de la durabilité en cardiologie ?",
+      "type": "single",
+      "options": [
+        {"text": "Réduction impact environnemental des soins CV", "correct": true},
+        {"text": "Longue vie", "correct": false},
+        {"text": "Soutenable", "correct": false},
+        {"text": "Toutes", "correct": false}
+      ],
+      "explanation": "Sustainable cardiology."
+    },
+    {
+      "question": "Quels sont les initiatives pour durabilité en cardiologie ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Réduction déchets cath lab", "correct": true},
+        {"text": "Télémed pour moins voyages", "correct": true},
+        {"text": "Énergie verte", "correct": true},
+        {"text": "Recyclage", "correct": true},
+        {"text": "Aucun", "correct": false}
+      ],
+      "explanation": "Green cardiology."
     }
   ],
   "clinical_cases": [
     {
-      "title": "Douleur thoracique chez un homme de 55 ans",
-      "difficulty": "Intermédiaire",
+      "title": "Hémorragie digestive chez un cirrhotique",
+      "difficulty": "Avancé",
       "steps": [
         {
           "title": "Présentation initiale",
-          "content": "Monsieur D., 55 ans, se présente aux urgences pour une douleur thoracique rétro-sternale constrictive survenue au repos, irradiant dans le bras gauche, évoluant depuis 45 minutes. Antécédents : HTA, tabagisme actif (20 PA), dyslipidémie.",
+          "content": "Monsieur V., 58 ans, cirrhose alcoolique connue Child B, se présente aux urgences pour hématémèse abondante survenue 1 heure auparavant. Il est pâle, suant, TA 95/60 mmHg, FC 120/min.",
           "type": "multiple_choice",
-          "question": "Quels examens demandez-vous en priorité?",
-          "options": ["ECG", "Biologie cardiaque", "Radiographie thoracique", "Échocardiographie"],
-          "correct_answer": "ECG",
-          "explanation": "L'ECG est l'examen de première intention devant toute douleur thoracique évocatrice de syndrome coronarien aigu."
+          "question": "Quelle est votre première action?",
+          "options": ["Mise en condition", "Endoscopie en urgence", "Traitement médicamenteux", "Appel du chirurgien"],
+          "correct_answer": "Mise en condition",
+          "explanation": "La priorité absolue est la réanimation : voie veineuse, remplissage, correction des troubles de coagulation."
         },
         {
-          "title": "Résultats initiaux",
-          "content": "ECG : sus-décalage du segment ST dans les territoires antérieurs. Troponine positive.",
-          "type": "multiple_choice",
-          "question": "Quel diagnostic évoquez-vous?",
-          "options": [
-            "Syndrome coronarien aigu avec sus-décalage du segment ST", 
-            "Péricardite aiguë", 
-            "Embolie pulmonaire", 
-            "Dissection aortique"
-          ],
-          "correct_answer": "Syndrome coronarien aigu avec sus-décalage du segment ST",
-          "explanation": "Le sus-décalage du segment ST associé à une douleur thoracique est caractéristique du STEMI."
-        },
-        {
-          "title": "Prise en charge",
-          "content": "Le patient est stable hémodynamiquement. Unité de coronarographie disponible dans l'heure.",
+          "title": "Bilan initial",
+          "content": "Hémoglobine 7.2 g/dL, TP 45%, plaquettes 85 000. Le patient est stabilisé sous noradrénaline.",
           "type": "multiple",
-          "question": "Quelle est la stratégie thérapeutique?",
-          "options": [
-            "Angioplastie primaire", 
-            "Thrombolyse", 
-            "Traitement médical antalgique", 
-            "Chirurgie en urgence"
-          ],
-          "correct_options": ["Angioplastie primaire"],
-          "explanation": "L'angioplastie primaire est le traitement de choix quand elle est disponible dans les délais (<90 minutes)."
+          "question": "Quels traitements spécifiques instaurez-vous?",
+          "options": ["Antibiotiques", "Terlipressine", "Sonde de Sengstaken", "Transfusion", "Vitamine K"],
+          "correct_options": ["Antibiotiques", "Terlipressine"],
+          "explanation": "Les antibiotiques (prévention de l'infection) et la terlipressine (réduction de l'HT portale) sont des traitements spécifiques de l'hémorragie digestive du cirrhotique."
+        },
+        {
+          "title": "Prise en charge endoscopique",
+          "content": "L'endoscopie montre des varices œsophagiennes grade III avec signe rouge, saignantes activement.",
+          "type": "multiple_choice",
+          "question": "Quel geste réalisez-vous?",
+          "options": ["Ligature élastique", "Sclérose", "Colle biologique", "Coagulation au plasma argon"],
+          "correct_answer": "Ligature élastique",
+          "explanation": "La ligature élastique est le traitement endoscopique de référence des varices œsophagiennes hémorragiques."
         }
       ],
-      "solution": "**Diagnostic final:** Syndrome coronarien aigu avec sus-décalage du segment ST (STEMI) antérieur.\n\n**Prise en charge:** Angioplastie primaire avec mise en place de stent. Traitement médical associé : Aspirine, Ticagrelor, Héparine, Statine.\n\n**Points clés:** \n- L'ECG est l'examen clé du diagnostic\n- L'angioplastie primaire est le traitement de référence\n- La prise en charge médicamenteuse doit être initiée précocement\n- Surveillance en unité de soins intensifs cardiologiques"
+      "solution": "**Diagnostic final:** Hémorragie digestive haute sur rupture de varices œsophagiennes chez un cirrhotique Child B.\n\n**Prise en charge:** Réanimation initiale, antibiotiques prophylactiques, terlipressine, ligature endoscopique en urgence.\n\n**Points clés:**\n- Risque élevé de récidive hémorragique\n- Prévention de l'infection spontanée\n- Évaluation pronostique (score de Child-Pugh)\n- Discussion TIPS en cas d'échec"
     }
   ]
 }
