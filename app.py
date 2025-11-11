@@ -728,7 +728,7 @@ elif choice == "Mode Compétition":
                 col_btn1, col_btn2, col_btn3 = st.columns([1, 1, 1])
                 
                 with col_btn1:
-                    if st.button("✅ Valider", use_container_width=True) and user_answer != "⏭️ Passer":
+                    if st.button("✅ Valider", width='stretch') and user_answer != "⏭️ Passer":
                         correct_answers = [opt['text'] for opt in question['options'] if opt.get('correct', False)]
                         
                         if question['type'] == 'single':
@@ -765,7 +765,7 @@ elif choice == "Mode Compétition":
                         st.rerun()
                 
                 with col_btn2:
-                    if st.button("⏭️ Passer", use_container_width=True):
+                    if st.button("⏭️ Passer", width='stretch'):
                         # Passer sans pénalité
                         if st.session_state.comp_current_q < len(st.session_state.comp_questions) - 1:
                             st.session_state.comp_current_q += 1
@@ -774,7 +774,7 @@ elif choice == "Mode Compétition":
                         st.rerun()
                 
                 with col_btn3:
-                    if st.button("🏁 Terminer", type="secondary", use_container_width=True):
+                    if st.button("🏁 Terminer", type="secondary", width='stretch'):
                         st.session_state.competition_mode = False
                         st.session_state.comp_finished = True
                         
@@ -798,7 +798,7 @@ elif choice == "Mode Compétition":
                         is_current = "🔵" if col_idx == current_index else ""
                         if st.button(f"{status}{is_current}{col_idx + 1}", 
                                    key=f"nav_{col_idx}",
-                                   use_container_width=True,
+                                   width='stretch',
                                    type="primary" if col_idx == current_index else "secondary"):
                             st.session_state.comp_current_q = col_idx
                             st.rerun()
@@ -837,14 +837,14 @@ elif choice == "Mode Compétition":
         # Boutons d'action
         col_restart, col_home = st.columns(2)
         with col_restart:
-            if st.button("🔄 Nouvelle compétition", use_container_width=True):
+            if st.button("🔄 Nouvelle compétition", width='stretch'):
                 # Réinitialiser l'état
                 for key in [k for k in st.session_state.keys() if k.startswith('comp_')]:
                     del st.session_state[key]
                 st.rerun()
         
         with col_home:
-            if st.button("🏠 Retour à l'accueil", use_container_width=True):
+            if st.button("🏠 Retour à l'accueil", width='stretch'):
                 # Réinitialiser l'état
                 for key in [k for k in st.session_state.keys() if k.startswith('comp_')]:
                     del st.session_state[key]
@@ -977,7 +977,7 @@ elif choice == "Profil et Badges":
             # Graphique radar
             radar_chart = analytics.create_specialty_radar_chart(st.session_state.username)
             if radar_chart:
-                st.plotly_chart(radar_chart, use_container_width=True)
+                st.plotly_chart(radar_chart, width='stretch')
             else:
                 st.info("Complétez des quiz pour voir vos statistiques")
     
@@ -1021,7 +1021,7 @@ elif choice == "Profil et Badges":
         
         timeline_chart = analytics.create_progress_timeline(st.session_state.username)
         if timeline_chart:
-            st.plotly_chart(timeline_chart, use_container_width=True)
+            st.plotly_chart(timeline_chart, width='stretch')
             
             # Recommandations basées sur les données
             st.markdown("### 💡 Recommandations personnalisées")
@@ -1047,7 +1047,7 @@ elif choice == "🏆 Simulations ECN":
         st.stop()
     
     # Initialiser le simulateur
-    if 'ecn_simulator' not in st.session_state:
+    if 'ecn_simulator' not in st.session_state or st.session_state.ecn_simulator is None:
         from utils.ecn_simulator import ECNSimulator
         st.session_state.ecn_simulator = ECNSimulator(quiz_mgr)
     
@@ -1074,7 +1074,7 @@ elif choice == "🏆 Simulations ECN":
         5. Validation finale avec résultats détaillés
         """)
         
-        if st.button("🎯 Démarrer une Simulation ECN", type="primary", use_container_width=True):
+        if st.button("🎯 Démarrer une Simulation ECN", type="primary", width='stretch'):
             # Générer une nouvelle session
             session = simulator.generate_simulation_session()
             st.session_state.ecn_session = session
@@ -1139,7 +1139,7 @@ elif choice == "🏆 Simulations ECN":
                 status = "✅" if section_progress == 1 else "🟡" if section_progress > 0 else "⚪"
                 
                 if st.button(f"{status} Section {i+1}", key=f"section_{i}", 
-                           use_container_width=True, type="primary" if i == current_section else "secondary"):
+                           width='stretch', type="primary" if i == current_section else "secondary"):
                     st.session_state.ecn_current_section = i
                     st.session_state.ecn_current_question = i * 30
                     st.rerun()
@@ -1273,15 +1273,15 @@ elif choice == "🏆 Simulations ECN":
         # Boutons d'action
         col1, col2, col3 = st.columns(3)
         with col1:
-            if st.button("🔄 Nouvelle simulation", use_container_width=True):
+            if st.button("🔄 Nouvelle simulation", width='stretch'):
                 for key in [k for k in st.session_state.keys() if k.startswith('ecn_')]:
                     del st.session_state[key]
                 st.rerun()
         with col2:
-            if st.button("📊 Voir le détail des réponses", use_container_width=True):
+            if st.button("📊 Voir le détail des réponses", width='stretch'):
                 st.session_state.show_ecn_details = True
         with col3:
-            if st.button("🏠 Retour à l'accueil", use_container_width=True):
+            if st.button("🏠 Retour à l'accueil", width='stretch'):
                 for key in [k for k in st.session_state.keys() if k.startswith('ecn_')]:
                     del st.session_state[key]
                 st.rerun()
