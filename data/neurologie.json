@@ -1,0 +1,86 @@
+{
+  "quizzes": [
+    {
+      "question": "Quel est le traitement de première intention de la crise d'épilepsie tonico-clonique généralisée en cours?",
+      "type": "single",
+      "options": [
+        {"text": "Diazépam IV", "correct": true},
+        {"text": "Phénytoïne IV", "correct": false},
+        {"text": "Valproate oral", "correct": false},
+        {"text": "Carbamazépine", "correct": false}
+      ],
+      "explanation": "Les benzodiazépines IV (diazépam, clonazépam) sont le traitement de première intention du statut épileptique."
+    },
+    {
+      "question": "Quels sont les signes d'alerte d'un AVC ischémique en cours?",
+      "type": "multiple",
+      "options": [
+        {"text": "Déficit moteur unilatéral", "correct": true},
+        {"text": "Trouble de la parole", "correct": true},
+        {"text": "Céphalée brutale", "correct": true},
+        {"text": "Vertige isolé", "correct": false},
+        {"text": "Trouble visuel transitoire", "correct": true}
+      ],
+      "explanation": "Les signes FAST (Face, Arm, Speech, Time) sont les signes d'alerte principaux auxquels s'ajoutent céphalée brutale et trouble visuel."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente de démence chez le sujet âgé?",
+      "type": "single",
+      "options": [
+        {"text": "Maladie d'Alzheimer", "correct": true},
+        {"text": "Démence vasculaire", "correct": false},
+        {"text": "Démence à corps de Lewy", "correct": false},
+        {"text": "Dégénérescence fronto-temporale", "correct": false}
+      ],
+      "explanation": "La maladie d'Alzheimer représente 60-70% des démences, suivie par la démence vasculaire."
+    },
+    {
+      "question": "Quels examens sont indispensables devant une première crise d'épilepsie?",
+      "type": "multiple",
+      "options": [
+        {"text": "EEG", "correct": true},
+        {"text": "IRM cérébrale", "correct": true},
+        {"text": "Ponction lombaire", "correct": false},
+        {"text": "Scanner cérébral", "correct": true},
+        {"text": "Électrocardiogramme", "correct": true}
+      ],
+      "explanation": "L'EEG, l'imagerie cérébrale et l'ECG sont indispensables. La PL n'est indiquée qu'en cas de suspicion de méningite."
+    }
+  ],
+  "clinical_cases": [
+    {
+      "title": "Déficit neurologique brutal",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Appel SAMU",
+          "content": "Madame P., 72 ans, HTA traitée, appelle le SAMU pour un déficit brutal du bras et de la jambe droits apparus il y a 2 heures. Elle présente des difficultés d'élocution.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Conseiller de consulter son médecin", "Orienter vers une consultation spécialisée", "Déclencher une équipe mobile AVC", "Programmer un scanner pour le lendemain"],
+          "correct_answer": "Déclencher une équipe mobile AVC",
+          "explanation": "Tout déficit neurologique brutal doit faire suspecter un AVC et déclencher la filière AVC en urgence."
+        },
+        {
+          "title": "Arrivée aux urgences",
+          "content": "NIHSS à 12 (aphasie, hémiparésie droite). Délai depuis le début des symptômes : 2h30. Pas de contre-indication à la thrombolyse.",
+          "type": "multiple",
+          "question": "Quelles actions thérapeutiques envisagez-vous?",
+          "options": ["Thrombolyse IV", "Thrombectomie mécanique", "Aspirine", "Héparine", "Imagerie vasculaire en urgence"],
+          "correct_options": ["Thrombolyse IV", "Thrombectomie mécanique", "Imagerie vasculaire en urgence"],
+          "explanation": "Dans la fenêtre thérapeutique, la thrombolyse IV et/ou la thrombectomie mécanique sont indiquées après imagerie."
+        },
+        {
+          "title": "Bilan étiologique",
+          "content": "Le scanner cérébral sans injection est normal. L'angio-scanner montre une occlusion de l'artère cérébrale moyenne gauche.",
+          "type": "multiple_choice",
+          "question": "Quel est le mécanisme le plus probable?",
+          "options": ["Cardio-embolique", "Athérothrombotique", "Lacunaire", "Dissection"],
+          "correct_answer": "Cardio-embolique",
+          "explanation": "L'occlusion d'un gros tronc artériel chez une patiente âgée avec HTA évoque une origine cardio-embolique (FA notamment)."
+        }
+      ],
+      "solution": "**Diagnostic final:** AVC ischémique carotidien gauche par occlusion de l'ACM.\n\n**Prise en charge:** Thrombolyse IV dans la fenêtre thérapeutique, puis thrombectomie mécanique. Bilan étiologique complet.\n\n**Points clés:**\n- Urgence absolue : time is brain\n- NIHSS pour évaluation quantitative\n- Imagerie vasculaire indispensable\n- Recherche systématique de FA"
+    }
+  ]
+}

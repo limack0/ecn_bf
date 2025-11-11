@@ -1,0 +1,86 @@
+{
+  "quizzes": [
+    {
+      "question": "Quel est l'antibiotique de première intention dans une pneumonie communautaire non sévère sans comorbidité?",
+      "type": "single",
+      "options": [
+        {"text": "Amoxicilline", "correct": true},
+        {"text": "Céfotaxime", "correct": false},
+        {"text": "Levofloxacine", "correct": false},
+        {"text": "Clarithromycine", "correct": false}
+      ],
+      "explanation": "L'amoxicilline est l'antibiotique de première intention dans les pneumonies communautaires de l'adulte sans comorbidité."
+    },
+    {
+      "question": "Quels sont les germes les plus fréquents dans les méningites communautaires de l'adulte?",
+      "type": "multiple",
+      "options": [
+        {"text": "Streptococcus pneumoniae", "correct": true},
+        {"text": "Neisseria meningitidis", "correct": true},
+        {"text": "Listeria monocytogenes", "correct": true},
+        {"text": "Escherichia coli", "correct": false},
+        {"text": "Haemophilus influenzae", "correct": false}
+      ],
+      "explanation": "Les trois germes principaux sont le pneumocoque, le méningocoque et Listeria (sujets âgés ou immunodéprimés)."
+    },
+    {
+      "question": "Quelle est la durée optimale de traitement d'une endocardite à entérocoque sensible?",
+      "type": "single",
+      "options": [
+        {"text": "2 semaines", "correct": false},
+        {"text": "4 semaines", "correct": false},
+        {"text": "6 semaines", "correct": true},
+        {"text": "8 semaines", "correct": false}
+      ],
+      "explanation": "Le traitement des endocardites à entérocoque nécessite 6 semaines d'antibiothérapie combinée."
+    },
+    {
+      "question": "Quels sont les critères de sepsis sévère?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypotension artérielle", "correct": true},
+        {"text": "Lactatémie > 2 mmol/L", "correct": true},
+        {"text": "Créatininémie élevée", "correct": true},
+        {"text": "Leucocytose", "correct": false},
+        {"text": "Fièvre > 39°C", "correct": false}
+      ],
+      "explanation": "Le sepsis sévère est défini par un sepsis avec signe de dysfonction d'organe (hypotension, lactatémie élevée, insuffisance rénale)."
+    }
+  ],
+  "clinical_cases": [
+    {
+      "title": "Syndrome septicémique post-opératoire",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Contexte",
+          "content": "Madame G., 72 ans, opérée 5 jours auparavant d'une cholécystectomie pour cholécystite aiguë. Elle présente depuis 24h des frissons, fièvre à 39.5°C, altération de l'état général.",
+          "type": "multiple_choice",
+          "question": "Quel diagnostic évoquez-vous?",
+          "options": ["Infection urinaire", "Infection de paroi", "Abcès intra-abdominal", "Pneumopathie", "Bactériémie sur cathéter"],
+          "correct_answer": "Abcès intra-abdominal",
+          "explanation": "Le contexte post-opératoire abdominal avec syndrome septicémique évoque en premier lieu un abcès intra-abdominal."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "TA 85/50 mmHg, FC 130/min, SpO2 94%. Leucocytes 18 000/mm3, CRP 250 mg/L. Créatininémie 180 μmol/L (normale en pré-op).",
+          "type": "multiple",
+          "question": "Quelles actions thérapeutiques immédiates?",
+          "options": ["Antibiothérapie probabiliste", "Remplissage vasculaire", "Scanners abdominaux", "Prélèvements bactériologiques", "Vasopresseurs"],
+          "correct_options": ["Antibiothérapie probabiliste", "Remplissage vasculaire", "Prélèvements bactériologiques"],
+          "explanation": "Antibiothérapie large spectre + remplissage dans l'heure + prélèvements avant antibiotiques sont les mesures urgentes du choc septique."
+        },
+        {
+          "title": "Imagerie et évolution",
+          "content": "Le scanner abdominal montre un abcès sous-hépatique. L'hémoculture revient positive à E. coli BLSE.",
+          "type": "multiple_choice",
+          "question": "Quel antibiotique choisissez-vous?",
+          "options": ["Pipéracilline-tazobactam", "Céfotaxime", "Imipénème", "Ciprofloxacine"],
+          "correct_answer": "Imipénème",
+          "explanation": "Face à un E. coli BLSE, les carbapénèmes sont l'option de choix. La pipéracilline-tazobactam n'est plus active."
+        }
+      ],
+      "solution": "**Diagnostic final:** Choc septique sur abcès intra-abdominal post-opératoire à E. coli BLSE.\n\n**Prise en charge:** Réanimation avec remplissage, antibiotiques à large spectre adaptés secondairement, drainage de l'abcès.\n\n**Points clés:**\n- Antibiothérapie probabiliste large spectre en post-opératoire\n- Prélèvements avant antibiotiques\n- Adaptation selon l'antibiogramme\n- Drainage indispensable des collections"
+    }
+  ]
+}

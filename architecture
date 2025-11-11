@@ -1,0 +1,12 @@
+ecn_prep_app/
+├── app.py
+├── database.py
+├── config.py
+├── requirements.txt
+├── data/
+│   ├── cardiologie.json
+│   ├── pneumologie.json
+│   └── neurologie.json
+└── utils/
+    ├── quiz_manager.py
+    └── badge_system.py

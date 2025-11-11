@@ -1,0 +1,86 @@
+{
+  "quizzes": [
+    {
+      "question": "Quel est le traitement de première intention de la crise d'asthme aiguë grave?",
+      "type": "single",
+      "options": [
+        {"text": "Corticoïdes intraveineux", "correct": false},
+        {"text": "Bronchodilatateurs en nébulisation", "correct": true},
+        {"text": "Antibiotiques", "correct": false},
+        {"text": "Oxygénothérapie seule", "correct": false}
+      ],
+      "explanation": "Les bronchodilatateurs bêta-2 agonistes en nébulisation sont le traitement de première intention de la crise d'asthme."
+    },
+    {
+      "question": "Quels sont les critères d'hospitalisation d'une pneumopathie communautaire?",
+      "type": "multiple",
+      "options": [
+        {"text": "Fréquence respiratoire > 30/min", "correct": true},
+        {"text": "Pression artérielle systolique < 90 mmHg", "correct": true},
+        {"text": "Confusion", "correct": true},
+        {"text": "Fièvre > 38.5°C", "correct": false},
+        {"text": "Âge > 65 ans", "correct": true}
+      ],
+      "explanation": "Les critères de CURB-65 incluent confusion, urée élevée, fréquence respiratoire, pression artérielle basse et âge > 65 ans."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente d'hémoptysie abondante?",
+      "type": "single",
+      "options": [
+        {"text": "Cancer bronchique", "correct": false},
+        {"text": "Bronchectasies", "correct": true},
+        {"text": "Tuberculose", "correct": false},
+        {"text": "Embolie pulmonaire", "correct": false}
+      ],
+      "explanation": "Les bronchectasies sont la cause la plus fréquente d'hémoptysie abondante dans les pays développés."
+    },
+    {
+      "question": "Quels examens sont indispensables au diagnostic de BPCO?",
+      "type": "multiple",
+      "options": [
+        {"text": "Spirométrie", "correct": true},
+        {"text": "Radiographie thoracique", "correct": false},
+        {"text": "Gaz du sang artériel", "correct": false},
+        {"text": "Test de réversibilité aux bronchodilatateurs", "correct": true},
+        {"text": "Scanner thoracique", "correct": false}
+      ],
+      "explanation": "La spirométrie avec test de réversibilité est indispensable au diagnostic de BPCO (rapport VEMS/CV < 0.7)."
+    }
+  ],
+  "clinical_cases": [
+    {
+      "title": "Dyspnée aiguë chez un fumeur",
+      "difficulty": "Intermédiaire",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Monsieur L., 68 ans, fumeur (40 PA), consulte pour dyspnée aiguë d'aggravation progressive depuis 48 heures. Il présente une toux productive avec expectorations purulentes. Pas de fièvre.",
+          "type": "multiple_choice",
+          "question": "Quel diagnostic évoquez-vous en premier?",
+          "options": ["Exacerbation de BPCO", "Pneumopathie", "Insuffisance cardiaque", "Embolie pulmonaire"],
+          "correct_answer": "Exacerbation de BPCO",
+          "explanation": "Le terrain (fumeur âgé) et les symptômes (dyspnée, expectorations purulentes) sont très évocateurs d'exacerbation de BPCO."
+        },
+        {
+          "title": "Examen clinique",
+          "content": "À l'examen : FR 28/min, SpO2 88% air ambiant, sibilants diffus, temps expiratoire prolongé. Pas de crépitants.",
+          "type": "multiple",
+          "question": "Quels traitements initiez-vous en urgence?",
+          "options": ["Oxygénothérapie", "Bronchodilatateurs", "Corticoïdes", "Antibiotiques", "Diurétiques"],
+          "correct_options": ["Oxygénothérapie", "Bronchodilatateurs", "Corticoïdes"],
+          "explanation": "La triade oxygène-bronchodilatateurs-corticoïdes est le traitement de base de l'exacerbation de BPCO."
+        },
+        {
+          "title": "Évolution",
+          "content": "Sous traitement, la SpO2 remonte à 92% sous 2L/min. La dyspnée persiste modérée. Les gaz du sang montrent une PaCO2 à 55 mmHg.",
+          "type": "multiple_choice",
+          "question": "Quelle est la conduite à tenir?",
+          "options": ["Ventilation non invasive", "Intubation", "Augmentation de l'oxygène", "Arrêt des corticoïdes"],
+          "correct_answer": "Ventilation non invasive",
+          "explanation": "L'hypercapnie sous traitement médical bien conduit est une indication de ventilation non invasive dans la BPCO."
+        }
+      ],
+      "solution": "**Diagnostic final:** Exacerbation sévère de BPCO avec hypercapnie.\n\n**Prise en charge:** Ventilation non invasive, bronchodilatateurs nébulisés, corticoïdes systémiques, oxygénothérapie contrôlée.\n\n**Points clés:**\n- Ne pas sur-oxygéner un BPCO (risque d'hypercapnie)\n- La VNI réduit la mortalité dans les exacerbations sévères\n- Évaluation systématique de la gazométrie"
+    }
+  ]
+}

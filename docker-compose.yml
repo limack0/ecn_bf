@@ -1,0 +1,27 @@
+
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=ecn_prep
+      - DB_USER=limack0
+      - DB_PASSWORD=limack0postgresql
+    depends_on:
+      - db
+
+  db:
+    image: postgres:13
+    environment:
+      - POSTGRES_DB=ecn_prep
+      - POSTGRES_USER=limack0
+      - POSTGRES_PASSWORD=limack0postgresql
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  postgres_data:

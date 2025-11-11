@@ -1,0 +1,86 @@
+{
+  "quizzes": [
+    {
+      "question": "Quelle est la manœuvre de première intention devant une obstruction aiguë des voies aériennes par corps étranger chez l'adulte conscient?",
+      "type": "single",
+      "options": [
+        {"text": "Manœuvre de Heimlich", "correct": true},
+        {"text": "Claques dans le dos", "correct": false},
+        {"text": "Intubation", "correct": false},
+        {"text": "Trachéotomie", "correct": false}
+      ],
+      "explanation": "La manœuvre de Heimlich (compressions abdominales) est la technique de première intention chez l'adulte conscient."
+    },
+    {
+      "question": "Quels sont les signes de gravité d'un traumatisme crânien?",
+      "type": "multiple",
+      "options": [
+        {"text": "Score de Glasgow < 8", "correct": true},
+        {"text": "Pupille asymétrique", "correct": true},
+        {"text": "Déficit neurologique focal", "correct": true},
+        {"text": "Céphalées", "correct": false},
+        {"text": "Vomissements", "correct": true}
+      ],
+      "explanation": "Les signes de gravité imposant un scanner urgent sont : GCS < 8, signes de localisation, crise comitiale, vomissements."
+    },
+    {
+      "question": "Quel est le traitement de première intention de l'oedème aigu du poumon cardiogénique?",
+      "type": "single",
+      "options": [
+        {"text": "Diurétiques de l'anse IV", "correct": true},
+        {"text": "Bêta-bloquants", "correct": false},
+        {"text": "Digitaliques", "correct": false},
+        {"text": "Antiarythmiques", "correct": false}
+      ],
+      "explanation": "Les diurétiques de l'anse IV associés à la morphine et aux dérivés nitrés sont le traitement de première intention de l'OAP cardiogénique."
+    },
+    {
+      "question": "Quels sont les critères d'hospitalisation d'une intoxication médicamenteuse volontaire?",
+      "type": "multiple",
+      "options": [
+        {"text": "Trouble de la conscience", "correct": true},
+        {"text": "Trouble du rythme cardiaque", "correct": true},
+        {"text": "Délai > 4h pour les lavages", "correct": false},
+        {"text": "Contexte suicidaire", "correct": true},
+        {"text": "Prise d'antidépresseurs tricycliques", "correct": true}
+      ],
+      "explanation": "L'hospitalisation est systématique en cas de trouble de conscience, trouble du rythme, produit cardiotoxique ou contexte suicidaire."
+    }
+  ],
+  "clinical_cases": [
+    {
+      "title": "Polytraumatisme après accident de la route",
+      "difficulty": "Expert",
+      "steps": [
+        {
+          "title": "Arrivée du SMUR",
+          "content": "Jeune homme de 25 ans, conducteur, accident à haute énergie. À l'arrivée du SMUR : GCS 10, TA 80/40 mmHg, FC 140/min, SpO2 85% sous 15L/min.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Intubation", "Ponction pleurale", "Remplissage", "Scanner corps entier"],
+          "correct_answer": "Intubation",
+          "explanation": "Priorité ABC : Airway (GCS bas) puis Breathing (détresse respiratoire) avant Circulation."
+        },
+        {
+          "title": "Bilan lésionnel initial",
+          "content": "Intubé, sédaté. À l'examen : matité basithoracique droite, abdomen sensible, déformation du bassin. Échographie FAST positive à l'hypocondre droit.",
+          "type": "multiple",
+          "question": "Quelles lésions suspectez-vous?",
+          "options": ["Hémothorax", "Pneumothorax", "Rupture splénique", "Fracture du bassin", "Traumatisme crânien"],
+          "correct_options": ["Hémothorax", "Rupture splénique", "Fracture du bassin"],
+          "explanation": "La matité thoracique évoque un hémothorax, le FAST positif une lésion splénique, la déformation du bassin une fracture."
+        },
+        {
+          "title": "Prise en charge hospitalière",
+          "content": "Au scanner : hémothorax droit massif, rupture splénique stade IV, fracture du bassin instable, TCG sans hématome.",
+          "type": "multiple_choice",
+          "question": "Quelle est la priorité chirurgicale?",
+          "options": ["Splénectomie", "Fixation du bassin", "Drainage thoracique", "Trépanation"],
+          "correct_answer": "Splénectomie",
+          "explanation": "L'hémopéritoine actif par rupture splénique est la menace vitale immédiate la plus importante."
+        }
+      ],
+      "solution": "**Diagnostic final:** Polytraumatisme avec hémothorax, rupture splénique, fracture du bassin instable.\n\n**Prise en charge:** Intubation, remplissage, transfusion, splénectomie en urgence, puis fixation du bassin secondaire.\n\n**Points clés:**\n- Priorité ABCDE du polytraumatisé\n- FAST échographique en urgence\n- Hémorragie interne = menace vitale immédiate\n- Prise en charge multidisciplinaire"
+    }
+  ]
+}

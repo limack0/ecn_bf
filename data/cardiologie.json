@@ -1,0 +1,107 @@
+{
+  "quizzes": [
+    {
+      "question": "Quelle est la première intention thérapeutique dans l'infarctus du myocarde avec sus-décalage du segment ST?",
+      "type": "single",
+      "options": [
+        {"text": "Aspirine + Clopidogrel", "correct": false},
+        {"text": "Angioplastie primaire", "correct": true},
+        {"text": "Thrombolyse", "correct": false},
+        {"text": "Traitement médical seul", "correct": false}
+      ],
+      "explanation": "L'angioplastie primaire est le traitement de première intention lorsqu'elle est disponible dans les délais (<90 minutes)."
+    },
+    {
+      "question": "Quels sont les facteurs de risque modifiables de l'insuffisance cardiaque?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypertension artérielle", "correct": true},
+        {"text": "Diabète", "correct": true},
+        {"text": "Âge", "correct": false},
+        {"text": "Tabagisme", "correct": true},
+        {"text": "Antécédents familiaux", "correct": false}
+      ],
+      "explanation": "L'HTA, le diabète et le tabagisme sont des facteurs modifiables, contrairement à l'âge et aux antécédents familiaux."
+    },
+    {
+      "question": "Quel est le traitement de première intention de l'hypertension artérielle non compliquée chez le sujet jeune?",
+      "type": "single",
+      "options": [
+        {"text": "Diurétique thiazidique", "correct": false},
+        {"text": "Bêta-bloquant", "correct": false},
+        {"text": "Inhibiteur de l'enzyme de conversion", "correct": true},
+        {"text": "Antagoniste du calcium", "correct": false}
+      ],
+      "explanation": "Les IEC sont recommandés en première intention chez le sujet jeune en raison de leur bon profil d'efficacité et de tolérance."
+    },
+    {
+      "question": "Quels signes évoquent une tamponnade cardiaque?",
+      "type": "multiple",
+      "options": [
+        {"text": "Pouls paradoxal", "correct": true},
+        {"text": "Hypotension artérielle", "correct": true},
+        {"text": "Turgescence jugulaire", "correct": true},
+        {"text": "Bradycardie", "correct": false},
+        {"text": "Souffle cardiaque", "correct": false}
+      ],
+      "explanation": "La triade de Beck associe hypotension, turgescence jugulaire et bruits cardiaques assourdis. Le pouls paradoxal est très évocateur."
+    },
+    {
+      "question": "Quelle est la conduite à tenir devant une fibrillation atriale rapide mal tolérée?",
+      "type": "single",
+      "options": [
+        {"text": "Digitaliques", "correct": false},
+        {"text": "Choc électrique externe", "correct": true},
+        {"text": "Amiodarone IV", "correct": false},
+        {"text": "Bêta-bloquant oral", "correct": false}
+      ],
+      "explanation": "La cardioversion électrique est indiquée en urgence devant une FA mal tolérée avec instabilité hémodynamique."
+    }
+  ],
+  "clinical_cases": [
+    {
+      "title": "Douleur thoracique chez un homme de 55 ans",
+      "difficulty": "Intermédiaire",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Monsieur D., 55 ans, se présente aux urgences pour une douleur thoracique rétro-sternale constrictive survenue au repos, irradiant dans le bras gauche, évoluant depuis 45 minutes. Antécédents : HTA, tabagisme actif (20 PA), dyslipidémie.",
+          "type": "multiple_choice",
+          "question": "Quels examens demandez-vous en priorité?",
+          "options": ["ECG", "Biologie cardiaque", "Radiographie thoracique", "Échocardiographie"],
+          "correct_answer": "ECG",
+          "explanation": "L'ECG est l'examen de première intention devant toute douleur thoracique évocatrice de syndrome coronarien aigu."
+        },
+        {
+          "title": "Résultats initiaux",
+          "content": "ECG : sus-décalage du segment ST dans les territoires antérieurs. Troponine positive.",
+          "type": "multiple_choice",
+          "question": "Quel diagnostic évoquez-vous?",
+          "options": [
+            "Syndrome coronarien aigu avec sus-décalage du segment ST", 
+            "Péricardite aiguë", 
+            "Embolie pulmonaire", 
+            "Dissection aortique"
+          ],
+          "correct_answer": "Syndrome coronarien aigu avec sus-décalage du segment ST",
+          "explanation": "Le sus-décalage du segment ST associé à une douleur thoracique est caractéristique du STEMI."
+        },
+        {
+          "title": "Prise en charge",
+          "content": "Le patient est stable hémodynamiquement. Unité de coronarographie disponible dans l'heure.",
+          "type": "multiple",
+          "question": "Quelle est la stratégie thérapeutique?",
+          "options": [
+            "Angioplastie primaire", 
+            "Thrombolyse", 
+            "Traitement médical antalgique", 
+            "Chirurgie en urgence"
+          ],
+          "correct_options": ["Angioplastie primaire"],
+          "explanation": "L'angioplastie primaire est le traitement de choix quand elle est disponible dans les délais (<90 minutes)."
+        }
+      ],
+      "solution": "**Diagnostic final:** Syndrome coronarien aigu avec sus-décalage du segment ST (STEMI) antérieur.\n\n**Prise en charge:** Angioplastie primaire avec mise en place de stent. Traitement médical associé : Aspirine, Ticagrelor, Héparine, Statine.\n\n**Points clés:** \n- L'ECG est l'examen clé du diagnostic\n- L'angioplastie primaire est le traitement de référence\n- La prise en charge médicamenteuse doit être initiée précocement\n- Surveillance en unité de soins intensifs cardiologiques"
+    }
+  ]
+}

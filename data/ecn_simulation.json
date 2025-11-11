@@ -1,0 +1,27 @@
+{
+  "quizzes": [
+    {
+      "question": "Devant une douleur thoracique typique avec sus-décalage du segment ST à l'ECG, quelle est la conduite à tenir en première intention si la coronarographie est disponible dans les 90 minutes?",
+      "type": "single",
+      "options": [
+        {"text": "Thrombolyse intraveineuse", "correct": false},
+        {"text": "Angioplastie primaire", "correct": true},
+        {"text": "Traitement antalgique seul", "correct": false},
+        {"text": "Attente sous monitoring", "correct": false}
+      ],
+      "explanation": "L'angioplastie primaire est le traitement de référence du STEMI lorsqu'elle est disponible dans les délais."
+    },
+    {
+      "question": "Quels sont les critères de gravité d'une crise d'asthme aiguë chez l'adulte?",
+      "type": "multiple",
+      "options": [
+        {"text": "Silence auscultatoire", "correct": true},
+        {"text": "Cyanose", "correct": true},
+        {"text": "Bradycardie", "correct": false},
+        {"text": "Pouls paradoxal", "correct": true},
+        {"text": "Hypotension artérielle", "correct": true}
+      ],
+      "explanation": "Les critères de gravité incluent les signes de lutte, l'hypoxémie et l'épuisement. La bradycardie n'est pas un signe typique."
+    }
+  ]
+}
