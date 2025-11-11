@@ -1448,5 +1448,5 @@ elif choice == "🏆 Simulations ECN":
 st.markdown("---")
 st.markdown(
     "**ECN Prep** - Plateforme de préparation aux ECN pour les étudiants en santé | "
-    "Développé par Limack0 © 2025"
+    "Développé par Limack0 © 2025, Tous droits réservés. mbeogo@gmail.com"
 )
