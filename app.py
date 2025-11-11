@@ -219,7 +219,7 @@ elif choice == "Mode Quiz":
         specialty = st.selectbox("Choisir une spécialité", quiz_mgr.get_specialties())
         num_questions = st.slider("Nombre de questions", 5, 20, 10)
         
-        if st.button("🚀 Démarrer le Quiz") and not st.session_state.quiz_started:
+        if st.button("🚀 Démarrer le Quiz", key= "ecn_start_quiz") and not st.session_state.quiz_started:
             questions = quiz_mgr.get_quiz_questions(specialty, num_questions)
             if questions:
                 st.session_state.questions = questions
@@ -1089,33 +1089,45 @@ elif choice == "🏆 Simulations ECN":
         5. Validation finale avec résultats détaillés
         """)
         
-        if st.button("🎯 Démarrer une Simulation ECN", type="primary", width='stretch'):
+        # Bouton pour démarrer une nouvelle simulation
+        if st.button("🎯 Démarrer une Simulation ECN", type="primary", use_container_width=True, key="start_ecn_btn"):
             # Générer une nouvelle session
             session = simulator.generate_simulation_session()
-            st.session_state.ecn_session = session
-            st.session_state.ecn_current_section = 0
-            st.session_state.ecn_current_question = 0
-            st.session_state.ecn_answers = [{} for _ in range(session['total_questions'])]
-            st.session_state.ecn_start_time = time.time()
-            st.session_state.ecn_simulation_active = True
-            st.session_state.ecn_simulation_finished = False
-            st.session_state.ecn_results = None
-            st.rerun()
+            if session and session['questions']:
+                st.session_state.ecn_session = session
+                st.session_state.ecn_current_section = 0
+                st.session_state.ecn_current_question = 0
+                st.session_state.ecn_answers = [{} for _ in range(session['total_questions'])]
+                st.session_state.ecn_start_time = time.time()
+                st.session_state.ecn_simulation_active = True
+                st.session_state.ecn_simulation_finished = False
+                st.session_state.ecn_results = None
+                st.rerun()
+            else:
+                st.error("❌ Impossible de générer la simulation. Vérifiez les données disponibles.")
     
-    # Simulation active
+    # SIMULATION ACTIVE - GESTION CORRIGÉE
     if st.session_state.get('ecn_simulation_active') and not st.session_state.get('ecn_simulation_finished'):
         session = st.session_state.ecn_session
         current_section = st.session_state.ecn_current_section
         current_question_global = st.session_state.ecn_current_question
         
+        # Vérifications de sécurité
+        if not session or not session.get('questions'):
+            st.error("❌ Session de simulation invalide")
+            st.session_state.ecn_simulation_active = False
+            st.rerun()
+        
         # Timer
         elapsed_time = time.time() - st.session_state.ecn_start_time
         remaining_time = max(0, session['duration'] - elapsed_time)
         
+        # Gestion de la fin du temps
         if remaining_time <= 0:
             st.session_state.ecn_simulation_finished = True
-            # Calculer les résultats avant de rediriger
-            time_taken = session['duration']  # Temps écoulé
+            st.session_state.ecn_end_time = time.time()
+            # Calculer les résultats
+            time_taken = session['duration']
             results = simulator.calculate_ecn_score(st.session_state.ecn_answers, session['questions'])
             st.session_state.ecn_results = {
                 'session': session,
@@ -1125,7 +1137,7 @@ elif choice == "🏆 Simulations ECN":
             }
             st.rerun()
         
-        # Header avec timer et progression
+        # Header avec informations
         col_time, col_progress, col_section = st.columns([2, 3, 2])
         
         with col_time:
@@ -1134,27 +1146,30 @@ elif choice == "🏆 Simulations ECN":
             st.metric("⏱️ Temps restant", f"{minutes:02d}:{seconds:02d}")
         
         with col_progress:
-            # CORRECTION : S'assurer que la progression est entre 0 et 1
-            progress = (current_question_global + 1) / session['total_questions']
-            progress_value = min(1.0, max(0.0, float(progress)))
+            progress = (current_question_global + 1) / len(session['questions'])
+            progress_value = min(1.0, max(0.0, progress))
             st.progress(progress_value)
-            st.write(f"Question {current_question_global + 1}/{session['total_questions']}")
+            st.write(f"Question {current_question_global + 1}/{len(session['questions'])}")
         
         with col_section:
-            current_section_data = session['sections'][current_section]
             st.metric("📂 Section", f"{current_section + 1}/4")
         
         # Navigation entre sections
         st.markdown("### Navigation entre Sections")
         section_cols = st.columns(4)
-        for i, section in enumerate(session['sections']):
+        
+        for i in range(4):
             with section_cols[i]:
                 section_progress = len([ans for j, ans in enumerate(st.session_state.ecn_answers) 
                                       if j // 30 == i and ans.get('selected')]) / 30
                 status = "✅" if section_progress == 1 else "🟡" if section_progress > 0 else "⚪"
+                is_current = "🔵" if i == current_section else ""
                 
-                if st.button(f"{status} Section {i+1}", key=f"section_{i}", 
-                           width='stretch', type="primary" if i == current_section else "secondary"):
+                # Utiliser un formulaire pour éviter le rechargement
+                if st.button(f"{status}{is_current}Section {i+1}", 
+                           key=f"section_btn_{i}",
+                           use_container_width=True,
+                           type="primary" if i == current_section else "secondary"):
                     st.session_state.ecn_current_section = i
                     st.session_state.ecn_current_question = i * 30
                     st.rerun()
@@ -1167,58 +1182,77 @@ elif choice == "🏆 Simulations ECN":
         st.markdown(f"### Section {current_section + 1} - Question {section_offset + 1}")
         st.markdown(f'<div class="quiz-question"><h4>{question["question"]}</h4></div>', unsafe_allow_html=True)
         
+        # Gestion des réponses avec état préservé
+        current_answer_key = f"ecn_answer_{current_question_global}"
+        
         # Réponses
         if question['type'] == 'single':
             options = [opt['text'] for opt in question['options']]
             current_answer = st.session_state.ecn_answers[current_question_global].get('selected', '')
-            selected = st.radio("Choisissez votre réponse:", options, 
-                              key=f"ecn_q_{current_question_global}",
-                              index=options.index(current_answer) if current_answer in options else 0)
+            
+            # Utiliser un index pour préserver la sélection
+            default_index = options.index(current_answer) if current_answer in options else 0
+            selected = st.radio("Choisissez votre réponse:", 
+                              options, 
+                              index=default_index,
+                              key=current_answer_key)
+            
+            # Sauvegarder immédiatement la réponse
             st.session_state.ecn_answers[current_question_global]['selected'] = selected
             
         elif question['type'] == 'multiple':
             options = [opt['text'] for opt in question['options']]
             current_answers = st.session_state.ecn_answers[current_question_global].get('selected', [])
-            selected = st.multiselect("Choisissez une ou plusieurs réponses:", options,
+            
+            selected = st.multiselect("Choisissez une ou plusieurs réponses:", 
+                                    options,
                                     default=current_answers,
-                                    key=f"ecn_q_{current_question_global}")
+                                    key=current_answer_key)
+            
             st.session_state.ecn_answers[current_question_global]['selected'] = selected
         
-        # Navigation entre questions
+        # Navigation entre questions - AVEC GESTION CORRIGÉE
         st.markdown("---")
-        nav_cols = st.columns([2, 1, 2])
+        nav_col1, nav_col2, nav_col3 = st.columns([1, 2, 1])
         
-        with nav_cols[0]:
+        with nav_col1:
             if current_question_global > 0:
-                if st.button("⬅️ Question précédente"):
+                if st.button("⬅️ Précédente", use_container_width=True, key="prev_btn"):
                     st.session_state.ecn_current_question -= 1
                     # Mettre à jour la section si nécessaire
-                    if st.session_state.ecn_current_question // 30 != current_section:
-                        st.session_state.ecn_current_section = st.session_state.ecn_current_question // 30
+                    new_section = st.session_state.ecn_current_question // 30
+                    if new_section != current_section:
+                        st.session_state.ecn_current_section = new_section
                     st.rerun()
         
-        with nav_cols[1]:
-            # Sélecteur de question rapide
-            question_options = list(range(1, session['total_questions'] + 1))
-            selected_q = st.selectbox("Aller à la question:", question_options, 
-                                    index=current_question_global, key="question_selector")
+        with nav_col2:
+            # Sélecteur de question avec état préservé
+            question_options = list(range(1, len(session['questions']) + 1))
+            selected_q = st.selectbox(
+                "Aller à la question:", 
+                question_options, 
+                index=current_question_global,
+                key="question_selector"
+            )
+            # Vérifier si la sélection a changé
             if selected_q - 1 != current_question_global:
                 st.session_state.ecn_current_question = selected_q - 1
                 st.session_state.ecn_current_section = (selected_q - 1) // 30
                 st.rerun()
         
-        with nav_cols[2]:
-            if current_question_global < session['total_questions'] - 1:
-                if st.button("Question suivante ➡️"):
+        with nav_col3:
+            if current_question_global < len(session['questions']) - 1:
+                if st.button("Suivante ➡️", use_container_width=True, key="next_btn"):
                     st.session_state.ecn_current_question += 1
-                    if st.session_state.ecn_current_question // 30 != current_section:
-                        st.session_state.ecn_current_section = st.session_state.ecn_current_question // 30
+                    new_section = st.session_state.ecn_current_question // 30
+                    if new_section != current_section:
+                        st.session_state.ecn_current_section = new_section
                     st.rerun()
             else:
-                if st.button("✅ Terminer la simulation", type="primary"):
+                if st.button("✅ Terminer", type="primary", use_container_width=True, key="finish_btn"):
                     st.session_state.ecn_simulation_finished = True
                     st.session_state.ecn_end_time = time.time()
-                    # Calculer les résultats immédiatement
+                    # Calculer les résultats
                     time_taken = st.session_state.ecn_end_time - st.session_state.ecn_start_time
                     results = simulator.calculate_ecn_score(st.session_state.ecn_answers, session['questions'])
                     st.session_state.ecn_results = {
@@ -1229,34 +1263,22 @@ elif choice == "🏆 Simulations ECN":
                     }
                     st.rerun()
         
-        # Bouton d'abandon
-        if st.button("⏹️ Abandonner la simulation", type="secondary"):
+       # Bouton d'abandon
+        if st.button("⏹️ Abandonner", type="secondary", use_container_width=True, key="abandon_btn"):
             st.session_state.ecn_simulation_active = False
             st.info("Simulation abandonnée")
             st.rerun()
     
-    # Résultats de la simulation
+    # AFFICHAGE DES RÉSULTATS
     elif st.session_state.get('ecn_simulation_finished') and st.session_state.get('ecn_results'):
         results_data = st.session_state.ecn_results
         session = results_data['session']
         results = results_data['results']
         time_taken = results_data['time_taken']
         
-        # Sauvegarder les résultats
-        if db.save_ecn_simulation(st.session_state.username, results_data):
-            st.success("✅ Résultats sauvegardés!")
-            
-            # Vérifier les badges ECN
-            new_badges = badge_mgr.check_ecn_badges(st.session_state.username, results_data)
-            if new_badges:
-                st.balloons()
-                st.success("🎖️ Nouveaux badges débloqués!")
-                for badge in new_badges:
-                    st.markdown(f'<span class="badge badge-gold">{badge}</span>', unsafe_allow_html=True)
-        
-        # Affichage des résultats
         st.markdown("## 📊 Résultats de la Simulation ECN")
         
+        # Métriques principales
         col1, col2, col3, col4 = st.columns(4)
         
         with col1:
@@ -1269,195 +1291,114 @@ elif choice == "🏆 Simulations ECN":
         with col4:
             st.metric("⏱️ Temps", f"{int(time_taken//60)}min {int(time_taken%60)}s")
         
-        # Détail par section
-        st.markdown("### 📋 Détail par Section")
-        section_cols = st.columns(4)
-        
-        for i, section in enumerate(session['sections']):
-            with section_cols[i]:
-                section_questions = section['questions']
-                section_answers = st.session_state.ecn_answers[i*30:(i+1)*30]
-                section_score = simulator.calculate_ecn_score(section_answers, section_questions)
+        # Sauvegarde des résultats
+        if st.button("💾 Sauvegarder les résultats", key="save_results_btn"):
+            if db.save_ecn_simulation(st.session_state.username, results_data):
+                st.success("✅ Résultats sauvegardés!")
                 
-                st.metric(
-                    f"Section {i+1}",
-                    f"{section_score['percentage']:.1f}%",
-                    delta=f"{section_score['raw_score']:.1f} pts"
-                )
+                # Vérification des badges
+                new_badges = badge_mgr.check_ecn_badges(st.session_state.username, results_data)
+                if new_badges:
+                    st.balloons()
+                    st.success("🎖️ Nouveaux badges débloqués!")
+                    for badge in new_badges:
+                        st.markdown(f'<span class="badge badge-gold">{badge}</span>', unsafe_allow_html=True)
+            else:
+                st.error("❌ Erreur lors de la sauvegarde")
         
         # Boutons d'action
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            if st.button("🔄 Nouvelle simulation", width='stretch'):
-                for key in [k for k in st.session_state.keys() if k.startswith('ecn_')]:
-                    del st.session_state[key]
-                st.rerun()
-        with col2:
-            if st.button("📊 Voir le détail des réponses", width='stretch'):
-                st.session_state.show_ecn_details = True
-        with col3:
-            if st.button("🏠 Retour à l'accueil", width='stretch'):
+        col_new, col_details, col_home = st.columns(3)
+        with col_new:
+            if st.button("🔄 Nouvelle simulation", use_container_width=True, key="new_sim_btn"):
+                # Réinitialiser seulement les variables ECN
                 for key in [k for k in st.session_state.keys() if k.startswith('ecn_')]:
                     del st.session_state[key]
                 st.rerun()
         
-        # Détail des réponses
-        if st.session_state.get('show_ecn_details'):
-            st.markdown("### 📝 Détail Question par Question")
-            
-            for result in results['detailed_results']:
-                with st.expander(f"Q{result['question_number']}: {result['question_text']} - {result['score']} pts"):
-                    col_a, col_b = st.columns(2)
-                    
-                    with col_a:
-                        st.markdown("**Votre réponse:**")
-                        if isinstance(result['user_answer'], list):
-                            for ans in result['user_answer']:
-                                st.write(f"- {ans}")
-                        else:
-                            st.write(result['user_answer'])
-                    
-                    with col_b:
-                        st.markdown("**Réponse(s) correcte(s):**")
-                        for ans in result['correct_answer']:
-                            st.write(f"- {ans}")
-                    
-                    st.markdown("**Feedback:**")
-                    if result['score'] > 0:
-                        st.success(result['feedback'])
-                    elif result['score'] < 0:
-                        st.error(result['feedback'])
-                    else:
-                        st.warning(result['feedback'])
-                    
-                    if result['explanation']:
-                        st.markdown("**Explication:**")
-                        st.info(result['explanation'])
+        with col_details:
+            if st.button("📊 Détail des réponses", use_container_width=True, key="details_btn"):
+                st.session_state.show_ecn_details = True
+                st.rerun()
+        
+        with col_home:
+            if st.button("🏠 Accueil", use_container_width=True, key="home_btn"):
+                for key in [k for k in st.session_state.keys() if k.startswith('ecn_')]:
+                    del st.session_state[key]
+                st.rerun()
+        
+        # Boutons d'action
+        col_new, col_details, col_home = st.columns(3)
+        with col_new:
+            if st.button("🔄 Nouvelle simulation", use_container_width=True, key="new_sim_btn"):
+                # Réinitialiser seulement les variables ECN
+                for key in [k for k in st.session_state.keys() if k.startswith('ecn_')]:
+                    del st.session_state[key]
+                st.rerun()
+        
+        with col_details:
+            if st.button("📊 Détail des réponses", use_container_width=True, key="details_btn"):
+                st.session_state.show_ecn_details = True
+                st.rerun()
+        
+        with col_home:
+            if st.button("🏠 Accueil", use_container_width=True, key="home_btn"):
+                for key in [k for k in st.session_state.keys() if k.startswith('ecn_')]:
+                    del st.session_state[key]
+                st.rerun()
     
+    # GESTION DES AUTRES ONGLETS
     with tab2:
         st.markdown("### 📈 Mes Statistiques ECN")
-        
         stats = db.get_user_ecn_stats(st.session_state.username)
         
         if stats and stats.get('total_simulations', 0) > 0:
             col1, col2, col3, col4 = st.columns(4)
-            
             with col1:
-                st.metric("Simulations complétées", stats['total_simulations'])
+                st.metric("Simulations", stats['total_simulations'])
             with col2:
-                avg_score = stats.get('average_score', 0)
-                st.metric("Score moyen", f"{avg_score:.1f}%" if avg_score else "N/A")
+                st.metric("Score moyen", f"{stats.get('average_score', 0):.1f}%")
             with col3:
-                best_score = stats.get('best_score', 0)
-                st.metric("Meilleur score", f"{best_score:.1f}%" if best_score else "N/A")
+                st.metric("Meilleur score", f"{stats.get('best_score', 0):.1f}%")
             with col4:
-                total_sims = stats['total_simulations']
-                passed_count = stats.get('passed_count', 0)
-                success_rate = (passed_count / total_sims * 100) if total_sims > 0 else 0
-                st.metric("Taux de réussite", f"{success_rate:.1f}%")
-            
-            # Affichage des dates
-            col5, col6 = st.columns(2)
-            with col5:
-                first_sim = stats.get('first_simulation')
-                if first_sim:
-                    st.metric("Première simulation", first_sim.strftime("%d/%m/%Y"))
-            with col6:
-                last_sim = stats.get('last_simulation')
-                if last_sim:
-                    st.metric("Dernière simulation", last_sim.strftime("%d/%m/%Y"))
-            
+                success_rate = (stats.get('passed_count', 0) / stats['total_simulations'] * 100) if stats['total_simulations'] > 0 else 0
+                st.metric("Taux réussite", f"{success_rate:.1f}%")
         else:
-            st.info("Aucune simulation ECN complétée pour le moment. Complétez votre première simulation pour voir vos statistiques!")
-            
-            # Bouton pour démarrer une simulation depuis cet onglet
-            if st.button("🚀 Démarrer ma première simulation ECN", type="primary"):
-                # Générer une nouvelle session
-                session = simulator.generate_simulation_session()
-                st.session_state.ecn_session = session
-                st.session_state.ecn_current_section = 0
-                st.session_state.ecn_current_question = 0
-                st.session_state.ecn_answers = [{} for _ in range(session['total_questions'])]
-                st.session_state.ecn_start_time = time.time()
-                st.session_state.ecn_simulation_active = True
-                st.session_state.ecn_simulation_finished = False
-                st.session_state.ecn_results = None
-                st.rerun()
+            st.info("Aucune simulation ECN complétée")
     
     with tab3:
         st.markdown("### 🏅 Classement ECN")
-        
-        leaderboard = db.get_ecn_leaderboard(limit=20)
+        leaderboard = db.get_ecn_leaderboard(limit=10)
         
         if leaderboard:
-            st.markdown("**Top 20 des meilleurs simulateurs**")
-            
             for i, student in enumerate(leaderboard):
-                col_rank, col_name, col_avg, col_best, col_count = st.columns([1, 3, 2, 2, 2])
-                
-                with col_rank:
-                    if i == 0:
-                        st.markdown("🥇")
-                    elif i == 1:
-                        st.markdown("🥈")
-                    elif i == 2:
-                        st.markdown("🥉")
-                    else:
-                        st.markdown(f"**#{i+1}**")
-                
-                with col_name:
+                cols = st.columns([1, 3, 2, 2])
+                with cols[0]:
+                    if i == 0: st.markdown("🥇")
+                    elif i == 1: st.markdown("🥈") 
+                    elif i == 2: st.markdown("🥉")
+                    else: st.markdown(f"**#{i+1}**")
+                with cols[1]:
                     st.write(student['username'])
-                
-                with col_avg:
-                    st.write(f"**{student['avg_score']:.1f}%**")
-                    st.caption("Moyenne")
-                
-                with col_best:
+                with cols[2]:
                     st.write(f"**{student['best_score']:.1f}%**")
-                    st.caption("Meilleur")
-                
-                with col_count:
+                with cols[3]:
                     st.write(f"{student['simulations_count']} simus")
         else:
-            st.info("Aucun résultat ECN pour le moment")
+            st.info("Aucun classement disponible")
     
     with tab4:
         st.markdown("### ℹ️ Guide des Simulations ECN")
-        
         st.markdown("""
-        #### 🎯 Objectif des Simulations
+        **Déroulement:**
+        - 4 sections de 30 questions
+        - Navigation libre entre les questions
+        - Timer de 60 minutes
+        - Score avec pénalités pour mauvaises réponses
         
-        Les simulations ECN reproduisent les conditions réelles de l'examen :
-        - **Même durée** : 60 minutes
-        - **Même nombre de questions** : 120
-        - **Même distribution** par spécialité
-        - **Même barème** avec pénalités
-        
-        #### 📊 Système de Notation
-        
-        **Questions à réponse unique (QRU) :**
-        - Bonne réponse : **+2 points**
-        - Mauvaise réponse : **-0.5 point**
-        - Non répondu : **0 point**
-        
-        **Questions à réponses multiples (QRM) :**
-        - Réponse parfaite : **+2 points**
-        - Réponses partielles : **Score proportionnel**
-        - Mauvaises réponses : **Pénalisées**
-        
-        #### 🏆 Critères de Réussite
-        
-        - **Score minimum** : 70%
-        - **Excellent** : ≥ 90%
-        - **Très bien** : ≥ 80%
-        - **Bien** : ≥ 70%
-        
-        #### 💡 Conseils Stratégiques
-        
-        1. **Gestion du temps** : 30 secondes par question en moyenne
-        2. **Priorisation** : Passez les questions difficiles et revenez-y
-        3. **Vérification** : Revoyez les questions à la fin si le temps le permet
-        4. **Pénalités** : Ne répondez pas au hasard aux QRU
+        **Conseils:**
+        - Gérez votre temps (30s/question)
+        - Passez les questions difficiles
+        - Revenez à la fin si possible
         """)
 # Footer
 st.markdown("---")
