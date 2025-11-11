@@ -5,36 +5,36 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 @dataclass
 class DatabaseConfig:
-    host: str = os.getenv("DB_HOST", "localhost")
-    port: str = os.getenv("DB_PORT", "5432")
-    database: str = os.getenv("DB_NAME", "ecn_prep")
-    user: str = os.getenv("DB_USER", "limack0")
-    password: str = os.getenv("DB_PASSWORD", "limack0postgresql")
+    """Configuration SQLite — remplace la configuration PostgreSQL"""
+    db_path: str = os.getenv("SQLITE_DB_PATH", "database.db")
+
 
 @dataclass
 class AppConfig:
     specialties: List[str] = None
     competition_time: int = 600  # 10 minutes en secondes
     max_questions: int = 50
-    
+
     def __post_init__(self):
         if self.specialties is None:
             self.specialties = [
-                "cardiologie", "pneumologie", "neurologie", 
+                "cardiologie", "pneumologie", "neurologie",
                 "gastroenterologie", "rhumatologie", "nephrologie",
                 "endocrinologie", "hematologie", "infectiologie"
             ]
 
+
 @dataclass
 class ECNConfig:
-    simulation_duration: int = 3600  # 60 minutes en secondes
+    simulation_duration: int = 3600  # 60 minutes
     questions_per_session: int = 120
     specialties_distribution: Dict[str, int] = None
-    break_duration: int = 600  # 10 minutes de pause
-    passing_score: int = 70  # Score de réussite en %
-    
+    break_duration: int = 600  # 10 minutes
+    passing_score: int = 70  # pourcentage de réussite
+
     def __post_init__(self):
         if self.specialties_distribution is None:
             self.specialties_distribution = {
@@ -50,6 +50,7 @@ class ECNConfig:
                 "urgences": 11
             }
 
+
 class BadgeSystem:
     BADGES = {
         "debutant": {"name": "Débutant", "threshold": 10, "color": "badge-secondary"},
@@ -58,10 +59,9 @@ class BadgeSystem:
         "champion": {"name": "Champion", "threshold": 200, "color": "badge-warning"},
         "maitre": {"name": "Maître", "threshold": 500, "color": "badge-gold"},
         "clinician": {"name": "Excellent Clinicien", "threshold": 300, "color": "badge-success"},
-        "rapide": {"name": "Rapide et Précise", "threshold": 150, "color": "badge-danger"},
+        "rapide": {"name": "Rapide", "threshold": 150, "color": "badge-danger"},
         "simulateur": {"name": "Simulateur ECN", "threshold": 1, "color": "badge-info"},
         "excellent": {"name": "Excellent", "threshold": 85, "color": "badge-success"},
-        "rapide": {"name": "Rapide", "threshold": 150, "color": "badge-danger"},
         "marathonien": {"name": "Marathonien", "threshold": 5, "color": "badge-warning"},
-        "podium": {"name": "Sur le Podium", "threshold": 3, "color": "badge-gold"}
+        "podium": {"name": "Sur le Podium", "threshold": 3, "color": "badge-gold"},
     }
