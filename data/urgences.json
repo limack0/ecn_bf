@@ -1,86 +1,138 @@
 {
-  "quizzes": [
-    {
-      "question": "Quelle est la manœuvre de première intention devant une obstruction aiguë des voies aériennes par corps étranger chez l'adulte conscient?",
-      "type": "single",
-      "options": [
-        {"text": "Manœuvre de Heimlich", "correct": true},
-        {"text": "Claques dans le dos", "correct": false},
-        {"text": "Intubation", "correct": false},
-        {"text": "Trachéotomie", "correct": false}
-      ],
-      "explanation": "La manœuvre de Heimlich (compressions abdominales) est la technique de première intention chez l'adulte conscient."
-    },
-    {
-      "question": "Quels sont les signes de gravité d'un traumatisme crânien?",
-      "type": "multiple",
-      "options": [
-        {"text": "Score de Glasgow < 8", "correct": true},
-        {"text": "Pupille asymétrique", "correct": true},
-        {"text": "Déficit neurologique focal", "correct": true},
-        {"text": "Céphalées", "correct": false},
-        {"text": "Vomissements", "correct": true}
-      ],
-      "explanation": "Les signes de gravité imposant un scanner urgent sont : GCS < 8, signes de localisation, crise comitiale, vomissements."
-    },
-    {
-      "question": "Quel est le traitement de première intention de l'oedème aigu du poumon cardiogénique?",
-      "type": "single",
-      "options": [
-        {"text": "Diurétiques de l'anse IV", "correct": true},
-        {"text": "Bêta-bloquants", "correct": false},
-        {"text": "Digitaliques", "correct": false},
-        {"text": "Antiarythmiques", "correct": false}
-      ],
-      "explanation": "Les diurétiques de l'anse IV associés à la morphine et aux dérivés nitrés sont le traitement de première intention de l'OAP cardiogénique."
-    },
-    {
-      "question": "Quels sont les critères d'hospitalisation d'une intoxication médicamenteuse volontaire?",
-      "type": "multiple",
-      "options": [
-        {"text": "Trouble de la conscience", "correct": true},
-        {"text": "Trouble du rythme cardiaque", "correct": true},
-        {"text": "Délai > 4h pour les lavages", "correct": false},
-        {"text": "Contexte suicidaire", "correct": true},
-        {"text": "Prise d'antidépresseurs tricycliques", "correct": true}
-      ],
-      "explanation": "L'hospitalisation est systématique en cas de trouble de conscience, trouble du rythme, produit cardiotoxique ou contexte suicidaire."
-    }
-  ],
   "clinical_cases": [
     {
       "title": "Polytraumatisme après accident de la route",
       "difficulty": "Expert",
       "steps": [
         {
-          "title": "Arrivée du SMUR",
-          "content": "Jeune homme de 25 ans, conducteur, accident à haute énergie. À l'arrivée du SMUR : GCS 10, TA 80/40 mmHg, FC 140/min, SpO2 85% sous 15L/min.",
+          "title": "Arrivée SMUR",
+          "content": "Jeune homme de 22 ans, conducteur, accident à haute énergie (choc frontal à 80 km/h). Désincarcération difficile de 30 minutes. À l'arrivée du SMUR : GCS 8 (O2 V1 M5), TA 70/40 mmHg, FC 140/min, FR 8/min irrégulière, SpO2 75%. Lésions : trauma crânien avec plaie scalp, déformation thoracique, abdomen sensible, déformation du bassin, fracture ouverte jambe gauche.",
           "type": "multiple_choice",
-          "question": "Quelle est votre première action?",
-          "options": ["Intubation", "Ponction pleurale", "Remplissage", "Scanner corps entier"],
-          "correct_answer": "Intubation",
-          "explanation": "Priorité ABC : Airway (GCS bas) puis Breathing (détresse respiratoire) avant Circulation."
+          "question": "Quelle est votre première action selon l'ABCDE?",
+          "options": [
+            "Intubation oro-trachéale", 
+            "Ponction pleurale droite", 
+            "Remplissage vasculaire", 
+            "Immobilisation du rachis", 
+            "Pansement compressif"
+          ],
+          "correct_answer": "Intubation oro-trachéale",
+          "explanation": "Priorité ABC : Airway (GCS bas) et Breathing (détresse respiratoire) avant Circulation. L'intubation est indispensable pour sécuriser les voies aériennes."
         },
         {
           "title": "Bilan lésionnel initial",
-          "content": "Intubé, sédaté. À l'examen : matité basithoracique droite, abdomen sensible, déformation du bassin. Échographie FAST positive à l'hypocondre droit.",
+          "content": "Patient intubé, sédaté. À l'examen rapide : matité basithoracique droite, abdomen sensible et distendu, instabilité pelvienne. Échographie FAST positive aux 4 points (péricarde, hypochondres droit/gauche, pelvis).",
           "type": "multiple",
-          "question": "Quelles lésions suspectez-vous?",
-          "options": ["Hémothorax", "Pneumothorax", "Rupture splénique", "Fracture du bassin", "Traumatisme crânien"],
-          "correct_options": ["Hémothorax", "Rupture splénique", "Fracture du bassin"],
-          "explanation": "La matité thoracique évoque un hémothorax, le FAST positif une lésion splénique, la déformation du bassin une fracture."
+          "question": "Quelles lésions vitales suspectez-vous?",
+          "options": [
+            "Hémothorax droit", 
+            "Rupture splénique", 
+            "Rupture hépatique", 
+            "Fracture du bassin instable", 
+            "Hématome sous-dural"
+          ],
+          "correct_options": ["Hémothorax droit", "Rupture splénique", "Rupture hépatique", "Fracture du bassin instable"],
+          "explanation": "Le FAST positif signe un hémopéritoine. La matité thoracique évoque un hémothorax. L'instabilité pelvienne peut saigner abondamment."
         },
         {
-          "title": "Prise en charge hospitalière",
-          "content": "Au scanner : hémothorax droit massif, rupture splénique stade IV, fracture du bassin instable, TCG sans hématome.",
+          "title": "Transport et bilan hospitalier",
+          "content": "Patient transporté sous noradrénaline. Scanner corps entier : hémothorax droit massif, rupture splénique stade IV, fracture du bassin type C (instable), TCG sans lésion opératoire, fracture fémur gauche ouverte.",
           "type": "multiple_choice",
           "question": "Quelle est la priorité chirurgicale?",
-          "options": ["Splénectomie", "Fixation du bassin", "Drainage thoracique", "Trépanation"],
-          "correct_answer": "Splénectomie",
-          "explanation": "L'hémopéritoine actif par rupture splénique est la menace vitale immédiate la plus importante."
+          "options": [
+            "Splénectomie + packing hépatique", 
+            "Fixation du bassin", 
+            "Drainage thoracique", 
+            "Trépanation décompressive", 
+            "Ostéosynthèse du fémur"
+          ],
+          "correct_answer": "Splénectomie + packing hépatique",
+          "explanation": "L'hémopéritoine actif est la menace vitale immédiate. La splénectomie et le contrôle du saignement hépatique sont prioritaires."
+        },
+        {
+          "title": "Prise en charge multidisciplinaire",
+          "content": "Le patient est opéré : splénectomie, packing hépatique, drainage thoracique. À J1 en réanimation : stable sous noradrénaline faible dose, transfusion ongoing.",
+          "type": "multiple",
+          "question": "Quelle stratégie pour les autres lésions?",
+          "options": [
+            "Fixation externe du bassin", 
+            "Ostéosynthèse du fémur différée", 
+            "Antibiothérapie pour fracture ouverte", 
+            "Surveillance neurologique stricte", 
+            "Nutrition parentérale précoce"
+          ],
+          "correct_options": ["Fixation externe du bassin", "Ostéosynthèse du fémur différée", "Antibiothérapie pour fracture ouverte", "Surveillance neurologique stricte"],
+          "explanation": "Le bassin instable doit être fixé rapidement. Les fractures des membres sont opérées secondairement. Antibiothérapie obligatoire pour fracture ouverte."
         }
       ],
-      "solution": "**Diagnostic final:** Polytraumatisme avec hémothorax, rupture splénique, fracture du bassin instable.\n\n**Prise en charge:** Intubation, remplissage, transfusion, splénectomie en urgence, puis fixation du bassin secondaire.\n\n**Points clés:**\n- Priorité ABCDE du polytraumatisé\n- FAST échographique en urgence\n- Hémorragie interne = menace vitale immédiate\n- Prise en charge multidisciplinaire"
+      "solution": "**DIAGNOSTIC FINAL :** Polytraumatisme avec lésions thoraco-abdomino-pelviennes et neurologiques.\n\n**PRISE EN CHARGE :**\n- Urgence : ABCDE, imagerie rapide, chirurgie hémostatique\n- Secondaire : Fixation des fractures, soins intensifs\n- Rééducation : Prise en charge prolongée multidisciplinaire\n\n**POINTS CLÉS :**\n- Mortalité précoce par hémorragie non contrôlée\n- Prise en charge protocolisée (ABCDE)\n- Scanner corps entier systématique\n- Coordination chirurgicale essentielle"
+    },
+    {
+      "title": "Intoxication médicamenteuse volontaire",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Tentative de suicide",
+          "content": "Mademoiselle Dubois, 19 ans, est amenée par sa famille pour tentative de suicide par ingestion médicamenteuse. Elle a avalé il y a 2 heures : 40 comprimés de paracétamol 1g, 20 comprimés de bromazépam 6mg, et un flacon d'alcool. À l'examen : patiente somnolente mais réveillable, nauséeuse. Constantes : TA 100/60 mmHg, FC 55/min, FR 10/min, SpO2 92%, température 36.0°C.",
+          "type": "multiple_choice",
+          "question": "Quel est le risque vital immédiat?",
+          "options": [
+            "Dépression respiratoire par benzodiazépines", 
+            "Hépatotoxicité par paracétamol", 
+            "Hypothermie", 
+            "Troubles du rythme", 
+            "Hypotension"
+          ],
+          "correct_answer": "Dépression respiratoire par benzodiazépines",
+          "explanation": "La dépression respiratoire par les benzodiazépines est la menace vitale immédiate. L'hépatotoxicité du paracétamol est retardée (24-48h)."
+        },
+        {
+          "title": "Traitement symptomatique",
+          "content": "La patiente présente des pauses respiratoires de 15 secondes. Score de Glasgow à 9.",
+          "type": "multiple_choice",
+          "question": "Quel traitement spécifique instaurez-vous?",
+          "options": [
+            "Flumazénil IV", 
+            "N-acétylcystéine IV", 
+            "Ventilation assistée", 
+            "Charbon activé", 
+            "Lavage gastrique"
+          ],
+          "correct_answer": "Flumazénil IV",
+          "explanation": "Le flumazénil est l'antidote des benzodiazépines. Il peut éviter l'intubation en cas d'intoxication isolée, mais est contre-indiqué en cas de comorbidités épileptiques."
+        },
+        {
+          "title": "Traitement antidotique",
+          "content": "La patiente s'améliore sous flumazénil. Paracétamolémie à 4h : 180 mg/L. Pas d'autre toxique identifié.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous pour le paracétamol?",
+          "options": [
+            "N-acétylcystéine IV", 
+            "Charbon activé", 
+            "Lavage gastrique", 
+            "Diurèse forcée", 
+            "Surveillance simple"
+          ],
+          "correct_answer": "N-acétylcystéine IV",
+          "explanation": "La paracétamolémie à 180 mg/L à 4h est au-dessus de la ligne de traitement (150 mg/L). La N-acétylcystéine doit être débutée en urgence."
+        },
+        {
+          "title": "Prise en charge psychiatrique",
+          "content": "La patiente est maintenant consciente, triste, exprime des regrets. L'intoxication est liée à une rupture sentimentale.",
+          "type": "multiple",
+          "question": "Quelle prise en charge organisez-vous?",
+          "options": [
+            "Hospitalisation sous contrainte", 
+            "Évaluation psychiatrique urgente", 
+            "Mise en place d'un suivi", 
+            "Information de la famille", 
+            "Traitement antidépresseur"
+          ],
+          "correct_options": ["Évaluation psychiatrique urgente", "Mise en place d'un suivi", "Information de la famille"],
+          "explanation": "Toute tentative de suicide nécessite une évaluation psychiatrique spécialisée pour évaluer le risque de récidive et organiser le suivi."
+        }
+      ],
+      "solution": "**DIAGNOSTIC FINAL :** Intoxication volontaire mixte (paracétamol + benzodiazépines + alcool) dans un contexte de crise suicidaire.\n\n**PRISE EN CHARGE :**\n- Traitement symptomatique : Flumazénil, surveillance respiratoire\n- Traitement antidotique : N-acétylcystéine pour le paracétamol\n- Prise en charge psychiatrique : Évaluation, suivi, prévention de la récidive\n\n**POINTS CLÉS :**\n- Risque vital immédiat (dépression respiratoire) et retardé (hépatite)\n- Antidotes spécifiques disponibles\n- Prise en charge psychiatrique indispensable\n- Hospitalisation systématique"
     }
   ]
 }

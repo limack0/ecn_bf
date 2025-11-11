@@ -1,86 +1,153 @@
 {
-  "quizzes": [
-    {
-      "question": "Quel est l'antibiotique de première intention dans une pneumonie communautaire non sévère sans comorbidité?",
-      "type": "single",
-      "options": [
-        {"text": "Amoxicilline", "correct": true},
-        {"text": "Céfotaxime", "correct": false},
-        {"text": "Levofloxacine", "correct": false},
-        {"text": "Clarithromycine", "correct": false}
-      ],
-      "explanation": "L'amoxicilline est l'antibiotique de première intention dans les pneumonies communautaires de l'adulte sans comorbidité."
-    },
-    {
-      "question": "Quels sont les germes les plus fréquents dans les méningites communautaires de l'adulte?",
-      "type": "multiple",
-      "options": [
-        {"text": "Streptococcus pneumoniae", "correct": true},
-        {"text": "Neisseria meningitidis", "correct": true},
-        {"text": "Listeria monocytogenes", "correct": true},
-        {"text": "Escherichia coli", "correct": false},
-        {"text": "Haemophilus influenzae", "correct": false}
-      ],
-      "explanation": "Les trois germes principaux sont le pneumocoque, le méningocoque et Listeria (sujets âgés ou immunodéprimés)."
-    },
-    {
-      "question": "Quelle est la durée optimale de traitement d'une endocardite à entérocoque sensible?",
-      "type": "single",
-      "options": [
-        {"text": "2 semaines", "correct": false},
-        {"text": "4 semaines", "correct": false},
-        {"text": "6 semaines", "correct": true},
-        {"text": "8 semaines", "correct": false}
-      ],
-      "explanation": "Le traitement des endocardites à entérocoque nécessite 6 semaines d'antibiothérapie combinée."
-    },
-    {
-      "question": "Quels sont les critères de sepsis sévère?",
-      "type": "multiple",
-      "options": [
-        {"text": "Hypotension artérielle", "correct": true},
-        {"text": "Lactatémie > 2 mmol/L", "correct": true},
-        {"text": "Créatininémie élevée", "correct": true},
-        {"text": "Leucocytose", "correct": false},
-        {"text": "Fièvre > 39°C", "correct": false}
-      ],
-      "explanation": "Le sepsis sévère est défini par un sepsis avec signe de dysfonction d'organe (hypotension, lactatémie élevée, insuffisance rénale)."
-    }
-  ],
   "clinical_cases": [
     {
-      "title": "Syndrome septicémique post-opératoire",
+      "title": "Septicémie à point de départ urinaire",
       "difficulty": "Avancé",
       "steps": [
         {
-          "title": "Contexte",
-          "content": "Madame G., 72 ans, opérée 5 jours auparavant d'une cholécystectomie pour cholécystite aiguë. Elle présente depuis 24h des frissons, fièvre à 39.5°C, altération de l'état général.",
+          "title": "Syndrome infectieux sévère",
+          "content": "Madame Koudpoko, 82 ans, est admise pour altération de l'état général avec confusion d'apparition rapide. Antécédents : diabète type 2, HTA, adénome prostatique opéré. Depuis 2 jours : pollakiurie, brûlures mictionnelles, incontinence. À l'examen : patiente confuse (GCS 12), frissons, marbrures des membres inférieurs. Constantes : TA 85/50 mmHg, FC 130/min, FR 30/min, SpO2 92%, température 39.8°C.",
           "type": "multiple_choice",
           "question": "Quel diagnostic évoquez-vous?",
-          "options": ["Infection urinaire", "Infection de paroi", "Abcès intra-abdominal", "Pneumopathie", "Bactériémie sur cathéter"],
-          "correct_answer": "Abcès intra-abdominal",
-          "explanation": "Le contexte post-opératoire abdominal avec syndrome septicémique évoque en premier lieu un abcès intra-abdominal."
+          "options": [
+            "Septicémie à point de départ urinaire", 
+            "Méningite", 
+            "Pneumopathie", 
+            "Endocardite", 
+            "Infection intra-abdominale"
+          ],
+          "correct_answer": "Septicémie à point de départ urinaire",
+          "explanation": "Le tableau de sepsis sévère avec syndrome urinaire chez une personne âgée est très évocateur d'une infection urinaire compliquée avec dissémination."
         },
         {
-          "title": "Bilan initial",
-          "content": "TA 85/50 mmHg, FC 130/min, SpO2 94%. Leucocytes 18 000/mm3, CRP 250 mg/L. Créatininémie 180 μmol/L (normale en pré-op).",
+          "title": "Bilan du sepsis",
+          "content": "Leucocytes 18 000/mm3 (80% PN), CRP 350 mg/L, créatinine 210 μmol/L, lactates 4.5 mmol/L. ECBU : leucocyturie > 10⁶/mL, nitrites positifs. Hémocultures prélevées. Échographie rénale : pas d'obstacle, reins de taille normale.",
           "type": "multiple",
-          "question": "Quelles actions thérapeutiques immédiates?",
-          "options": ["Antibiothérapie probabiliste", "Remplissage vasculaire", "Scanners abdominaux", "Prélèvements bactériologiques", "Vasopresseurs"],
-          "correct_options": ["Antibiothérapie probabiliste", "Remplissage vasculaire", "Prélèvements bactériologiques"],
-          "explanation": "Antibiothérapie large spectre + remplissage dans l'heure + prélèvements avant antibiotiques sont les mesures urgentes du choc septique."
+          "question": "Quels sont les critères de sepsis sévère?",
+          "options": [
+            "Hypotension artérielle", 
+            "Lactates > 2 mmol/L", 
+            "Créatinine élevée", 
+            "CRP très élevée", 
+            "Trouble de la conscience"
+          ],
+          "correct_options": ["Hypotension artérielle", "Lactates > 2 mmol/L", "Créatinine élevée", "Trouble de la conscience"],
+          "explanation": "Le sepsis sévère est défini par un sepsis avec signe de dysfonction d'organe : hypotension, hyperlactatémie, insuffisance rénale, trouble neurologique."
         },
         {
-          "title": "Imagerie et évolution",
-          "content": "Le scanner abdominal montre un abcès sous-hépatique. L'hémoculture revient positive à E. coli BLSE.",
+          "title": "Traitement antibiotique probabiliste",
+          "content": "La patiente est installée en USI. Remplissage vasculaire initié, noradrénaline débutée.",
+          "type": "multiple_choice",
+          "question": "Quelle antibiothérapie probabiliste choisissez-vous?",
+          "options": [
+            "Pipéracilline-tazobactam", 
+            "Céfotaxime", 
+            "Ciprofloxacine", 
+            "Imipénème", 
+            "Amoxicilline-acide clavulanique"
+          ],
+          "correct_answer": "Pipéracilline-tazobactam",
+          "explanation": "En cas de sepsis sévère d'origine urinaire, une bithérapie à large spectre couvrant les bacilles à Gram négatif (dont Pseudomonas) et les entérocoques est recommandée."
+        },
+        {
+          "title": "Adaptation du traitement",
+          "content": "Hémocultures positives à E. coli producteur de BLSE. Antibiogramme : sensible aux carbapénèmes, résistant aux cephalosporines de 3e génération.",
           "type": "multiple_choice",
           "question": "Quel antibiotique choisissez-vous?",
-          "options": ["Pipéracilline-tazobactam", "Céfotaxime", "Imipénème", "Ciprofloxacine"],
+          "options": [
+            "Imipénème", 
+            "Céfotaxime", 
+            "Pipéracilline-tazobactam", 
+            "Amikacine", 
+            "Ciprofloxacine"
+          ],
           "correct_answer": "Imipénème",
-          "explanation": "Face à un E. coli BLSE, les carbapénèmes sont l'option de choix. La pipéracilline-tazobactam n'est plus active."
+          "explanation": "Face à un E. coli BLSE, les carbapénèmes sont l'option de choix. La pipéracilline-tazobactam n'est plus active sur ces souches."
+        },
+        {
+          "title": "Suivi et complications",
+          "content": "Sous imipénème, apyrexie à J3, servage de la noradrénaline à J2. Créatinine normalisée à J5. Durée totale d'antibiothérapie : 14 jours.",
+          "type": "multiple_choice",
+          "question": "Quelle mesure de prévention proposez-vous?",
+          "options": [
+            "Éviter les sondages urinaires inutiles", 
+            "Antibiothérapie prophylactique", 
+            "Vaccination", 
+            "Boissons abondantes", 
+            "Surveillance ECBU systématique"
+          ],
+          "correct_answer": "Éviter les sondages urinaires inutiles",
+          "explanation": "La principale mesure de prévention des infections urinaires nosocomiales est la limitation des sondages vésicaux. Les autres mesures ont une efficacité limitée."
         }
       ],
-      "solution": "**Diagnostic final:** Choc septique sur abcès intra-abdominal post-opératoire à E. coli BLSE.\n\n**Prise en charge:** Réanimation avec remplissage, antibiotiques à large spectre adaptés secondairement, drainage de l'abcès.\n\n**Points clés:**\n- Antibiothérapie probabiliste large spectre en post-opératoire\n- Prélèvements avant antibiotiques\n- Adaptation selon l'antibiogramme\n- Drainage indispensable des collections"
+      "solution": "**DIAGNOSTIC FINAL :** Sepsis sévère à E. coli BLSE sur infection urinaire compliquée.\n\n**PRISE EN CHARGE :**\n- Traitement aigu : Réanimation, antibiotiques probabilistes puis adaptés\n- Surveillance : Hémodynamique, fonction rénale, marqueurs infectieux\n- Prévention : Mesures anti-infectieuses, limitation des sondages\n\n**POINTS CLÉS :**\n- Antibiotiques dans l'heure pour tout sepsis sévère\n- Adaptation selon l'antibiogramme\n- Durée de traitement 7-14 jours selon gravité\n- Bactériémies à BLSE en augmentation"
+    },
+    {
+      "title": "Méningo-encéphalite aiguë",
+      "difficulty": "Expert",
+      "steps": [
+        {
+          "title": "Syndrome méningé fébrile",
+          "content": "Monsieur Petit, 25 ans, est admis pour céphalées intenses, vomissements et fièvre à 40°C d'installation brutale. Depuis 12 heures : photophobie, raideur de nuque. Pas d'antécédent particulier. Voyage récent en zone d'endémie méningococcique. À l'examen : patient prostré, purpura fulminans des membres inférieurs, raideur méningée nette. Constantes : TA 90/60 mmHg, FC 140/min, FR 28/min, température 40.2°C.",
+          "type": "multiple_choice",
+          "question": "Quel est votre premier geste thérapeutique?",
+          "options": [
+            "Antibiothérapie IV immédiate", 
+            "Ponction lombaire en urgence", 
+            "Scanner cérébral", 
+            "Corticoïdes IV", 
+            "Prélèvements bactériologiques"
+          ],
+          "correct_answer": "Antibiothérapie IV immédiate",
+          "explanation": "Devant un purpura fulminans évocateur de méningococcémie, l'antibiothérapie doit être administrée immédiatement, sans attendre la ponction lombaire."
+        },
+        {
+          "title": "Traitement antibiotique probabiliste",
+          "content": "Le patient est installé en réanimation. Purpura extensif, troubles de la conscience (GCS 10).",
+          "type": "multiple",
+          "question": "Quelle antibiothérapie probabiliste instaurez-vous?",
+          "options": [
+            "Céfotaxime IV", 
+            "Ceftriaxone IV", 
+            "Amoxicilline IV", 
+            "Vancomycine IV", 
+            "Dexaméthasone IV"
+          ],
+          "correct_options": ["Céfotaxime IV", "Dexaméthasone IV"],
+          "explanation": "Céphalosporine de 3e génération + dexaméthasone (si suspicion de pneumocoque). La vancomycine est ajoutée en cas de résistance aux β-lactamines."
+        },
+        {
+          "title": "Bilan et confirmation",
+          "content": "Ponction lombaire après antibiotiques : liquide trouble, protéines 3 g/L, glucose 0.2 g/L, 2000 éléments/mm3 (95% PN). Gram : diplocoques Gram négatif. PCR méningocoque positive.",
+          "type": "multiple_choice",
+          "question": "Quel sérogroupe est le plus probable?",
+          "options": [
+            "Sérogroupe B", 
+            "Sérogroupe C", 
+            "Sérogroupe W135", 
+            "Sérogroupe Y", 
+            "Sérogroupe A"
+          ],
+          "correct_answer": "Sérogroupe B",
+          "explanation": "En France, le sérogroupe B est le plus fréquent. Les sérogroupes A, C, W135 et Y sont plus rares mais peuvent survenir en contexte épidémique."
+        },
+        {
+          "title": "Mesures d'isolement et prophylaxie",
+          "content": "Le diagnostic de méningite à méningocoque est confirmé. L'état s'améliore sous traitement.",
+          "type": "multiple",
+          "question": "Quelles mesures de prophylaxie des sujets contacts organisez-vous?",
+          "options": [
+            "Antibiothérapie (rifampicine)", 
+            "Vaccination des contacts", 
+            "Isolement respiratoire 24h", 
+            "Déclaration obligatoire", 
+            "Surveillance des contacts 10 jours"
+          ],
+          "correct_options": ["Antibiothérapie (rifampicine)", "Vaccination des contacts", "Déclaration obligatoire", "Surveillance des contacts 10 jours"],
+          "explanation": "La prophylaxie comprend : antibiothérapie (rifampicine, céfixime), vaccination si sérogroupe vaccinal, déclaration, surveillance des contacts familiaux et proches."
+        }
+      ],
+      "solution": "**DIAGNOSTIC FINAL :** Méningite à méningocoque avec purpura fulminans.\n\n**PRISE EN CHARGE :**\n- Traitement aigu : Antibiotiques IV immédiats, réanimation\n- Mesures : Isolement, déclaration, prophylaxie des contacts\n- Surveillance : Complications neurologiques, cutanées\n\n**POINTS CLÉS :**\n- Urgence thérapeutique absolue\n- Mortalité 10% malgré traitement\n- Séquelles neurologiques possibles\n- Prophylaxie indispensable de l'entourage"
     }
   ]
 }

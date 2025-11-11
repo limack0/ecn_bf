@@ -1,0 +1,1522 @@
+{
+  "quizzes": [
+    {
+      "question": "Quel est le traitement de première intention de l'hémorragie digestive haute par ulcère gastroduodénal?",
+      "type": "single",
+      "options": [
+        {"text": "Traitement médical seul", "correct": false},
+        {"text": "Endoscopie digestive haute avec hémostase", "correct": true},
+        {"text": "Chirurgie en urgence", "correct": false},
+        {"text": "Embolisation artérielle", "correct": false}
+      ],
+      "explanation": "L'endoscopie digestive haute avec hémostase est le traitement de référence des hémorragies ulcéreuses."
+    },
+    {
+      "question": "Quels sont les critères de gravité d'une pancréatite aiguë?",
+      "type": "multiple",
+      "options": [
+        {"text": "Score de Ranson ≥ 3", "correct": true},
+        {"text": "Hémoconcentration", "correct": true},
+        {"text": "Épanchement pleural", "correct": true},
+        {"text": "Hyperleucocytose", "correct": false},
+        {"text": "Hypocalcémie", "correct": true}
+      ],
+      "explanation": "Les critères de Ranson et les signes d'organe (épanchement pleural) définissent la gravité d'une pancréatite aiguë."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente de cirrhose en France?",
+      "type": "single",
+      "options": [
+        {"text": "Alcool", "correct": true},
+        {"text": "Hépatite B", "correct": false},
+        {"text": "Hépatite C", "correct": false},
+        {"text": "NASH", "correct": false}
+      ],
+      "explanation": "L'alcool reste la première cause de cirrhose en France, devant les hépatites virales et la NASH."
+    },
+    {
+      "question": "Quels signes évoquent une ascite infectée?",
+      "type": "multiple",
+      "options": [
+        {"text": "Douleur abdominale", "correct": true},
+        {"text": "Fièvre", "correct": true},
+        {"text": "Aggravation de l'ascite", "correct": true},
+        {"text": "Encéphalopathie", "correct": true},
+        {"text": "Ictère", "correct": false}
+      ],
+      "explanation": "La triade classique est douleur abdominale, fièvre et aggravation de l'ascite. L'encéphalopathie est un signe de gravité."
+    },
+    {
+      "question": "Quelle est la définition de l'insuffisance rénale aiguë selon les critères KDIGO?",
+      "type": "single",
+      "options": [
+        {"text": "Augmentation de la créatininémie ≥ 26,5 μmol/L en 48 heures", "correct": true},
+        {"text": "Diminution du débit urinaire < 1 mL/kg/h pendant 12 heures", "correct": false},
+        {"text": "Augmentation de l'urémie > 10 mmol/L", "correct": false},
+        {"text": "Présence d'œdèmes généralisés", "correct": false}
+      ],
+      "explanation": "Les critères KDIGO définissent l'IRA par une augmentation de la créatininémie ≥ 26,5 μmol/L en 48 heures ou ≥ 50% en 7 jours, ou oligurie < 0,5 mL/kg/h pendant 6 heures."
+    },
+    {
+      "question": "Quelles sont les causes prérénales d'insuffisance rénale aiguë?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypovolémie", "correct": true},
+        {"text": "Insuffisance cardiaque", "correct": true},
+        {"text": "Obstruction urinaire", "correct": false},
+        {"text": "Septicémie", "correct": true},
+        {"text": "Néphrotoxicité médicamenteuse", "correct": false}
+      ],
+      "explanation": "Les causes prérénales incluent toute hypoperfusion rénale comme l'hypovolémie, l'insuffisance cardiaque ou la septicémie avec vasoplégie."
+    },
+    {
+      "question": "Quel est le marqueur le plus sensible de la fonction rénale?",
+      "type": "single",
+      "options": [
+        {"text": "Débit de filtration glomérulaire (DFG)", "correct": true},
+        {"text": "Créatininémie", "correct": false},
+        {"text": "Urémie", "correct": false},
+        {"text": "Protéinurie", "correct": false}
+      ],
+      "explanation": "Le DFG est le meilleur indicateur de la fonction rénale, estimé par des formules comme CKD-EPI."
+    },
+    {
+      "question": "Quels sont les stades de la maladie rénale chronique selon KDIGO?",
+      "type": "multiple",
+      "options": [
+        {"text": "Stade 1: DFG ≥ 90 mL/min/1,73m²", "correct": true},
+        {"text": "Stade 3: DFG 30-59 mL/min/1,73m²", "correct": true},
+        {"text": "Stade 5: DFG < 15 mL/min/1,73m²", "correct": true},
+        {"text": "Stade 4: DFG 60-89 mL/min/1,73m²", "correct": false},
+        {"text": "Stade 2: DFG 60-89 mL/min/1,73m²", "correct": true}
+      ],
+      "explanation": "Les stades MRC sont basés sur le DFG: 1 (≥90), 2 (60-89), 3 (30-59), 4 (15-29), 5 (<15)."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente de glomérulonéphrite chez l'adulte?",
+      "type": "single",
+      "options": [
+        {"text": "Néphropathie à IgA", "correct": true},
+        {"text": "Syndrome néphrotique idiopathique", "correct": false},
+        {"text": "Glomérulonéphrite membranoproliférative", "correct": false},
+        {"text": "Maladie de Berger", "correct": false}
+      ],
+      "explanation": "La néphropathie à IgA (maladie de Berger) est la glomérulonéphrite primitive la plus fréquente chez l'adulte."
+    },
+    {
+      "question": "Quels sont les signes biologiques d'un syndrome néphrotique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Protéinurie > 3 g/24h", "correct": true},
+        {"text": "Hypoalbuminémie < 30 g/L", "correct": true},
+        {"text": "Hypercholestérolémie", "correct": true},
+        {"text": "Hématurie macroscopique", "correct": false},
+        {"text": "Œdèmes", "correct": true}
+      ],
+      "explanation": "Le syndrome néphrotique associe protéinurie massive, hypoalbuminémie, dyslipidémie et œdèmes."
+    },
+    {
+      "question": "Quel est le traitement de première ligne de l'hypertension artérielle rénovasculaire?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibiteurs de l'enzyme de conversion", "correct": false},
+        {"text": "Angioplastie percutanée", "correct": true},
+        {"text": "Bêta-bloquants", "correct": false},
+        {"text": "Diurétiques", "correct": false}
+      ],
+      "explanation": "L'angioplastie est indiquée en cas de sténose significative, mais les IEC sont contre-indiqués en bilatéral."
+    },
+    {
+      "question": "Quelles complications sont associées à la dialyse péritonéale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Péritonite", "correct": true},
+        {"text": "Hernie", "correct": true},
+        {"text": "Hypotension", "correct": false},
+        {"text": "Hyperglycémie", "correct": true},
+        {"text": "Amyloïdose", "correct": false}
+      ],
+      "explanation": "Les complications incluent péritonite, hernies, et troubles métaboliques comme l'hyperglycémie due au glucose dans le dialysat."
+    },
+    {
+      "question": "Quelle est l'indication principale de la biopsie rénale?",
+      "type": "single",
+      "options": [
+        {"text": "Syndrome glomérulaire inexpliqué", "correct": true},
+        {"text": "Insuffisance rénale chronique terminale", "correct": false},
+        {"text": "Lithiasis rénale", "correct": false},
+        {"text": "Infection urinaire récurrente", "correct": false}
+      ],
+      "explanation": "La biopsie rénale est indiquée pour diagnostiquer les glomérulopathies et tubulopathies inexpliquées."
+    },
+    {
+      "question": "Quels sont les facteurs de risque de la maladie rénale chronique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Diabète sucré", "correct": true},
+        {"text": "Hypertension artérielle", "correct": true},
+        {"text": "Âge avancé", "correct": true},
+        {"text": "Tabagisme", "correct": true},
+        {"text": "Anémie", "correct": false}
+      ],
+      "explanation": "Les principaux facteurs de risque sont le diabète, l'HTA, l'âge, l'obésité et le tabagisme."
+    },
+    {
+      "question": "Quel est le mécanisme principal de l'acidose tubulaire rénale distale?",
+      "type": "single",
+      "options": [
+        {"text": "Défaut de sécrétion d'H+ par les cellules alpha-intercalées", "correct": true},
+        {"text": "Réabsorption excessive de bicarbonate", "correct": false},
+        {"text": "Perte urinaire de potassium", "correct": false},
+        {"text": "Hyperaldostéronisme", "correct": false}
+      ],
+      "explanation": "L'ATR distale est due à un défaut de pompe H+-ATPase dans le tubule collecteur."
+    },
+    {
+      "question": "Quelles sont les manifestations cliniques de l'hyperkaliémie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Paralysie flasque", "correct": true},
+        {"text": "Arythmie cardiaque", "correct": true},
+        {"text": "Crampes musculaires", "correct": false},
+        {"text": "Pic d'onde T à l'ECG", "correct": true},
+        {"text": "Hypotension", "correct": false}
+      ],
+      "explanation": "L'hyperkaliémie cause faiblesse musculaire, arythmies et modifications ECG comme pics T et élargissement QRS."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente d'hypocalcémie en néphrologie?",
+      "type": "single",
+      "options": [
+        {"text": "Insuffisance rénale chronique", "correct": true},
+        {"text": "Hypoparathyroïdie", "correct": false},
+        {"text": "Carence en vitamine D", "correct": false},
+        {"text": "Pancréatite aiguë", "correct": false}
+      ],
+      "explanation": "Dans la MRC, l'hypocalcémie résulte de la rétention phosphorée et du déficit en 1,25(OH)2D."
+    },
+    {
+      "question": "Quels traitements sont utilisés dans la néphrolithiase?",
+      "type": "multiple",
+      "options": [
+        {"text": "Lithotritie extracorporelle", "correct": true},
+        {"text": "Allopurinol pour hyperuricémie", "correct": true},
+        {"text": "Thiazides pour hypercalciurie", "correct": true},
+        {"text": "Antibiotiques systématiques", "correct": false},
+        {"text": "Hydratation abondante", "correct": true}
+      ],
+      "explanation": "Le traitement inclut hydratation, lithotritie, et agents spécifiques selon la composition lithiasique."
+    },
+    {
+      "question": "Quel est le critère diagnostique de la polykystose rénale autosomique dominante?",
+      "type": "single",
+      "options": [
+        {"text": "Présence de ≥3 kystes rénaux bilatéraux chez un sujet <40 ans", "correct": true},
+        {"text": "Insuffisance rénale terminale avant 30 ans", "correct": false},
+        {"text": "Kystes hépatiques isolés", "correct": false},
+        {"text": "Mutation PKD2 exclusively", "correct": false}
+      ],
+      "explanation": "Les critères de Pei-Ravine pour l'échographie incluent ≥3 kystes bilatéraux avant 40 ans."
+    },
+    {
+      "question": "Quelles sont les indications d'hémodialyse en urgence?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hyperkaliémie réfractaire >6,5 mmol/L", "correct": true},
+        {"text": "Œdème pulmonaire réfractaire", "correct": true},
+        {"text": "Acidose métabolique sévère", "correct": true},
+        {"text": "Uréémie >20 mmol/L isolée", "correct": false},
+        {"text": "Péricardite urémique", "correct": true}
+      ],
+      "explanation": "Les indications 'AEIOU': Acidose, Électrolytes, Intoxication, Overload, Urémie symptomatique."
+    },
+    {
+      "question": "Quelle est la complication la plus fréquente après transplantation rénale?",
+      "type": "single",
+      "options": [
+        {"text": "Rejet aigu", "correct": true},
+        {"text": "Infection opportuniste", "correct": false},
+        {"text": "Néphrotoxicité par calcineurine", "correct": false},
+        {"text": "Récidive de la maladie native", "correct": false}
+      ],
+      "explanation": "Le rejet aigu survient chez 10-20% des transplantés dans la première année."
+    },
+    {
+      "question": "Quels sont les effets secondaires des inhibiteurs de calcineurine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Néphrotoxicité", "correct": true},
+        {"text": "Hypertension artérielle", "correct": true},
+        {"text": "Tremblements", "correct": true},
+        {"text": "Hypertrichose", "correct": true},
+        {"text": "Anémie", "correct": false}
+      ],
+      "explanation": "Les ICN comme tacrolimus causent néphrotoxicité, HTA, neurotoxicité et hypertrichose."
+    },
+    {
+      "question": "Quel est le diagnostic différentiel principal de l'hématurie glomérulaire?",
+      "type": "single",
+      "options": [
+        {"text": "Hématurie urologique", "correct": true},
+        {"text": "Coagulopathie", "correct": false},
+        {"text": "Infection urinaire", "correct": false},
+        {"text": "Traumatisme", "correct": false}
+      ],
+      "explanation": "L'hématurie glomérulaire se distingue par des hématies dysmorphiques et protéinurie associée."
+    },
+    {
+      "question": "Quelles sont les causes de syndrome de Fanconi?",
+      "type": "multiple",
+      "options": [
+        {"text": "Myélome multiple", "correct": true},
+        {"text": "Intoxication au plomb", "correct": true},
+        {"text": "Défaut génétique de réabsorption tubulaire", "correct": true},
+        {"text": "Diabète insipide", "correct": false},
+        {"text": "Cisplatine", "correct": true}
+      ],
+      "explanation": "Le syndrome de Fanconi implique glycosurie, aminoacidurie, phosphaturie et acidose due à dysfonction tubulaire proximale."
+    },
+    {
+      "question": "Quelle est la formule d'estimation du DFG la plus utilisée?",
+      "type": "single",
+      "options": [
+        {"text": "CKD-EPI", "correct": true},
+        {"text": "Cockcroft-Gault", "correct": false},
+        {"text": "MDRD", "correct": false},
+        {"text": "Schwartz", "correct": false}
+      ],
+      "explanation": "La formule CKD-EPI est recommandée pour estimer le DFG chez l'adulte."
+    },
+    {
+      "question": "Quels sont les signes d'hyperphosphatémie dans la MRC?",
+      "type": "multiple",
+      "options": [
+        {"text": "Prurit", "correct": true},
+        {"text": "Calcifications vasculaires", "correct": true},
+        {"text": "Hyperparathyroïdie secondaire", "correct": true},
+        {"text": "Hypocalcémie", "correct": true},
+        {"text": "Hyponatrémie", "correct": false}
+      ],
+      "explanation": "L'hyperphosphatémie contribue à l'hyperparathyroïdie, calcifications et prurit urémique."
+    },
+    {
+      "question": "Quel est le traitement de l'acidose métabolique en dialyse?",
+      "type": "single",
+      "options": [
+        {"text": "Bicarbonate dans le bain de dialyse", "correct": true},
+        {"text": "Acétate de sodium", "correct": false},
+        {"text": "Insuline IV", "correct": false},
+        {"text": "Ventilation mécanique", "correct": false}
+      ],
+      "explanation": "Le bicarbonate est utilisé pour corriger l'acidose en hémodialyse."
+    },
+    {
+      "question": "Quelles sont les contre-indications à la transplantation rénale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Infection active", "correct": true},
+        {"text": "Cancer non guéri", "correct": true},
+        {"text": "Non-compliance thérapeutique", "correct": true},
+        {"text": "Âge >80 ans systématique", "correct": false},
+        {"text": "Obésité morbide", "correct": true}
+      ],
+      "explanation": "Les contre-indications incluent infections, cancers, non-adhésion et comorbidités sévères."
+    },
+    {
+      "question": "Quelle est la cause principale de mortalité chez les patients dialysés?",
+      "type": "single",
+      "options": [
+        {"text": "Maladies cardiovasculaires", "correct": true},
+        {"text": "Infections", "correct": false},
+        {"text": "Hémorragies", "correct": false},
+        {"text": "Cancers", "correct": false}
+      ],
+      "explanation": "Les événements cardiovasculaires représentent 50% des décès en dialyse."
+    },
+    {
+      "question": "Quels sont les critères de diagnostic du lupus néphrite?",
+      "type": "multiple",
+      "options": [
+        {"text": "Protéinurie >0,5 g/24h", "correct": true},
+        {"text": "Hématurie", "correct": true},
+        {"text": "Cylindres hématiques", "correct": true},
+        {"text": "Hypocomplémentémie", "correct": true},
+        {"text": "Éruption malaire isolée", "correct": false}
+      ],
+      "explanation": "Le lupus néphrite est diagnostiqué par anomalies urinaires et biopsie montrant dépôts immuns."
+    },
+    {
+      "question": "Quel est le rôle de l'érythropoïétine dans la MRC?",
+      "type": "single",
+      "options": [
+        {"text": "Stimulation de l'érythropoïèse rénale", "correct": false},
+        {"text": "Traitement de l'anémie", "correct": true},
+        {"text": "Régulation phosphorée", "correct": false},
+        {"text": "Contrôle de la pression artérielle", "correct": false}
+      ],
+      "explanation": "L'EPO exogène traite l'anémie due au déficit rénal en EPO endogène."
+    },
+    {
+      "question": "Quelles sont les complications osseuses de la MRC?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ostéomalacie", "correct": true},
+        {"text": "Ostéoporose", "correct": true},
+        {"text": "Maladie adynamique", "correct": true},
+        {"text": "Hyperparathyroïdie", "correct": true},
+        {"text": "Sclérodermie", "correct": false}
+      ],
+      "explanation": "L'ostéodystrophie rénale inclut hyperparathyroïdie, ostéomalacie et os adynamique."
+    },
+    {
+      "question": "Quelle est la définition de l'oligurie?",
+      "type": "single",
+      "options": [
+        {"text": "Diurèse < 500 mL/24h", "correct": true},
+        {"text": "Diurèse < 100 mL/24h", "correct": false},
+        {"text": "Diurèse > 3000 mL/24h", "correct": false},
+        {"text": "Absence totale d'urine", "correct": false}
+      ],
+      "explanation": "L'oligurie est définie par une diurèse <400-500 mL/24h chez l'adulte."
+    },
+    {
+      "question": "Quels sont les marqueurs de dommage tubulaire dans l'IRA?",
+      "type": "multiple",
+      "options": [
+        {"text": "NGAL", "correct": true},
+        {"text": "KIM-1", "correct": true},
+        {"text": "IL-18", "correct": true},
+        {"text": "Créatinine sérique", "correct": false},
+        {"text": "Cystatine C", "correct": true}
+      ],
+      "explanation": "Les biomarqueurs comme NGAL, KIM-1 et cystatine C détectent précocement le dommage tubulaire."
+    },
+    {
+      "question": "Quel est le traitement préventif de la néphropathie diabétique?",
+      "type": "single",
+      "options": [
+        {"text": "Contrôle strict de la glycémie", "correct": true},
+        {"text": "Statines systématiques", "correct": false},
+        {"text": "Diurétiques", "correct": false},
+        {"text": "Aspirine", "correct": false}
+      ],
+      "explanation": "Le contrôle glycémique et tensionnel prévient la progression de la néphropathie diabétique."
+    },
+    {
+      "question": "Quelles sont les causes de protéinurie orthostatique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Adolescence", "correct": true},
+        {"text": "Position debout prolongée", "correct": true},
+        {"text": "Glomérulopathie", "correct": false},
+        {"text": "Effort physique", "correct": true},
+        {"text": "Hypertension", "correct": false}
+      ],
+      "explanation": "La protéinurie orthostatique est bénigne, survenant en position debout chez les jeunes."
+    },
+    {
+      "question": "Quelle est la complication neurologique de l'urémie?",
+      "type": "single",
+      "options": [
+        {"text": "Encéphalopathie urémique", "correct": true},
+        {"text": "Neuropathie diabétique", "correct": false},
+        {"text": "Accident vasculaire cérébral", "correct": false},
+        {"text": "Migraine", "correct": false}
+      ],
+      "explanation": "L'encéphalopathie urémique inclut confusion, asterixis et coma si non traitée."
+    },
+    {
+      "question": "Quels sont les types de rejets en transplantation rénale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hyperaigu", "correct": true},
+        {"text": "Aigu", "correct": true},
+        {"text": "Chronique", "correct": true},
+        {"text": "Subaigu", "correct": false},
+        {"text": "Cellulaire et humoral", "correct": true}
+      ],
+      "explanation": "Les rejets sont classés en hyperaigu (anticorps préformés), aigu (cellulaire/humoral) et chronique."
+    },
+    {
+      "question": "Quel est le rôle de la PTH dans la MRC?",
+      "type": "single",
+      "options": [
+        {"text": "Hyperparathyroïdie secondaire", "correct": true},
+        {"text": "Hypoparathyroïdie", "correct": false},
+        {"text": "Régulation du sodium", "correct": false},
+        {"text": "Stimulation de l'EPO", "correct": false}
+      ],
+      "explanation": "La PTH augmente en réponse à l'hypocalcémie et hyperphosphatémie dans la MRC."
+    },
+    {
+      "question": "Quelles sont les indications de la plasmaphérèse en néphrologie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Syndrome de Goodpasture", "correct": true},
+        {"text": "Myélome à chaînes légères", "correct": true},
+        {"text": "Rejet humoral", "correct": true},
+        {"text": "Insuffisance rénale prérénale", "correct": false},
+        {"text": "Vasculite ANCA", "correct": true}
+      ],
+      "explanation": "La plasmaphérèse élimine les anticorps dans les glomérulonéphrites auto-immunes."
+    },
+    {
+      "question": "Quelle est la cause génétique de la maladie de Fabry?",
+      "type": "single",
+      "options": [
+        {"text": "Déficit en alpha-galactosidase A", "correct": true},
+        {"text": "Mutation CFTR", "correct": false},
+        {"text": "Déficit en hexosaminidase", "correct": false},
+        {"text": "Mutation PKD1", "correct": false}
+      ],
+      "explanation": "La maladie de Fabry est une lysosomale liée à l'X avec accumulation de globotriaosylcéramide."
+    },
+    {
+      "question": "Quels sont les signes d'hypomagnésémie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Tremblements", "correct": true},
+        {"text": "Hypocalcémie", "correct": true},
+        {"text": "Arythmies", "correct": true},
+        {"text": "Hypertension", "correct": false},
+        {"text": "Tétanie", "correct": true}
+      ],
+      "explanation": "L'hypomagnésémie cause neuromusculaire irritabilité et troubles cardiaques."
+    },
+    {
+      "question": "Quel est le diagnostic de la néphrite interstitielle aiguë?",
+      "type": "single",
+      "options": [
+        {"text": "Éosinophilurie et rash cutané", "correct": true},
+        {"text": "Hématurie macroscopique", "correct": false},
+        {"text": "Protéinurie massive", "correct": false},
+        {"text": "Cylindres granuleux", "correct": false}
+      ],
+      "explanation": "La NIA est souvent médicamenteuse avec fièvre, rash et éosinophilurie."
+    },
+    {
+      "question": "Quelles sont les causes de diabète insipide néphrogénique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Lithium", "correct": true},
+        {"text": "Hypercalcémie", "correct": true},
+        {"text": "Mutation AVPR2", "correct": true},
+        {"text": "Hypokaliémie", "correct": true},
+        {"text": "Diabète sucré", "correct": false}
+      ],
+      "explanation": "Le DIN résulte d'une résistance rénale à la vasopressine."
+    },
+    {
+      "question": "Quelle est la prise en charge de l'hypernatriémie?",
+      "type": "single",
+      "options": [
+        {"text": "Correction lente avec soluté hypotonique", "correct": true},
+        {"text": "Diurétiques de l'anse", "correct": false},
+        {"text": "Restriction hydrique", "correct": false},
+        {"text": "Vasopressine", "correct": false}
+      ],
+      "explanation": "La correction doit être progressive pour éviter l'œdème cérébral."
+    },
+    {
+      "question": "Quels sont les facteurs pronostiques de la glomérulonéphrite rapidly progressive?",
+      "type": "multiple",
+      "options": [
+        {"text": "Pourcentage de croissants", "correct": true},
+        {"text": "Niveau de créatininémie initial", "correct": true},
+        {"text": "Présence d'ANCA", "correct": true},
+        {"text": "Âge du patient", "correct": true},
+        {"text": "Sexe masculin", "correct": false}
+      ],
+      "explanation": "Le pronostic dépend de l'étendue des croissants et de la fonction rénale initiale."
+    },
+    {
+      "question": "Quel est le rôle des podocytes dans le glomérule?",
+      "type": "single",
+      "options": [
+        {"text": "Barrière de filtration", "correct": true},
+        {"text": "Production de rénine", "correct": false},
+        {"text": "Réabsorption tubulaire", "correct": false},
+        {"text": "Sécrétion d'EPO", "correct": false}
+      ],
+      "explanation": "Les podocytes forment la fente de filtration avec leurs pédicelles."
+    },
+    {
+      "question": "Quelles sont les complications de la fistule artério-veineuse?",
+      "type": "multiple",
+      "options": [
+        {"text": "Sténose", "correct": true},
+        {"text": "Infection", "correct": true},
+        {"text": "Syndrome de vol", "correct": true},
+        {"text": "Thrombose", "correct": true},
+        {"text": "Hypotension", "correct": false}
+      ],
+      "explanation": "Les FAV peuvent développer sténose, thrombose, infection et vol vasculaire."
+    },
+    {
+      "question": "Quelle est la définition de la protéinurie?",
+      "type": "single",
+      "options": [
+        {"text": "Protéines urinaires >150 mg/24h", "correct": true},
+        {"text": ">50 mg/24h", "correct": false},
+        {"text": ">300 mg/24h", "correct": false},
+        {"text": "Albuminurie >30 mg/24h", "correct": false}
+      ],
+      "explanation": "La protéinurie pathologique dépasse 150 mg/24h, avec microalbuminurie à 30-300 mg."
+    },
+    {
+      "question": "Quels sont les traitements de l'hyperparathyroïdie secondaire?",
+      "type": "multiple",
+      "options": [
+        {"text": "Chélateurs du phosphore", "correct": true},
+        {"text": "Vitamine D active", "correct": true},
+        {"text": "Calcimimétiques", "correct": true},
+        {"text": "Parathyroïdectomie", "correct": true},
+        {"text": "Statines", "correct": false}
+      ],
+      "explanation": "Le traitement vise à contrôler le phosphore, activer la vitamine D et moduler la PTH."
+    },
+    {
+      "question": "Quel est le diagnostic de la cystite aiguë?",
+      "type": "single",
+      "options": [
+        {"text": "Dysurie et bactériurie", "correct": true},
+        {"text": "Fièvre élevée", "correct": false},
+        {"text": "Hématurie macroscopique", "correct": false},
+        {"text": "Protéinurie massive", "correct": false}
+      ],
+      "explanation": "La cystite se manifeste par dysurie, pollakiurie et ECBU positif."
+    },
+    {
+      "question": "Quelles sont les causes de nécrose tubulaire aiguë?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ischémie", "correct": true},
+        {"text": "Toxines", "correct": true},
+        {"text": "Rhabdomyolyse", "correct": true},
+        {"text": "Obstruction", "correct": false},
+        {"text": "Sepsis", "correct": true}
+      ],
+      "explanation": "La NTA est causée par ischémie ou toxines directes sur les tubules."
+    },
+    {
+      "question": "Quelle est la prise en charge de la pyélonéphrite aiguë?",
+      "type": "single",
+      "options": [
+        {"text": "Antibiothérapie probabiliste", "correct": true},
+        {"text": "Chirurgie immédiate", "correct": false},
+        {"text": "Dialyse", "correct": false},
+        {"text": "Corticothérapie", "correct": false}
+      ],
+      "explanation": "L'antibiothérapie est adaptée selon l'ECBU, avec hospitalisation si signes de gravité."
+    },
+    {
+      "question": "Quels sont les signes d'hyponatrémie sévère?",
+      "type": "multiple",
+      "options": [
+        {"text": "Confusion", "correct": true},
+        {"text": "Convulsions", "correct": true},
+        {"text": "Coma", "correct": true},
+        {"text": "Tachycardie", "correct": false},
+        {"text": "Œdème cérébral", "correct": true}
+      ],
+      "explanation": "L'hyponatrémie aiguë cause symptômes neurologiques dus à l'œdème cérébral."
+    },
+    {
+      "question": "Quel est le mécanisme de l'œdème dans le syndrome néphrotique?",
+      "type": "single",
+      "options": [
+        {"text": "Hypo-oncoticité due à hypoalbuminémie", "correct": true},
+        {"text": "Rétention sodée primaire", "correct": false},
+        {"text": "Hypervolémie", "correct": false},
+        {"text": "Vasodilatation", "correct": false}
+      ],
+      "explanation": "L'hypoalbuminémie réduit la pression oncotique, favorisant la sortie liquidienne."
+    },
+    {
+      "question": "Quelles sont les classes d'immunosuppresseurs en transplantation?",
+      "type": "multiple",
+      "options": [
+        {"text": "Inhibiteurs de calcineurine", "correct": true},
+        {"text": "Antimétabolites", "correct": true},
+        {"text": "Inhibiteurs de mTOR", "correct": true},
+        {"text": "Corticostéroïdes", "correct": true},
+        {"text": "Diurétiques", "correct": false}
+      ],
+      "explanation": "Les immunosuppresseurs incluent ICN, mycophénolate, sirolimus et stéroïdes."
+    },
+    {
+      "question": "Quelle est la cause de la maladie rénale polykystique récessive?",
+      "type": "single",
+      "options": [
+        {"text": "Mutation PKHD1", "correct": true},
+        {"text": "Mutation PKD1", "correct": false},
+        {"text": "Mutation PKD2", "correct": false},
+        {"text": "Mutation UMOD", "correct": false}
+      ],
+      "explanation": "La PKAR est due à mutations de PKHD1 codant la fibrocystine."
+    },
+    {
+      "question": "Quels sont les critères de Berlin pour l'IRA?",
+      "type": "multiple",
+      "options": [
+        {"text": "Stade 1: créatinine x1.5 ou augmentation >26 μmol/L", "correct": true},
+        {"text": "Stade 2: créatinine x2", "correct": true},
+        {"text": "Stade 3: créatinine x3 ou dialyse", "correct": true},
+        {"text": "Oligurie <0.5 mL/kg/h >6h", "correct": true},
+        {"text": "Hypervolémie isolée", "correct": false}
+      ],
+      "explanation": "Les critères KDIGO/Berlin classent l'IRA en 3 stades basés sur créatinine et diurèse."
+    },
+    {
+      "question": "Quel est le traitement de la glomérulonéphrite membranoproliférative?",
+      "type": "single",
+      "options": [
+        {"text": "Immunosuppression selon la cause", "correct": true},
+        {"text": "Dialyse systématique", "correct": false},
+        {"text": "Anticoagulants", "correct": false},
+        {"text": "Chirurgie", "correct": false}
+      ],
+      "explanation": "Le traitement cible la cause sous-jacente comme hépatite C ou dysprotéinémie."
+    },
+    {
+      "question": "Quelles sont les manifestations extra-rénales de la vasculite ANCA?",
+      "type": "multiple",
+      "options": [
+        {"text": "Atteinte pulmonaire", "correct": true},
+        {"text": "Sinusite", "correct": true},
+        {"text": "Arthralgies", "correct": true},
+        {"text": "Purpura", "correct": true},
+        {"text": "Ictère", "correct": false}
+      ],
+      "explanation": "Les vasculites ANCA affectent poumons, ORL, peau et articulations."
+    },
+    {
+      "question": "Quelle est la fonction du tubule proximal?",
+      "type": "single",
+      "options": [
+        {"text": "Réabsorption de 60-70% du filtrat", "correct": true},
+        {"text": "Concentration urinaire", "correct": false},
+        {"text": "Sécrétion acide", "correct": false},
+        {"text": "Régulation potassique", "correct": false}
+      ],
+      "explanation": "Le tubule proximal réabsorbe la majorité du sodium, glucose, acides aminés et bicarbonate."
+    },
+    {
+      "question": "Quels sont les effets des diurétiques de l'anse?",
+      "type": "multiple",
+      "options": [
+        {"text": "Inhibition de NKCC2", "correct": true},
+        {"text": "Natriurèse", "correct": true},
+        {"text": "Hypokaliémie", "correct": true},
+        {"text": "Acidose métabolique", "correct": false},
+        {"text": "Hypocalcémie", "correct": true}
+      ],
+      "explanation": "Les diurétiques de l'anse causent natriurèse, kaliurèse et calciurèse."
+    },
+    {
+      "question": "Quelle est la cause de l'Alport syndrome?",
+      "type": "single",
+      "options": [
+        {"text": "Mutation du collagène IV", "correct": true},
+        {"text": "Mutation NPHS1", "correct": false},
+        {"text": "Mutation WT1", "correct": false},
+        {"text": "Mutation LAMB2", "correct": false}
+      ],
+      "explanation": "Le syndrome d'Alport affecte la membrane basale glomérulaire due à défaut de collagène IV."
+    },
+    {
+      "question": "Quelles sont les indications de la néphrectomie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Cancer rénal", "correct": true},
+        {"text": "Polykystose symptomatique", "correct": true},
+        {"text": "Hypertension réfractaire", "correct": true},
+        {"text": "Insuffisance rénale aiguë", "correct": false},
+        {"text": "Don d'organe", "correct": true}
+      ],
+      "explanation": "La néphrectomie est indiquée pour tumeurs, infections chroniques ou don."
+    },
+    {
+      "question": "Quel est le rôle de la rénine dans le système rénine-angiotensine?",
+      "type": "single",
+      "options": [
+        {"text": "Clivage de l'angiotensinogène en angiotensine I", "correct": true},
+        {"text": "Conversion en angiotensine II", "correct": false},
+        {"text": "Stimulation de l'aldostérone", "correct": false},
+        {"text": "Vasodilatation", "correct": false}
+      ],
+      "explanation": "La rénine initie la cascade SRA en produisant angiotensine I."
+    },
+    {
+      "question": "Quels sont les biomarqueurs de l'inflammation glomérulaire?",
+      "type": "multiple",
+      "options": [
+        {"text": "Anti-GBM", "correct": true},
+        {"text": "ANCA", "correct": true},
+        {"text": "Anti-DNA", "correct": true},
+        {"text": "C3 bas", "correct": true},
+        {"text": "PSA", "correct": false}
+      ],
+      "explanation": "Les auto-anticorps et hypocomplémentémie indiquent glomérulonéphrites immunes."
+    },
+    {
+      "question": "Quelle est la prise en charge de l'intoxication aux AINS en néphrologie?",
+      "type": "single",
+      "options": [
+        {"text": "Arrêt du médicament et hydratation", "correct": true},
+        {"text": "Dialyse immédiate", "correct": false},
+        {"text": "Corticostéroïdes", "correct": false},
+        {"text": "Antibiotiques", "correct": false}
+      ],
+      "explanation": "Les AINS causent IRA prérénale ou NIA, traitée par arrêt et support."
+    },
+    {
+      "question": "Quelles sont les causes de macrohématurie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Lithiasis", "correct": true},
+        {"text": "Cancer vésical", "correct": true},
+        {"text": "Glomérulonéphrite", "correct": true},
+        {"text": "Traumatisme", "correct": true},
+        {"text": "Hypertrophie prostatique", "correct": true}
+      ],
+      "explanation": "La macrohématurie peut être glomérulaire ou urologique."
+    },
+    {
+      "question": "Quel est le traitement de l'hypokaliémie sévère?",
+      "type": "single",
+      "options": [
+        {"text": "Supplémentation potassique IV prudente", "correct": true},
+        {"text": "Diurétiques épargneurs K", "correct": false},
+        {"text": "Insuline", "correct": false},
+        {"text": "Bêta-agonistes", "correct": false}
+      ],
+      "explanation": "La correction IV est monitorée pour éviter rebond hyperkaliémique."
+    },
+    {
+      "question": "Quelles sont les complications de la biopsie rénale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hématurie", "correct": true},
+        {"text": "Hématome périrénal", "correct": true},
+        {"text": "Infection", "correct": true},
+        {"text": "Fistule AV", "correct": true},
+        {"text": "Hypertension", "correct": false}
+      ],
+      "explanation": "Les complications incluent saignement, infection et rarement fistule."
+    },
+    {
+      "question": "Quelle est la définition de l'anurie?",
+      "type": "single",
+      "options": [
+        {"text": "Diurèse <100 mL/24h", "correct": true},
+        {"text": "<500 mL/24h", "correct": false},
+        {"text": "Absence d'urine", "correct": false},
+        {"text": ">4000 mL/24h", "correct": false}
+      ],
+      "explanation": "L'anurie est une diurèse <50-100 mL/24h, souvent obstructive."
+    },
+    {
+      "question": "Quels sont les types de calculs rénaux?",
+      "type": "multiple",
+      "options": [
+        {"text": "Oxalocalciques", "correct": true},
+        {"text": "Uriques", "correct": true},
+        {"text": "Struvite", "correct": true},
+        {"text": "Cystine", "correct": true},
+        {"text": "Carbonate", "correct": false}
+      ],
+      "explanation": "Les lithiases sont classées selon composition: calcique (80%), urique, infectieuse (struvite), cystine."
+    },
+    {
+      "question": "Quelle est la cause de la néphropathie à balkan?",
+      "type": "single",
+      "options": [
+        {"text": "Acide aristolochique", "correct": true},
+        {"text": "Virus BK", "correct": false},
+        {"text": "Plomb", "correct": false},
+        {"text": "Cadmium", "correct": false}
+      ],
+      "explanation": "La néphropathie balkanique est due à l'exposition à l'acide aristolochique dans les plantes."
+    },
+    {
+      "question": "Quelles sont les manifestations de l'insuffisance rénale terminale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Anémie", "correct": true},
+        {"text": "Prurit", "correct": true},
+        {"text": "Nausées", "correct": true},
+        {"text": "Œdèmes", "correct": true},
+        {"text": "Hypotension", "correct": false}
+      ],
+      "explanation": "L'IRCT cause urémie avec anémie, prurit, gastro-intestinaux et hydro-électrolytiques troubles."
+    },
+    {
+      "question": "Quel est le rôle de l'aldostérone dans le rein?",
+      "type": "single",
+      "options": [
+        {"text": "Réabsorption sodée et sécrétion potassique", "correct": true},
+        {"text": "Réabsorption calcique", "correct": false},
+        {"text": "Acidification urinaire", "correct": false},
+        {"text": "Vasoconstriction", "correct": false}
+      ],
+      "explanation": "L'aldostérone agit sur le tubule collecteur via ENaC et ROMK."
+    },
+    {
+      "question": "Quels sont les critères de compatibilité pour la transplantation rénale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Groupe ABO", "correct": true},
+        {"text": "HLA matching", "correct": true},
+        {"text": "Cross-match négatif", "correct": true},
+        {"text": "Âge identique", "correct": false},
+        {"text": "PRA bas", "correct": true}
+      ],
+      "explanation": "La compatibilité inclut ABO, HLA, absence d'anticorps donneur-spécifiques."
+    },
+    {
+      "question": "Quelle est la prise en charge de la rhabdomyolyse?",
+      "type": "single",
+      "options": [
+        {"text": "Hydratation alcaline", "correct": true},
+        {"text": "Dialyse précoce", "correct": false},
+        {"text": "Mannitol", "correct": false},
+        {"text": "Fasciotomie", "correct": false}
+      ],
+      "explanation": "L'hydratation massive prévient l'IRA par myoglobine."
+    },
+    {
+      "question": "Quelles sont les causes d'hypercalcémie paranéoplasique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Sécrétion de PTHrP", "correct": true},
+        {"text": "Lymphome", "correct": true},
+        {"text": "Métastases osseuses", "correct": true},
+        {"text": "Cancer rénal", "correct": true},
+        {"text": "Hypothyroïdie", "correct": false}
+      ],
+      "explanation": "L'hypercalcémie maligne est due à PTHrP ou lyse osseuse."
+    },
+    {
+      "question": "Quel est le diagnostic de la thrombose de la veine rénale?",
+      "type": "single",
+      "options": [
+        {"text": "Douleur lombaire et hématurie", "correct": true},
+        {"text": "Hypertension isolée", "correct": false},
+        {"text": "Protéinurie minime", "correct": false},
+        {"text": "Fièvre", "correct": false}
+      ],
+      "explanation": "La TVR se présente avec douleur, hématurie et IRA chez patients à risque thrombotique."
+    },
+    {
+      "question": "Quelles sont les options de remplacement rénal?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hémodialyse", "correct": true},
+        {"text": "Dialyse péritonéale", "correct": true},
+        {"text": "Transplantation", "correct": true},
+        {"text": "Hémofiltration continue", "correct": true},
+        {"text": "Diurétiques seuls", "correct": false}
+      ],
+      "explanation": "Les modalités incluent HD, DP, transplantation et thérapies continues en soins intensifs."
+    },
+    {
+      "question": "Quelle est la cause de la néphrite lupique classe IV?",
+      "type": "single",
+      "options": [
+        {"text": "Glomérulonéphrite diffuse proliférative", "correct": true},
+        {"text": "Maladie à changements minimes", "correct": false},
+        {"text": "Sclérose segmentaire", "correct": false},
+        {"text": "Membraneuse", "correct": false}
+      ],
+      "explanation": "La classe IV est proliférative avec croissants possibles."
+    },
+    {
+      "question": "Quels sont les effets des thiazides sur les électrolytes?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypokaliémie", "correct": true},
+        {"text": "Hyponatrémie", "correct": true},
+        {"text": "Hypocalciurie", "correct": true},
+        {"text": "Hyperphosphatémie", "correct": false},
+        {"text": "Hypermagnésémie", "correct": false}
+      ],
+      "explanation": "Les thiazides causent hypokaliémie, hyponatrémie et retiennent le calcium."
+    },
+    {
+      "question": "Quelle est la définition de la microalbuminurie?",
+      "type": "single",
+      "options": [
+        {"text": "30-300 mg/24h d'albumine", "correct": true},
+        {"text": ">300 mg/24h", "correct": false},
+        {"text": "<30 mg/24h", "correct": false},
+        {"text": "Protéinurie >3g/24h", "correct": false}
+      ],
+      "explanation": "La microalbuminurie est un marqueur précoce de néphropathie diabétique."
+    },
+    {
+      "question": "Quelles sont les causes post-rénales d'IRA?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypertrophie prostatique", "correct": true},
+        {"text": "Lithiasis bilatérale", "correct": true},
+        {"text": "Tumeur pelvienne", "correct": true},
+        {"text": "Fibrose rétropéritonéale", "correct": true},
+        {"text": "Hypovolémie", "correct": false}
+      ],
+      "explanation": "Les causes post-rénales sont obstructives des voies urinaires basses."
+    },
+    {
+      "question": "Quel est le traitement de la maladie à anticorps anti-MBG?",
+      "type": "single",
+      "options": [
+        {"text": "Plasmaphérèse et immunosuppresseurs", "correct": true},
+        {"text": "Antibiotiques", "correct": false},
+        {"text": "Diurétiques", "correct": false},
+        {"text": "Chirurgie", "correct": false}
+      ],
+      "explanation": "Le syndrome de Goodpasture nécessite élimination des anticorps et suppression immune."
+    },
+    {
+      "question": "Quelles sont les complications cardiaques de la MRC?",
+      "type": "multiple",
+      "options": [
+        {"text": "Cardiomyopathie urémique", "correct": true},
+        {"text": "Péricardite", "correct": true},
+        {"text": "Athérosclérose accélérée", "correct": true},
+        {"text": "Hypertrophie ventriculaire gauche", "correct": true},
+        {"text": "Bradycardie", "correct": false}
+      ],
+      "explanation": "La MRC accélère les maladies CV par inflammation, dyslipidémie et HTA."
+    },
+    {
+      "question": "Quelle est la fonction de l'appareil juxtaglomérulaire?",
+      "type": "single",
+      "options": [
+        {"text": "Sécrétion de rénine", "correct": true},
+        {"text": "Filtration glomérulaire", "correct": false},
+        {"text": "Réabsorption tubulaire", "correct": false},
+        {"text": "Concentration urinaire", "correct": false}
+      ],
+      "explanation": "L'AJG régule la pression via rénine en réponse à hypoperfusion."
+    },
+    {
+      "question": "Quels sont les signes biologiques de la rhabdomyolyse?",
+      "type": "multiple",
+      "options": [
+        {"text": "CK élevée", "correct": true},
+        {"text": "Myoglobinurie", "correct": true},
+        {"text": "Hyperkaliémie", "correct": true},
+        {"text": "Hyperphosphatémie", "correct": true},
+        {"text": "Hyponatrémie", "correct": false}
+      ],
+      "explanation": "La lyse musculaire libère CK, myoglobine, K et P."
+    },
+    {
+      "question": "Quelle est la cause de la néphropathie au contraste?",
+      "type": "single",
+      "options": [
+        {"text": "Toxidité directe et vasoconstriction", "correct": true},
+        {"text": "Embolie", "correct": false},
+        {"text": "Infection", "correct": false},
+        {"text": "Allergie", "correct": false}
+      ],
+      "explanation": "La NAC est prévenue par hydratation et utilisation de produits iso-osmolaires."
+    },
+    {
+      "question": "Quelles sont les modalités d'hémodialyse?",
+      "type": "multiple",
+      "options": [
+        {"text": "Conventionnelle", "correct": true},
+        {"text": "Hémofiltration", "correct": true},
+        {"text": "Hémodiafiltration", "correct": true},
+        {"text": "Péritonéale continue", "correct": false},
+        {"text": "Nocturne", "correct": true}
+      ],
+      "explanation": "Les modalités varient en diffusion, convection et fréquence."
+    },
+    {
+      "question": "Quel est le diagnostic de la sclérodermie rénale?",
+      "type": "single",
+      "options": [
+        {"text": "Crise rénale avec HTA maligne", "correct": true},
+        {"text": "Protéinurie isolée", "correct": false},
+        {"text": "Hématurie minime", "correct": false},
+        {"text": "Oligurie chronique", "correct": false}
+      ],
+      "explanation": "La crise sclérodermique inclut HTA, IRA et thrombose microvasculaire."
+    },
+    {
+      "question": "Quelles sont les causes de l'acidose tubulaire rénale proximale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Déficit en carbonic anhydrase", "correct": true},
+        {"text": "Myélome", "correct": true},
+        {"text": "Intoxication au plomb", "correct": true},
+        {"text": "Hyperaldostéronisme", "correct": false},
+        {"text": "Ifosfamide", "correct": true}
+      ],
+      "explanation": "L'ATR proximale cause perte de bicarbonate avec hypokaliémie."
+    },
+    {
+      "question": "Quelle est la prise en charge de l'hyperuricémie en néphrologie?",
+      "type": "single",
+      "options": [
+        {"text": "Allopurinol ou febuxostat", "correct": true},
+        {"text": "Probenécide", "correct": false},
+        {"text": "Rasburicase pour urgence", "correct": false},
+        {"text": "Dialyse", "correct": false}
+      ],
+      "explanation": "Les inhibiteurs de xanthine oxydase réduisent la production d'acide urique."
+    },
+    {
+      "question": "Quels sont les signes d'intoxication à l'éthylène glycol?",
+      "type": "multiple",
+      "options": [
+        {"text": "Acidose métabolique à trou anionique élevé", "correct": true},
+        {"text": "Cristaux d'oxalate", "correct": true},
+        {"text": "IRA", "correct": true},
+        {"text": "Hypoglycémie", "correct": false},
+        {"text": "Coma", "correct": true}
+      ],
+      "explanation": "L'intoxication cause acidose par acide oxalique et cristaux urinaires."
+    },
+    {
+      "question": "Quelle est la fonction de la boucle de Henle?",
+      "type": "single",
+      "options": [
+        {"text": "Création du gradient osmotique médullaire", "correct": true},
+        {"text": "Réabsorption glucose", "correct": false},
+        {"text": "Sécrétion ammoniac", "correct": false},
+        {"text": "Régulation calcique", "correct": false}
+      ],
+      "explanation": "La contre-courant multiplie l'osmolarité médullaire pour concentration urinaire."
+    },
+    {
+      "question": "Quelles sont les complications de la dialyse péritonéale chronique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Encapsulating peritoneal sclerosis", "correct": true},
+        {"text": "Perte de fonction ultrafiltrante", "correct": true},
+        {"text": "Malnutrition", "correct": true},
+        {"text": "Hypotension chronique", "correct": false},
+        {"text": "Dyslipidémie", "correct": true}
+      ],
+      "explanation": "La DP chronique peut causer fibrose péritonéale et troubles métaboliques."
+    },
+    {
+      "question": "Quel est le diagnostic de la néphropathie à IgA?",
+      "type": "single",
+      "options": [
+        {"text": "Dépôts mésangiaux d'IgA à l'IF", "correct": true},
+        {"text": "Dépôts subendothéliaux", "correct": false},
+        {"text": "Croissants", "correct": false},
+        {"text": "Sclérose segmentaire", "correct": false}
+      ],
+      "explanation": "La biopsie montre prolifération mésangiale avec IgA dominant."
+    },
+    {
+      "question": "Quelles sont les causes de l'hypophosphatémie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Refeeding syndrome", "correct": true},
+        {"text": "Hyperparathyroïdie", "correct": true},
+        {"text": "Diurétiques", "correct": true},
+        {"text": "Insuffisance rénale", "correct": false},
+        {"text": "Vitamine D déficit", "correct": true}
+      ],
+      "explanation": "L'hypophosphatémie résulte de pertes rénales ou shift intracellulaire."
+    },
+    {
+      "question": "Quelle est la prise en charge de la sténose de l'artère rénale?",
+      "type": "single",
+      "options": [
+        {"text": "Angioplastie si symptomatique", "correct": true},
+        {"text": "Chirurgie ouverte", "correct": false},
+        {"text": "Médicaments seuls", "correct": false},
+        {"text": "Dialyse", "correct": false}
+      ],
+      "explanation": "L'angioplastie est indiquée pour HTA réfractaire ou IRA ischémique."
+    },
+    {
+      "question": "Quels sont les types de glomérulonéphrites post-infectieuses?",
+      "type": "multiple",
+      "options": [
+        {"text": "Post-streptococcique", "correct": true},
+        {"text": "Associée à shunt", "correct": true},
+        {"text": "Hépatite B", "correct": true},
+        {"text": "Malaria", "correct": true},
+        {"text": "Diabète", "correct": false}
+      ],
+      "explanation": "Les GNPI sont dues à dépôts immuns post-infection."
+    },
+    {
+      "question": "Quelle est la définition du syndrome hépato-rénal?",
+      "type": "single",
+      "options": [
+        {"text": "IRA chez cirrhotique sans autre cause", "correct": true},
+        {"text": "Insuffisance hépatique avec azotémie", "correct": false},
+        {"text": "Ascite avec protéinurie", "correct": false},
+        {"text": "Hépatite avec hématurie", "correct": false}
+      ],
+      "explanation": "Le SHR est une IRA fonctionnelle due à vasodilatation splanchnique."
+    },
+    {
+      "question": "Quelles sont les indications des IEC dans la néphrologie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Néphropathie diabétique", "correct": true},
+        {"text": "HTA avec protéinurie", "correct": true},
+        {"text": "MRC avec hyperkaliémie", "correct": false},
+        {"text": "Glomérulonéphrites", "correct": true},
+        {"text": "Sténose artérielle rénale bilatérale", "correct": false}
+      ],
+      "explanation": "Les IEC réduisent la protéinurie et ralentissent la progression de la MRC."
+    },
+    {
+      "question": "Quel est le rôle de la vitamine D dans le rein?",
+      "type": "single",
+      "options": [
+        {"text": "Hydroxylation en 1,25(OH)2D", "correct": true},
+        {"text": "Synthèse de PTH", "correct": false},
+        {"text": "Régulation sodée", "correct": false},
+        {"text": "Production d'EPO", "correct": false}
+      ],
+      "explanation": "Le rein active la vitamine D pour réguler calcium et phosphore."
+    },
+    {
+      "question": "Quelles sont les complications pulmonaires de la MRC?",
+      "type": "multiple",
+      "options": [
+        {"text": "Œdème pulmonaire", "correct": true},
+        {"text": "Calcifications métastatiques", "correct": true},
+        {"text": "Pleurésie urémique", "correct": true},
+        {"text": "Asthme", "correct": false},
+        {"text": "Fibrose pulmonaire", "correct": true}
+      ],
+      "explanation": "La surcharge volémique et urémie causent troubles pulmonaires."
+    },
+    {
+      "question": "Quelle est la cause de la néphropathie obstructive?",
+      "type": "single",
+      "options": [
+        {"text": "Obstruction des voies urinaires", "correct": true},
+        {"text": "Toxines", "correct": false},
+        {"text": "Ischémie", "correct": false},
+        {"text": "Inflammation", "correct": false}
+      ],
+      "explanation": "L'obstruction cause dilatation pyélocalicielle et IRA."
+    },
+    {
+      "question": "Quels sont les marqueurs de l'auto-immunité en néphrologie?",
+      "type": "multiple",
+      "options": [
+        {"text": "ANA", "correct": true},
+        {"text": "Anti-DNA", "correct": true},
+        {"text": "ANCA", "correct": true},
+        {"text": "Anti-GBM", "correct": true},
+        {"text": "PSA", "correct": false}
+      ],
+      "explanation": "Ces anticorps diagnostiquent les glomérulonéphrites auto-immunes."
+    },
+    {
+      "question": "Quelle est la prise en charge de l'IRA post-opératoire?",
+      "type": "single",
+      "options": [
+        {"text": "Optimisation hémodynamique", "correct": true},
+        {"text": "Dialyse systématique", "correct": false},
+        {"text": "Corticostéroïdes", "correct": false},
+        {"text": "Antibiotiques", "correct": false}
+      ],
+      "explanation": "La prévention et le traitement visent la perfusion rénale."
+    },
+    {
+      "question": "Quelles sont les causes génétiques de la néphronophtise?",
+      "type": "multiple",
+      "options": [
+        {"text": "Mutations NPHP", "correct": true},
+        {"text": "Ciliopathies", "correct": true},
+        {"text": "PKD1", "correct": false},
+        {"text": "UMOD", "correct": true},
+        {"text": "CFTR", "correct": false}
+      ],
+      "explanation": "La néphronophtise est une ciliopathie avec atrophie tubulo-interstitielle."
+    },
+    {
+      "question": "Quel est le traitement de la cryoglobulinémie mixte?",
+      "type": "single",
+      "options": [
+        {"text": "Traitement de la cause (VHC) et rituximab", "correct": true},
+        {"text": "Anticoagulants", "correct": false},
+        {"text": "Diurétiques", "correct": false},
+        {"text": "Dialyse seule", "correct": false}
+      ],
+      "explanation": "Le traitement cible l'infection sous-jacente et les cryoglobulines."
+    },
+    {
+      "question": "Quelles sont les complications gastro-intestinales de la MRC?",
+      "type": "multiple",
+      "options": [
+        {"text": "Nausées", "correct": true},
+        {"text": "Anorexie", "correct": true},
+        {"text": "Gastropathie urémique", "correct": true},
+        {"text": "Constipation", "correct": true},
+        {"text": "Diarrhée", "correct": false}
+      ],
+      "explanation": "L'urémie cause troubles GI par toxicité directe."
+    },
+    {
+      "question": "Quelle est la définition de la clearance rénale?",
+      "type": "single",
+      "options": [
+        {"text": "Volume plasmatique épuré par unité de temps", "correct": true},
+        {"text": "DFG estimé", "correct": false},
+        {"text": "Concentration urinaire", "correct": false},
+        {"text": "Fraction d'excrétion", "correct": false}
+      ],
+      "explanation": "La clearance mesure l'épuration rénale d'une substance."
+    },
+    {
+      "question": "Quels sont les effets des ARAII?",
+      "type": "multiple",
+      "options": [
+        {"text": "Blocage du récepteur AT1", "correct": true},
+        {"text": "Réduction protéinurie", "correct": true},
+        {"text": "Protection rénale", "correct": true},
+        {"text": "Hyperkaliémie", "correct": true},
+        {"text": "Hypotension orthostatique", "correct": false}
+      ],
+      "explanation": "Les ARAII protègent le rein comme les IEC."
+    },
+    {
+      "question": "Quelle est la cause de la maladie à changements minimes?",
+      "type": "single",
+      "options": [
+        {"text": "Effacement des pédicelles podocytaires", "correct": true},
+        {"text": "Dépôts immuns", "correct": false},
+        {"text": "Prolifération mésangiale", "correct": false},
+        {"text": "Sclérose", "correct": false}
+      ],
+      "explanation": "La MCM est la cause principale de syndrome néphrotique chez l'enfant."
+    },
+    {
+      "question": "Quelles sont les indications de l'urographie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Évaluation des voies urinaires", "correct": true},
+        {"text": "Détection de lithiase", "correct": true},
+        {"text": "Obstruction", "correct": true},
+        {"text": "Fonction rénale", "correct": false},
+        {"text": "Tumeurs", "correct": true}
+      ],
+      "explanation": "L'urographie visualise l'arbre urinaire mais est remplacée par scanner."
+    },
+    {
+      "question": "Quel est le rôle du néphron?",
+      "type": "single",
+      "options": [
+        {"text": "Unité fonctionnelle du rein", "correct": true},
+        {"text": "Vaisseau sanguin", "correct": false},
+        {"text": "Cellule épithéliale", "correct": false},
+        {"text": "Hormone", "correct": false}
+      ],
+      "explanation": "Le néphron filtre, réabsorbe et sécrète pour former l'urine."
+    },
+    {
+      "question": "Quelles sont les causes de la tubulopathie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Médicaments", "correct": true},
+        {"text": "Génétiques", "correct": true},
+        {"text": "Ischémie", "correct": true},
+        {"text": "Infections", "correct": true},
+        {"text": "Glomérulaires", "correct": false}
+      ],
+      "explanation": "Les tubulopathies affectent la réabsorption ou sécrétion tubulaire."
+    },
+    {
+      "question": "Quelle est la prise en charge de l'œdème pulmonaire en IRA?",
+      "type": "single",
+      "options": [
+        {"text": "Dialyse ultrafiltration", "correct": true},
+        {"text": "Ventilation non invasive", "correct": false},
+        {"text": "Diurétiques", "correct": false},
+        {"text": "Transfusion", "correct": false}
+      ],
+      "explanation": "L'ultrafiltration enlève l'excès volémique."
+    },
+    {
+      "question": "Quelles sont les formes de la glomérulonéphrite membraneuse?",
+      "type": "multiple",
+      "options": [
+        {"text": "Primitive (anti-PLA2R)", "correct": true},
+        {"text": "Secondaire (cancer, lupus)", "correct": true},
+        {"text": "Associée à hépatite B", "correct": true},
+        {"text": "Post-infectieuse", "correct": false},
+        {"text": "Médicamenteuse", "correct": true}
+      ],
+      "explanation": "La GNM montre dépôts subépithéliaux."
+    },
+    {
+      "question": "Quel est le diagnostic différentiel de la polydiipsie?",
+      "type": "single",
+      "options": [
+        {"text": "Diabète insipide vs polyurie primaire", "correct": true},
+        {"text": "Hyperglycémie", "correct": false},
+        {"text": "Hypokaliémie", "correct": false},
+        {"text": "Hypercalcémie", "correct": false}
+      ],
+      "explanation": "La test de restriction hydrique distingue DI central et néphrogénique."
+    },
+    {
+      "question": "Quelles sont les complications de l'hyperoxalurie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Lithiasis oxalocalcique", "correct": true},
+        {"text": "Néphrocalcinose", "correct": true},
+        {"text": "IRA", "correct": true},
+        {"text": "MRC", "correct": true},
+        {"text": "Hypertension portale", "correct": false}
+      ],
+      "explanation": "L'hyperoxalurie primaire cause dépôts oxalates rénaux."
+    },
+    {
+      "question": "Quelle est la cause de la barttinopathie?",
+      "type": "single",
+      "options": [
+        {"text": "Mutation BSND", "correct": true},
+        {"text": "Mutation CLCNKB", "correct": false},
+        {"text": "Mutation KCNJ1", "correct": false},
+        {"text": "Mutation SLC12A1", "correct": false}
+      ],
+      "explanation": "La barttinopathie est un syndrome de Bartter avec surdité."
+    },
+    {
+      "question": "Quels sont les traitements de la goutte rénale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Allopurinol", "correct": true},
+        {"text": "Hydratation", "correct": true},
+        {"text": "Alcalinisation urinaire", "correct": true},
+        {"text": "Dialyse", "correct": true},
+        {"text": "Corticostéroïdes", "correct": false}
+      ],
+      "explanation": "La goutte rénale est traitée par réduction de l'uricémie."
+    },
+    {
+      "question": "Quelle est la prise en charge de la néphrite à Shiga-toxine?",
+      "type": "single",
+      "options": [
+        {"text": "Supportif, éviter antibiotiques", "correct": true},
+        {"text": "Plasmaphérèse", "correct": false},
+        {"text": "Eculizumab", "correct": false},
+        {"text": "Transfusion systématique", "correct": false}
+      ],
+      "explanation": "Le SHU typique est supportif, antibiotiques peuvent aggraver."
+    }
+  ],
+  "clinical_cases": [
+    {
+      "title": "Hémorragie digestive chez un cirrhotique",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Monsieur V., 58 ans, cirrhose alcoolique connue Child B, se présente aux urgences pour hématémèse abondante survenue 1 heure auparavant. Il est pâle, suant, TA 95/60 mmHg, FC 120/min.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Mise en condition", "Endoscopie en urgence", "Traitement médicamenteux", "Appel du chirurgien"],
+          "correct_answer": "Mise en condition",
+          "explanation": "La priorité absolue est la réanimation : voie veineuse, remplissage, correction des troubles de coagulation."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Hémoglobine 7.2 g/dL, TP 45%, plaquettes 85 000. Le patient est stabilisé sous noradrénaline.",
+          "type": "multiple",
+          "question": "Quels traitements spécifiques instaurez-vous?",
+          "options": ["Antibiotiques", "Terlipressine", "Sonde de Sengstaken", "Transfusion", "Vitamine K"],
+          "correct_options": ["Antibiotiques", "Terlipressine"],
+          "explanation": "Les antibiotiques (prévention de l'infection) et la terlipressine (réduction de l'HT portale) sont des traitements spécifiques de l'hémorragie digestive du cirrhotique."
+        },
+        {
+          "title": "Prise en charge endoscopique",
+          "content": "L'endoscopie montre des varices œsophagiennes grade III avec signe rouge, saignantes activement.",
+          "type": "multiple_choice",
+          "question": "Quel geste réalisez-vous?",
+          "options": ["Ligature élastique", "Sclérose", "Colle biologique", "Coagulation au plasma argon"],
+          "correct_answer": "Ligature élastique",
+          "explanation": "La ligature élastique est le traitement endoscopique de référence des varices œsophagiennes hémorragiques."
+        }
+      ],
+      "solution": "**Diagnostic final:** Hémorragie digestive haute sur rupture de varices œsophagiennes chez un cirrhotique Child B.\n\n**Prise en charge:** Réanimation initiale, antibiotiques prophylactiques, terlipressine, ligature endoscopique en urgence.\n\n**Points clés:**\n- Risque élevé de récidive hémorragique\n- Prévention de l'infection spontanée\n- Évaluation pronostique (score de Child-Pugh)\n- Discussion TIPS en cas d'échec"
+    },
+    {
+      "title": "Insuffisance rénale aiguë chez un patient septique",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Madame L., 65 ans, diabétique, se présente aux urgences pour fièvre, frissons et douleur lombaire droite. TA 80/50 mmHg, FC 110/min, température 39°C, oligurie.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Réanimation volémique", "Échographie rénale", "Antibiothérapie", "Dialyse"],
+          "correct_answer": "Réanimation volémique",
+          "explanation": "La priorité est la stabilisation hémodynamique avec remplissage pour corriger l'hypoperfusion."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Créatininémie 350 μmol/L (base 80), urémie 25 mmol/L, leucocytose 18 000, CRP 250 mg/L. ECBU: E. coli.",
+          "type": "multiple",
+          "question": "Quels diagnostics évoquez-vous?",
+          "options": ["Pyélonéphrite aiguë", "IRA prérénale", "Septicémie", "Obstruction", "Nécrose tubulaire"],
+          "correct_options": ["Pyélonéphrite aiguë", "IRA prérénale", "Septicémie"],
+          "explanation": "La présentation suggère une pyélonéphrite compliquée de sepsis avec IRA prérénale et potentiellement intrinsèque."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Échographie montre dilatation pyélocalicielle droite modérée sans abcès.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Antibiothérapie IV", "Drainage percutané", "Hémodialyse", "Corticostéroïdes"],
+          "correct_answer": "Antibiothérapie IV",
+          "explanation": "L'antibiothérapie probabiliste (céphalosporine + aminoside) est primordiale, avec ajustement selon antibiogramme."
+        }
+      ],
+      "solution": "**Diagnostic final:** Pyélonéphrite aiguë compliquée de sepsis et insuffisance rénale aiguë prérénale.\n\n**Prise en charge:** Réanimation, antibiothérapie IV, surveillance rénale.\n\n**Points clés:**\n- Risque d'abcès ou obstruction\n- Prévention de la résistance bactérienne\n- Évaluation de la récupération rénale\n- Discussion dialyse si anurie persistante"
+    },
+    {
+      "title": "Syndrome néphrotique chez un enfant",
+      "difficulty": "Intermédiaire",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Enfant de 5 ans, œdèmes des membres inférieurs, ascite, prise de poids récente. Pas de fièvre ni hématurie.",
+          "type": "multiple_choice",
+          "question": "Quel bilan demandez-vous en premier?",
+          "options": ["Protéinurie/24h", "Échographie rénale", "Biopsie rénale", "Sérologie virale"],
+          "correct_answer": "Protéinurie/24h",
+          "explanation": "Confirmer le syndrome néphrotique par protéinurie >50 mg/kg/24h et hypoalbuminémie <30 g/L."
+        },
+        {
+          "title": "Bilan biologique",
+          "content": "Protéinurie 5 g/24h, albuminémie 20 g/L, cholestérol 8 mmol/L, créatininémie normale.",
+          "type": "multiple",
+          "question": "Quelles causes évoquez-vous?",
+          "options": ["Maladie à changements minimes", "Glomérulosclérose focale", "Infection", "Lupus", "Amylose"],
+          "correct_options": ["Maladie à changements minimes", "Glomérulosclérose focale"],
+          "explanation": "Chez l'enfant, la MCM est la cause la plus fréquente de syndrome néphrotique idiopathique."
+        },
+        {
+          "title": "Prise en charge",
+          "content": "Pas de signe d'infection ou maladie systémique.",
+          "type": "multiple_choice",
+          "question": "Quel traitement débutez-vous?",
+          "options": ["Corticothérapie", "Immunosuppresseurs", "Dialyse", "Anticoagulants"],
+          "correct_answer": "Corticothérapie",
+          "explanation": "La prednisone à 2 mg/kg/j est le traitement de première ligne pour la MCM."
+        }
+      ],
+      "solution": "**Diagnostic final:** Syndrome néphrotique idiopathique probable maladie à changements minimes.\n\n**Prise en charge:** Corticothérapie, régime hyposodé, surveillance des complications.\n\n**Points clés:**\n- Réponse à la corticothérapie en 4 semaines\n- Risque de rechute\n- Biopsie si résistance\n- Prévention thrombotique et infectieuse"
+    }
+  ]
+}
