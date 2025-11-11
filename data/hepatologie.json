@@ -1139,6 +1139,346 @@
         }
       ],
       "solution": "**Diagnostic final:** Hémorragie digestive haute sur rupture de varices œsophagiennes chez un cirrhotique Child B.\n\n**Prise en charge:** Réanimation initiale, antibiotiques prophylactiques, terlipressine, ligature endoscopique en urgence.\n\n**Points clés:**\n- Risque élevé de récidive hémorragique\n- Prévention de l'infection spontanée\n- Évaluation pronostique (score de Child-Pugh)\n- Discussion TIPS en cas d'échec"
+    },
+    {
+      "title": "Ascite infectée chez un patient cirrhotique",
+      "difficulty": "Intermédiaire",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Madame L., 62 ans, cirrhose virale C Child C, présente une fièvre à 38.5°C, douleur abdominale diffuse et augmentation récente du volume abdominal. TA 110/70 mmHg, FC 95/min.",
+          "type": "multiple_choice",
+          "question": "Quel examen prioritaire réalisez-vous?",
+          "options": ["Ponction d'ascite diagnostique", "Échographie abdominale", "Scanner abdominal", "Endoscopie digestive"],
+          "correct_answer": "Ponction d'ascite diagnostique",
+          "explanation": "La ponction d'ascite avec analyse cytobactériologique est essentielle pour confirmer l'infection du liquide d'ascite."
+        },
+        {
+          "title": "Résultats du bilan",
+          "content": "Le liquide d'ascite montre >250 PNN/mm³, culture positive à E. coli. Bilan sanguin : leucocytose, élévation de la CRP.",
+          "type": "multiple",
+          "question": "Quels traitements instaurez-vous?",
+          "options": ["Antibiotiques IV", "Albumine IV", "Diurétiques", "Paracentèse évacuatrice", "TIPS"],
+          "correct_options": ["Antibiotiques IV", "Albumine IV"],
+          "explanation": "Les antibiotiques (céphalosporines de 3e génération) et l'albumine (prévention du syndrome hépato-rénal) sont indiqués dans l'infection spontanée de l'ascite."
+        },
+        {
+          "title": "Suivi et prévention",
+          "content": "Le patient répond bien au traitement, ascite en régression.",
+          "type": "multiple_choice",
+          "question": "Quelle prophylaxie proposez-vous?",
+          "options": ["Norfloxacine quotidienne", "Bêta-bloquants", "Vaccination anti-pneumococcique", "Rifaximine"],
+          "correct_answer": "Norfloxacine quotidienne",
+          "explanation": "La prophylaxie antibiotique par norfloxacine est recommandée chez les cirrhotiques à haut risque de récidive."
+        }
+      ],
+      "solution": "**Diagnostic final:** Infection spontanée de l'ascite (péritonite bactérienne spontanée) sur cirrhose Child C.\n\n**Prise en charge:** Antibiotiques empiriques IV, albumine, paracentèse si nécessaire.\n\n**Points clés:**\n- Diagnostic par ponction d'ascite (PNN >250/mm³)\n- Risque de syndrome hépato-rénal\n- Prophylaxie secondaire par quinolones\n- Évaluation pour transplantation hépatique"
+    },
+    {
+      "title": "Hépatite aiguë virale avec ictère",
+      "difficulty": "Débutant",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Monsieur P., 35 ans, voyageur récent en zone endémique, présente un ictère, fatigue, nausées et urines foncées. Pas de fièvre, TA 120/80 mmHg, FC 70/min.",
+          "type": "multiple_choice",
+          "question": "Quelle étiologie suspectez-vous en premier?",
+          "options": ["Hépatite A", "Hépatite B", "Hépatite C", "Hépatite alcoolique"],
+          "correct_answer": "Hépatite A",
+          "explanation": "L'hépatite A est fréquente chez les voyageurs, avec transmission oro-fécale et évolution favorable."
+        },
+        {
+          "title": "Bilan sérologique",
+          "content": "IgM anti-HAV positif, transaminases >1000 UI/L, bilirubine totale 150 µmol/L.",
+          "type": "multiple",
+          "question": "Quels mesures d'isolement et prévention?",
+          "options": ["Isolement entérique", "Vaccination des contacts", "Antiviraux", "Hospitalisation systématique"],
+          "correct_options": ["Isolement entérique", "Vaccination des contacts"],
+          "explanation": "L'hépatite A nécessite un isolement et une prophylaxie post-exposition par vaccin ou immunoglobulines."
+        },
+        {
+          "title": "Évolution",
+          "content": "Amélioration spontanée des symptômes en 2 semaines.",
+          "type": "multiple_choice",
+          "question": "Quel est le suivi recommandé?",
+          "options": ["Contrôle des transaminases jusqu'à normalisation", "Biopsie hépatique", "Traitement antiviral", "Échographie hépatique annuelle"],
+          "correct_answer": "Contrôle des transaminases jusqu'à normalisation",
+          "explanation": "L'hépatite A guérit spontanément sans chronicité, avec surveillance biologique."
+        }
+      ],
+      "solution": "**Diagnostic final:** Hépatite aiguë A virale.\n\n**Prise en charge:** Symptomatique, repos, hydratation.\n\n**Points clés:**\n- Diagnostic par IgM anti-HAV\n- Pas de traitement spécifique\n- Prévention vaccinale pour voyageurs\n- Rarement fulminante chez l'adulte"
+    },
+    {
+      "title": "Cirrhose décompensée avec encéphalopathie",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Madame G., 55 ans, cirrhose alcoolique Child B, admise pour confusion, asterixis et somnolence. Ascite modérée, pas de fièvre.",
+          "type": "multiple_choice",
+          "question": "Quelle est la cause précipitante la plus probable?",
+          "options": ["Infection", "Hémorragie digestive", "Constipation", "Hyponatrémie"],
+          "correct_answer": "Constipation",
+          "explanation": "La constipation favorise l'absorption d'ammoniac, précipitant l'encéphalopathie hépatique."
+        },
+        {
+          "title": "Bilan biologique",
+          "content": "Ammoniac élevé, TP 50%, albumine 25 g/L, créatinine normale.",
+          "type": "multiple",
+          "question": "Quels traitements instaurez-vous?",
+          "options": ["Lactulose", "Rifaximine", "Albumine", "Diurétiques", "Bêta-bloquants"],
+          "correct_options": ["Lactulose", "Rifaximine"],
+          "explanation": "Le lactulose et la rifaximine réduisent la production et l'absorption d'ammoniac intestinal."
+        },
+        {
+          "title": "Évolution et prévention",
+          "content": "Amélioration de l'état neurologique sous traitement.",
+          "type": "multiple_choice",
+          "question": "Quelle mesure préventive proposez-vous?",
+          "options": ["Sevrage alcoolique", "Régime hypoprotidique strict", "TIPS", "Transplantation"],
+          "correct_answer": "Sevrage alcoolique",
+          "explanation": "Le sevrage alcoolique est essentiel pour prévenir les décompensations récurrentes."
+        }
+      ],
+      "solution": "**Diagnostic final:** Encéphalopathie hépatique sur cirrhose alcoolique décompensée.\n\n**Prise en charge:** Lactulose, rifaximine, recherche de facteurs précipitants.\n\n**Points clés:**\n- Grading de West Haven pour la sévérité\n- Éviter les sédatifs\n- Nutrition adaptée (protéines végétales)\n- Évaluation pour greffe si réfractaire"
+    },
+    {
+      "title": "Hépatocarcinome sur cirrhose",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Monsieur H., 68 ans, cirrhose virale B Child A, surveillance échographique montre une lésion hépatique de 3 cm, hypervascularisée.",
+          "type": "multiple_choice",
+          "question": "Quel examen complémentaire prioritaire?",
+          "options": ["IRM hépatique avec contraste", "Biopsie hépatique", "PET-scan", "Dosage AFP seul"],
+          "correct_answer": "IRM hépatique avec contraste",
+          "explanation": "L'IRM confirme les critères radiologiques d'HCC (hypercaptation artérielle, wash-out portale)."
+        },
+        {
+          "title": "Résultats d'imagerie",
+          "content": "Lésion unique segment VI, critères LI-RADS 5, AFP 150 ng/mL.",
+          "type": "multiple",
+          "question": "Quelles options thérapeutiques?",
+          "options": ["Résection hépatique", "Ablation radiofréquence", "Chimioembolisation", "Sorafénib", "Transplantation"],
+          "correct_options": ["Résection hépatique", "Ablation radiofréquence"],
+          "explanation": "Pour HCC <3 cm sur Child A, la résection ou l'ablation locale sont curatives."
+        },
+        {
+          "title": "Suivi post-traitement",
+          "content": "Ablation complète confirmée par IRM.",
+          "type": "multiple_choice",
+          "question": "Quel est le rythme de surveillance?",
+          "options": ["Écho + AFP tous les 6 mois", "IRM annuelle", "Scanner tous les 3 mois", "PET-scan semestriel"],
+          "correct_answer": "Écho + AFP tous les 6 mois",
+          "explanation": "La surveillance semestrielle par échographie et AFP est recommandée chez les cirrhotiques."
+        }
+      ],
+      "solution": "**Diagnostic final:** Hépatocarcinome sur cirrhose virale B Child A.\n\n**Prise en charge:** Ablation percutanée ou résection, selon localisation.\n\n**Points clés:**\n- Diagnostic radiologique sans biopsie systématique\n- Stadification Barcelona Clinic Liver Cancer\n- Antiviraux pour HBV\n- Risque de récidive élevé"
+    },
+    {
+      "title": "Insuffisance hépatique aiguë fulminante",
+      "difficulty": "Expert",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Jeune femme de 28 ans, ingestion massive de paracétamol (20g), présente 48h après avec nausées, ictère et confusion. TA 100/60 mmHg, FC 110/min.",
+          "type": "multiple_choice",
+          "question": "Quel est le marqueur pronostique clé?",
+          "options": ["Facteur V <50%", "Transaminases >3000 UI/L", "Bilirubine >200 µmol/L", "Créatinine élevée"],
+          "correct_answer": "Facteur V <50%",
+          "explanation": "Le facteur V <50% indique un pronostic péjoratif dans l'intoxication au paracétamol."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Facteur V 30%, INR 4.5, encéphalopathie grade II, acidose lactique.",
+          "type": "multiple",
+          "question": "Quels traitements spécifiques?",
+          "options": ["N-acétylcystéine IV", "Hémodialyse", "Plasma frais congelé", "Antibiotiques prophylactiques", "Transplantation hépatique"],
+          "correct_options": ["N-acétylcystéine IV", "Transplantation hépatique"],
+          "explanation": "La NAC est l'antidote spécifique; la greffe est indiquée en cas de critères de King's College."
+        },
+        {
+          "title": "Évolution",
+          "content": "Aggravation avec encéphalopathie grade IV, inscription en urgence pour greffe.",
+          "type": "multiple_choice",
+          "question": "Quel critère pour greffe en super-urgence?",
+          "options": ["Critères de King's College", "Score MELD >30", "Âge <30 ans", "Absence de comorbidités"],
+          "correct_answer": "Critères de King's College",
+          "explanation": "Les critères de King's College prédisent la mortalité sans greffe dans l'IHA."
+        }
+      ],
+      "solution": "**Diagnostic final:** Insuffisance hépatique aiguë fulminante par intoxication au paracétamol.\n\n**Prise en charge:** NAC IV, support vital, transplantation hépatique en urgence.\n\n**Points clés:**\n- Surveillance en USI\n- Prévention des complications (cérébrales, infectieuses)\n- Dosage paracétamol sérique\n- Pronostic sombre sans greffe"
+    },
+    {
+      "title": "Stéatohépatite non alcoolique avec fibrose avancée",
+      "difficulty": "Intermédiaire",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Monsieur D., 52 ans, obèse (IMC 35), diabétique type 2, présente une élévation chronique des transaminases (ALT 120 UI/L).",
+          "type": "multiple_choice",
+          "question": "Quel examen non invasif pour évaluer la fibrose?",
+          "options": ["Fibroscan", "Biopsie hépatique", "Échographie seule", "Dosage AFP"],
+          "correct_answer": "Fibroscan",
+          "explanation": "Le Fibroscan mesure l'élasticité hépatique pour stadier la fibrose sans invasivité."
+        },
+        {
+          "title": "Résultats",
+          "content": "Fibroscan : fibrose F3, stéatose CAP 300 dB/m. Score NAFLD >0.67.",
+          "type": "multiple",
+          "question": "Quelles mesures thérapeutiques?",
+          "options": ["Perte de poids >7%", "Vitamine E", "Pioglitazone", "Statines", "Antiviraux"],
+          "correct_options": ["Perte de poids >7%", "Vitamine E"],
+          "explanation": "La perte de poids et la vitamine E améliorent l'histologie dans la NASH."
+        },
+        {
+          "title": "Suivi",
+          "content": "Amélioration après régime et exercice, ALT normalisées.",
+          "type": "multiple_choice",
+          "question": "Quelle surveillance?",
+          "options": ["Échographie hépatique semestrielle", "Fibroscan annuel", "Biopsie de contrôle", "IRM hépatique"],
+          "correct_answer": "Fibroscan annuel",
+          "explanation": "Surveillance non invasive de la fibrose et dépistage d'HCC si cirrhose."
+        }
+      ],
+      "solution": "**Diagnostic final:** NASH avec fibrose avancée.\n\n**Prise en charge:** Modification hygiéno-diététique, pharmacothérapie (vit E, pioglitazone).\n\n**Points clés:**\n- Association au syndrome métabolique\n- Risque de progression vers cirrhose\n- Pas de traitement spécifique approuvé\n- Dépistage des complications cardiovasculaires"
+    },
+    {
+      "title": "Maladie de Wilson avec atteinte hépatique",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Jeune homme de 22 ans présente un ictère, ascite et troubles de la coagulation. Antécédents de tremblements.",
+          "type": "multiple_choice",
+          "question": "Quel examen diagnostique clé?",
+          "options": ["Dosage céruloplasmine", "Biopsie hépatique", "IRM cérébrale", "Sérologie virale"],
+          "correct_answer": "Dosage céruloplasmine",
+          "explanation": "La céruloplasmine basse (<20 mg/dL) est suggestive de maladie de Wilson."
+        },
+        {
+          "title": "Bilan complémentaire",
+          "content": "Céruloplasmine 15 mg/dL, cuivre urinaire élevé, anneau de Kayser-Fleischer présent.",
+          "type": "multiple",
+          "question": "Quels traitements?",
+          "options": ["D-pénicillamine", "Trientine", "Zinc", "Transplantation hépatique", "Chélation IV"],
+          "correct_options": ["D-pénicillamine", "Zinc"],
+          "explanation": "Les chélateurs (pénicillamine) et le zinc (blocage absorption) sont les traitements de fond."
+        },
+        {
+          "title": "Évolution",
+          "content": "Amélioration sous chélation, normalisation biologique.",
+          "type": "multiple_choice",
+          "question": "Quel suivi?",
+          "options": ["Dosage cuivre urinaire régulier", "Ophtalmologie annuelle", "Échographie hépatique", "Génétique familiale"],
+          "correct_answer": "Dosage cuivre urinaire régulier",
+          "explanation": "Le suivi du cuivre urinaire évalue l'efficacité du traitement."
+        }
+      ],
+      "solution": "**Diagnostic final:** Maladie de Wilson avec hépatite chronique active.\n\n**Prise en charge:** Chélation par pénicillamine ou trientine, zinc en maintenance.\n\n**Points clés:**\n- Mutation ATP7B autosomique récessive\n- Atteintes hépatique, neurologique, ophtalmo\n- Dépistage familial\n- Greffe en cas d'IHA"
+    },
+    {
+      "title": "Cholangite sclérosante primitive",
+      "difficulty": "Intermédiaire",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Homme de 45 ans, RCH connue, présente prurit, ictère et élévation des PAL. Pas de fièvre.",
+          "type": "multiple_choice",
+          "question": "Quel examen d'imagerie?",
+          "options": ["Cholangio-IRM", "Échographie", "Scanner", "CPRE"],
+          "correct_answer": "Cholangio-IRM",
+          "explanation": "La cholangio-IRM montre les sténoses multifocales des voies biliaires intra et extra-hépatiques."
+        },
+        {
+          "title": "Résultats",
+          "content": "Aspect en 'chaîne de perles' des voies biliaires, anticorps anti-mitochondries négatifs.",
+          "type": "multiple",
+          "question": "Quels traitements?",
+          "options": ["Acide ursodésoxycholique", "Immunosuppresseurs", "Antibiotiques", "Stent biliaire", "Transplantation"],
+          "correct_options": ["Acide ursodésoxycholique"],
+          "explanation": "L'UDCA améliore les symptômes et les tests hépatiques, mais n'altère pas la progression."
+        },
+        {
+          "title": "Évolution",
+          "content": "Progression vers cirrhose biliaire.",
+          "type": "multiple_choice",
+          "question": "Quelle complication surveiller?",
+          "options": ["Cholangiocarcinome", "Hépatocarcinome", "Varices œsophagiennes", "Ascite infectée"],
+          "correct_answer": "Cholangiocarcinome",
+          "explanation": "La CSP augmente le risque de cholangiocarcinome, nécessitant surveillance."
+        }
+      ],
+      "solution": "**Diagnostic final:** Cholangite sclérosante primitive associée à RCH.\n\n**Prise en charge:** UDCA, endoscopie pour sténoses dominantes.\n\n**Points clés:**\n- Association aux MICI\n- Diagnostic par imagerie\n- Risque de malignité biliaire\n- Transplantation hépatique curative"
+    },
+    {
+      "title": "Hépatite auto-immune de type 1",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Femme de 40 ans présente fatigue, ictère et arthralgies. Transaminases >500 UI/L, gamma-globulines élevées.",
+          "type": "multiple_choice",
+          "question": "Quel auto-anticorps rechercher?",
+          "options": ["Anti-muscle lisse", "Anti-LKM1", "Anti-mitochondries", "Anti-nucléaires"],
+          "correct_answer": "Anti-muscle lisse",
+          "explanation": "Les ASMA sont caractéristiques de l'HAI type 1."
+        },
+        {
+          "title": "Bilan",
+          "content": "ASMA positif 1/320, biopsie : hépatite d'interface lymphocytaire.",
+          "type": "multiple",
+          "question": "Quels traitements?",
+          "options": ["Prednisone", "Azathioprine", "UDCA", "Antiviraux", "Cyclosporine"],
+          "correct_options": ["Prednisone", "Azathioprine"],
+          "explanation": "La corticothérapie associée à l'azathioprine induit la rémission dans 80% des cas."
+        },
+        {
+          "title": "Suivi",
+          "content": "Rémission biochimique sous traitement.",
+          "type": "multiple_choice",
+          "question": "Quand arrêter le traitement?",
+          "options": ["Après 2 ans de rémission", "Jamais systématiquement", "Si biopsie normale", "Si anticorps négatifs"],
+          "correct_answer": "Après 2 ans de rémission",
+          "explanation": "Tentative de sevrage après 2 ans, avec risque de rechute."
+        }
+      ],
+      "solution": "**Diagnostic final:** Hépatite auto-immune type 1.\n\n**Prise en charge:** Immunosuppression par corticoïdes et azathioprine.\n\n**Points clés:**\n- Score diagnostique simplifié\n- Association à autres auto-immunités\n- Risque de cirrhose si retard\n- Surveillance de la réponse thérapeutique"
+    },
+    {
+      "title": "Syndrome hépato-rénal chez cirrhotique",
+      "difficulty": "Expert",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Homme de 60 ans, cirrhose alcoolique Child C, ascite réfractaire, oligurie progressive, créatinine 250 µmol/L.",
+          "type": "multiple_choice",
+          "question": "Quel critère diagnostique?",
+          "options": ["Absence de protéinurie", "Créatinine >133 µmol/L", "Pas d'amélioration après expansion volémique", "Hyponatrémie"],
+          "correct_answer": "Pas d'amélioration après expansion volémique",
+          "explanation": "Le SHR est diagnostiqué après exclusion d'autres causes et absence de réponse à l'albumine."
+        },
+        {
+          "title": "Bilan",
+          "content": "Pas de choc, urine sodée <10 mmol/L, pas de sédiment urinaire.",
+          "type": "multiple",
+          "question": "Quels traitements?",
+          "options": ["Terlipressine + albumine", "Hémodialyse", "Diurétiques", "Paracentèse", "TIPS"],
+          "correct_options": ["Terlipressine + albumine"],
+          "explanation": "La terlipressine (vasoconstricteur splanchique) + albumine est le traitement médical de première ligne."
+        },
+        {
+          "title": "Évolution",
+          "content": "Amélioration rénale partielle, mais récidive.",
+          "type": "multiple_choice",
+          "question": "Quelle option définitive?",
+          "options": ["Transplantation hépatique", "Dialyse chronique", "Noradrénaline continue", "Shunt péritonéo-veineux"],
+          "correct_answer": "Transplantation hépatique",
+          "explanation": "La greffe hépatique est curative pour le SHR type 1."
+        }
+      ],
+      "solution": "**Diagnostic final:** Syndrome hépato-rénal type 1 sur cirrhose décompensée.\n\n**Prise en charge:** Terlipressine + albumine, support rénal.\n\n**Points clés:**\n- Physiopathologie : vasodilatation splanchique\n- Pronostic sombre sans greffe\n- Différencier type 1 (aigu) et 2 (chronique)\n- Prévention par albumine lors de paracentèses"
     }
   ]
 }
