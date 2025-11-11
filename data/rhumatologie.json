@@ -1,0 +1,1585 @@
+{
+  "quizzes": [
+    {
+      "question": "Quel est le traitement de première intention de l'hémorragie digestive haute par ulcère gastroduodénal?",
+      "type": "single",
+      "options": [
+        {"text": "Traitement médical seul", "correct": false},
+        {"text": "Endoscopie digestive haute avec hémostase", "correct": true},
+        {"text": "Chirurgie en urgence", "correct": false},
+        {"text": "Embolisation artérielle", "correct": false}
+      ],
+      "explanation": "L'endoscopie digestive haute avec hémostase est le traitement de référence des hémorragies ulcéreuses."
+    },
+    {
+      "question": "Quels sont les critères de gravité d'une pancréatite aiguë?",
+      "type": "multiple",
+      "options": [
+        {"text": "Score de Ranson ≥ 3", "correct": true},
+        {"text": "Hémoconcentration", "correct": true},
+        {"text": "Épanchement pleural", "correct": true},
+        {"text": "Hyperleucocytose", "correct": false},
+        {"text": "Hypocalcémie", "correct": true}
+      ],
+      "explanation": "Les critères de Ranson et les signes d'organe (épanchement pleural) définissent la gravité d'une pancréatite aiguë."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente de cirrhose en France?",
+      "type": "single",
+      "options": [
+        {"text": "Alcool", "correct": true},
+        {"text": "Hépatite B", "correct": false},
+        {"text": "Hépatite C", "correct": false},
+        {"text": "NASH", "correct": false}
+      ],
+      "explanation": "L'alcool reste la première cause de cirrhose en France, devant les hépatites virales et la NASH."
+    },
+    {
+      "question": "Quels signes évoquent une ascite infectée?",
+      "type": "multiple",
+      "options": [
+        {"text": "Douleur abdominale", "correct": true},
+        {"text": "Fièvre", "correct": true},
+        {"text": "Aggravation de l'ascite", "correct": true},
+        {"text": "Encéphalopathie", "correct": true},
+        {"text": "Ictère", "correct": false}
+      ],
+      "explanation": "La triade classique est douleur abdominale, fièvre et aggravation de l'ascite. L'encéphalopathie est un signe de gravité."
+    },
+    {
+      "question": "Quelle est la définition de l'ostéoporose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Maladie squelettique diffuse", "correct": true},
+        {"text": "Diminution de la masse osseuse", "correct": true},
+        {"text": "Détérioration microarchitecturale de l'os", "correct": true},
+        {"text": "Maladie localisée", "correct": false},
+        {"text": "Augmente le risque de fracture", "correct": true}
+      ],
+      "explanation": "L'ostéoporose est une maladie squelettique diffuse caractérisée par une diminution de la masse osseuse et une détérioration de la microarchitecture osseuse, augmentant la susceptibilité aux fractures."
+    },
+    {
+      "question": "Quels sont les facteurs de risque de l'ostéoporose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Âge avancé", "correct": true},
+        {"text": "IMC < 19 kg/m²", "correct": true},
+        {"text": "Ménopause précoce", "correct": true},
+        {"text": "Antécédents personnels de fracture", "correct": true},
+        {"text": "Anomalies à la scintigraphie osseuse", "correct": false}
+      ],
+      "explanation": "Les facteurs de risque incluent l'âge, un faible IMC, la ménopause précoce et les antécédents de fracture. Les anomalies à la scintigraphie ne sont pas un facteur de risque principal."
+    },
+    {
+      "question": "Quelle est la définition densitométrique de l'ostéoporose?",
+      "type": "single",
+      "options": [
+        {"text": "T-score ≤ -1 SD", "correct": false},
+        {"text": "T-score ≤ -2.5 SD", "correct": true},
+        {"text": "T-score ≤ -3 SD", "correct": false},
+        {"text": "Z-score ≤ -2 SD", "correct": false}
+      ],
+      "explanation": "L'ostéoporose est définie par un T-score ≤ -2.5 écarts-types à la densitométrie osseuse."
+    },
+    {
+      "question": "Quelles pathologies peuvent causer une faible densité minérale osseuse?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ostéomalacie", "correct": true},
+        {"text": "Insuffisance rénale chronique", "correct": true},
+        {"text": "Hypogonadisme prolongé", "correct": true},
+        {"text": "Myélome", "correct": true},
+        {"text": "Hyperparathyroïdie primaire", "correct": true}
+      ],
+      "explanation": "Ces pathologies peuvent entraîner une faible DMO et doivent être explorées en cas de suspicion d'ostéoporose secondaire."
+    },
+    {
+      "question": "Quel est l'outil d'évaluation du risque de fracture sur 10 ans?",
+      "type": "single",
+      "options": [
+        {"text": "Score de Ranson", "correct": false},
+        {"text": "DAS28", "correct": false},
+        {"text": "FRAX", "correct": true},
+        {"text": "BASDAI", "correct": false}
+      ],
+      "explanation": "Le FRAX estime le risque de fracture sur 10 ans sans traitement et aide à la décision thérapeutique."
+    },
+    {
+      "question": "Quels sont les traitements de première ligne pour l'ostéoporose post-ménopausique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Alendronate", "correct": true},
+        {"text": "Acide zolédronique", "correct": true},
+        {"text": "Raloxifène", "correct": true},
+        {"text": "Dénosumab", "correct": true},
+        {"text": "Tériparatide", "correct": true}
+      ],
+      "explanation": "Ces traitements sont indiqués en première ligne en fonction du profil du patient pour l'ostéoporose post-ménopausique."
+    },
+    {
+      "question": "Quelles sont les mesures générales pour l'ostéoporose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Apports en calcium et vitamine D", "correct": true},
+        {"text": "Arrêt du tabac", "correct": true},
+        {"text": "Perte de poids si IMC < 19", "correct": true},
+        {"text": "Limitation de l'activité physique", "correct": false},
+        {"text": "Activité physique régulière", "correct": true}
+      ],
+      "explanation": "Les mesures incluent des apports adéquats en calcium et vitamine D, arrêt du tabac, activité physique, mais pas de limitation de l'activité."
+    },
+    {
+      "question": "Quelles sont les indications de traitement pour l'ostéoporose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Fracture récente du poignet chez une femme de 70 ans, T-score -3.5 à la hanche", "correct": true},
+        {"text": "Fracture vertébrale bénigne asymptomatique, T-score -2.8 à la hanche", "correct": true},
+        {"text": "Pas de fracture, T-score -2", "correct": false},
+        {"text": "Fractures vertébrales avec T-score normal", "correct": true}
+      ],
+      "explanation": "Le traitement est indiqué en cas de fracture de fragilité ou de risque élevé évalué par FRAX, même si T-score n'est pas toujours ≤ -2.5."
+    },
+    {
+      "question": "Quelles sont les anomalies biologiques dans l'ostéomalacie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypocalcémie", "correct": true},
+        {"text": "Déficit en vitamine D", "correct": true},
+        {"text": "Hypocalciurie", "correct": false},
+        {"text": "Élévation de la PTH", "correct": true}
+      ],
+      "explanation": "L'ostéomalacie est caractérisée par hypocalcémie, déficit en vitamine D et élévation secondaire de la PTH."
+    },
+    {
+      "question": "Quel est le germe le plus courant dans la spondylodiscite?",
+      "type": "single",
+      "options": [
+        {"text": "Staphylococcus aureus", "correct": true},
+        {"text": "Escherichia coli", "correct": false},
+        {"text": "Streptococcus pneumoniae", "correct": false},
+        {"text": "Pseudomonas aeruginosa", "correct": false}
+      ],
+      "explanation": "S. aureus est le germe le plus fréquent dans les spondylodiscites."
+    },
+    {
+      "question": "Quels sont les examens pour le bilan biologique initial de la polyarthrite rhumatoïde?",
+      "type": "multiple",
+      "options": [
+        {"text": "Bilan urinaire", "correct": true},
+        {"text": "Transaminases", "correct": true},
+        {"text": "Sérologies VHB et VHC", "correct": true},
+        {"text": "FR et anti-CCP", "correct": true},
+        {"text": "Électrophorèse des protéines", "correct": false}
+      ],
+      "explanation": "Le bilan initial inclut des examens pour évaluer l'inflammation, les facteurs rhumatoïdes et éliminer les infections virales."
+    },
+    {
+      "question": "Quelle est la cause du canal lombaire rétréci?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypertrophie du ligament jaune", "correct": true},
+        {"text": "Arthrose postérieure", "correct": true},
+        {"text": "Discopathie", "correct": true},
+        {"text": "Spondylolisthésis", "correct": true},
+        {"text": "Fracture vertébrale", "correct": false}
+      ],
+      "explanation": "Le CLR est dû à des remaniements dégénératifs comme l'hypertrophie ligamentaire, l'arthrose et la discopathie."
+    },
+    {
+      "question": "Quelles sont les caractéristiques du liquide articulaire inflammatoire?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypercellularité >1000/mm³", "correct": true},
+        {"text": "Protéines élevées", "correct": true},
+        {"text": "Glucose bas", "correct": true},
+        {"text": "Cellules <200/mm³", "correct": false},
+        {"text": "Calcium élevé", "correct": false}
+      ],
+      "explanation": "Le liquide inflammatoire montre une hypercellularité, des protéines élevées et un glucose bas."
+    },
+    {
+      "question": "Quels sont les signes cliniques de la goutte?",
+      "type": "multiple",
+      "options": [
+        {"text": "Mono ou oligoarthrite", "correct": true},
+        {"text": "Ténosynovite des extenseurs", "correct": true},
+        {"text": "Monoarthrite de l'hallux", "correct": true},
+        {"text": "Vésico-pustules nécrotiques", "correct": true},
+        {"text": "Lombalgies inflammatoires", "correct": false}
+      ],
+      "explanation": "La goutte se manifeste par des arthrites aiguës, ténosynovites et lésions cutanées spécifiques."
+    },
+    {
+      "question": "Quel est le traitement de la gonarthrose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Paracétamol", "correct": true},
+        {"text": "Rééducation", "correct": true},
+        {"text": "Contre-indication à l'activité physique", "correct": false},
+        {"text": "Injections d'acide hyaluronique", "correct": true}
+      ],
+      "explanation": "Le traitement inclut antalgiques, rééducation et viscosupplémentation, sans contre-indiquer l'activité physique."
+    },
+    {
+      "question": "Quelles sont les caractéristiques des cristaux d'acide urique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Cristaux d'acide urique", "correct": true},
+        {"text": "Longs et pointus", "correct": true},
+        {"text": "Cristaux de pyrophosphate de calcium", "correct": false}
+      ],
+      "explanation": "Les cristaux d'acide urique sont longs et pointus, contrairement aux PPCD."
+    },
+    {
+      "question": "Quelles sont les articulations atteintes dans la spondyloarthrite périphérique?",
+      "type": "single",
+      "options": [
+        {"text": "Oligoarthrite asymétrique des membres inférieurs", "correct": true},
+        {"text": "Arthrite bilatérale symétrique des petites articulations", "correct": false},
+        {"text": "Rhumatisme inflammatoire des hanches et épaules chez >50 ans", "correct": false},
+        {"text": "Monoarthrite de l'hallux", "correct": false}
+      ],
+      "explanation": "La spondyloarthrite périphérique touche typiquement de façon asymétrique les grandes articulations des membres inférieurs."
+    },
+    {
+      "question": "Quelles sont les caractéristiques du liquide articulaire dans la gonarthrose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Citrine et visqueux", "correct": true},
+        {"text": "Cultures stériles", "correct": true},
+        {"text": "Plus de 200 GR/mm³", "correct": true},
+        {"text": "Plus de 2000 cellules", "correct": false},
+        {"text": "Cristaux de PPCD", "correct": false}
+      ],
+      "explanation": "Dans la gonarthrose, le liquide est mécanique, citrine, visqueux, avec peu de cellules et sans cristaux."
+    },
+    {
+      "question": "Quels examens pour les polyarthralgies inflammatoires?",
+      "type": "multiple",
+      "options": [
+        {"text": "Bilan urinaire", "correct": true},
+        {"text": "Transaminases", "correct": true},
+        {"text": "Sérologies VHB et VHC", "correct": true},
+        {"text": "FR et anti-CCP", "correct": true},
+        {"text": "Électrophorèse des protéines", "correct": false}
+      ],
+      "explanation": "Le bilan inclut des examens pour inflammation, fonction hépatique, infections et facteurs auto-immuns."
+    },
+    {
+      "question": "Quelle imagerie pour suspicion de polyarthrite rhumatoïde?",
+      "type": "single",
+      "options": [
+        {"text": "Radiographies des mains et poignets de face", "correct": true},
+        {"text": "Radiographies des pieds", "correct": false},
+        {"text": "Radiographie du rachis", "correct": false},
+        {"text": "Radiographie du thorax", "correct": false}
+      ],
+      "explanation": "Les radiographies des mains et poignets sont essentielles pour détecter les érosions précoces dans la PR."
+    },
+    {
+      "question": "Quels sont les facteurs de risque d'ostéoporose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Corticothérapie", "correct": true},
+        {"text": "Antécédents familiaux de fracture", "correct": true},
+        {"text": "Tabagisme", "correct": true},
+        {"text": "Obésité", "correct": false},
+        {"text": "Activité physique intense", "correct": false}
+      ],
+      "explanation": "La corticothérapie, les antécédents familiaux et le tabagisme augmentent le risque d'ostéoporose."
+    },
+    {
+      "question": "Quel est le diagnostic pour une hypergammapathie monoclonale?",
+      "type": "single",
+      "options": [
+        {"text": "Myélome", "correct": true},
+        {"text": "Polyarthrite rhumatoïde", "correct": false},
+        {"text": "Goutte", "correct": false},
+        {"text": "Sclérodermie", "correct": false}
+      ],
+      "explanation": "L'hypergammapathie monoclonale est évocatrice de myélome."
+    },
+    {
+      "question": "Quelles sont les méthodes diagnostiques pour la goutte?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ponction d'une articulation gonflée", "correct": true},
+        {"text": "Ponction d'un tophus", "correct": true},
+        {"text": "Dosage de l'uricémie", "correct": true},
+        {"text": "Dosage de l'uraturie", "correct": true},
+        {"text": "Dosage de la créatinine", "correct": false}
+      ],
+      "explanation": "Le diagnostic de goutte repose sur l'identification de cristaux d'urate et le dosage de l'uricémie."
+    },
+    {
+      "question": "Quel est l'objectif du traitement hypo-uricémiant dans la goutte?",
+      "type": "single",
+      "options": [
+        {"text": "Uricémie < 360 µmol/L", "correct": true},
+        {"text": "Uricémie < 500 µmol/L", "correct": false},
+        {"text": "Uricémie < 200 µmol/L", "correct": false},
+        {"text": "Uricémie < 600 µmol/L", "correct": false}
+      ],
+      "explanation": "L'objectif est d'atteindre une uricémie < 360 µmol/L pour éviter la saturation en urate de sodium."
+    },
+    {
+      "question": "Quels sont les traitements pour la spondylodiscite?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hydratation >1.5L/jour", "correct": true},
+        {"text": "Antibiotiques IV bi-thérapie", "correct": true},
+        {"text": "Alitement", "correct": true},
+        {"text": "Enoxaparine 0.01 mL/kg/12h", "correct": true},
+        {"text": "Chirurgie urgente", "correct": false}
+      ],
+      "explanation": "Le traitement inclut antibiothérapie, alitement et prévention thrombotique, sans chirurgie urgente si pas de risque neurologique."
+    },
+    {
+      "question": "Quelle est la durée des antibiotiques dans la spondylodiscite?",
+      "type": "single",
+      "options": [
+        {"text": "6-12 semaines", "correct": true},
+        {"text": "4 semaines", "correct": false},
+        {"text": "2 semaines", "correct": false},
+        {"text": "1 mois", "correct": false}
+      ],
+      "explanation": "La durée typique est de 6 à 12 semaines."
+    },
+    {
+      "question": "Quels sont les signes d'une tendinopathie de l'épaule?",
+      "type": "multiple",
+      "options": [
+        {"text": "Limitation de la mobilité active", "correct": true},
+        {"text": "Douleur aux tests de Neer et Yocum", "correct": true},
+        {"text": "Déficit au test de Jobe", "correct": false},
+        {"text": "Limitation de la mobilité passive", "correct": false}
+      ],
+      "explanation": "Les tendinopathies de l'épaule montrent une limitation active et des douleurs aux tests spécifiques d'impingement."
+    },
+    {
+      "question": "Quel est le bilan initial pour une tendinopathie de l'épaule?",
+      "type": "multiple",
+      "options": [
+        {"text": "Pas d'examen si diagnostic clinique", "correct": true},
+        {"text": "Bilan inflammatoire", "correct": false},
+        {"text": "Radiographies de l'épaule", "correct": true},
+        {"text": "Échographie", "correct": true},
+        {"text": "IRM", "correct": false}
+      ],
+      "explanation": "Le bilan inclut radiographies et échographie, sans IRM en première intention."
+    },
+    {
+      "question": "Quelle est la rééducation pour la tendinopathie de l'épaule?",
+      "type": "multiple",
+      "options": [
+        {"text": "Maintien des amplitudes articulaires", "correct": true},
+        {"text": "Physiothérapie antalgique", "correct": true},
+        {"text": "Renforcement des muscles abaisseurs", "correct": true},
+        {"text": "Chirurgie immédiate", "correct": false}
+      ],
+      "explanation": "La rééducation vise le maintien des amplitudes, le soulagement de la douleur et le renforcement musculaire."
+    },
+    {
+      "question": "Quelle est la définition densitométrique de l'ostéoporose?",
+      "type": "single",
+      "options": [
+        {"text": "T-score ≤ -2.5 SD", "correct": true},
+        {"text": "T-score ≤ -1 SD", "correct": false},
+        {"text": "Z-score ≤ -2 SD", "correct": false},
+        {"text": "T-score ≤ -3 SD", "correct": false}
+      ],
+      "explanation": "L'ostéoporose est définie par un T-score ≤ -2.5 SD."
+    },
+    {
+      "question": "Quels sont les examens biologiques pour l'ostéoporose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Électrophorèse des protéines sériques", "correct": true},
+        {"text": "TSH", "correct": true},
+        {"text": "25(OH)-vit D", "correct": true},
+        {"text": "PTH", "correct": true},
+        {"text": "Myélogramme", "correct": true}
+      ],
+      "explanation": "Le bilan élimine les causes secondaires et évalue le métabolisme phospho-calcique."
+    },
+    {
+      "question": "Quelles sont les anomalies dans le bilan phospho-calcique de l'ostéomalacie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Calciurie 40 mg/24h", "correct": true},
+        {"text": "25(OH)-vit D 8 ng/ml", "correct": true},
+        {"text": "PTH 80 pg/ml", "correct": true},
+        {"text": "Calcémie corrigée 2.4 mmol/L", "correct": true},
+        {"text": "Phosphorémie 1.1 mmol/L", "correct": true}
+      ],
+      "explanation": "Ces anomalies indiquent un déficit en vitamine D avec hyperparathyroïdie secondaire."
+    },
+    {
+      "question": "Quelles sont les explications à donner au patient sur l'ostéoporose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Maladie diffuse", "correct": true},
+        {"text": "Diminution de la masse osseuse", "correct": true},
+        {"text": "Dûe à une mauvaise minéralisation", "correct": false},
+        {"text": "Facteurs de risque: tabac, fracture familiale", "correct": true}
+      ],
+      "explanation": "L'ostéoporose est diffuse avec diminution de masse, pas due à minéralisation défectueuse."
+    },
+    {
+      "question": "Quelles sont les mesures générales pour l'ostéoporose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Apports en calcium et vitamine D", "correct": true},
+        {"text": "Arrêt du tabac", "correct": true},
+        {"text": "Perte de poids si IMC <19", "correct": true},
+        {"text": "Traiter de façon systématique", "correct": false},
+        {"text": "Activité physique incluant sports légers", "correct": true}
+      ],
+      "explanation": "Les mesures incluent nutrition, arrêt tabac et activité, sans traitement systématique."
+    },
+    {
+      "question": "Quelles sont les anomalies biologiques dans l'ostéomalacie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypocalcémie", "correct": true},
+        {"text": "Déficit en vitamine D", "correct": true},
+        {"text": "Hypocalciurie", "correct": false},
+        {"text": "Élévation de la PTH", "correct": true}
+      ],
+      "explanation": "Anomalies typiques : hypocalcémie, hypovitaminose D et hyperparathyroïdie."
+    },
+    {
+      "question": "Quelles pathologies causent une faible DMO?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ostéomalacie", "correct": true},
+        {"text": "Insuffisance rénale", "correct": true},
+        {"text": "Hypogonadisme", "correct": true},
+        {"text": "Myélome", "correct": true},
+        {"text": "Hyperparathyroïdie", "correct": true}
+      ],
+      "explanation": "Ces pathologies peuvent mimer ou causer une faible DMO."
+    },
+    {
+      "question": "Quel est le déterminant principal du risque de fracture?",
+      "type": "single",
+      "options": [
+        {"text": "Faible DMO", "correct": true},
+        {"text": "Score FRAX", "correct": false},
+        {"text": "Risque de chute", "correct": false},
+        {"text": "Antécédents de fracture", "correct": false}
+      ],
+      "explanation": "La faible DMO est le principal déterminant du risque de fracture."
+    },
+    {
+      "question": "Quelles sont les indications de traitement pour l'ostéoporose induite par corticoides?",
+      "type": "multiple",
+      "options": [
+        {"text": "Supplément calcium/vit D", "correct": true},
+        {"text": "T-score < -2.5 SD", "correct": true},
+        {"text": "Densitométrie systématique", "correct": false},
+        {"text": "Bisphosphonates immédiats", "correct": false},
+        {"text": "Interrompre le corticoide", "correct": false}
+      ],
+      "explanation": "Le traitement inclut supplémentation et anti-ostéoporotiques si T-score bas, sans densitométrie systématique."
+    },
+    {
+      "question": "Quel est le seuil FRAX pour traiter?",
+      "type": "single",
+      "options": [
+        {"text": "Risque de fracture majeure ≥11% à 10 ans", "correct": true},
+        {"text": "Risque ≥20%", "correct": false},
+        {"text": "Risque ≥5%", "correct": false},
+        {"text": "Risque ≥15%", "correct": false}
+      ],
+      "explanation": "Traiter si risque ≥11% pour fracture majeure à 10 ans."
+    },
+    {
+      "question": "Quels sont les traitements de première ligne pour l'ostéoporose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Alendronate", "correct": true},
+        {"text": "Acide zolédronique", "correct": true},
+        {"text": "Raloxifène", "correct": true},
+        {"text": "Dénosumab", "correct": true},
+        {"text": "Tériparatide", "correct": true}
+      ],
+      "explanation": "Ces médicaments sont les options de première ligne pour l'ostéoporose post-ménopausique."
+    },
+    {
+      "question": "Quelles sont les propriétés des bisphosphonates oraux?",
+      "type": "multiple",
+      "options": [
+        {"text": "Inhibent le remodelage osseux", "correct": true},
+        {"text": "Réduisent les fractures vertébrales", "correct": true},
+        {"text": "Réduisent les fractures de hanche", "correct": true},
+        {"text": "Prise le matin à jeun avec de l'eau", "correct": true},
+        {"text": "Contre-indiqués en insuffisance rénale", "correct": false}
+      ],
+      "explanation": "Les bisphosphonates inhibent le remodelage, réduisent les fractures et ont des règles de prise spécifiques, mais ne sont pas contre-indiqués en insuffisance rénale modérée."
+    },
+    {
+      "question": "Quelles sont les causes de douleur hanche post-partum?",
+      "type": "multiple",
+      "options": [
+        {"text": "Algodystrophie", "correct": true},
+        {"text": "Ostéonécrose aseptique", "correct": true},
+        {"text": "Fracture d'ostéoporose de grossesse", "correct": true},
+        {"text": "Arthrite septique", "correct": false}
+      ],
+      "explanation": "Ces causes sont typiques de douleurs de hanche post-partum."
+    },
+    {
+      "question": "Quelle est l'interprétation de l'électrophorèse dans le myélome?",
+      "type": "single",
+      "options": [
+        {"text": "Hypergammapathie monoclonale", "correct": true},
+        {"text": "Hypofibrinogénémie", "correct": false},
+        {"text": "Hypoalbuminémie", "correct": false},
+        {"text": "Thrombocytopénie", "correct": false}
+      ],
+      "explanation": "Le myélome montre une hypergammapathie monoclonale."
+    },
+    {
+      "question": "Quelles sont les indications pour les bisphosphonates?",
+      "type": "multiple",
+      "options": [
+        {"text": "Réduisent les fractures vertébrales", "correct": true},
+        {"text": "Réduisent les fractures de hanche", "correct": true},
+        {"text": "Réduisent les fractures non vertébrales", "correct": true},
+        {"text": "Prise hebdomadaire", "correct": true},
+        {"text": "Prise quotidienne", "correct": false}
+      ],
+      "explanation": "Les bisphosphonates réduisent les risques de fractures et sont souvent pris hebdomadairement."
+    },
+    {
+      "question": "Quels sont les examens pour éliminer le myélome dans les fractures vertébrales?",
+      "type": "single",
+      "options": [
+        {"text": "Immunofixation urinaire pour Bence-Jones", "correct": true},
+        {"text": "Plus de 10% d'infiltration plasmocytaire", "correct": true},
+        {"text": "AINS", "correct": false}
+      ],
+      "explanation": "Le diagnostic de myélome implique immunofixation et infiltration plasmocytaire."
+    },
+    {
+      "question": "Quelle est la prise en charge de la gonarthrose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Économie articulaire", "correct": true},
+        {"text": "Paracétamol", "correct": true},
+        {"text": "AINS courts", "correct": true},
+        {"text": "Anti-arthrosiques lents", "correct": true},
+        {"text": "Infiltration corticoïdes", "correct": true}
+      ],
+      "explanation": "La prise en charge est non pharmacologique et pharmacologique, avec antalgiques, AINS et infiltrations."
+    },
+    {
+      "question": "Quels sont les facteurs de risque de chronicité des lombalgies?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dépression", "correct": true},
+        {"text": "Insatisfaction au travail", "correct": true},
+        {"text": "Facteurs psychosociaux", "correct": true},
+        {"text": "Correspondance radio-clinique", "correct": false}
+      ],
+      "explanation": "Les facteurs psychosociaux prédisent le handicap dans les lombalgies chroniques."
+    },
+    {
+      "question": "Quel est le traitement de la névralgie cervico-brachiale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Repos", "correct": true},
+        {"text": "AINS", "correct": true},
+        {"text": "Corticothérapie courte", "correct": true},
+        {"text": "Collier cervical", "correct": true},
+        {"text": "Chirurgie immédiate", "correct": false}
+      ],
+      "explanation": "Le traitement est médical avec repos, AINS, corticoïdes et collier, chirurgie si échec."
+    },
+    {
+      "question": "Quelle est la physiopathologie de la douleur de l'épaule?",
+      "type": "single",
+      "options": [
+        {"text": "Tendinopathies de la coiffe des rotateurs", "correct": true},
+        {"text": "Arthrite", "correct": false},
+        {"text": "Algodystrophie", "correct": false},
+        {"text": "Capsulite", "correct": false}
+      ],
+      "explanation": "80% des douleurs d'épaule sont dues à des tendinopathies de la coiffe."
+    },
+    {
+      "question": "Quelles sont les mesures pour l'arthrose digitale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Antalgiques", "correct": true},
+        {"text": "AINS locaux", "correct": true},
+        {"text": "Infiltrations corticoïdes", "correct": true},
+        {"text": "Attelles", "correct": true},
+        {"text": "Chirurgie", "correct": true}
+      ],
+      "explanation": "Le traitement est symptomatique avec antalgiques, AINS, infiltrations et orthèses, chirurgie si nécessaire."
+    },
+    {
+      "question": "Quelle est la prise en charge de la fracture vertébrale ostéoporotique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Antalgiques", "correct": true},
+        {"text": "Corset", "correct": true},
+        {"text": "Rééducation", "correct": true},
+        {"text": "Vertébroplastie", "correct": true},
+        {"text": "Supplémentation vitamino-calcique", "correct": true}
+      ],
+      "explanation": "La prise en charge inclut antalgie, corset, rééducation et vertébroplastie si douloureux."
+    },
+    {
+      "question": "Quel est le diagnostic de la polyarthrite rhumatoïde débutante?",
+      "type": "single",
+      "options": [
+        {"text": "Critères ACR/EULAR 2010 score ≥6/10", "correct": true},
+        {"text": "Raideur matinale >30 min", "correct": false},
+        {"text": "Squeeze test positif", "correct": false},
+        {"text": "Arthrite persistante des doigts", "correct": false}
+      ],
+      "explanation": "Le diagnostic est basé sur les critères ACR/EULAR pour un diagnostic précoce."
+    },
+    {
+      "question": "Quelles sont les prises en charge de la fibromyalgie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Éducation", "correct": true},
+        {"text": "Activité aérobie", "correct": true},
+        {"text": "Thérapie cognitivo-comportementale", "correct": true},
+        {"text": "Antidépresseurs", "correct": true},
+        {"text": "AINS", "correct": false}
+      ],
+      "explanation": "La prise en charge est multidisciplinaire avec éducation, activité, TCC et antidépresseurs, sans AINS systématiques."
+    },
+    {
+      "question": "Quelle est la prise en charge du canal lombaire rétréci?",
+      "type": "multiple",
+      "options": [
+        {"text": "Antalgiques", "correct": true},
+        {"text": "Infiltrations épidurales", "correct": true},
+        {"text": "Physiothérapie", "correct": true},
+        {"text": "Chirurgie si handicap", "correct": true},
+        {"text": "Opiacés systématiques", "correct": false}
+      ],
+      "explanation": "Le traitement est conservateur avec antalgiques, infiltrations et physiothérapie, chirurgie si sévère."
+    },
+    {
+      "question": "Quel est le diagnostic d'un poignet douloureux non traumatique?",
+      "type": "single",
+      "options": [
+        {"text": "Ténosynovite de De Quervain", "correct": true},
+        {"text": "Rhizarthrose", "correct": false},
+        {"text": "Arthrite inflammatoire", "correct": false},
+        {"text": "Infection", "correct": false}
+      ],
+      "explanation": "La ténosynovite de De Quervain est diagnostiquée par douleur au styloïde radial et test de Finkelstein positif."
+    },
+    {
+      "question": "Quelle est la prise en charge de la goutte?",
+      "type": "multiple",
+      "options": [
+        {"text": "Allopurinol", "correct": true},
+        {"text": "Fébuxostat", "correct": true},
+        {"text": "Colchicine", "correct": true},
+        {"text": "Conseils hygiéno-diététiques", "correct": true},
+        {"text": "Traiter l'hyperuricémie asymptomatique", "correct": false}
+      ],
+      "explanation": "Le traitement inclut hypo-uricémiants, colchicine et mesures diététiques, sans traiter l'hyperuricémie asymptomatique."
+    },
+    {
+      "question": "Quelle est la prise en charge de la coxarthrose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Paracétamol", "correct": true},
+        {"text": "AINS courts", "correct": true},
+        {"text": "Anti-arthrosiques", "correct": true},
+        {"text": "Infiltration", "correct": true},
+        {"text": "Prothèse totale de hanche", "correct": true}
+      ],
+      "explanation": "La prise en charge est multidisciplinaire, symptomatique puis chirurgicale si nécessaire."
+    },
+    {
+      "question": "Quelle est la prise en charge de la gonarthrose avec poussée congestive?",
+      "type": "multiple",
+      "options": [
+        {"text": "Traitements locaux", "correct": true},
+        {"text": "Repos et décharge", "correct": true},
+        {"text": "Rééducation", "correct": true},
+        {"text": "AINS si pas contre-indication", "correct": true},
+        {"text": "Opiacés", "correct": false}
+      ],
+      "explanation": "Éviter les AINS si comorbidités, privilégier locaux et non médicamenteux."
+    },
+    {
+      "question": "Quel est le diagnostic du syndrome RACAND?",
+      "type": "single",
+      "options": [
+        {"text": "Sclérodermie systémique", "correct": true},
+        {"text": "Polyarthrite rhumatoïde", "correct": false},
+        {"text": "Lupus", "correct": false},
+        {"text": "Syndrome de Sjögren", "correct": false}
+      ],
+      "explanation": "Le syndrome RACAND inaugure une sclérodermie systémique."
+    },
+    {
+      "question": "Quelle est la prise en charge du syndrome RACAND?",
+      "type": "multiple",
+      "options": [
+        {"text": "Inhibiteurs de la capture", "correct": true},
+        {"text": "Vasodilatateurs", "correct": true},
+        {"text": "Aspirine", "correct": true},
+        {"text": "Cyclophosphamide", "correct": true},
+        {"text": "Corticothérapie", "correct": true}
+      ],
+      "explanation": "Le traitement inclut vasodilatateurs, aspirine et immunosuppresseurs si évolution."
+    },
+    {
+      "question": "Quel est le diagnostic pour une lombalgie avec pygalgie?",
+      "type": "single",
+      "options": [
+        {"text": "Spondylodiscite", "correct": true},
+        {"text": "Hernie discale", "correct": false},
+        {"text": "Fracture vertébrale", "correct": false},
+        {"text": "Arthrose lombaire", "correct": false}
+      ],
+      "explanation": "La lombalgie avec pygalgie intense évoque une spondylodiscite."
+    },
+    {
+      "question": "Quels examens pour la lombalgie avec pygalgie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Radiographie rachis lombaire", "correct": true},
+        {"text": "IRM", "correct": true},
+        {"text": "Scintigraphie osseuse", "correct": true},
+        {"text": "Bilan biologique", "correct": true}
+      ],
+      "explanation": "Les examens incluent imagerie et biologie pour éliminer infection ou inflammation."
+    },
+    {
+      "question": "Quelles sont les caractéristiques de la goutte?",
+      "type": "multiple",
+      "options": [
+        {"text": "Crises récidivantes", "correct": true},
+        {"text": "Localisation aux extrémités", "correct": true},
+        {"text": "Cristaux d'urate", "correct": true},
+        {"text": "Antécédents de coliques néphrétiques", "correct": true},
+        {"text": "Lombalgie inflammatoire", "correct": false}
+      ],
+      "explanation": "La goutte se manifeste par crises, localisation typique et cristaux d'urate."
+    },
+    {
+      "question": "Quels sont les diagnostics différentiels de la goutte?",
+      "type": "multiple",
+      "options": [
+        {"text": "Arthrose", "correct": true},
+        {"text": "Polyarthrite rhumatoïde", "correct": true},
+        {"text": "Rhumatisme psoriasique", "correct": true},
+        {"text": "Arthrite septique", "correct": true},
+        {"text": "Fibromyalgie", "correct": false}
+      ],
+      "explanation": "Les différentiels incluent arthrose, PR, psoriasique et septique."
+    },
+    {
+      "question": "Quels sont les arguments contre la PR dans la goutte?",
+      "type": "multiple",
+      "options": [
+        {"text": "Atteinte dominante des IPP", "correct": true},
+        {"text": "Respect des MCP", "correct": true},
+        {"text": "Atteinte des IPD", "correct": true},
+        {"text": "Présence de géodes", "correct": true},
+        {"text": "Calcifications vasculaires", "correct": true}
+      ],
+      "explanation": "Ces signes sont typiques de la goutte et non de la PR."
+    },
+    {
+      "question": "Quel est le traitement de la goutte?",
+      "type": "multiple",
+      "options": [
+        {"text": "Inhibiteurs de synthèse (fébuxostat, allopurinol)", "correct": true},
+        {"text": "Colchicine", "correct": true},
+        {"text": "Surveillance de l'uricémie", "correct": true},
+        {"text": "Arrêt en cas d'éruption allergique", "correct": true},
+        {"text": "Régime hyperuricémiant", "correct": false}
+      ],
+      "explanation": "Le traitement est hypo-uricémiant avec surveillance et colchicine pour les crises."
+    },
+    {
+      "question": "Quels sont les risques d'ostéoporose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Corticothérapie", "correct": true},
+        {"text": "Antécédents familiaux", "correct": true},
+        {"text": "Tabagisme", "correct": true},
+        {"text": "Obésité", "correct": false},
+        {"text": "Activité physique", "correct": false}
+      ],
+      "explanation": "Les risques incluent corticothérapie, antécédents et tabagisme."
+    },
+    {
+      "question": "Quels sont les diagnostics pour lombalgie et prurigo?",
+      "type": "multiple",
+      "options": [
+        {"text": "Psoriasis", "correct": true},
+        {"text": "Spondylodiscite", "correct": true},
+        {"text": "Infection urinaire", "correct": true},
+        {"text": "Hernie discale", "correct": false}
+      ],
+      "explanation": "Les diagnostics incluent psoriasis pour le cutané et spondylodiscite pour la lombalgie."
+    },
+    {
+      "question": "Quelles pathologies éliminer en priorité pour lombalgie intense?",
+      "type": "multiple",
+      "options": [
+        {"text": "Infection", "correct": true},
+        {"text": "Fracture", "correct": true},
+        {"text": "Tumeur", "correct": true},
+        {"text": "Hernie discale", "correct": true},
+        {"text": "Arthrose", "correct": false}
+      ],
+      "explanation": "Éliminer infection, fracture, tumeur et hernie avec compression."
+    },
+    {
+      "question": "Quels examens pour lombalgie intense?",
+      "type": "multiple",
+      "options": [
+        {"text": "Radiographie rachis", "correct": true},
+        {"text": "IRM", "correct": true},
+        {"text": "Scintigraphie", "correct": true},
+        {"text": "Bilan biologique", "correct": true}
+      ],
+      "explanation": "Les examens sont urgents pour imagerie et biologie."
+    },
+    {
+      "question": "Quelle est l'interprétation de la radiographie pour lombalgie?",
+      "type": "single",
+      "options": [
+        {"text": "Spondylodiscite", "correct": true},
+        {"text": "Fracture", "correct": false},
+        {"text": "Arthrose", "correct": false},
+        {"text": "Hernie", "correct": false}
+      ],
+      "explanation": "Le cliché évoque une spondylodiscite."
+    },
+    {
+      "question": "La scintigraphie est-elle plus logique que l'IRM pour lombalgie?",
+      "type": "single",
+      "options": [
+        {"text": "Non, l'IRM est première ligne", "correct": true},
+        {"text": "Oui", "correct": false}
+      ],
+      "explanation": "L'IRM est logique pour spondylodiscite, la scintigraphie complémentaire."
+    },
+    {
+      "question": "Quels sont les signes de la polyarthrite rhumatoïde?",
+      "type": "multiple",
+      "options": [
+        {"text": "Douleurs inflammatoires", "correct": true},
+        {"text": "Raideur matinale >1h", "correct": true},
+        {"text": "Synovites", "correct": true},
+        {"text": "Squeeze test positif", "correct": true},
+        {"text": "Ictère", "correct": false}
+      ],
+      "explanation": "Les signes incluent douleurs inflammatoires, raideur et synovites."
+    },
+    {
+      "question": "Quels examens pour la PR?",
+      "type": "multiple",
+      "options": [
+        {"text": "Échographie articulaire", "correct": true},
+        {"text": "IRM", "correct": true},
+        {"text": "VS, CRP", "correct": true},
+        {"text": "FR, ACPA", "correct": true},
+        {"text": "ANA", "correct": false}
+      ],
+      "explanation": "Le bilan inclut imagerie et biologie pour inflammation et auto-anticorps."
+    },
+    {
+      "question": "Quelle est la prise en charge de la PR?",
+      "type": "multiple",
+      "options": [
+        {"text": "Méthotrexate", "correct": true},
+        {"text": "Corticoïdes", "correct": true},
+        {"text": "Biothérapies", "correct": true},
+        {"text": "Physiothérapie", "correct": true},
+        {"text": "Chirurgie immédiate", "correct": false}
+      ],
+      "explanation": "Le traitement est DMARDs, corticoïdes et biothérapies si nécessaire, avec physiothérapie."
+    },
+    {
+      "question": "Quels sont les critères de la fibromyalgie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Index de douleur généralisée", "correct": true},
+        {"text": "Sévérité des symptômes", "correct": true},
+        {"text": "Douleur ≥3 mois", "correct": true},
+        {"text": "Éliminer autres causes", "correct": true}
+      ],
+      "explanation": "Les critères ACR 2010 incluent index de douleur et sévérité, avec durée et exclusion d'autres causes."
+    },
+    {
+      "question": "Quelle est la prise en charge de la fibromyalgie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Activité physique", "correct": true},
+        {"text": "Gestion du stress", "correct": true},
+        {"text": "Antidépresseurs", "correct": true},
+        {"text": "Rééducation", "correct": true},
+        {"text": "Corticoïdes", "correct": false}
+      ],
+      "explanation": "La prise en charge est non pharmacologique et pharmacologique avec antidépresseurs, sans corticoïdes."
+    },
+    {
+      "question": "Quelles sont les causes du canal lombaire rétréci?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypertrophie ligament jaune", "correct": true},
+        {"text": "Arthrose postérieure", "correct": true},
+        {"text": "Protrusions discales", "correct": true},
+        {"text": "Rétrécissement canal", "correct": true}
+      ],
+      "explanation": "Les causes sont dégénératives avec hypertrophie et arthrose."
+    },
+    {
+      "question": "Quelle est la prise en charge du CLR?",
+      "type": "multiple",
+      "options": [
+        {"text": "Gabapentine", "correct": true},
+        {"text": "Infiltrations", "correct": true},
+        {"text": "Physiothérapie", "correct": true},
+        {"text": "Chirurgie si sévère", "correct": true},
+        {"text": "Myorelaxants", "correct": false}
+      ],
+      "explanation": "Le traitement est médical avec antidouleurs neurogènes, infiltrations et chirurgie si handicap."
+    },
+    {
+      "question": "Quel est le diagnostic de la ténosynovite de De Quervain?",
+      "type": "single",
+      "options": [
+        {"text": "Test de Finkelstein positif", "correct": true},
+        {"text": "Douleur styloïde radial", "correct": false},
+        {"text": "Tuméfaction", "correct": false},
+        {"text": "Radiographie normale", "correct": false}
+      ],
+      "explanation": "Le diagnostic est clinique avec test positif et échographie confirmatrice."
+    },
+    {
+      "question": "Quelle est la prise en charge de la goutte?",
+      "type": "multiple",
+      "options": [
+        {"text": "Allopurinol", "correct": true},
+        {"text": "Régime hypocalorique", "correct": true},
+        {"text": "Activité physique", "correct": true},
+        {"text": "Colchicine", "correct": true},
+        {"text": "Traiter hyperuricémie asymptomatique", "correct": false}
+      ],
+      "explanation": "Le traitement inclut hypo-uricémiants, diététique et colchicine, sans traiter l'asymptomatique."
+    },
+    {
+      "question": "Quelle est la prise en charge de la coxarthrose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Paracétamol", "correct": true},
+        {"text": "AINS", "correct": true},
+        {"text": "Rééducation", "correct": true},
+        {"text": "Visco-supplémentation", "correct": true},
+        {"text": "Prothèse", "correct": true}
+      ],
+      "explanation": "La prise en charge est symptomatique et chirurgicale si évoluée."
+    },
+    {
+      "question": "Quelle est la prise en charge de la gonarthrose avec poussée?",
+      "type": "multiple",
+      "options": [
+        {"text": "Paracétamol-tramadol", "correct": true},
+        {"text": "Infiltrations", "correct": true},
+        {"text": "Rééducation", "correct": true},
+        {"text": "AINS courts si possible", "correct": true},
+        {"text": "Naproxène", "correct": true}
+      ],
+      "explanation": "Éviter AINS si comorbidités, privilégier alternatives."
+    },
+    {
+      "question": "Quelle est la prise en charge du syndrome RACAND?",
+      "type": "multiple",
+      "options": [
+        {"text": "Cyclophosphamide", "correct": true},
+        {"text": "Azathioprine", "correct": true},
+        {"text": "Corticothérapie", "correct": true},
+        {"text": "Suivi régulier", "correct": true}
+      ],
+      "explanation": "Le traitement est immunosuppresseur si évolution vers sclérodermie."
+    },
+    {
+      "question": "Quelles pathologies pour lombalgie avec syndrome inflammatoire?",
+      "type": "multiple",
+      "options": [
+        {"text": "Spondylodiscite", "correct": true},
+        {"text": "Infection urinaire", "correct": true},
+        {"text": "Tumeur", "correct": true},
+        {"text": "Fracture", "correct": true}
+      ],
+      "explanation": "Éliminer causes graves comme infection, tumeur et fracture."
+    },
+    {
+      "question": "Quels examens pour lombalgie chronique aggravée?",
+      "type": "multiple",
+      "options": [
+        {"text": "Radiographie rachis", "correct": true},
+        {"text": "IRM", "correct": true},
+        {"text": "Scintigraphie", "correct": true},
+        {"text": "Bilan urinaire", "correct": true}
+      ],
+      "explanation": "Les examens sont pour imagerie et biologie."
+    }
+  ],
+  "clinical_cases": [
+    {
+      "title": "Hémorragie digestive chez un cirrhotique",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Monsieur V., 58 ans, cirrhose alcoolique connue Child B, se présente aux urgences pour hématémèse abondante survenue 1 heure auparavant. Il est pâle, suant, TA 95/60 mmHg, FC 120/min.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Mise en condition", "Endoscopie en urgence", "Traitement médicamenteux", "Appel du chirurgien"],
+          "correct_answer": "Mise en condition",
+          "explanation": "La priorité absolue est la réanimation : voie veineuse, remplissage, correction des troubles de coagulation."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Hémoglobine 7.2 g/dL, TP 45%, plaquettes 85 000. Le patient est stabilisé sous noradrénaline.",
+          "type": "multiple",
+          "question": "Quels traitements spécifiques instaurez-vous?",
+          "options": ["Antibiotiques", "Terlipressine", "Sonde de Sengstaken", "Transfusion", "Vitamine K"],
+          "correct_options": ["Antibiotiques", "Terlipressine"],
+          "explanation": "Les antibiotiques (prévention de l'infection) et la terlipressine (réduction de l'HT portale) sont des traitements spécifiques de l'hémorragie digestive du cirrhotique."
+        },
+        {
+          "title": "Prise en charge endoscopique",
+          "content": "L'endoscopie montre des varices œsophagiennes grade III avec signe rouge, saignantes activement.",
+          "type": "multiple_choice",
+          "question": "Quel geste réalisez-vous?",
+          "options": ["Ligature élastique", "Sclérose", "Colle biologique", "Coagulation au plasma argon"],
+          "correct_answer": "Ligature élastique",
+          "explanation": "La ligature élastique est le traitement endoscopique de référence des varices œsophagiennes hémorragiques."
+        }
+      ],
+      "solution": "**Diagnostic final:** Hémorragie digestive haute sur rupture de varices œsophagiennes chez un cirrhotique Child B.\n\n**Prise en charge:** Réanimation initiale, antibiotiques prophylactiques, terlipressine, ligature endoscopique en urgence.\n\n**Points clés:**\n- Risque élevé de récidive hémorragique\n- Prévention de l'infection spontanée\n- Évaluation pronostique (score de Child-Pugh)\n- Discussion TIPS en cas d'échec"
+    },
+    {
+      "title": "Gonarthrose",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Une patiente de 55 ans, obèse (BMI à 42 Kg/m²), consulte pour des douleurs des genoux d’aggravation progressive depuis environ 3 ans. Elle est de plus en plus gênée pour marcher ou monter les escaliers. Depuis une semaine, son genou droit a gonflé et commence à se dérober : elle a failli tomber plusieurs fois. Elle prend du paracétamol presque quotidiennement sans grande amélioration.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Bilan radiologique", "Échographie", "Ponction articulaire", "IRM"],
+          "correct_answer": "Bilan radiologique",
+          "explanation": "Radiographies des genoux de face en charge, incidence de Schuss, radiographies de profil et défilés fémoro-patellaire à 45° de flexion pour confirmer les signes d'arthrose."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Signes radiographiques : pincement localisé de l’interligne articulaire, ostéophytose marginale, condensation des berges articulaires, géodes sous chondrales.",
+          "type": "multiple",
+          "question": "Quels examens complémentaires instaurez-vous?",
+          "options": ["Échographie", "IRM", "Biologie", "Liquide articulaire"],
+          "correct_options": ["Échographie", "Biologie", "Liquide articulaire"],
+          "explanation": "Échographie pour synovite, épanchement; biologie pour marqueurs inflammatoires; liquide articulaire de type mécanique."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Gonarthrose en poussée congestive, avec obésité comme facteur de risque majeur.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Réduction pondérale", "AINS", "Infiltration corticoïdes", "Chirurgie"],
+          "correct_answer": "Réduction pondérale",
+          "explanation": "Traitement non pharmacologique : éducation, réduction pondérale, exercices pour renforcer quadriceps, orthèses."
+        }
+      ],
+      "solution": "**Diagnostic final:** Gonarthrose en poussée congestive.\n\n**Prise en charge:** Traitement non pharmacologique (réduction pondérale, rééducation), pharmacologique (paracétamol, AINS, anti-arthrosiques, infiltrations), chirurgie si nécessaire.\n\n**Points clés:**\n- Facteurs mécaniques et systémiques\n- Évolution imprévisible\n- Prévalence augmente avec l’âge et obésité"
+    },
+    {
+      "title": "Lombalgies",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Un employé de magasin de 50 ans, avec antécédents de dépression et plusieurs épisodes de lombalgies aigues, consulte pour des lombalgies persistant depuis plus de quatre mois avec une gêne de plus en plus importante imposant un arrêt de travail prolongé.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["IRM lombaire", "Radiographie", "Bilan biologique", "Rééducation"],
+          "correct_answer": "IRM lombaire",
+          "explanation": "IRM lombaire pour discopathies dégénératives étagées sans hernie discale conflictuelle ni rétrécissement du canal lombaire."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Absence de signes inflammatoires.",
+          "type": "multiple",
+          "question": "Quels traitements instaurez-vous?",
+          "options": ["Antalgiques", "AINS", "Anti-dépresseurs", "Rééducation"],
+          "correct_options": ["Antalgiques", "AINS", "Anti-dépresseurs", "Rééducation"],
+          "explanation": "Rassurer sur absence de gravité, antalgiques, AINS courts, anti-dépresseurs pour retentissement psychologique, rééducation active."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Lombalgies communes chroniques.",
+          "type": "multiple_choice",
+          "question": "Quel geste réalisez-vous?",
+          "options": ["Chirurgie", "Ceinture lombaire", "Myorelaxants", "Arthrodèses"],
+          "correct_answer": "Ceinture lombaire",
+          "explanation": "Ceinture lombaire pour efforts, rééducation pour renforcement muscles."
+        }
+      ],
+      "solution": "**Diagnostic final:** Lombalgies communes chroniques.\n\n**Prise en charge:** Pharmacologique (antalgiques, AINS, anti-dépresseurs), rééducation, chirurgie exceptionnelle.\n\n**Points clés:**\n- Facteurs de chronicité : dépression, insatisfaction travail\n- Pas de corrélation radio-clinique\n- Retentissement socio-professionnel"
+    },
+    {
+      "title": "Cervicalgies et NCB",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Un chef-cuisinier de 42 ans présente des cervicalgies mécaniques depuis dix jours irradiant vers l’épaule, le bras et l’avant-bras droit jusqu’aux 2ème et 3ème doigts avec parfois des fourmillements.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Examen clinique", "Radiographie", "IRM", "EMG"],
+          "correct_answer": "Examen clinique",
+          "explanation": "Rachis cervical raide, abolition réflexe tricipital, hypoesthésie 3ème doigt."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Pas de fièvre ni altération état général.",
+          "type": "multiple",
+          "question": "Quels examens instaurez-vous?",
+          "options": ["Radiographies", "Biologie", "IRM", "TDM"],
+          "correct_options": ["Radiographies", "Biologie", "IRM"],
+          "explanation": "Radiographies pour arthrose, biologie pour inflammation, IRM pour hernie discale."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Névralgie cervico-brachiale C7.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["AINS", "Corticothérapie", "Collier cervical", "Chirurgie"],
+          "correct_answer": "AINS",
+          "explanation": "Traitement symptomatique : repos, AINS, antalgiques, corticothérapie courte, collier cervical."
+        }
+      ],
+      "solution": "**Diagnostic final:** Névralgie cervico-brachiale C7.\n\n**Prise en charge:** Médical (AINS, corticoïdes, collier), rééducation, chirurgie si échec.\n\n**Points clés:**\n- Compression radiculaire par hernie discale\n- Douleur progressive, nocturne\n- Topographie selon racine"
+    },
+    {
+      "title": "Douleur de l’épaule",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Un dentiste de 52 ans souffre de douleurs de l’épaule droite depuis 1 an, s’accentuent lors de gestes professionnels. Conserve force normale, bonne mobilité.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Examen clinique", "Radiographies", "Échographie", "IRM"],
+          "correct_answer": "Examen clinique",
+          "explanation": "Mobilité active/passive, tests coiffe rotateurs."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Tendinopathie chronique sur conflit sous-acromial.",
+          "type": "multiple",
+          "question": "Quels examens instaurez-vous?",
+          "options": ["Radiographies", "Échographie", "IRM", "Biologie"],
+          "correct_options": ["Radiographies", "Échographie"],
+          "explanation": "Radiographies pour ascension tête humérale, échographie pour tendons."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Épaule douloureuse simple.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Antalgiques", "Infiltration", "Rééducation", "Chirurgie"],
+          "correct_answer": "Rééducation",
+          "explanation": "Rééducation renforcement abaisseurs tête humérale, infiltration si nécessaire, chirurgie si échec."
+        }
+      ],
+      "solution": "**Diagnostic final:** Tendinopathie de l'épaule.\n\n**Prise en charge:** Antalgiques, AINS, infiltration, rééducation, chirurgie si rupture.\n\n**Points clés:**\n- 80% tendinopathies coiffe\n- Échographie choix pour lésions molles\n- Différentiels : rupture, arthrite, capsulite"
+    },
+    {
+      "title": "Arthrose digitale",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Une patiente de 55 ans consulte pour douleurs petites articulations mains avec début déformation doigts. Gêne fonctionnelle.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Radiographies mains", "Échographie", "IRM", "Biologie"],
+          "correct_answer": "Radiographies mains",
+          "explanation": "Pincement interligne, ostéophytose, géodes."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Arthrose digitale avec nodosités.",
+          "type": "multiple",
+          "question": "Quels examens instaurez-vous?",
+          "options": ["Échographie", "IRM", "Biologie", "Liquide articulaire"],
+          "correct_options": ["Échographie", "IRM"],
+          "explanation": "Échographie pour ostéophytes, synovite; IRM pour inflammation."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Arthrose digitale.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Antalgiques", "AINS", "Infiltrations", "Attelles"],
+          "correct_answer": "Attelles",
+          "explanation": "Attelles thermo-formables, antalgiques, AINS, infiltrations, chirurgie si nécessaire."
+        }
+      ],
+      "solution": "**Diagnostic final:** Arthrose digitale.\n\n**Prise en charge:** Symptomatique (antalgiques, AINS, infiltrations), orthèses, chirurgie.\n\n**Points clés:**\n- Fréquente chez femmes péri-ménopause\n- Facteurs : ménopause, génétique, obésité\n- Évolution additive, invalidante"
+    },
+    {
+      "title": "Fracture vertébrale ostéoporotique",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Une patiente de 70 ans consulte pour douleurs lombaires hautes croissantes depuis cinq jours. Installation insidieuse, horaire mécanique.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Radiographie", "IRM", "Ostéodensitométrie", "Biologie"],
+          "correct_answer": "Radiographie",
+          "explanation": "Enfoncement plateau supérieur L1."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Fracture vertébrale ostéoporotique L1.",
+          "type": "multiple",
+          "question": "Quels examens instaurez-vous?",
+          "options": ["Ostéodensitométrie", "Biologie", "TDM", "IRM"],
+          "correct_options": ["Ostéodensitométrie", "Biologie", "IRM"],
+          "explanation": "Ostéodensitométrie pour DMO, biologie pour bilan phospho-calcique."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Fracture vertébrale ostéoporotique.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Antalgiques", "Corset", "Rééducation", "Vertébroplastie"],
+          "correct_answer": "Antalgiques",
+          "explanation": "Antalgiques, corset, rééducation, vertébroplastie si douloureux."
+        }
+      ],
+      "solution": "**Diagnostic final:** Fracture vertébrale ostéoporotique.\n\n**Prise en charge:** Antalgie, corset, rééducation, traitement anti-ostéoporotique.\n\n**Points clés:**\n- Fréquence chez âgés\n- Risque de mortalité accru\n- Bilan pour causes secondaires"
+    },
+    {
+      "title": "Polyarthrite rhumatoïde débutante",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Mme Fatima, 45 ans, douleurs inflammatoires poignets, MCP, IPP des mains depuis 3 semaines. Raideur matinale >1h.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Examen clinique", "Échographie", "Biologie", "IRM"],
+          "correct_answer": "Examen clinique",
+          "explanation": "Synovites MCP et IPP, Squeeze test positif."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "PR débutante.",
+          "type": "multiple",
+          "question": "Quels examens instaurez-vous?",
+          "options": ["Échographie", "IRM", "VS, CRP", "FR, ACPA"],
+          "correct_options": ["Échographie", "IRM", "VS, CRP", "FR, ACPA"],
+          "explanation": "Imagerie pour synovite, biologie pour inflammation et auto-anticorps."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Polyarthrite rhumatoïde.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Méthotrexate", "Corticoïdes", "Biothérapies", "Physiothérapie"],
+          "correct_answer": "Méthotrexate",
+          "explanation": "DMARDs dès diagnostic, corticoïdes pour cap, biothérapies si mauvais pronostic."
+        }
+      ],
+      "solution": "**Diagnostic final:** Polyarthrite rhumatoïde débutante.\n\n**Prise en charge:** Méthotrexate, corticoïdes, biothérapies si nécessaire, physiothérapie.\n\n**Points clés:**\n- Urgence thérapeutique\n- Critères ACR/EULAR\n- Contrôle serré (Treat to Target)"
+    },
+    {
+      "title": "Fibromyalgie",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Mme Aicha, 45 ans, cervicalgies et lombalgies chroniques depuis 5 ans. Douleurs diffuses, fatigue, sommeil mauvais.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Examen clinique", "Biologie", "Imagerie", "Critères ACR"],
+          "correct_answer": "Examen clinique",
+          "explanation": "Palpation zones douloureuses, articulations mobiles sans gonflement."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Fibromyalgie.",
+          "type": "multiple",
+          "question": "Quels examens instaurez-vous?",
+          "options": ["VS, CRP", "Hémogramme", "TSH", "Échographie"],
+          "correct_options": ["VS, CRP", "Hémogramme", "TSH", "Échographie"],
+          "explanation": "Biologie pour éliminer causes, échographie si synovites."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Syndrome fibromyalgique.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Activité physique", "Antidépresseurs", "TCC", "Balnéothérapie"],
+          "correct_answer": "Activité physique",
+          "explanation": "Éducation, activité aérobie, antidépresseurs, thérapie cognitivo-comportementale."
+        }
+      ],
+      "solution": "**Diagnostic final:** Fibromyalgie.\n\n**Prise en charge:** Non pharmacologique (activité, stress, TCC), pharmacologique (antidépresseurs).\n\n**Points clés:**\n- Prévalence 2-8%, femmes\n- Sensibilisation centrale\n- Critères ACR 2010"
+    },
+    {
+      "title": "Canal lombaire rétréci",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Retraité 75 ans, lombalgies chroniques, exacerbation irradiant membres inférieurs, soulagement assis.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Examen clinique", "IRM", "EMG", "Doppler"],
+          "correct_answer": "Examen clinique",
+          "explanation": "Flexion tronc, mobilité limitée, neurologique normal."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "CLR.",
+          "type": "multiple",
+          "question": "Quels examens instaurez-vous?",
+          "options": ["Radiographies", "Scanner", "IRM", "EMG"],
+          "correct_options": ["Radiographies", "Scanner", "IRM", "EMG"],
+          "explanation": "Imagerie pour sténose, EMG pour radiculopathies."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Sténose dégénérative.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Antalgiques", "Infiltrations", "Physiothérapie", "Chirurgie"],
+          "correct_answer": "Infiltrations",
+          "explanation": "Infiltrations épidurales, physiothérapie, chirurgie si handicap."
+        }
+      ],
+      "solution": "**Diagnostic final:** Canal lombaire rétréci.\n\n**Prise en charge:** Conservateur (antalgiques, infiltrations, physiothérapie), chirurgical si sévère.\n\n**Points clés:**\n- Claudication neurogène\n- Pas de parallélisme anatomoclinique\n- Évolution fluctuante"
+    },
+    {
+      "title": "Poignet douloureux non traumatique",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Secrétaire 50 ans, douleur progressive poignet droit, intense sur styloïde radiale, tuméfaction.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Examen clinique", "Radiographie", "Échographie", "IRM"],
+          "correct_answer": "Examen clinique",
+          "explanation": "Test Finkelstein positif."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Ténosynovite de De Quervain.",
+          "type": "multiple",
+          "question": "Quels examens instaurez-vous?",
+          "options": ["Radiographies", "Échographie", "IRM", "Biologie"],
+          "correct_options": ["Radiographies", "Échographie"],
+          "explanation": "Radiographie normale, échographie pour gaine épaissie."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Inflammation gaine tendons.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Immobilisation", "Infiltration", "Kiné", "Chirurgie"],
+          "correct_answer": "Immobilisation",
+          "explanation": "Attelle, infiltration, kiné, chirurgie si échec."
+        }
+      ],
+      "solution": "**Diagnostic final:** Ténosynovite de De Quervain.\n\n**Prise en charge:** Médicale (immobilisation, infiltration), chirurgicale si échec.\n\n**Points clés:**\n- Efforts répétitifs\n- Test Finkelstein\n- Différentiels : infectieux, inflammatoire"
+    },
+    {
+      "title": "Goutte en pratique",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Homme 56 ans, 3e crise goutte gros orteil, obèse, hypertendu.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Bilan biologique", "Ponction", "Radiographie", "IRM"],
+          "correct_answer": "Bilan biologique",
+          "explanation": "Uricémie 75 mg/l, créatinine 10 mg/l."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Goutte récurrente.",
+          "type": "multiple",
+          "question": "Quels examens instaurez-vous?",
+          "options": ["Uricémie", "Créatininémie", "Ponction", "Radiographie"],
+          "correct_options": ["Uricémie", "Créatininémie", "Ponction"],
+          "explanation": "Ponction pour cristaux d'urate."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Hyperuricémie persistante.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Allopurinol", "Fébuxostat", "Colchicine", "Régime"],
+          "correct_answer": "Allopurinol",
+          "explanation": "Augmenter allopurinol, colchicine pour crises, régime hypouricémiant."
+        }
+      ],
+      "solution": "**Diagnostic final:** Goutte.\n\n**Prise en charge:** Hypo-uricémiants, colchicine, conseils diététiques.\n\n**Points clés:**\n- Maladie chronique\n- Traitement de fond dès crises répétées\n- Pas traiter hyperuricémie asymptomatique"
+    },
+    {
+      "title": "Coxarthrose",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Homme 70 ans, douleurs pli aine droite croissante depuis 1 an, irradiant au genou, gêne quotidienne.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Radiographie", "Échographie", "Bilan biologique", "Rééducation"],
+          "correct_answer": "Radiographie",
+          "explanation": "Radiographie standard pour confirmer coxarthrose."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Coxarthrose.",
+          "type": "multiple",
+          "question": "Quels examens instaurez-vous?",
+          "options": ["Échographie", "Bilan biologique", "IRM", "TDM"],
+          "correct_options": ["Échographie", "Bilan biologique"],
+          "explanation": "Échographie pour hydarthrose, bilan pour différentiels."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Arthrose de hanche.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Paracétamol", "AINS", "Anti-arthrosiques", "Prothèse"],
+          "correct_answer": "Paracétamol",
+          "explanation": "Antalgiques, AINS, anti-arthrosiques, infiltration, prothèse si sévère."
+        }
+      ],
+      "solution": "**Diagnostic final:** Coxarthrose.\n\n**Prise en charge:** Symptomatique (paracétamol, AINS, rééducation), chirurgicale (prothèse).\n\n**Points clés:**\n- Cause fréquente d'incapacité chez >55 ans\n- Diagnostic clinique et radiologique\n- Multidisciplinaire"
+    },
+    {
+      "title": "Gonarthrose avec poussée congestive",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Homme 75 ans, gonalgies mécaniques invalidantes sur gonarthrose sévère, poussée congestive des genoux.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Bilan", "Échographie", "Infiltration", "Rééducation"],
+          "correct_answer": "Bilan",
+          "explanation": "Bilan pour comorbidités (asthme, cardiopathie)."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Gonarthrose sévère.",
+          "type": "multiple",
+          "question": "Quels traitements instaurez-vous?",
+          "options": ["Paracétamol", "Traitements locaux", "Rééducation", "Naprolène"],
+          "correct_options": ["Paracétamol", "Traitements locaux", "Rééducation"],
+          "explanation": "Éviter AINS si contre-indications, privilégier locaux et rééducation."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Poussée congestive.",
+          "type": "multiple_choice",
+          "question": "Quel geste réalisez-vous?",
+          "options": ["Infiltrations", "Visco-supplémentation", "Chirurgie", "IPP"],
+          "correct_answer": "Infiltrations",
+          "explanation": "Infiltrations, visco-supplémentation, chirurgie si nécessaire."
+        }
+      ],
+      "solution": "**Diagnostic final:** Gonarthrose avec poussée congestive.\n\n**Prise en charge:** Non médicamenteux (repos, rééducation), médicamenteux prudents (paracétamol, AINS courts si possible).\n\n**Points clés:**\n- Risques AINS chez âgés avec comorbidités\n- Alternatives locales"
+    },
+    {
+      "title": "Syndrome RACAND",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Femme 42 ans, syndrome de Raynaud bilatéral depuis 2 ans, nécroses digitales.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Capillaroscopie", "Rx thorax", "EFR", "Échographie cardiaque"],
+          "correct_answer": "Capillaroscopie",
+          "explanation": "Dilatation anses capillaires, mégacapillaires."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Sclérodermie systémique.",
+          "type": "multiple",
+          "question": "Quels examens instaurez-vous?",
+          "options": ["TDM thoracique", "LBA", "FOGD", "AAN"],
+          "correct_options": ["TDM thoracique", "LBA", "FOGD", "AAN"],
+          "explanation": "Alvéolite lymphocytaire, hernie hiatale, AAN anti-centromères."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "RACAND inaugurant sclérodermie.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Cyclophosphamide", "Azathioprine", "Corticothérapie", "Suivi"],
+          "correct_answer": "Cyclophosphamide",
+          "explanation": "Cyclophosphamide relayé par azathioprine + corticothérapie."
+        }
+      ],
+      "solution": "**Diagnostic final:** Syndrome RACAND inaugurant sclérodermie systémique.\n\n**Prise en charge:** IC, VD, aspirine initial; immunosuppresseurs si évolution.\n\n**Points clés:**\n- Rare, femme prédominante\n- Rôle ACA dans vasculopathie\n- Suivi pour atteinte viscérale"
+    },
+    {
+      "title": "Lombalgie avec pygalgie",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Madame D., 68 ans, lombalgie chronique, douleur fessière intense depuis 3 semaines.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Examen clinique", "Biologie", "Radiographie", "IRM"],
+          "correct_answer": "Examen clinique",
+          "explanation": "Douleur palpation lombaire, limitation rachis, éruption cutanée."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Syndrome inflammatoire, infection urinaire.",
+          "type": "multiple",
+          "question": "Quels examens instaurez-vous?",
+          "options": ["Radiographie rachis", "IRM", "Scintigraphie", "Bilan urinaire"],
+          "correct_options": ["Radiographie rachis", "IRM", "Scintigraphie", "Bilan urinaire"],
+          "explanation": "VS élevée, CRP, leucocytes, infection urinaire."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Spondylodiscite probable.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Antibiothérapie", "Repos", "Rééducation", "Chirurgie"],
+          "correct_answer": "Antibiothérapie",
+          "explanation": "Antibiothérapie pour infection, repos."
+        }
+      ],
+      "solution": "**Diagnostic final:** Spondylodiscite.\n\n**Prise en charge:** Antibiothérapie, repos, suivi imagerie.\n\n**Points clés:**\n- Éliminer causes graves\n- IRM première ligne\n- Scintigraphie complémentaire"
+    }
+  ]
+}

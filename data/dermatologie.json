@@ -1,0 +1,406 @@
+{
+  "quizzes": [
+    {
+      "question": "Quel est le traitement de première intention de l'hémorragie digestive haute par ulcère gastroduodénal?",
+      "type": "single",
+      "options": [
+        {"text": "Traitement médical seul", "correct": false},
+        {"text": "Endoscopie digestive haute avec hémostase", "correct": true},
+        {"text": "Chirurgie en urgence", "correct": false},
+        {"text": "Embolisation artérielle", "correct": false}
+      ],
+      "explanation": "L'endoscopie digestive haute avec hémostase est le traitement de référence des hémorragies ulcéreuses."
+    },
+    {
+      "question": "Quels sont les critères de gravité d'une pancréatite aiguë?",
+      "type": "multiple",
+      "options": [
+        {"text": "Score de Ranson ≥ 3", "correct": true},
+        {"text": "Hémoconcentration", "correct": true},
+        {"text": "Épanchement pleural", "correct": true},
+        {"text": "Hyperleucocytose", "correct": false},
+        {"text": "Hypocalcémie", "correct": true}
+      ],
+      "explanation": "Les critères de Ranson et les signes d'organe (épanchement pleural) définissent la gravité d'une pancréatite aiguë."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente de cirrhose en France?",
+      "type": "single",
+      "options": [
+        {"text": "Alcool", "correct": true},
+        {"text": "Hépatite B", "correct": false},
+        {"text": "Hépatite C", "correct": false},
+        {"text": "NASH", "correct": false}
+      ],
+      "explanation": "L'alcool reste la première cause de cirrhose en France, devant les hépatites virales et la NASH."
+    },
+    {
+      "question": "Quels signes évoquent une ascite infectée?",
+      "type": "multiple",
+      "options": [
+        {"text": "Douleur abdominale", "correct": true},
+        {"text": "Fièvre", "correct": true},
+        {"text": "Aggravation de l'ascite", "correct": true},
+        {"text": "Encéphalopathie", "correct": true},
+        {"text": "Ictère", "correct": false}
+      ],
+      "explanation": "La triade classique est douleur abdominale, fièvre et aggravation de l'ascite. L'encéphalopathie est un signe de gravité."
+    },
+    {
+      "question": "Quelle est la lésion élémentaire caractéristique du psoriasis en plaques?",
+      "type": "single",
+      "options": [
+        {"text": "Papule érythémateuse", "correct": false},
+        {"text": "Plaque érythémato-squameuse bien limitée", "correct": true},
+        {"text": "Vésicule ombiliquée", "correct": false},
+        {"text": "Nodule ulcéré", "correct": false}
+      ],
+      "explanation": "La plaque érythémato-squameuse, bien circonscrite, avec des squames argentées adhérentes, est la lésion typique du psoriasis."
+    },
+    {
+      "question": "Quels sont les facteurs pouvant aggraver un psoriasis?",
+      "type": "multiple",
+      "options": [
+        {"text": "Infection streptococcique", "correct": true},
+        {"text": "Stress psychologique", "correct": true},
+        {"text": "Traitement par bêta-bloquants", "correct": true},
+        {"text": "Exposition solaire modérée", "correct": false},
+        {"text": "Arrêt brutal d'une corticothérapie générale", "correct": true}
+      ],
+      "explanation": "Les infections, le stress, certains médicaments et le sevrage corticoïde sont des facteurs d'aggravation classiques. Le soleil est généralement bénéfique."
+    },
+    {
+      "question": "Quelle est la première cause d'urticaire aiguë chez l'adulte?",
+      "type": "single",
+      "options": [
+        {"text": "Allergie alimentaire", "correct": false},
+        {"text": "Infection virale", "correct": true},
+        {"text": "Piqure d'insecte", "correct": false},
+        {"text": "Médicament", "correct": false}
+      ],
+      "explanation": "Les infections virales sont la cause la plus fréquente d'urticaire aiguë, devant les causes médicamenteuses et alimentaires."
+    },
+    {
+      "question": "Quels signes sont évocateurs d'un mélanome malin (règle ABCDE)?",
+      "type": "multiple",
+      "options": [
+        {"text": "Asymétrie", "correct": true},
+        {"text": "Bords réguliers", "correct": false},
+        {"text": "Couleur hétérogène", "correct": true},
+        {"text": "Diamètre > 6 mm", "correct": true},
+        {"text": "Évolution (changement rapide)", "correct": true}
+      ],
+      "explanation": "La règle ABCDE résume les signes d'alerte : Asymétrie, Bords irréguliers, Couleur non homogène, Diamètre > 6mm, Évolution."
+    },
+    {
+      "question": "Quelle dermatose bulleuse auto-immune est caractérisée par des anticorps anti-desmogléine 1 et 3?",
+      "type": "single",
+      "options": [
+        {"text": "Pemphigoïde bulleuse", "correct": false},
+        {"text": "Dermatite herpétiforme", "correct": false},
+        {"text": "Pemphigus vulgaire", "correct": true},
+        {"text": "Epidermolyse bulleuse acquise", "correct": false}
+      ],
+      "explanation": "Le pemphigus vulgaire est caractérisé par la production d'auto-anticorps dirigés contre les desmogléines 1 et 3, protéines d'adhésion des kératinocytes."
+    },
+    {
+      "question": "Quels sont les diagnostics différentiels d'un érythème noueux?",
+      "type": "multiple",
+      "options": [
+        {"text": "Panniculite infectieuse", "correct": true},
+        {"text": "Sarcoïdose", "correct": true},
+        {"text": "Maladie de Behçet", "correct": true},
+        {"text": "Lèpre", "correct": true},
+        {"text": "Psoriasis pustuleux", "correct": false}
+      ],
+      "explanation": "L'érythème noueux, panniculite, a de nombreuses causes : infectieuses (strepto), médicamenteuses, sarcoïdose, maladies inflammatoires chroniques de l'intestin."
+    },
+    {
+      "question": "Quel est le germe le plus fréquemment en cause dans l'érysipèle?",
+      "type": "single",
+      "options": [
+        {"text": "Staphylococcus aureus", "correct": false},
+        {"text": "Streptococcus pyogenes", "correct": true},
+        {"text": "Pseudomonas aeruginosa", "correct": false},
+        {"text": "Escherichia coli", "correct": false}
+      ],
+      "explanation": "L'érysipèle est une dermo-hypodermite aiguë non nécrosante, presque toujours due à un streptocoque β-hémolytique du groupe A."
+    },
+    {
+      "question": "Quels éléments du bilan pré-thérapeutique sont indispensables avant l'instauration d'un traitement par isotrétinoïne orale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Bilan hépatique (ASAT, ALAT)", "correct": true},
+        {"text": "Bilan lipidique (cholestérol, triglycérides)", "correct": true},
+        {"text": "Test de grossesse négatif", "correct": true},
+        {"text": "Radiographie pulmonaire", "correct": false},
+        {"text": "Dosage des IgG anti-VZV", "correct": false}
+      ],
+      "explanation": "L'isotrétinoïne est tératogène et peut induire une hépatotoxicité et une hyperlipidémie. Un contrôle biologique et une contraception efficace sont obligatoires."
+    },
+    {
+      "question": "Quelle est la localisation cutanée la plus fréquente du carcinome basocellulaire?",
+      "type": "single",
+      "options": [
+        {"text": "Tronc", "correct": false},
+        {"text": "Visage (zone photo-exposée)", "correct": true},
+        {"text": "Membres supérieurs", "correct": false},
+        {"text": "Cuir chevelu", "correct": false}
+      ],
+      "explanation": "Le visage, et plus particulièrement le nez, est la localisation de prédilection du carcinome basocellulaire, en raison de l'exposition solaire cumulative."
+    },
+    {
+      "question": "Quels sont les critères diagnostiques majeurs de la maladie de Kawasaki?",
+      "type": "multiple",
+      "options": [
+        {"text": "Fièvre > 5 jours", "correct": true},
+        {"text": "Conjonctivite bilatérale", "correct": true},
+        {"text": "Lésions buccales (langue framboisée)", "correct": true},
+        {"text": "Rash polymorphe", "correct": true},
+        {"text": "Adénopathie cervicale > 1,5 cm", "correct": true}
+      ],
+      "explanation": "Le diagnostic de la maladie de Kawasaki requiert une fièvre persistante et au moins 4 des 5 autres critères cliniques énumérés."
+    },
+    {
+      "question": "Quelle est la manifestation cutanée la plus spécifique du lupus érythémateux disséminé?",
+      "type": "single",
+      "options": [
+        {"text": "Lupus tumidus", "correct": false},
+        {"text": "Érythème en « ailes de papillon »", "correct": false},
+        {"text": "Lésions discoïdes", "correct": false},
+        {"text": "Lupus subaigu", "correct": true}
+      ],
+      "explanation": "Le lupus subaigu, avec ses lésions annulaires ou papulo-squameuses photodistribuées et son association forte avec les anti-SSA, est très spécifique du LED."
+    },
+    {
+      "question": "Quels médicaments sont classiquement impliqués dans un syndrome de Stevens-Johnson / Nécrolyse épidermique toxique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Allopurinol", "correct": true},
+        {"text": "Carbamazépine", "correct": true},
+        {"text": "Lamotrigine", "correct": true},
+        {"text": "Pénicillines", "correct": true},
+        {"text": "Paracétamol", "correct": false}
+      ],
+      "explanation": "Les anti-épileptiques aromatiques, les antibiotiques (sulfamides, pénicillines) et l'allopurinol sont les médicaments les plus fréquemment responsables de ces toxidermies sévères."
+    },
+    {
+      "question": "Quelle est la caractéristique histologique principale du lichen plan?",
+      "type": "single",
+      "options": [
+        {"text": "Spongiose", "correct": false},
+        {"text": "Infiltrat lymphocytaire en bande à l'interface dermo-épidermique", "correct": true},
+        {"text": "Nécrose kératinocytaire", "correct": false},
+        {"text": "Dépôts d'immunoglobulines en bande à la jonction dermo-épidermique", "correct": false}
+      ],
+      "explanation": "L'infiltrat lymphocytaire T en bande à l'interface, responsable d'une dégénérescence vacuolaire de la basale, est l'élément histologique clé du lichen plan."
+    },
+    {
+      "question": "Quels sont les signes cutanés de la sclérodermie systémique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Sclérose digitale", "correct": true},
+        {"text": "Phénomène de Raynaud", "correct": true},
+        {"text": "Télangiectasies", "correct": true},
+        {"text": "Calcinose sous-cutanée", "correct": true},
+        {"text": "Livedo reticularis", "correct": false}
+      ],
+      "explanation": "La triade cutanée de la sclérodermie comprend le phénomène de Raynaud, la sclérose cutanée et les télangiectasies. La calcinose est une complication fréquente."
+    },
+    {
+      "question": "Quelle maladie est associée à la présence d'anticorps anti-MDA5?",
+      "type": "single",
+      "options": [
+        {"text": "Dermatomyosite classique", "correct": false},
+        {"text": "Dermatomyosite avec ulcérations cutanées et pneumopathie interstitielle", "correct": true},
+        {"text": "Polymyosite", "correct": false},
+        {"text": "Syndrome des anti-synthétases", "correct": false}
+      ],
+      "explanation": "Les anti-MDA5 sont associés à une forme clinique particulière de dermatomyosite, caractérisée par des ulcérations cutanées, une pneumopathie interstitielle rapidement progressive et peu de myosite."
+    },
+    {
+      "question": "Quels sont les éléments du diagnostic d'un syndrome de Wells (éosinophilie cellulite)?",
+      "type": "multiple",
+      "options": [
+        {"text": "Plaques érythémateuses œdémateuses", "correct": true},
+        {"text": "Infarctus cutané", "correct": false},
+        {"text": "Éosinophilie sanguine", "correct": true},
+        {"text": "« Flame figures » à l'histologie", "correct": true},
+        {"text": "Dépôts de fibrine en « grain de riz »", "correct": false}
+      ],
+      "explanation": "Le syndrome de Wells associe des lésions cutanées inflammatoires, une éosinophilie sanguine variable, et à l'histologie, un infiltrat d'éosinophiles avec des « flame figures » (granulocytes éosinophiles dégranulés sur des fibres de collagène)."
+    }
+  ],
+  "clinical_cases": [
+    {
+      "title": "Hémorragie digestive chez un cirrhotique",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Monsieur V., 58 ans, cirrhose alcoolique connue Child B, se présente aux urgences pour hématémèse abondante survenue 1 heure auparavant. Il est pâle, suant, TA 95/60 mmHg, FC 120/min.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Mise en condition", "Endoscopie en urgence", "Traitement médicamenteux", "Appel du chirurgien"],
+          "correct_answer": "Mise en condition",
+          "explanation": "La priorité absolue est la réanimation : voie veineuse, remplissage, correction des troubles de coagulation."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Hémoglobine 7.2 g/dL, TP 45%, plaquettes 85 000. Le patient est stabilisé sous noradrénaline.",
+          "type": "multiple",
+          "question": "Quels traitements spécifiques instaurez-vous?",
+          "options": ["Antibiotiques", "Terlipressine", "Sonde de Sengstaken", "Transfusion", "Vitamine K"],
+          "correct_options": ["Antibiotiques", "Terlipressine"],
+          "explanation": "Les antibiotiques (prévention de l'infection) et la terlipressine (réduction de l'HT portale) sont des traitements spécifiques de l'hémorragie digestive du cirrhotique."
+        },
+        {
+          "title": "Prise en charge endoscopique",
+          "content": "L'endoscopie montre des varices œsophagiennes grade III avec signe rouge, saignantes activement.",
+          "type": "multiple_choice",
+          "question": "Quel geste réalisez-vous?",
+          "options": ["Ligature élastique", "Sclérose", "Colle biologique", "Coagulation au plasma argon"],
+          "correct_answer": "Ligature élastique",
+          "explanation": "La ligature élastique est le traitement endoscopique de référence des varices œsophagiennes hémorragiques."
+        }
+      ],
+      "solution": "**Diagnostic final:** Hémorragie digestive haute sur rupture de varices œsophagiennes chez un cirrhotique Child B.\n\n**Prise en charge:** Réanimation initiale, antibiotiques prophylactiques, terlipressine, ligature endoscopique en urgence.\n\n**Points clés:**\n- Risque élevé de récidive hémorragique\n- Prévention de l'infection spontanée\n- Évaluation pronostique (score de Child-Pugh)\n- Discussion TIPS en cas d'échec"
+    },
+    {
+      "title": "Pustulose fébrile avec œdème facial",
+      "difficulty": "Intermédiaire",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Une femme de 32 ans, sans antécédent notable, consulte pour une éruption cutanée aiguë apparue 48h après le début d'une angine traitée par amoxicilline. Elle présente une fièvre à 39.5°C, un œdème facial, et des lésions cutanées disséminées.",
+          "type": "multiple_choice",
+          "question": "Quel est le diagnostic le plus probable devant cette éruption médicamenteuse?",
+          "options": ["Exanthème maculo-papuleux", "Urticaire", "Pustulose exanthématique aiguë généralisée (PEAG)", "Syndrome de Stevens-Johnson"],
+          "correct_answer": "Pustulose exanthématique aiguë généralisée (PEAG)",
+          "explanation": "L'association fièvre élevée, œdème facial, et pustules stériles non folliculaires survenant dans les 48h après la prise d'aminopénicillines est très évocatrice d'une PEAG."
+        },
+        {
+          "title": "Examen clinique",
+          "content": "L'examen cutané retrouve de nombreuses micropustules non folliculaires, confluentes dans les plis, sur fond érythémateux et œdémateux. Il existe un signe de Nikolski négatif.",
+          "type": "multiple",
+          "question": "Quels éléments du bilan complémentaire sont nécessaires?",
+          "options": ["NFS (hyperleucocytose à polynucléaires neutrophiles)", "Crétininémie", "Bactériologie des pustules", "Biopsie cutanée", "Patch tests"],
+          "correct_options": ["NFS (hyperleucocytose à polynucléaires neutrophiles)", "Crétininémie", "Bactériologie des pustules"],
+          "explanation": "La NFS montre une hyperleucocytose neutrophilique. La crétininémie évalue la fonction rénale. La bactériologie confirme la stérilité des pustules et écarte une infection bactérienne."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Le diagnostic de PEAG est confirmé. L'état général est altéré.",
+          "type": "multiple_choice",
+          "question": "Quel est le traitement de première intention?",
+          "options": ["Antibiothérapie probabiliste", "Dermocorticoïdes", "Corticothérapie systémique", "Traitement symptomatique seul"],
+          "correct_answer": "Traitement symptomatique seul",
+          "explanation": "La PEAG guérit spontanément en une quinzaine de jours après l'arrêt du médicament causal. Le traitement est symptomatique (antipyrétiques, antihistaminiques). La corticothérapie est discutée dans les formes sévères mais n'est pas systématique."
+        }
+      ],
+      "solution": "**Diagnostic final:** Pustulose exanthématique aiguë généralisée (PEAG) à l'amoxicilline.\n\n**Prise en charge:** Arrêt immédiat de l'antibiotique incriminé. Traitement symptomatique (paracétamol, émollients). Surveillance clinique simple.\n\n**Points clés:**\n- Éruption stéréotypée aux bêta-lactamines.\n- Bon pronostic, résolution sans séquelle.\n- Ne contre-indique pas formellement une réintroduction ultérieure, mais celle-ci est déconseillée."
+    },
+    {
+      "title": "Tumeur ulcérée du nez chez un agriculteur",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Monsieur L., 68 ans, agriculteur à la retraite, consulte pour une « plaie » sur l'aile du nez droite, évoluant depuis plus d'un an, qui ne guérit pas malgré des soins locaux. Il a un phototype clair (type II) et un important antécédent d'exposition solaire chronique.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première hypothèse diagnostique?",
+          "options": ["Carcinome basocellulaire", "Carcinome spinocellulaire", "Maladie de Bowen", "Kératoacanthome"],
+          "correct_answer": "Carcinome spinocellulaire",
+          "explanation": "La localisation sur une zone photo-exposée, l'ulcération chronique et le terrain (homme âgé, exposition solaire chronique) sont très évocateurs d'un carcinome spinocellulaire, plus agressif localement que le basocellulaire."
+        },
+        {
+          "title": "Examen et bilan",
+          "content": "La lésion est une tumeur ulcéro-bourgeonnante de 1,5 cm de diamètre, à bords indurés. La palpation retrouve une adénopathie satellite sous-maxillaire droite, ferme et fixée.",
+          "type": "multiple",
+          "question": "Quels examens complémentaires demandez-vous en priorité?",
+          "options": ["Dermatoscopie", "Biopsie cutanée exérèse", "Échographie cervico-faciale", "Scanner cervico-thoracique", "Radiographie pulmonaire"],
+          "correct_options": ["Biopsie cutanée exérèse", "Échographie cervico-faciale"],
+          "explanation": "La biopsie exérèse (si possible) confirme le diagnostic histologique et permet le grading. L'échographie cervicale caractérise l'adénopathie suspecte et guide une cytoponction."
+        },
+        {
+          "title": "Résultats et stadification",
+          "content": "L'histologie confirme un carcinome spinocellulaire moyennement différencié, infiltrant. La cytoponction de l'adénopathie est positive.",
+          "type": "multiple_choice",
+          "question": "Quelle est la prise en charge thérapeutique recommandée?",
+          "options": ["Exérèse chirurgicale large seule", "Exérèse chirurgicale + curage ganglionnaire", "Radiothérapie exclusive", "Thérapie photodynamique"],
+          "correct_answer": "Exérèse chirurgicale + curage ganglionnaire",
+          "explanation": "En cas de carcinome spinocellulaire avec métastase ganglionnaire avérée (stade III), le traitement standard est l'exérèse large de la tumeur primitive associée à un curage ganglionnaire thérapeutique. La radiothérapie adjuvante est souvent discutée."
+        }
+      ],
+      "solution": "**Diagnostic final:** Carcinome spinocellulaire du visage avec métastase ganglionnaire régionale (stade III).\n\n**Prise en charge:**\n- Chirurgie carcinologique : exérèse large avec contrôle des marges (chirurgie de Mohs si possible) + curage ganglionnaire cervical.\n- RTC post-opératoire possible selon l'analyse histologique finale.\n- Surveillance dermatologique et oncologique rapprochée.\n\n**Points clés:**\n- Aggressivité locale et métastatique du carcinome spinocellulaire sur zone photo-exposée.\n- Importance du bilan d'extension ganglionnaire systématique.\n- Prévention primaire par photoprotection rigoureuse chez les sujets à risque."
+    },
+    {
+      "title": "Éruption vésiculeuse chez un adulte jeune",
+      "difficulty": "Intermédiaire",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Une patiente de 25 ans consulte pour une éruption vésiculeuse prurigineuse, bilatérale et symétrique, localisée préférentiellement sur les faces d'extension des coudes et des genoux, ainsi qu'au niveau de la région sacrée. Les lésions évoluent par poussées.",
+          "type": "multiple_choice",
+          "question": "Quel diagnostic évoquez-vous en premier lieu?",
+          "options": ["Dermatite herpétiforme", "Gale profuse", "Eczéma de contact", "Pemphigoïde bulleuse"],
+          "correct_answer": "Dermatite herpétiforme",
+          "explanation": "La topographie très suggestive (surfaces d'extension, région sacrée), le caractère bilatéral et symétrique, et le prurit intense sont caractéristiques de la dermatite herpétiforme."
+        },
+        {
+          "title": "Bilan complémentaire",
+          "content": "La patiente rapporte par ailleurs des épisodes de douleurs abdominales et de ballonnements.",
+          "type": "multiple",
+          "question": "Quels examens biologiques et histologiques demandez-vous?",
+          "options": ["IgA anti-transglutaminase", "Biopsie cutanée en peau saine pour IF directe", "Biopsie cutanée sur une vésicule pour histologie", "Numération formule sanguine", "Bilan thyroïdien"],
+          "correct_options": ["IgA anti-transglutaminase", "Biopsie cutanée en peau saine pour IF directe"],
+          "explanation": "La dermatite herpétiforme est la manifestation cutanée de la maladie cœliaque. Le diagnostic est confirmé par la positivité des IgA anti-transglutaminase et la présence de dépôts granulaires d'IgA en immunofluorescence directe sur une biopsie de peau périlésionnelle."
+        },
+        {
+          "title": "Prise en charge",
+          "content": "Les IgA anti-transglutaminase sont positives et l'IF directe cutanée confirme des dépôts granulaires d'IgA à la pointe des papilles dermiques.",
+          "type": "multiple_choice",
+          "question": "Quel est le traitement de fond de cette dermatose?",
+          "options": ["Dapsone", "Régime sans gluten strict", "Corticothérapie locale", "Antihistaminiques seuls"],
+          "correct_answer": "Régime sans gluten strict",
+          "explanation": "Le traitement de fond est le régime sans gluten strict, qui permet de contrôler à la fois la dermatose et l'entéropathie sous-jacente. La dapsone est un traitement d'appoint pour contrôler rapidement le prurit et les lésions, mais elle ne traite pas la cause."
+        }
+      ],
+      "solution": "**Diagnostic final:** Dermatite herpétiforme, associée à une maladie cœliaque.\n\n**Prise en charge:**\n- Consultation avec un diététicien/nutritionniste pour instauration d'un régime sans gluten strict et à vie.\n- Traitement médical par dapsone à la dose minimale efficace pour contrôler les symptômes cutanés, avec surveillance hématologique (risque d'hémolyse, de méthémoglobinémie).\n- Bilan complémentaire à la recherche de carences (fer, folates, B12) et d'autres maladies auto-immunes associées.\n\n**Points clés:**\n- La dermatite herpétiforme est un marqueur cutané spécifique de la maladie cœliaque.\n- Le régime sans gluten est impératif pour le contrôle à long terme et la prévention des complications (lymphome intestinal)."
+    },
+    {
+      "title": "Sclérose et dyschromie chez une femme jeune",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Une femme de 35 ans consulte pour des lésions cutanées évoluant depuis 2 ans. Elle présente des plaques indurées, de couleur ivoire, entourées d'un liseré violacé (lilac ring), localisées au tronc et à la racine des membres. Elle se plaint également de phénomènes de Raynaud sévères.",
+          "type": "multiple_choice",
+          "question": "Quel diagnostic évoquez-vous?",
+          "options": ["Sclérodermie systémique", "Morphée", "Lichen scléreux", "Scléromyxœdème"],
+          "correct_answer": "Morphée",
+          "explanation": "Les plaques scléreuses, de couleur ivoire, avec un liseré lilac ring sont caractéristiques de la morphée (sclérodermie localisée). L'atteinte est cutanée pure, sans implication systémique (le phénomène de Raynaud peut être isolé ou associé)."
+        },
+        {
+          "title": "Évolution et bilan",
+          "content": "Les lésions s'étendent progressivement. Une biopsie cutanée est réalisée.",
+          "type": "multiple",
+          "question": "Quels sont les éléments histologiques attendus dans la morphée?",
+          "options": ["Sclérose du derme", "Atrophie épidermique", "Infiltrat inflammatoire périvasculaire et interstitiel", "Dépôts de mucine", "Épaississement de la membrane basale"],
+          "correct_options": ["Sclérose du derme", "Infiltrat inflammatoire périvasculaire et interstitiel"],
+          "explanation": "L'histologie de la morphée montre initialement un infiltrat inflammatoire lymphoplasmocytaire périvasculaire et interstitiel, puis une sclérose collagène du derme, parfois jusqu'à l'hypoderme."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "Le diagnostic de morphée généralisée est retenu, avec un retentissement esthétique et fonctionnel important.",
+          "type": "multiple_choice",
+          "question": "Quel est le traitement systémique de première intention?",
+          "options": ["Corticothérapie générale", "Méthotrexate", "Photothérapie UVA1", "D-pénicillamine"],
+          "correct_answer": "Méthotrexate",
+          "explanation": "Pour les formes étendues ou sévères de morphée, le méthotrexate est le traitement systémique de première intention. La photothérapie UVA1 est une alternative thérapeutique très efficace, mais le méthotrexate est souvent préféré pour son action systémique et sa facilité d'administration."
+        }
+      ],
+      "solution": "**Diagnostic final:** Morphée généralisée (sclérodermie localisée).\n\n**Prise en charge:**\n- Traitement systémique par méthotrexate hebdomadaire, associé à une corticothérapie à dose modérée en début de traitement (\"bridge therapy\").\n- Photothérapie UVA1 si disponible et en alternative.\n- Kinésithérapie pour prévenir les rétractions et maintenir la mobilité articulaire.\n- Émollients pour la sécheresse cutanée.\n\n**Points clés:**\n- Distinguer la morphée (atteinte cutanée localisée) de la sclérodermie systémique (atteinte viscérale).\n- Le bilan doit rechercher des signes de passage à la systémique (capillaroscopie, auto-anticorps).\n- Le traitement vise à contrôler l'inflammation et la fibrose pour limiter les séquelles."
+    }
+  ]
+}
