@@ -1,0 +1,1304 @@
+{
+  "quizzes": [
+    {
+      "question": "Quel est le traitement de première intention de l'hémorragie digestive haute par ulcère gastroduodénal?",
+      "type": "single",
+      "options": [
+        {"text": "Traitement médical seul", "correct": false},
+        {"text": "Endoscopie digestive haute avec hémostase", "correct": true},
+        {"text": "Chirurgie en urgence", "correct": false},
+        {"text": "Embolisation artérielle", "correct": false}
+      ],
+      "explanation": "L'endoscopie digestive haute avec hémostase est le traitement de référence des hémorragies ulcéreuses."
+    },
+    {
+      "question": "Quels sont les critères de gravité d'une pancréatite aiguë?",
+      "type": "multiple",
+      "options": [
+        {"text": "Score de Ranson ≥ 3", "correct": true},
+        {"text": "Hémoconcentration", "correct": true},
+        {"text": "Épanchement pleural", "correct": true},
+        {"text": "Hyperleucocytose", "correct": false},
+        {"text": "Hypocalcémie", "correct": true}
+      ],
+      "explanation": "Les critères de Ranson et les signes d'organe (épanchement pleural) définissent la gravité d'une pancréatite aiguë."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente de cirrhose en France?",
+      "type": "single",
+      "options": [
+        {"text": "Alcool", "correct": true},
+        {"text": "Hépatite B", "correct": false},
+        {"text": "Hépatite C", "correct": false},
+        {"text": "NASH", "correct": false}
+      ],
+      "explanation": "L'alcool reste la première cause de cirrhose en France, devant les hépatites virales et la NASH."
+    },
+    {
+      "question": "Quels signes évoquent une ascite infectée?",
+      "type": "multiple",
+      "options": [
+        {"text": "Douleur abdominale", "correct": true},
+        {"text": "Fièvre", "correct": true},
+        {"text": "Aggravation de l'ascite", "correct": true},
+        {"text": "Encéphalopathie", "correct": true},
+        {"text": "Ictère", "correct": false}
+      ],
+      "explanation": "La triade classique est douleur abdominale, fièvre et aggravation de l'ascite. L'encéphalopathie est un signe de gravité."
+    },
+    {
+      "question": "What is the most common cause of glomerulonephritis in children?",
+      "type": "single",
+      "options": [
+        {"text": "Group A beta hemolytic strep", "correct": true},
+        {"text": "Staphylococcus aureus", "correct": false},
+        {"text": "Toxins", "correct": false},
+        {"text": "Tylenol use", "correct": false}
+      ],
+      "explanation": "Group A beta hemolytic strep is the most common cause of glomerulonephritis in children. This bacterium is known to cause infections such as strep throat and skin infections, which can lead to the development of glomerulonephritis. The bacteria release toxins that can damage the glomeruli, leading to inflammation and impaired kidney function."
+    },
+    {
+      "question": "What is the most common cause of anal itching in children?",
+      "type": "single",
+      "options": [
+        {"text": "Pinworms", "correct": true},
+        {"text": "Diarrhea", "correct": false},
+        {"text": "Cleansing the area with hot water or strong soap", "correct": false},
+        {"text": "Yeast infections", "correct": false}
+      ],
+      "explanation": "Pinworms are the most common cause of anal itching in children. These parasites lay their eggs around the anus, causing itching and discomfort. Itching is often worse at night when the female worms come out to lay eggs."
+    },
+    {
+      "question": "What is the APGAR score of the following baby? The baby sneezes when a catheter is placed in his nostril and is actively moving but not crying. Pulse 95. Breathing slow and irregular. The body is pink, but the extremities are blue.",
+      "type": "single",
+      "options": [
+        {"text": "7", "correct": true},
+        {"text": "5", "correct": false},
+        {"text": "6", "correct": false},
+        {"text": "8", "correct": false}
+      ],
+      "explanation": "Sneeze: 2 (grimace), Active motion: 2, Pulse 95: 1, Respirations: 1, Color: 1."
+    },
+    {
+      "question": "What is the most common cause of bronchiolitis?",
+      "type": "single",
+      "options": [
+        {"text": "RSV", "correct": true},
+        {"text": "Parainfluenza virus", "correct": false},
+        {"text": "Adenovirus", "correct": false},
+        {"text": "Influenza", "correct": false}
+      ],
+      "explanation": "RSV, or respiratory syncytial virus, is the most common cause of bronchiolitis. Bronchiolitis is an infection that affects the smallest air passages in the lungs, called bronchioles. RSV is highly contagious and spreads through respiratory droplets."
+    },
+    {
+      "question": "Which of the following presents with a sore throat, fever, and a gray pharyngeal membrane that bleeds when removed?",
+      "type": "single",
+      "options": [
+        {"text": "Diphtheria", "correct": true},
+        {"text": "Rubeola", "correct": false},
+        {"text": "Coxsackie virus", "correct": false},
+        {"text": "Rotavirus", "correct": false}
+      ],
+      "explanation": "Diphtheria presents with symptoms of a sore throat, fever, and a gray pharyngeal membrane that bleeds when removed. This is a characteristic sign of diphtheria, caused by the bacteria Corynebacterium diphtheriae."
+    },
+    {
+      "question": "What is the causative organism of herpangina?",
+      "type": "single",
+      "options": [
+        {"text": "Coxsackievirus", "correct": true},
+        {"text": "Herpes simplex virus", "correct": false},
+        {"text": "Streptococcus pyogenes", "correct": false},
+        {"text": "Candida albicans", "correct": false}
+      ],
+      "explanation": "Coxsackievirus is the causative organism of herpangina. Herpangina is a viral infection that primarily affects children and is characterized by small, painful ulcers or blisters in the back of the throat and on the roof of the mouth."
+    },
+    {
+      "question": "A 17-year-old presents with sudden onset severe scrotal pain. On exam, the testis is high-riding with absent cremasteric reflex, and there is no pain with elevation. Which is the most likely diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Testicular torsion", "correct": true},
+        {"text": "Epididymitis", "correct": false},
+        {"text": "Hydrocele", "correct": false},
+        {"text": "Orchitis", "correct": false}
+      ],
+      "explanation": "The most likely diagnosis in this case is testicular torsion. Testicular torsion is a urologic emergency that occurs when the testicle rotates and twists the spermatic cord, leading to compromised blood flow to the testicle."
+    },
+    {
+      "question": "Which Tanner stage describes a male with a small amount of long downy pubic hair and a testicular volume of 1.6-6mL, penile length 3cm?",
+      "type": "single",
+      "options": [
+        {"text": "Tanner II", "correct": true},
+        {"text": "Tanner I", "correct": false},
+        {"text": "Tanner III", "correct": false},
+        {"text": "Tanner IV", "correct": false}
+      ],
+      "explanation": "Tanner II is the correct answer because it describes the stage of puberty where a male begins to experience physical changes such as the growth of pubic hair and an increase in testicular volume."
+    },
+    {
+      "question": "An African American newborn presents with jaundice at 48hours of age. TSB is 5. Which of the following is the most likely diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Physiologic jaundice", "correct": true},
+        {"text": "G6PD deficiency", "correct": false},
+        {"text": "Hemolysis", "correct": false},
+        {"text": "Crigler-Najar syndrome", "correct": false}
+      ],
+      "explanation": "Physiologic jaundice is the most likely diagnosis in this case. Physiologic jaundice is a common condition in newborns where there is an increase in bilirubin levels due to the breakdown of red blood cells."
+    },
+    {
+      "question": "Which hormone is stimulated directly by GNRH?",
+      "type": "single",
+      "options": [
+        {"text": "FSH", "correct": true},
+        {"text": "LH", "correct": false},
+        {"text": "Testosterone", "correct": false},
+        {"text": "Estrogen", "correct": false}
+      ],
+      "explanation": "GNRH, also known as gonadotropin-releasing hormone, directly stimulates the secretion of follicle-stimulating hormone (FSH) from the anterior pituitary gland."
+    },
+    {
+      "question": "Which of the following is not a component of the tetralogy of Fallot?",
+      "type": "single",
+      "options": [
+        {"text": "Left ventricular hypertrophy", "correct": true},
+        {"text": "Ventricular septal defect", "correct": false},
+        {"text": "Pulmonary stenosis", "correct": false},
+        {"text": "Overriding aorta", "correct": false}
+      ],
+      "explanation": "Left ventricular hypertrophy is not a component of the tetralogy of Fallot. Tetralogy of Fallot is a congenital heart defect characterized by four specific abnormalities."
+    },
+    {
+      "question": "What is the most frequent cause of intestinal obstruction in the first two years of life?",
+      "type": "single",
+      "options": [
+        {"text": "Intussusception", "correct": true},
+        {"text": "Hirschsprung disease", "correct": false},
+        {"text": "Pyloric stenosis", "correct": false},
+        {"text": "Volvulus", "correct": false}
+      ],
+      "explanation": "Intussusception is the most frequent cause of intestinal obstruction in the first two years of life. Intussusception occurs when one portion of the intestine slides into another, causing a blockage."
+    },
+    {
+      "question": "Which of the following immunizations is not given during the 6-month well visit?",
+      "type": "single",
+      "options": [
+        {"text": "Hepatitis A", "correct": true},
+        {"text": "Hepatitis B", "correct": false},
+        {"text": "Rotavirus", "correct": false},
+        {"text": "Human influenza B", "correct": false}
+      ],
+      "explanation": "During the 6-month well visit, the immunizations given typically include hepatitis B, rotavirus, and human influenza B. However, hepatitis A is not given during this visit."
+    },
+    {
+      "question": "Which of the following can be found in the eyes during the physical examination of a newborn?",
+      "type": "single",
+      "options": [
+        {"text": "Brushfield spots", "correct": true},
+        {"text": "Retinal detachment", "correct": false},
+        {"text": "Cataracts", "correct": false},
+        {"text": "Glaucoma", "correct": false}
+      ],
+      "explanation": "Brushfield spots can be found in the eyes during the physical examination of a newborn. These spots are small, white or grayish specks that are located on the periphery of the iris."
+    },
+    {
+      "question": "At what age can a baby first make a 'raspberry' sound?",
+      "type": "single",
+      "options": [
+        {"text": "3-5 months", "correct": true},
+        {"text": "1-2 months", "correct": false},
+        {"text": "6-8 months", "correct": false},
+        {"text": "9-12 months", "correct": false}
+      ],
+      "explanation": "Babies typically start making raspberry sounds, also known as blowing bubbles, between 3-5 months of age. This is a milestone in their vocal development."
+    },
+    {
+      "question": "Which of the following is passed to a baby during breastfeeding?",
+      "type": "single",
+      "options": [
+        {"text": "IgA antibodies", "correct": true},
+        {"text": "IgG antibodies", "correct": false},
+        {"text": "IgM antibodies", "correct": false},
+        {"text": "IgE antibodies", "correct": false}
+      ],
+      "explanation": "During breastfeeding, the mother passes on IgA antibodies to the baby. IgA is an immunoglobulin that plays a crucial role in providing immune protection in the mucosal surfaces of the body."
+    },
+    {
+      "question": "Which of the following primitive reflexes disappears by 3 months?",
+      "type": "single",
+      "options": [
+        {"text": "Moro reflex", "correct": true},
+        {"text": "Grasp reflex", "correct": false},
+        {"text": "Rooting reflex", "correct": false},
+        {"text": "Stepping reflex", "correct": false}
+      ],
+      "explanation": "The Moro reflex is a primitive reflex that is present in newborn babies and typically disappears by 3 months of age."
+    },
+    {
+      "question": "What is the most common causative organism of croup?",
+      "type": "single",
+      "options": [
+        {"text": "Parainfluenza virus", "correct": true},
+        {"text": "RSV", "correct": false},
+        {"text": "Influenza virus", "correct": false},
+        {"text": "Adenovirus", "correct": false}
+      ],
+      "explanation": "Parainfluenza virus is the most common causative organism of croup. Croup is a respiratory condition that mainly affects young children, causing inflammation and narrowing of the airways."
+    },
+    {
+      "question": "Which form of leukemia has a positive peroxidase or Sudan black in bone marrow aspirate?",
+      "type": "single",
+      "options": [
+        {"text": "Acute Myeloid Leukemia (AML)", "correct": true},
+        {"text": "Acute Lymphoblastic Leukemia (ALL)", "correct": false},
+        {"text": "Chronic Myeloid Leukemia (CML)", "correct": false},
+        {"text": "Chronic Lymphocytic Leukemia (CLL)", "correct": false}
+      ],
+      "explanation": "Acute Myeloid Leukemia (AML) is the form of leukemia that has a positive peroxidase or Sudan black in bone marrow aspirate."
+    },
+    {
+      "question": "Which of the following presents with an aura of an odd smell or taste, visual or auditory hallucinations; consists of a vague stare, complex automatisms, or throaty sounds; last 15-90 seconds and is followed by confusion?",
+      "type": "single",
+      "options": [
+        {"text": "Partial complex seizure", "correct": true},
+        {"text": "Absence seizure", "correct": false},
+        {"text": "Tonic-clonic seizure", "correct": false},
+        {"text": "Myoclonic seizure", "correct": false}
+      ],
+      "explanation": "A partial complex seizure presents with various symptoms that can include an aura of an odd smell or taste, visual or auditory hallucinations, and a vague stare."
+    },
+    {
+      "question": "Which of the following is a preventative measure for otitis externa?",
+      "type": "single",
+      "options": [
+        {"text": "Administration of a 1:1 solution of vinegar and 70% ethyl alcohol", "correct": true},
+        {"text": "Using ear plugs", "correct": false},
+        {"text": "Avoiding swimming", "correct": false},
+        {"text": "Antibiotic ear drops", "correct": false}
+      ],
+      "explanation": "Administration of a 1:1 solution of vinegar and 70% ethyl alcohol is a preventative measure for otitis externa."
+    },
+    {
+      "question": "One of the constraints an infant has in being able to extend his head in prone is",
+      "type": "single",
+      "options": [
+        {"text": "large weight of the head relative to the body", "correct": true},
+        {"text": "complete hip extension", "correct": false},
+        {"text": "excessive 'tummy time.'", "correct": false},
+        {"text": "visual orientation.", "correct": false}
+      ],
+      "explanation": "The large weight of the head relative to the body is a constraint for head extension in prone position in infants."
+    },
+    {
+      "question": "When does successful goal-directed reaching typically first occur in infants?",
+      "type": "single",
+      "options": [
+        {"text": "4 months of age", "correct": true},
+        {"text": "8 months of age", "correct": false},
+        {"text": "1 month of age", "correct": false},
+        {"text": "6 months of age", "correct": false}
+      ],
+      "explanation": "Successful goal-directed reaching typically first occurs at 4 months of age in infants."
+    },
+    {
+      "question": "A full-term, typically developing neonate will have which following range of motion?",
+      "type": "single",
+      "options": [
+        {"text": "Limitations in hip extension; limitations in elbow extension; excessive dorsiflexion", "correct": true},
+        {"text": "Limitations in hip flexion and excessive plantar flexion.", "correct": false},
+        {"text": "Limitations in hip extension and excessive plantar flexion.", "correct": false},
+        {"text": "Limitations in plantar flexion and excessive hip flexion.", "correct": false}
+      ],
+      "explanation": "A full-term neonate has limitations in hip and elbow extension with excessive dorsiflexion."
+    },
+    {
+      "question": "A full-term, typically developing neonate compared to a 12-month old will have the following range of motion:",
+      "type": "single",
+      "options": [
+        {"text": "Limitations in hip extension and excessive dorisflexion.", "correct": true},
+        {"text": "Limitations in hip flexion and excessive plantar flexion.", "correct": false},
+        {"text": "Limitations in hip extension and excessive plantar flexion.", "correct": false},
+        {"text": "Limitations in plantar flexion and excessive hip flexion.", "correct": false}
+      ],
+      "explanation": "Compared to a 12-month-old, a neonate has limitations in hip extension and excessive dorsiflexion."
+    },
+    {
+      "question": "During the first year of life, the infant progresses through a rapid transformation in postural control and locomotion and appreciable differences begin to be seen between boys and girls.",
+      "type": "single",
+      "options": [
+        {"text": "False", "correct": true},
+        {"text": "True", "correct": false}
+      ],
+      "explanation": "There are no appreciable differences in postural control and locomotion between boys and girls in the first year."
+    },
+    {
+      "question": "There is great variability in infant's prone progression of crawling and creeping.",
+      "type": "single",
+      "options": [
+        {"text": "True", "correct": true},
+        {"text": "False", "correct": false}
+      ],
+      "explanation": "There is great variability in prone progression among infants."
+    },
+    {
+      "question": "At 12 months of age, a typical 12-month-old can",
+      "type": "single",
+      "options": [
+        {"text": "All of the above", "correct": true},
+        {"text": "gesture.", "correct": false},
+        {"text": "change from sitting to creeping independently.", "correct": false},
+        {"text": "walk with hands held.", "correct": false}
+      ],
+      "explanation": "A typical 12-month-old can gesture, change positions independently, walk with hands held, and rise to stand through half-kneel."
+    },
+    {
+      "question": "Hand and knees creeping in infants",
+      "type": "single",
+      "options": [
+        {"text": "All of the above", "correct": true},
+        {"text": "is never exhibited by a small number of infants.", "correct": false},
+        {"text": "is achieved between 5 and 13 months of age.", "correct": false},
+        {"text": "covers about two football fields a day.", "correct": false}
+      ],
+      "explanation": "Creeping is not exhibited by some infants, achieved between 5-13 months, and covers significant distance daily."
+    },
+    {
+      "question": "Anticipatory postural control in sitting occurs once the infant is able to walk.",
+      "type": "single",
+      "options": [
+        {"text": "False", "correct": true},
+        {"text": "True", "correct": false}
+      ],
+      "explanation": "Anticipatory postural control in sitting develops before walking."
+    },
+    {
+      "question": "What is the youngest age group that would be expected to be able to independently go up and down stairs alternating steps, catch a ball if prepared, jump 2 to 3 in., hop 8 to10 steps, throw a ball and hit a target, roller skate, and ride a bike?",
+      "type": "single",
+      "options": [
+        {"text": "5- to 6-year-old kindergarten students", "correct": true},
+        {"text": "3- to 4-year-old preschool students", "correct": false},
+        {"text": "7-year-old first-grade students", "correct": false},
+        {"text": "8-year-old second-grade students", "correct": false}
+      ],
+      "explanation": "5-6 year olds can achieve these motor skills."
+    },
+    {
+      "question": "In children, heel strike",
+      "type": "single",
+      "options": [
+        {"text": "generally occurs at 18 months and absence at age 2 years may indicate a pathological gait.", "correct": true},
+        {"text": "does not develop until 3 years.", "correct": false},
+        {"text": "is aided by sturdy shoes.", "correct": false},
+        {"text": "is present in a one year old.", "correct": false}
+      ],
+      "explanation": "Heel strike generally occurs at 18 months; absence at 2 years may indicate pathology."
+    },
+    {
+      "question": "Reciprocal arm swing",
+      "type": "single",
+      "options": [
+        {"text": "is correlated with decreased base of support.", "correct": true},
+        {"text": "is common with hand high guard.", "correct": false},
+        {"text": "is common in early walkers.", "correct": false},
+        {"text": "starts to emerge at age 4 years.", "correct": false}
+      ],
+      "explanation": "Reciprocal arm swing correlates with decreased base of support in gait."
+    },
+    {
+      "question": "By 24 months of age, a toddler should",
+      "type": "single",
+      "options": [
+        {"text": "have at least a 50-word vocabulary, use two-word combinations, and scribble using a palmar-supinate grasp.", "correct": true},
+        {"text": "have at least a 300-word vocabulary and scribble using a static tripod.", "correct": false},
+        {"text": "have a mature running pattern and use plurals in speech.", "correct": false},
+        {"text": "have at least a 200-word vocabulary and use three-word phrases.", "correct": false}
+      ],
+      "explanation": "By 24 months, toddlers have a 50-word vocabulary, use two-word combinations, and scribble with palmar-supinate grasp."
+    },
+    {
+      "question": "A child typically uses two- to three-word phrases by",
+      "type": "single",
+      "options": [
+        {"text": "2 years.", "correct": true},
+        {"text": "8 months.", "correct": false},
+        {"text": "12 months.", "correct": false},
+        {"text": "3 years.", "correct": false}
+      ],
+      "explanation": "Children typically use two- to three-word phrases by 2 years."
+    },
+    {
+      "question": "An afebrile 18-month-old presents to the emergency department with the sudden inability to move the right arm. There is no history of trauma. The next step is to:",
+      "type": "single",
+      "options": [
+        {"text": "extend and externally rotate the right forearm.", "correct": true},
+        {"text": "notify social services.", "correct": false},
+        {"text": "x-ray the clavicle.", "correct": false},
+        {"text": "do a skeletal survey.", "correct": false}
+      ],
+      "explanation": "This maneuver is for reducing nursemaid's elbow, common in this scenario."
+    },
+    {
+      "question": "Scheuermann disease, also know as vertebral epiphysitis, results in:",
+      "type": "single",
+      "options": [
+        {"text": "thoracic kyphosis.", "correct": true},
+        {"text": "thoracic scoliosis.", "correct": false},
+        {"text": "lumbar lordosis.", "correct": false},
+        {"text": "cervical kyphosis.", "correct": false}
+      ],
+      "explanation": "Scheuermann disease causes thoracic kyphosis."
+    },
+    {
+      "question": "The bone age of a child is judged by the:",
+      "type": "single",
+      "options": [
+        {"text": "presence or absence of various ossification centers as compared to known standards.", "correct": true},
+        {"text": "radio-density of the long bones as compared to known standards.", "correct": false},
+        {"text": "width-length ratios of the wrist bones as compared to known standards.", "correct": false},
+        {"text": "chondral development compared to cortical thickening.", "correct": false}
+      ],
+      "explanation": "Bone age is assessed by ossification centers."
+    },
+    {
+      "question": "A 10-day course of antibiotic therapy is indicated for children with:",
+      "type": "single",
+      "options": [
+        {"text": "recurrent urinary tract infections with a functionally and anatomically normal urinary tract.", "correct": true},
+        {"text": "sterile pyuria.", "correct": false},
+        {"text": "hemorrhagic cystitis due to the adenovirus.", "correct": false},
+        {"text": "bacterial colonization of the urine without obstructive uropathy.", "correct": false}
+      ],
+      "explanation": "Recurrent UTIs require antibiotic therapy."
+    },
+    {
+      "question": "A 2½-month-old afebrile infant presents with a staccato cough, tachypnea and conjunctivitis. Auscultation of the lungs reveals sparse, fine inspiratory rales throughout both lung fields. Chest x-ray reveals patchy infiltrates bilaterally. Which of the following is most likely the etiologic agent?",
+      "type": "single",
+      "options": [
+        {"text": "Chlamydia trachomatis", "correct": true},
+        {"text": "Cytomegalovirus", "correct": false},
+        {"text": "Bordetella pertussis", "correct": false},
+        {"text": "Staphylococcus aureus", "correct": false}
+      ],
+      "explanation": "Chlamydia trachomatis causes afebrile pneumonia in infants."
+    },
+    {
+      "question": "A 2-year-old female presents with fever, swelling and tenderness of the right anterior cervical nodes. The nodes feel firm. The most likely pathogen involved is:",
+      "type": "single",
+      "options": [
+        {"text": "Epstein Barr virus.", "correct": true},
+        {"text": "Hemophilus influenzae.", "correct": false},
+        {"text": "Staphylococcus aureus.", "correct": false},
+        {"text": "Streptococcus pneumoniae.", "correct": false}
+      ],
+      "explanation": "EBV causes firm cervical nodes with fever."
+    },
+    {
+      "question": "A 3-week-old female has jaundice. The baby was the product of a normal pregnancy and delivery; birth weight was 3100 gm. The mother states that the baby has been feeding well since birth, but the stools have been getting lighter in color during the past two weeks. On examination, the liver edge is palpable 3 cm below the right costal margin. Total serum bilirubin is 9.8 mg/dL (167.5 µmol/L) with a direct bilirubin of 3.2 mg/dL (54.7 µmol/L). The most likely diagnosis is:",
+      "type": "single",
+      "options": [
+        {"text": "neonatal hepatitis.", "correct": true},
+        {"text": "breast milk jaundice.", "correct": false},
+        {"text": "maple syrup urine disease.", "correct": false},
+        {"text": "ABO incompatibility.", "correct": false}
+      ],
+      "explanation": "Neonatal hepatitis presents with conjugated hyperbilirubinemia and pale stools."
+    },
+    {
+      "question": "A barium swallow is negative for reflux. Of the following choices, which is considered the “gold standard” assisting in the diagnosis of gastro-esophageal reflux?",
+      "type": "single",
+      "options": [
+        {"text": "esophageal pH probe.", "correct": true},
+        {"text": "a trial of prokinetic agents.", "correct": false},
+        {"text": "esophagoscopy.", "correct": false},
+        {"text": "pneumocardiogram.", "correct": false}
+      ],
+      "explanation": "Esophageal pH probe is the gold standard for GERD diagnosis."
+    },
+    {
+      "question": "A thriving 4½-year-old male is brought to the office due to fecal soiling and chronic constipation. History reveals that his stool habits were normal until “potty training” was initiated. Height and weight are at the 75th percentile. Physical examination reveals a mass in the lower left quadrant and a fecal-filled rectum. The next step in management is:",
+      "type": "single",
+      "options": [
+        {"text": "saline enema.", "correct": true},
+        {"text": "barium enema.", "correct": false},
+        {"text": "Epsom salt enema.", "correct": false},
+        {"text": "tap water enema.", "correct": false}
+      ],
+      "explanation": "Saline enema for disimpaction in functional constipation."
+    },
+    {
+      "question": "An 18-month-old female presents to the emergency department with marked respiratory distress associated with inspiratory and expiratory wheezing and a barking cough. Her history reveals that she had an upper respiratory infection for 2-3 days when she awoke from sleep with inspiratory stridor. Which of the following is most helpful in differentiating this as croup rather than bronchiolitis?",
+      "type": "single",
+      "options": [
+        {"text": "Improvement in symptoms with an aerosol of racemic epinephrine", "correct": true},
+        {"text": "High grade fevers", "correct": false},
+        {"text": "The child’s age of 18 months", "correct": false},
+        {"text": "Biphasic wheezing", "correct": false}
+      ],
+      "explanation": "Racemic epinephrine improves croup symptoms."
+    },
+    {
+      "question": "An injectable vaccine that is a potential risk for egg-sensitive individuals is:",
+      "type": "single",
+      "options": [
+        {"text": "influenza", "correct": true},
+        {"text": "oral polio vaccine (OPV)", "correct": false},
+        {"text": "diphtheria, tetanus, pertussis (DTaP)", "correct": false},
+        {"text": "inactivated polio vaccine (IPV)", "correct": false}
+      ],
+      "explanation": "Influenza vaccine may pose risk to egg-allergic individuals."
+    },
+    {
+      "question": "The etiologic agent responsible for most urinary tract infections is:",
+      "type": "single",
+      "options": [
+        {"text": "Escherichia coli.", "correct": true},
+        {"text": "Proteus.", "correct": false},
+        {"text": "Klebsiella pneumoniae.", "correct": false},
+        {"text": "Mycoplasma hominis.", "correct": false}
+      ],
+      "explanation": "E. coli causes most UTIs in children."
+    },
+    {
+      "question": "Cri du chat (cat cry) syndrome is associated with:",
+      "type": "single",
+      "options": [
+        {"text": "microencephaly, epicanthal folds, micrognathia.", "correct": true},
+        {"text": "hip dysplasia and gonadoblastomas.", "correct": false},
+        {"text": "ambiguous genitalia in males, Wilm’s tumor.", "correct": false},
+        {"text": "pyloric stenosis, wide-spaced nipples.", "correct": false}
+      ],
+      "explanation": "Cri du chat features include microcephaly, epicanthal folds, micrognathia."
+    },
+    {
+      "question": "Early sexual maturation following radiation therapy to the brain:",
+      "type": "single",
+      "options": [
+        {"text": "is seen primarily in girls treated at a young age.", "correct": true},
+        {"text": "occurs with equal frequency among boys and girls.", "correct": false},
+        {"text": "is seen rarely and only after very high doses of radiation.", "correct": false},
+        {"text": "is seen primarily in boys treated at a young age.", "correct": false}
+      ],
+      "explanation": "Early puberty post-brain radiation is more common in young girls."
+    },
+    {
+      "question": "Hashimoto’s thyroiditis is:",
+      "type": "single",
+      "options": [
+        {"text": "an auto-immune disease of the thyroid.", "correct": true},
+        {"text": "not seen in children.", "correct": false},
+        {"text": "caused by exposure to excessive radiation.", "correct": false},
+        {"text": "associated with Turner and Down syndromes.", "correct": false}
+      ],
+      "explanation": "Hashimoto’s is an autoimmune thyroid disease."
+    },
+    {
+      "question": "In leukemia, common sites of extramedullary involvement include the:",
+      "type": "single",
+      "options": [
+        {"text": "testicle.", "correct": true},
+        {"text": "liver.", "correct": false},
+        {"text": "lung.", "correct": false},
+        {"text": "heart.", "correct": false}
+      ],
+      "explanation": "Testicle is a common extramedullary site in leukemia."
+    },
+    {
+      "question": "Leukemoid reaction with lymphocytosis is associated with:",
+      "type": "single",
+      "options": [
+        {"text": "infectious mononucleosis.", "correct": true},
+        {"text": "eczema.", "correct": false},
+        {"text": "Kawasaki disease.", "correct": false},
+        {"text": "epiglottitis.", "correct": false}
+      ],
+      "explanation": "Infectious mononucleosis causes leukemoid reaction with lymphocytosis."
+    },
+    {
+      "question": "Of the following physical stigmata, which would be most characteristic of Turner syndrome?",
+      "type": "single",
+      "options": [
+        {"text": "webbed neck", "correct": true},
+        {"text": "increased span to height ratio", "correct": false},
+        {"text": "metatarsus varus", "correct": false},
+        {"text": "low-set ears", "correct": false}
+      ],
+      "explanation": "Webbed neck is characteristic of Turner syndrome."
+    },
+    {
+      "question": "Purulent pericarditis in children is most commonly caused by:",
+      "type": "single",
+      "options": [
+        {"text": "Haemophilus influenzae or â-hemolytic streptococcus.", "correct": true},
+        {"text": "Staphylococcus aureus or Moraxella catarrhalis.", "correct": false},
+        {"text": "Streptococcus pneumoniae or â-hemolytic streptococcus.", "correct": false},
+        {"text": "Haemophilus influenzae or Staphylococcus epidermidis.", "correct": false}
+      ],
+      "explanation": "H. influenzae or beta-hemolytic strep causes purulent pericarditis."
+    },
+    {
+      "question": "The animal reservoir and corresponding vector for Lyme disease is:",
+      "type": "single",
+      "options": [
+        {"text": "deer/deer tick.", "correct": true},
+        {"text": "wood rat/flea.", "correct": false},
+        {"text": "mouse/deer tick.", "correct": false},
+        {"text": "raccoon/flea.", "correct": false}
+      ],
+      "explanation": "Deer and deer tick are reservoir and vector for Lyme disease."
+    },
+    {
+      "question": "A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports that he is doing well and that she has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical examination, the patient is noted to have a right upper extremity blood pressure of 150/80 mm Hg. In addition, 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular heart rate and rhythm with normal S1 and S2. A 2/6 long systolic murmur with a systolic ejection click is heard over the left sternal border and the back. The point of maximal impact is normal. Which of the following is the most likely diagnosis in this patient?",
+      "type": "single",
+      "options": [
+        {"text": "Coarctation of the aorta", "correct": true},
+        {"text": "Takayasu arteritis", "correct": false},
+        {"text": "Interrupted aortic arch", "correct": false},
+        {"text": "Pheochromocytoma", "correct": false}
+      ],
+      "explanation": "The presentation is consistent with coarctation of the aorta."
+    },
+    {
+      "question": "A healthy, full-term 1-day-old girl is being evaluated after birth and is noted to have a cleft palate and a systolic ejection murmur at the second left intercostal space. A chest radiograph is obtained that reveals a boot-shaped heart and the absence of a thymus. An echocardiogram is done that shows pulmonary stenosis with a hypertrophic right ventricular wall, ventricular septal defect, and overriding of the aorta. Which of the following additional features is expected to be seen in this patient?",
+      "type": "single",
+      "options": [
+        {"text": "Seizures due to hypocalcemia", "correct": true},
+        {"text": "Catlike cry", "correct": false},
+        {"text": "Hyperthyroidism from transplacental antibodies", "correct": false},
+        {"text": "Webbing of the neck", "correct": false}
+      ],
+      "explanation": "This is DiGeorge syndrome with hypocalcemia."
+    },
+    {
+      "question": "A 3-month-old baby died suddenly at night while asleep. His mother noticed that he had died only after she awoke in the morning. No cause of death was determined based on the autopsy. He had no known medical problems and took no medications. The mother’s pregnancy was uneventful, and the baby was born at full term. There was no family history of any similar events. Which of the following precautions would most likely have prevented the death of the baby?",
+      "type": "single",
+      "options": [
+        {"text": "Placing the infant in a supine position on a firm mattress while sleeping", "correct": true},
+        {"text": "Routine postnatal electrocardiogram (ECG)", "correct": false},
+        {"text": "Keeping the infant covered and maintaining a high room temperature", "correct": false},
+        {"text": "Application of a device to maintain the sleeping position", "correct": false}
+      ],
+      "explanation": "Supine sleeping position reduces SIDS risk."
+    },
+    {
+      "question": "An 18-month-old boy is brought to the emergency department after losing consciousness. His mother states that he was running with other kids in the park when he suddenly fell down and became unresponsive for less than 1 minute. He has not had any immunizations due to their religious beliefs. The parents report that he plays with other children, but tires easily. He has had difficulty feeding, but there was no follow-up with a pediatrician. The heart rate was 120/min and the oxygen saturation was 91%. The height is in the 40th percentile and the weight is in the 50th percentile. On examination, the boy is crying with perioral cyanosis. The lung sounds are clear. S-1 is normal and there is a single S-2. A grade 2/6 systolic ejection murmur is appreciated at the left upper sternal border. When the child squats, the murmur is intensified and the cyanosis improves. What is the most appropriate next step in the management of this patient?",
+      "type": "single",
+      "options": [
+        {"text": "Morphine, oxygen, IV fluids, and beta blockers", "correct": true},
+        {"text": "Diazepam", "correct": false},
+        {"text": "Morphine, oxygen, nitroglycerin, and aspirin", "correct": false},
+        {"text": "Observation and reassurance", "correct": false}
+      ],
+      "explanation": "Management for tet spell in tetralogy of Fallot."
+    },
+    {
+      "question": "A 9-month-old male infant is brought to his pediatrician by his mother with lethargy and decreased oral intake for one day. His mother also mentions that he did not sleep well the previous night. A review of the medical record reveals several missed appointments and that the boy was born at 36 weeks gestation via spontaneous vaginal delivery. At the clinic, his temperature is 37.2ºC (99.0ºF), pulse rate is 140/minute, respirations are 44/minute, and blood pressure is 92/60 mm Hg. On physical exam the infant is awake but irritable and the rest of the physical is within normal limits for his age. On ophthalmologic examination, there are multiple retinal hemorrhages that extend to the periphery in both eyes. Which of the following investigations is most likely to be helpful in the management of the infant?",
+      "type": "single",
+      "options": [
+        {"text": "Noncontrast computed tomography of head", "correct": true},
+        {"text": "Hemoglobin electrophoresis", "correct": false},
+        {"text": "Peripheral blood smear", "correct": false},
+        {"text": "Lumbar puncture", "correct": false}
+      ],
+      "explanation": "CT head for suspected shaken baby syndrome."
+    },
+    {
+      "question": "A 14-year-old boy is brought to the office for slight weakness when running or walking up the stairs. The weakness is occasionally associated with cramps and muscle pain. He also mentions having one episode of red-colored urine after a particularly difficult workout with his track team. His vital signs and physical examination are within normal limits. He has no significant past medical or family history. Laboratory studies show the following: CPK: 1864 U/L, LDH: 421 U/L, AST: 490 U/L, ALT: 280 U/L. EEG, electromyography, and MRI show no abnormalities. Which of the following is most likely to be deficient in this patient?",
+      "type": "single",
+      "options": [
+        {"text": "Muscle phosphorylase", "correct": true},
+        {"text": "GLUT-2", "correct": false},
+        {"text": "Glucose-6-phosphatase", "correct": false},
+        {"text": "Liver phosphorylase", "correct": false}
+      ],
+      "explanation": "McArdle disease (muscle phosphorylase deficiency)."
+    },
+    {
+      "question": "A 2-year-old girl presents to the emergency department with a 3-minute episode of a tonic-clonic seizure. The parents deny any previous history of seizure involving the patient or the family. Physical examination reveals an afebrile, well-groomed, and playful appearance, with normal vital signs. The patient carries a pink birthmark on the right side of her face extending from the forehead to the zygomatic arch. Which of the following findings is most likely on a head CT of this patient?",
+      "type": "single",
+      "options": [
+        {"text": "Prominent intraparenchymal white matter calcification", "correct": true},
+        {"text": "A non-enhancing hemispheric lesion", "correct": false},
+        {"text": "Intraparenchymal hemorrhage", "correct": false},
+        {"text": "Subependymal giant cell astrocytoma", "correct": false}
+      ],
+      "explanation": "Sturge-Weber syndrome with tram-track calcifications."
+    },
+    {
+      "question": "Twenty-four hours after delivery, a 2.4 kg (5.3 lb) newborn develops respiratory distress. She was born at 38 weeks gestation. Her pulse is 136/min, respiratory rate is 60/min, and blood pressure is 60/30 mm Hg. Examination shows a scaphoid abdomen. The heart sounds are heard in the right hemithorax, and the lung sounds are absent on the left side. The umbilical artery blood gas analysis on 60% oxygen shows: pH 7.30, pCO₂ 48 mm Hg, pO₂ 52 mmHg. A nasogastric tube is inserted. A chest X-ray is shown. Which of the following is the most likely diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Bochdalek hernia", "correct": true},
+        {"text": "Kartagener’s syndrome", "correct": false},
+        {"text": "Midgut volvulus", "correct": false},
+        {"text": "Pneumothorax", "correct": false}
+      ],
+      "explanation": "Congenital diaphragmatic hernia (Bochdalek)."
+    },
+    {
+      "question": "A 10-year-old boy is brought to the office by his mother because of jerking movements of his arms for the past 6 months. These jerking movements are more frequent the morning after he stays up late playing video games. He also had 2 tonic-clonic seizures 5 months and 2 months ago. A physical examination shows no abnormalities, and there are no jerking movements during the examination. EEG shows a 4- to 6-Hz bilateral polyspike and slow-wave discharges with frontal predominance over a normal background activity. Which of the following drugs would be most appropriate for treating this patient?",
+      "type": "single",
+      "options": [
+        {"text": "Valproate", "correct": true},
+        {"text": "Lamotrigine", "correct": false},
+        {"text": "Levetiracetam", "correct": false},
+        {"text": "Topiramate", "correct": false}
+      ],
+      "explanation": "Valproate for juvenile myoclonic epilepsy."
+    },
+    {
+      "question": "A 2-month-old is brought to the physician for a well-child examination. She was born at 39 weeks gestation via spontaneous vaginal delivery and is exclusively breastfed. She weighed 3,400 g (7 lb 8 oz) at birth. At the physician’s office, she appears well. Her pulse is 136/min, respiratory rate is 41/min, and blood pressure is 82/45 mm Hg. She weighs 5,200 g (11 lb 8 oz) and measures 57.5 cm (22.6 in) in length. The remainder of the physical examination is normal. Which of the following developmental milestones has this patient most likely met?",
+      "type": "single",
+      "options": [
+        {"text": "Smiles in response to face", "correct": true},
+        {"text": "Absence of asymmetric tonic neck reflex", "correct": false},
+        {"text": "Monosyllabic babble", "correct": false},
+        {"text": "Reaches for objects", "correct": false}
+      ],
+      "explanation": "Social smile at 2 months."
+    },
+    {
+      "question": "A 3-year-old girl, weighing 7 kg and 75 cm tall, presents with difficulty in vision, pain in the left eye, and discharge. She has a history of recurrent loose stools and pneumonia. Examination shows keratomalacia. What is the diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Vitamin A deficiency", "correct": true},
+        {"text": "Vitamin D deficiency", "correct": false},
+        {"text": "Zinc deficiency", "correct": false},
+        {"text": "Iron deficiency", "correct": false}
+      ],
+      "explanation": "Keratomalacia is a sign of vitamin A deficiency."
+    },
+    {
+      "question": "A 14-year-old female presents with abdominal pain for 10 days, vomiting and loose motions for 4 days, and weakness in both lower limbs, unable to walk for 24 hours. On examination, she is hypertensive, tachycardic, with poor tone and power grade 2 in both lower limbs, and absent deep tendon reflexes. What is the probable diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Acute intermittent porphyria", "correct": true},
+        {"text": "Guillain-Barré syndrome (GBS)", "correct": false},
+        {"text": "Hypokalemia", "correct": false},
+        {"text": "Poliomyelitis", "correct": false}
+      ],
+      "explanation": "Based on symptoms and labs, acute intermittent porphyria."
+    },
+    {
+      "question": "A 15-year-old male presents with acute intermittent periumbilical abdominal pain for 25 days, scrotal swelling 6 days ago that subsided within 24 hours, pain and swelling in the right wrist and knee for 2 days, a rash over the gluteal region, and red stools. What is the probable diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Henoch-Schönlein purpura (HSP)", "correct": true},
+        {"text": "Intussusception", "correct": false},
+        {"text": "Crohn's disease", "correct": false},
+        {"text": "Ulcerative colitis", "correct": false}
+      ],
+      "explanation": "Classic presentation of HSP."
+    },
+    {
+      "question": "A 4-year-old presents to the ED after near-drowning in a pool. Vitals are stable, but the child is irritable with respiratory distress. What is the most common radiological finding?",
+      "type": "single",
+      "options": [
+        {"text": "Pulmonary edema", "correct": true},
+        {"text": "Pneumothorax", "correct": false},
+        {"text": "Atelectasis", "correct": false},
+        {"text": "Pleural effusion", "correct": false}
+      ],
+      "explanation": "Pulmonary edema is common in near-drowning."
+    },
+    {
+      "question": "A 22-month-old female infant, diagnosed with autism, presents with sitting, hitching, walking, and running (always on knees), no social interaction, self-stimulatory behaviors. What is the diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Missed phenylketonuria", "correct": true},
+        {"text": "Autism spectrum disorder", "correct": false},
+        {"text": "Rett syndrome", "correct": false},
+        {"text": "Fragile X syndrome", "correct": false}
+      ],
+      "explanation": "Symptoms suggest missed PKU."
+    },
+    {
+      "question": "A 12-year-old female with 2-year history of chronic sinusitis presents with hemoptysis and respiratory distress. Urine analysis shows hematuria. What is the most likely diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Wegener granulomatosis", "correct": true},
+        {"text": "Goodpasture syndrome", "correct": false},
+        {"text": "Churg-Strauss syndrome", "correct": false},
+        {"text": "SLE", "correct": false}
+      ],
+      "explanation": "Wegener (granulomatosis with polyangiitis) presents with sinusitis, hemoptysis, hematuria."
+    },
+    {
+      "question": "A 16-month-old girl presents for routine vaccination; examination reveals a raised skin lesion above the left buttock. What is the diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Capillary haemangioma (strawberry naevus)", "correct": true},
+        {"text": "Cavernous hemangioma", "correct": false},
+        {"text": "Port wine stain", "correct": false},
+        {"text": "Spider nevus", "correct": false}
+      ],
+      "explanation": "Strawberry nevus is common and resolves spontaneously."
+    },
+    {
+      "question": "A 5-year-old male presents with high-grade continuous fever for 10 days, no chills, rigor, loose motions, vomiting, headache, photophobia, cough, cold, or rash. Examination: conscious, febrile, normotensive, congested conjunctiva without discharge, two 2 cm right-sided cervical lymph nodes, desquamation of skin around fingers. What is the most probable diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Kawasaki disease", "correct": true},
+        {"text": "Scarlet fever", "correct": false},
+        {"text": "Infectious mononucleosis", "correct": false},
+        {"text": "Rubella", "correct": false}
+      ],
+      "explanation": "Kawasaki disease with fever, conjunctivitis, lymphadenopathy, desquamation."
+    },
+    {
+      "question": "A 10-month-old boy, weighing 3 kg, presents with polyuria, polydipsia, and delayed motor milestones. Labs: creatinine 0.5 mg/dL, potassium 3 mEq/L, sodium 125 mEq/L, chloride 88 mEq/L, calcium 8.8 mg/dL, pH 7.46, bicarbonate 26 mEq/L. Ultrasonography shows medullary nephrocalcinosis. What is the most likely diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Bartter syndrome", "correct": true},
+        {"text": "Gitelman syndrome", "correct": false},
+        {"text": "Renal tubular acidosis", "correct": false},
+        {"text": "Nephrogenic diabetes insipidus", "correct": false}
+      ],
+      "explanation": "Bartter syndrome with hypokalemic metabolic alkalosis and nephrocalcinosis."
+    },
+    {
+      "question": "A 12-month-old born premature at 32 weeks, treated in NICU for presumed meningitis and hyperbilirubinemia. At 12-month exam: no words, responds to gestures, no interest in musical toys. What is the reason?",
+      "type": "single",
+      "options": [
+        {"text": "Deafness", "correct": true},
+        {"text": "Autism", "correct": false},
+        {"text": "Developmental delay", "correct": false},
+        {"text": "Cerebral palsy", "correct": false}
+      ],
+      "explanation": "Hearing loss from prematurity complications."
+    },
+    {
+      "question": "A 5-year-old, 16 kg, with 60% burns from house fire, presents to ER. What is the fluid therapy for first 24 hours?",
+      "type": "single",
+      "options": [
+        {"text": "Parkland formula (4 mL/kg/% burn) + maintenance fluids", "correct": true},
+        {"text": "Only maintenance fluids", "correct": false},
+        {"text": "Bolus of 20 mL/kg", "correct": false},
+        {"text": "Colloid infusion", "correct": false}
+      ],
+      "explanation": "Parkland formula for burn resuscitation."
+    },
+    {
+      "question": "An asymptomatic 2-year-old swallowed a hearing aid battery 4 hours ago. Chest X-ray shows battery in upper third of esophagus. What is the next step?",
+      "type": "single",
+      "options": [
+        {"text": "Immediate esophagoscopy to retrieve the battery", "correct": true},
+        {"text": "Observation", "correct": false},
+        {"text": "Induce vomiting", "correct": false},
+        {"text": "Administer syrup of ipecac", "correct": false}
+      ],
+      "explanation": "Button batteries are corrosive and require immediate removal."
+    },
+    {
+      "question": "A 2-year-old presents with fever, barking cough, breathing difficulties; initially runny nose. What is the diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Croup", "correct": true},
+        {"text": "Bronchiolitis", "correct": false},
+        {"text": "Epiglottitis", "correct": false},
+        {"text": "Foreign body aspiration", "correct": false}
+      ],
+      "explanation": "Classic croup presentation."
+    },
+    {
+      "question": "A 2-year-old male with respiratory rate of 40/min, no chest indrawing. What is the severity per IMNCI?",
+      "type": "single",
+      "options": [
+        {"text": "Severe pneumonia", "correct": true},
+        {"text": "Pneumonia", "correct": false},
+        {"text": "No pneumonia", "correct": false},
+        {"text": "Very severe disease", "correct": false}
+      ],
+      "explanation": "Fast breathing indicates severe pneumonia in IMNCI."
+    },
+    {
+      "question": "A child diagnosed with mental retardation. What is the degree determination and ranges (DSM-IV)?",
+      "type": "single",
+      "options": [
+        {"text": "Mild (IQ 50-55 to ~70), moderate (IQ 30-35 to 50-55), severe (IQ 20-25 to 35-40), profound (IQ <20-25)", "correct": true}
+      ],
+      "explanation": "IQ ranges for MR degrees."
+    },
+    {
+      "question": "A 5-year-old with chronic ear pain and discharge from left ear >3 weeks. ENT exam: perforated tympanic membrane. What is the possible diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Chronic suppurative otitis media (CSOM)", "correct": true},
+        {"text": "Acute otitis media", "correct": false},
+        {"text": "Otitis externa", "correct": false},
+        {"text": "Mastoiditis", "correct": false}
+      ],
+      "explanation": "CSOM with perforation and chronic discharge."
+    },
+    {
+      "question": "A 2-year-old boy with abdominal lump. Image shows neuroblastoma. What is the likely diagnosis?",
+      "type": "single",
+      "options": [
+        {"text": "Neuroblastoma stage IV", "correct": true},
+        {"text": "Wilms tumor", "correct": false},
+        {"text": "Hepatoblastoma", "correct": false},
+        {"text": "Lymphoma", "correct": false}
+      ],
+      "explanation": "Neuroblastoma in young child with abdominal mass."
+    },
+    {
+      "question": "Peripheral smear shows hypersegmented neutrophils. Identify the cell.",
+      "type": "single",
+      "options": [
+        {"text": "Hypersegmented neutrophil (>5 lobes)", "correct": true},
+        {"text": "Blast cell", "correct": false},
+        {"text": "Lymphocyte", "correct": false},
+        {"text": "Monocyte", "correct": false}
+      ],
+      "explanation": "Hypersegmented neutrophils in B12/folate deficiency."
+    },
+    {
+      "question": "Peripheral smear shows blast cells. Identify the cell.",
+      "type": "single",
+      "options": [
+        {"text": "Blast cell", "correct": true},
+        {"text": "Hypersegmented neutrophil", "correct": false},
+        {"text": "Auer rod", "correct": false},
+        {"text": "Reed-Sternberg cell", "correct": false}
+      ],
+      "explanation": "Blasts in leukemia."
+    },
+    {
+      "question": "Child with airflow obstruction symptoms > once a day, nighttime symptoms > once a week, PEF 60-80% personal best with >30% diurnal variation. What is the grade?",
+      "type": "single",
+      "options": [
+        {"text": "Moderate persistent asthma", "correct": true},
+        {"text": "Mild intermittent", "correct": false},
+        {"text": "Mild persistent", "correct": false},
+        {"text": "Severe persistent", "correct": false}
+      ],
+      "explanation": "Classification of asthma severity."
+    },
+    {
+      "question": "Pedigree shows mitochondrial inheritance. What is the pattern?",
+      "type": "single",
+      "options": [
+        {"text": "Mitochondrial inheritance", "correct": true},
+        {"text": "Autosomal dominant", "correct": false},
+        {"text": "Autosomal recessive", "correct": false},
+        {"text": "X-linked recessive", "correct": false}
+      ],
+      "explanation": "Mitochondrial: all offspring of affected female, none from males."
+    },
+    {
+      "question": "What would you tell Alejandro’s parents about the impact of gender, presence of siblings, and exposure to a bilingual environment on speech and language development?",
+      "type": "multiple",
+      "options": [
+        {"text": "Boys progress more slowly than girls at the initial stages of language development but usually lag by only 1-2 months.", "correct": true},
+        {"text": "Boys are more likely to have language disorders than girls.", "correct": true},
+        {"text": "The presence of older siblings and exposure to more than one language are not a reason for speech and language delay.", "correct": true},
+        {"text": "Bilingualism causes significant delay.", "correct": false}
+      ],
+      "explanation": "Gender affects slightly, but siblings and bilingualism do not cause delay."
+    }
+  ],
+  "clinical_cases": [
+    {
+      "title": "Hémorragie digestive chez un cirrhotique",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Monsieur V., 58 ans, cirrhose alcoolique connue Child B, se présente aux urgences pour hématémèse abondante survenue 1 heure auparavant. Il est pâle, suant, TA 95/60 mmHg, FC 120/min.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Mise en condition", "Endoscopie en urgence", "Traitement médicamenteux", "Appel du chirurgien"],
+          "correct_answer": "Mise en condition",
+          "explanation": "La priorité absolue est la réanimation : voie veineuse, remplissage, correction des troubles de coagulation."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Hémoglobine 7.2 g/dL, TP 45%, plaquettes 85 000. Le patient est stabilisé sous noradrénaline.",
+          "type": "multiple",
+          "question": "Quels traitements spécifiques instaurez-vous?",
+          "options": ["Antibiotiques", "Terlipressine", "Sonde de Sengstaken", "Transfusion", "Vitamine K"],
+          "correct_options": ["Antibiotiques", "Terlipressine"],
+          "explanation": "Les antibiotiques (prévention de l'infection) et la terlipressine (réduction de l'HT portale) sont des traitements spécifiques de l'hémorragie digestive du cirrhotique."
+        },
+        {
+          "title": "Prise en charge endoscopique",
+          "content": "L'endoscopie montre des varices œsophagiennes grade III avec signe rouge, saignantes activement.",
+          "type": "multiple_choice",
+          "question": "Quel geste réalisez-vous?",
+          "options": ["Ligature élastique", "Sclérose", "Colle biologique", "Coagulation au plasma argon"],
+          "correct_answer": "Ligature élastique",
+          "explanation": "La ligature élastique est le traitement endoscopique de référence des varices œsophagiennes hémorragiques."
+        }
+      ],
+      "solution": "**Diagnostic final:** Hémorragie digestive haute sur rupture de varices œsophagiennes chez un cirrhotique Child B.\n\n**Prise en charge:** Réanimation initiale, antibiotiques prophylactiques, terlipressine, ligature endoscopique en urgence.\n\n**Points clés:**\n- Risque élevé de récidive hémorragique\n- Prévention de l'infection spontanée\n- Évaluation pronostique (score de Child-Pugh)\n- Discussion TIPS en cas d'échec"
+    },
+    {
+      "title": "Alejandro - Developmental Delay",
+      "difficulty": "Intermediate",
+      "steps": [
+        {
+          "title": "Initial Presentation",
+          "content": "Alejandro is a 24-month-old boy presenting for a well-child check. Born full-term after an uncomplicated pregnancy, he has been healthy since birth. Parents report he speaks only about 10 single words, mostly in Spanish, with no two-word phrases. He uses pointing to communicate and responds to two-step commands. He hears well per parents.",
+          "type": "multiple",
+          "question": "What factors impact speech and language development?",
+          "options": ["Gender", "Siblings", "Bilingual environment", "Nutrition"],
+          "correct_options": ["Gender", "Siblings", "Bilingual environment"],
+          "explanation": "Boys progress more slowly than girls at the initial stages of language development but usually lag by only 1-2 months. Boys are more likely to have language disorders than girls. The presence of older siblings and exposure to more than one language are not a reason for speech and language delay."
+        },
+        {
+          "title": "Next Steps",
+          "content": "Developmental screening shows age-appropriate milestones in other domains: socially engaging, age-appropriate symbolic play, normal physical and neurological exam.",
+          "type": "multiple_choice",
+          "question": "What would be your next step(s)?",
+          "options": ["Refer for hearing evaluation", "Refer for speech and language assessment", "Observe", "Genetic testing"],
+          "correct_answer": "Refer for hearing evaluation",
+          "explanation": "Refer Alejandro for a hearing evaluation and a speech and language assessment."
+        },
+        {
+          "title": "Resources",
+          "content": "Family speaks both English and Spanish. Parents concerned about speech delay.",
+          "type": "multiple",
+          "question": "Which agencies or community resources would you use?",
+          "options": ["Audiology at LPCH", "Early Start program", "LPCH Speech and Language Pathology Services", "All of the above"],
+          "correct_options": ["Audiology at LPCH", "Early Start program", "LPCH Speech and Language Pathology Services"],
+          "explanation": "Audiology at LPCH or the family's local medical center. Early Start program through the Regional Center for the family’s county. LPCH Speech and Language Pathology Services or other private speech and language center."
+        },
+        {
+          "title": "Age Adjustment",
+          "content": "If Alejandro were 36 months old.",
+          "type": "multiple_choice",
+          "question": "How would your plan change if Alejandro were 36 months old?",
+          "options": ["Refer to the local school district", "Continue with Regional Center", "No change", "Genetic counseling"],
+          "correct_answer": "Refer to the local school district",
+          "explanation": "Refer to the local school district instead of the Regional Center."
+        },
+        {
+          "title": "Follow-up and Legal",
+          "content": "Family contacts Early Start program; expressive language at 18-month level (25% delayed), eligible for services. No Spanish-speaking speech-language pathologist available.",
+          "type": "multiple_choice",
+          "question": "What would be your next step?",
+          "options": ["Contact the Legal Aid Society", "Wait for services", "Private therapy", "Discharge"],
+          "correct_answer": "Contact the Legal Aid Society",
+          "explanation": "Contact the Legal Aid Society of San Mateo County- Family Advocacy Program (FAP) for assistance. According to California law, once a child is determined to be eligible, services must begin as soon as possible."
+        }
+      ],
+      "solution": "**Diagnostic final:** Speech delay, eligible for early intervention.\n\n**Prise en charge:** Hearing and speech evaluation, Early Start program, speech therapy.\n\n**Points clés:**\n- Bilingualism does not cause delay\n- Legal rights for timely services\n- Progress with therapy: at 30 months, >200 words and two-word phrases."
+    },
+    {
+      "title": "Pediatric Drowning",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Initial Presentation",
+          "content": "Child is unconscious with coughing up foam, increasing respiratory distress.",
+          "type": "multiple_choice",
+          "question": "What is the first action?",
+          "options": ["Intubate", "Provide oxygen", "CPR", "Call PICU"],
+          "correct_answer": "Provide oxygen",
+          "explanation": "Assess and support airway and breathing."
+        },
+        {
+          "title": "Post-Intubation",
+          "content": "Remains hypoxemic post-intubation; becomes bradycardic.",
+          "type": "multiple",
+          "question": "What to do next?",
+          "options": ["Begin CPR", "Follow PALS bradycardia algorithm", "Call PICU", "All of the above"],
+          "correct_options": ["Begin CPR", "Follow PALS bradycardia algorithm", "Call PICU"],
+          "explanation": "Work through approach to post-intubation hypoxemia; begin CPR and follow PALS pediatric bradycardia algorithm; call PICU."
+        }
+      ],
+      "solution": "**Diagnostic final:** Post-drowning respiratory failure and cardiac arrest.\n\n**Prise en charge:** Intubation, CPR per PALS, transfer to PICU.\n\n**Points clés:**\n- Rapid respiratory support\n- Manage hypoxemia\n- Cardiac monitoring"
+    },
+    {
+      "title": "Bronchiolitis",
+      "difficulty": "Intermediate",
+      "steps": [
+        {
+          "title": "Presentation",
+          "content": "Child has runny nose, cough, decreased eating/drinking, noisy breathing, chest looks funny.",
+          "type": "multiple_choice",
+          "question": "Initial management?",
+          "options": ["Supportive care", "Antibiotics", "Steroids", "Intubation"],
+          "correct_answer": "Supportive care",
+          "explanation": "Bronchiolitis is viral; supportive care first."
+        },
+        {
+          "title": "Escalation",
+          "content": "Progresses through escalating respiratory support.",
+          "type": "multiple_choice",
+          "question": "Next step if worsening?",
+          "options": ["Intubate and transfer", "Observe", "Discharge", "Nebulizers"],
+          "correct_answer": "Intubate and transfer",
+          "explanation": "Provide escalating respiratory support leading to intubation and transfer."
+        }
+      ],
+      "solution": "**Diagnostic final:** Bronchiolitis.\n\n**Prise en charge:** Escalating respiratory support, intubation if needed, transfer.\n\n**Points clés:**\n- Viral etiology\n- Supportive management\n- Monitor for deterioration"
+    },
+    {
+      "title": "Pediatric Polytrauma",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Initial Trauma",
+          "content": "2.5-year-old falls from 3rd floor balcony; demonstrates compensated shock.",
+          "type": "multiple_choice",
+          "question": "First priority?",
+          "options": ["Airway", "Circulation", "Neurological exam", "Imaging"],
+          "correct_answer": "Airway",
+          "explanation": "ABC in trauma."
+        },
+        {
+          "title": "Progression",
+          "content": "Findings of severe head injury become apparent.",
+          "type": "multiple",
+          "question": "Management?",
+          "options": ["Aggressive resuscitation", "Thorough trauma survey", "Optimize for transfer", "All of the above"],
+          "correct_options": ["Aggressive resuscitation", "Thorough trauma survey", "Optimize for transfer"],
+          "explanation": "Coordinate thorough trauma survey; optimize patient for transfer to definitive care."
+        }
+      ],
+      "solution": "**Diagnostic final:** Polytrauma with head injury and shock.\n\n**Prise en charge:** Resuscitation, trauma survey, transfer.\n\n**Points clés:**\n- ABCDE approach\n- Stabilize before transfer\n- Multidisciplinary care"
+    },
+    {
+      "title": "Pediatric Asthma Exacerbation",
+      "difficulty": "Intermediate",
+      "steps": [
+        {
+          "title": "Presentation",
+          "content": "Acute exacerbation in child.",
+          "type": "multiple_choice",
+          "question": "Initial treatment?",
+          "options": ["Beta-agonists, anticholinergics, steroids", "Antibiotics", "Intubation", "Observation"],
+          "correct_answer": "Beta-agonists, anticholinergics, steroids",
+          "explanation": "Standard asthma exacerbation management."
+        },
+        {
+          "title": "Advanced",
+          "content": "Responds to basic treatment but highlights advanced management.",
+          "type": "multiple",
+          "question": "If not responding?",
+          "options": ["Magnesium sulfate", "Escalate to ICU", "BiPAP", "All of the above"],
+          "correct_options": ["Magnesium sulfate", "Escalate to ICU", "BiPAP"],
+          "explanation": "Treat with beta-agonists, anticholinergics, and steroids; manage cases needing advanced treatment."
+        }
+      ],
+      "solution": "**Diagnostic final:** Asthma exacerbation.\n\n**Prise en charge:** Bronchodilators, steroids, advanced therapies if needed.\n\n**Points clés:**\n- Assess severity\n- Stepwise management\n- Prevent recurrence"
+    },
+    {
+      "title": "Pediatric SVT",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Presentation",
+          "content": "12-month-old with rapid heart rate in stable SVT.",
+          "type": "multiple_choice",
+          "question": "Initial management?",
+          "options": ["Vagal maneuvers", "Adenosine", "Cardioversion", "Beta blockers"],
+          "correct_answer": "Vagal maneuvers",
+          "explanation": "Try vagal first for stable SVT."
+        },
+        {
+          "title": "Progression",
+          "content": "No response to vagal or adenosine; progresses to unstable SVT.",
+          "type": "multiple_choice",
+          "question": "Next step?",
+          "options": ["Synchronized cardioversion", "Defibrillation", "Amiodarone", "Observation"],
+          "correct_answer": "Synchronized cardioversion",
+          "explanation": "If unstable, cardiovert; avoid unsynchronized to prevent VT."
+        }
+      ],
+      "solution": "**Diagnostic final:** Supraventricular tachycardia.\n\n**Prise en charge:** Vagal, adenosine, synchronized cardioversion if unstable.\n\n**Points clés:**\n- Distinguish stable vs unstable\n- PALS protocol\n- Avoid complications"
+    },
+    {
+      "title": "Non-Accidental Trauma",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Presentation",
+          "content": "1-month-old male brought in seizing.",
+          "type": "multiple_choice",
+          "question": "Initial action?",
+          "options": ["Manage seizure", "Airway protection", "Child protection consult", "Imaging"],
+          "correct_answer": "Manage seizure",
+          "explanation": "Stabilize first."
+        },
+        {
+          "title": "Recognition",
+          "content": "Realize concerning signs for non-accidental trauma, specifically head injury.",
+          "type": "multiple",
+          "question": "Further steps?",
+          "options": ["Definitive airway", "PICU consult", "Child protection services", "All of the above"],
+          "correct_options": ["Definitive airway", "PICU consult", "Child protection services"],
+          "explanation": "Establish definitive airway management; consult with PICU and local child protection services."
+        }
+      ],
+      "solution": "**Diagnostic final:** Non-accidental head trauma.\n\n**Prise en charge:** Seizure management, airway, consults.\n\n**Points clés:**\n- Recognize abuse signs\n- Multidisciplinary involvement\n- Legal reporting"
+    },
+    {
+      "title": "Vision Problem with Recurrent Infections",
+      "difficulty": "Intermediate",
+      "steps": [
+        {
+          "title": "Presentation",
+          "content": "3-year-old girl with vision difficulty, eye pain, discharge, recurrent loose stools and pneumonia. Exam shows keratomalacia.",
+          "type": "multiple_choice",
+          "question": "Diagnosis?",
+          "options": ["Vitamin A deficiency", "Vitamin D deficiency", "Zinc deficiency", "Iron deficiency"],
+          "correct_answer": "Vitamin A deficiency",
+          "explanation": "Keratomalacia is a sign of vitamin A deficiency."
+        },
+        {
+          "title": "Staging",
+          "content": "WHO staging for vitamin A deficiency.",
+          "type": "multiple_choice",
+          "question": "Stage of this child?",
+          "options": ["X3B (keratomalacia)", "X1A", "X2", "X3A"],
+          "correct_answer": "X3B (keratomalacia)",
+          "explanation": "Keratomalacia is X3B."
+        },
+        {
+          "title": "Prognosis and Prevention",
+          "content": "Irreversible in keratomalacia.",
+          "type": "multiple",
+          "question": "Prevention measures?",
+          "options": ["Vitamin A supplementation at specific ages", "Diet rich in vitamin A", "Both", "None"],
+          "correct_options": ["Vitamin A supplementation at specific ages", "Diet rich in vitamin A"],
+          "explanation": "Administer vitamin A doses and encourage rich foods."
+        }
+      ],
+      "solution": "**Diagnostic final:** Vitamin A deficiency (xerophthalmia stage X3B).\n\n**Prise en charge:** Vitamin A treatment, address malnutrition.\n\n**Points clés:**\n- WHO staging\n- Irreversible damage\n- Supplementation schedule"
+    },
+    {
+      "title": "Abdominal Pain and Weakness",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Presentation",
+          "content": "14-year-old with abdominal pain, vomiting, loose motions, lower limb weakness, hypertension, tachycardia, absent reflexes.",
+          "type": "multiple",
+          "question": "Differential diagnoses?",
+          "options": ["GBS", "Acute intermittent porphyria", "Hypokalemia", "All"],
+          "correct_options": ["GBS", "Acute intermittent porphyria", "Hypokalemia"],
+          "explanation": "Multiple possibilities based on symptoms."
+        },
+        {
+          "title": "Diagnosis",
+          "content": "High-colored urine, low Na.",
+          "type": "multiple_choice",
+          "question": "Probable diagnosis?",
+          "options": ["Acute intermittent porphyria", "GBS", "Hypokalemia", "Poliomyelitis"],
+          "correct_answer": "Acute intermittent porphyria",
+          "explanation": "Porphyria with neurovisceral symptoms."
+        },
+        {
+          "title": "Confirmation",
+          "content": "Urine for ALA and PBG.",
+          "type": "multiple_choice",
+          "question": "Confirmatory test?",
+          "options": ["Urine for delta-aminolevulinic acid (ALA) and porphobilinogen (PBG)", "Nerve conduction", "Serum K", "Stool culture"],
+          "correct_answer": "Urine for delta-aminolevulinic acid (ALA) and porphobilinogen (PBG)",
+          "explanation": "Diagnostic for porphyria."
+        }
+      ],
+      "solution": "**Diagnostic final:** Acute intermittent porphyria.\n\n**Prise en charge:** Avoid precipitating drugs, hematin.\n\n**Points clés:**\n- Neurovisceral crisis\n- Urine tests\n- Supportive care"
+    }
+  ]
+}
