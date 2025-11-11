@@ -68,6 +68,8 @@ def initialize_session_state():
 # Initialiser le session state
 initialize_session_state()
 
+
+
 # Initialisation
 @st.cache_resource
 def init_managers():
@@ -132,6 +134,19 @@ menu_options = [
 ]
 
 choice = st.sidebar.selectbox("Choisir une section", menu_options)
+
+def keep_alive(self):
+    """Maintient la base Neon active"""
+    conn = self.get_connection()
+    if conn:
+        try:
+            with conn.cursor() as cur:
+                cur.execute("SELECT 1")
+        except:
+            pass
+        finally:
+            conn.close()
+
 
 
 
