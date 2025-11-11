@@ -1,86 +1,1832 @@
 {
   "quizzes": [
     {
-      "question": "Quel est le traitement de première intention de la crise d'épilepsie tonico-clonique généralisée en cours?",
+      "question": "Quel est le signe neurologique classique de la sclérose en plaques?",
       "type": "single",
       "options": [
-        {"text": "Diazépam IV", "correct": true},
-        {"text": "Phénytoïne IV", "correct": false},
-        {"text": "Valproate oral", "correct": false},
-        {"text": "Carbamazépine", "correct": false}
+        {"text": "Signe de Babinski", "correct": false},
+        {"text": "Signe de Lhermitte", "correct": true},
+        {"text": "Signe de Romberg", "correct": false},
+        {"text": "Signe de Kernig", "correct": false}
       ],
-      "explanation": "Les benzodiazépines IV (diazépam, clonazépam) sont le traitement de première intention du statut épileptique."
+      "explanation": "Le signe de Lhermitte, sensation électrique descendante lors de la flexion cervicale, est évocateur de démyélinisation dans la sclérose en plaques."
     },
     {
-      "question": "Quels sont les signes d'alerte d'un AVC ischémique en cours?",
+      "question": "Quels sont les symptômes initiaux typiques de la maladie de Parkinson?",
       "type": "multiple",
       "options": [
-        {"text": "Déficit moteur unilatéral", "correct": true},
-        {"text": "Trouble de la parole", "correct": true},
-        {"text": "Céphalée brutale", "correct": true},
-        {"text": "Vertige isolé", "correct": false},
-        {"text": "Trouble visuel transitoire", "correct": true}
+        {"text": "Tremblement de repos", "correct": true},
+        {"text": "Rigidité", "correct": true},
+        {"text": "Bradykinésie", "correct": true},
+        {"text": "Hypertension artérielle", "correct": false},
+        {"text": "Hypokinésie", "correct": true}
       ],
-      "explanation": "Les signes FAST (Face, Arm, Speech, Time) sont les signes d'alerte principaux auxquels s'ajoutent céphalée brutale et trouble visuel."
+      "explanation": "La triade classique de la maladie de Parkinson inclut tremblement de repos, rigidité et bradykinésie, avec hypokinésie comme synonyme."
     },
     {
-      "question": "Quelle est la cause la plus fréquente de démence chez le sujet âgé?",
+      "question": "Quelle est la cause la plus fréquente d'accident vasculaire cérébral ischémique chez l'adulte jeune?",
       "type": "single",
       "options": [
-        {"text": "Maladie d'Alzheimer", "correct": true},
-        {"text": "Démence vasculaire", "correct": false},
-        {"text": "Démence à corps de Lewy", "correct": false},
-        {"text": "Dégénérescence fronto-temporale", "correct": false}
+        {"text": "Athérosclérose", "correct": false},
+        {"text": "Dissection artérielle", "correct": true},
+        {"text": "Embolie cardiaque", "correct": false},
+        {"text": "Thrombose veineuse", "correct": false}
       ],
-      "explanation": "La maladie d'Alzheimer représente 60-70% des démences, suivie par la démence vasculaire."
+      "explanation": "La dissection des artères cervicales est une cause prédominante d'AVC ischémique chez les adultes jeunes."
     },
     {
-      "question": "Quels examens sont indispensables devant une première crise d'épilepsie?",
+      "question": "Quels facteurs de risque sont associés à la migraine avec aura?",
       "type": "multiple",
       "options": [
-        {"text": "EEG", "correct": true},
+        {"text": "Tabagisme", "correct": true},
+        {"text": "Contraceptifs oraux", "correct": true},
+        {"text": "Hypertension", "correct": false},
+        {"text": "Antécédents familiaux", "correct": true},
+        {"text": "Obésité", "correct": true}
+      ],
+      "explanation": "Les facteurs de risque incluent tabagisme, contraceptifs oraux, antécédents familiaux et obésité, augmentant le risque vasculaire."
+    },
+    {
+      "question": "Quel est le traitement de première ligne pour l'épilepsie partielle?",
+      "type": "single",
+      "options": [
+        {"text": "Carbamazépine", "correct": true},
+        {"text": "Phénytoïne", "correct": false},
+        {"text": "Valproate", "correct": false},
+        {"text": "Lamotrigine", "correct": false}
+      ],
+      "explanation": "La carbamazépine est recommandée en première intention pour les crises partielles en raison de son profil d'efficacité."
+    },
+    {
+      "question": "Quels sont les signes d'une méningite bactérienne?",
+      "type": "multiple",
+      "options": [
+        {"text": "Raideur nucale", "correct": true},
+        {"text": "Fièvre", "correct": true},
+        {"text": "Photophobie", "correct": true},
+        {"text": "Rash pétéchial", "correct": true},
+        {"text": "Hypotension", "correct": false}
+      ],
+      "explanation": "Les signes classiques incluent raideur nucale, fièvre, photophobie et rash pétéchial dans les formes méningococciques."
+    },
+    {
+      "question": "Quelle est la localisation typique de l'hématome extradural?",
+      "type": "single",
+      "options": [
+        {"text": "Convexe", "correct": true},
+        {"text": "Sous-dural", "correct": false},
+        {"text": "Intracérébral", "correct": false},
+        {"text": "Sous-arachnoïdien", "correct": false}
+      ],
+      "explanation": "L'hématome extradural est typiquement convexe, dû à une rupture artérielle post-traumatique."
+    },
+    {
+      "question": "Quels examens complémentaires pour diagnostiquer une neuropathie périphérique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Électromyogramme", "correct": true},
+        {"text": "IRM cérébrale", "correct": false},
+        {"text": "Vitesse de conduction nerveuse", "correct": true},
+        {"text": "Biopsie nerveuse", "correct": true},
+        {"text": "EEG", "correct": false}
+      ],
+      "explanation": "L'EMG, VCN et biopsie nerveuse sont essentiels pour évaluer les neuropathies périphériques."
+    },
+    {
+      "question": "Quel est le mécanisme principal de la sclérose latérale amyotrophique?",
+      "type": "single",
+      "options": [
+        {"text": "Dégénérescence des motoneurones", "correct": true},
+        {"text": "Démyélinisation", "correct": false},
+        {"text": "Inflammation auto-immune", "correct": false},
+        {"text": "Troubles vasculaires", "correct": false}
+      ],
+      "explanation": "La SLA implique une dégénérescence progressive des motoneurones supérieurs et inférieurs."
+    },
+    {
+      "question": "Quels sont les critères diagnostiques de la maladie d'Alzheimer?",
+      "type": "multiple",
+      "options": [
+        {"text": "Déficit mnésique", "correct": true},
+        {"text": "Aphasie", "correct": true},
+        {"text": "Apraxie", "correct": true},
+        {"text": "Agnosie", "correct": true},
+        {"text": "Hallucinations", "correct": false}
+      ],
+      "explanation": "Les critères NIA-AA incluent déficits mnésiques, aphasie, apraxie et agnosie avec impact fonctionnel."
+    },
+    {
+      "question": "Quelle est la complication la plus grave de l'AVC hémorragique?",
+      "type": "single",
+      "options": [
+        {"text": "Engagement cérébral", "correct": true},
+        {"text": "Infection", "correct": false},
+        {"text": "Épilepsie", "correct": false},
+        {"text": "Thrombose", "correct": false}
+      ],
+      "explanation": "L'engagement cérébral par œdème et hypertension intracrânienne est la complication majeure."
+    },
+    {
+      "question": "Quels traitements pour la neuropathie diabétique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Contrôle glycémique", "correct": true},
+        {"text": "Antidépresseurs tricycliques", "correct": true},
+        {"text": "Gabapentinoïdes", "correct": true},
+        {"text": "Opioïdes", "correct": false},
+        {"text": "Physiothérapie", "correct": true}
+      ],
+      "explanation": "Le traitement inclut contrôle glycémique, antidépresseurs, gabapentinoïdes et physiothérapie pour la douleur neuropathique."
+    },
+    {
+      "question": "Quel est le signe pathognomonique de la myasthénie grave?",
+      "type": "single",
+      "options": [
+        {"text": "Fatigabilité musculaire", "correct": true},
+        {"text": "Parésie", "correct": false},
+        {"text": "Hyperréflexie", "correct": false},
+        {"text": "Atrophie", "correct": false}
+      ],
+      "explanation": "La fatigabilité musculaire avec récupération au repos est caractéristique de la myasthénie."
+    },
+    {
+      "question": "Quels sont les facteurs déclenchants de la migraine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Stress", "correct": true},
+        {"text": "Chocolat", "correct": true},
+        {"text": "Alcool", "correct": true},
+        {"text": "Sommeil irrégulier", "correct": true},
+        {"text": "Exercice intense", "correct": false}
+      ],
+      "explanation": "Les triggers communs incluent stress, chocolat, alcool et perturbations du sommeil."
+    },
+    {
+      "question": "Quelle est la localisation de la lésion dans le syndrome de Horner?",
+      "type": "single",
+      "options": [
+        {"text": "Voie sympathique cervicale", "correct": true},
+        {"text": "Nerf optique", "correct": false},
+        {"text": "Cortex occipital", "correct": false},
+        {"text": "Tronc cérébral", "correct": false}
+      ],
+      "explanation": "Le syndrome de Horner résulte d'une interruption de la voie sympathique oculo-cervicale."
+    },
+    {
+      "question": "Quels examens pour évaluer une tumeur cérébrale?",
+      "type": "multiple",
+      "options": [
+        {"text": "IRM avec gadolinium", "correct": true},
+        {"text": "TDM", "correct": true},
+        {"text": "PET-scan", "correct": true},
+        {"text": "EEG", "correct": false},
+        {"text": "Biopsie", "correct": true}
+      ],
+      "explanation": "IRM, TDM, PET et biopsie sont cruciaux pour le diagnostic et la stadification des tumeurs cérébrales."
+    },
+    {
+      "question": "Quel est le traitement d'urgence de l'état de mal épileptique?",
+      "type": "single",
+      "options": [
+        {"text": "Benzodiazépines IV", "correct": true},
+        {"text": "Phénytoïne", "correct": false},
+        {"text": "Valproate", "correct": false},
+        {"text": "Levetiracetam", "correct": false}
+      ],
+      "explanation": "Les benzodiazépines IV sont le traitement initial pour stopper les convulsions."
+    },
+    {
+      "question": "Quels sont les signes d'une hydrocéphalie chronique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Démarche apraxique", "correct": true},
+        {"text": "Incontinence urinaire", "correct": true},
+        {"text": "Troubles cognitifs", "correct": true},
+        {"text": "Céphalées", "correct": false},
+        {"text": "Vomissements", "correct": false}
+      ],
+      "explanation": "La triade de Hakim inclut démarche apraxique, incontinence et troubles cognitifs."
+    },
+    {
+      "question": "Quelle est la cause génétique de la maladie de Huntington?",
+      "type": "single",
+      "options": [
+        {"text": "Expansion CAG sur HTT", "correct": true},
+        {"text": "Mutation APP", "correct": false},
+        {"text": "Mutation SOD1", "correct": false},
+        {"text": "Mutation PMP22", "correct": false}
+      ],
+      "explanation": "L'expansion de triplets CAG sur le gène huntingtine cause la chorée de Huntington."
+    },
+    {
+      "question": "Quels traitements pour la sclérose en plaques récurrente-rémittente?",
+      "type": "multiple",
+      "options": [
+        {"text": "Interféron bêta", "correct": true},
+        {"text": "Natalizumab", "correct": true},
+        {"text": "Fingolimod", "correct": true},
+        {"text": "Riluzole", "correct": false},
+        {"text": "Ocrelizumab", "correct": true}
+      ],
+      "explanation": "Les immunomodulateurs comme interféron, natalizumab, fingolimod et ocrelizumab réduisent les poussées."
+    },
+    {
+      "question": "Quel est le signe de la compression médullaire?",
+      "type": "single",
+      "options": [
+        {"text": "Niveau sensitif", "correct": true},
+        {"text": "Parésie flasque", "correct": false},
+        {"text": "Hyporéflexie", "correct": false},
+        {"text": "Ataxie", "correct": false}
+      ],
+      "explanation": "Un niveau sensitif indique une lésion compressive de la moelle épinière."
+    },
+    {
+      "question": "Quels sont les symptômes de la narcolepsie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypersomnie diurne", "correct": true},
+        {"text": "Cataplexie", "correct": true},
+        {"text": "Hallucinations hypnagogiques", "correct": true},
+        {"text": "Paralysie du sommeil", "correct": true},
+        {"text": "Insomnie", "correct": false}
+      ],
+      "explanation": "La narcolepsie se manifeste par hypersomnie, cataplexie, hallucinations et paralysie du sommeil."
+    },
+    {
+      "question": "Quelle est la localisation de la lésion dans l'aphasie de Broca?",
+      "type": "single",
+      "options": [
+        {"text": "Gyrus frontal inférieur gauche", "correct": true},
+        {"text": "Gyrus temporal supérieur", "correct": false},
+        {"text": "Lobe occipital", "correct": false},
+        {"text": "Cervelet", "correct": false}
+      ],
+      "explanation": "L'aphasie de Broca résulte d'une lésion dans l'aire de Broca, gyrus frontal inférieur dominant."
+    },
+    {
+      "question": "Quels examens pour diagnostiquer une encéphalite herpétique?",
+      "type": "multiple",
+      "options": [
+        {"text": "PCR HSV dans LCR", "correct": true},
         {"text": "IRM cérébrale", "correct": true},
-        {"text": "Ponction lombaire", "correct": false},
-        {"text": "Scanner cérébral", "correct": true},
-        {"text": "Électrocardiogramme", "correct": true}
+        {"text": "EEG", "correct": true},
+        {"text": "TDM abdominale", "correct": false},
+        {"text": "Biopsie cérébrale", "correct": false}
       ],
-      "explanation": "L'EEG, l'imagerie cérébrale et l'ECG sont indispensables. La PL n'est indiquée qu'en cas de suspicion de méningite."
+      "explanation": "La PCR HSV, IRM montrant nécrose temporale et EEG avec anomalies périodiques confirment le diagnostic."
+    },
+    {
+      "question": "Quel est le traitement de la maladie de Guillain-Barré?",
+      "type": "single",
+      "options": [
+        {"text": "Immunoglobulines IV", "correct": true},
+        {"text": "Corticostéroïdes", "correct": false},
+        {"text": "Antibiotiques", "correct": false},
+        {"text": "Antiviraux", "correct": false}
+      ],
+      "explanation": "Les immunoglobulines IV ou plasmaphérèse sont les traitements immunomodulateurs de choix."
+    },
+    {
+      "question": "Quels sont les signes d'une ataxie cérébelleuse?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dysmétrie", "correct": true},
+        {"text": "Tremblement intentionnel", "correct": true},
+        {"text": "Dysarthrie", "correct": true},
+        {"text": "Nystagmus", "correct": true},
+        {"text": "Hypertonie", "correct": false}
+      ],
+      "explanation": "Les signes incluent dysmétrie, tremblement intentionnel, dysarthrie et nystagmus."
+    },
+    {
+      "question": "Quelle est la cause la plus commune de démence vasculaire?",
+      "type": "single",
+      "options": [
+        {"text": "Multi-infarctus", "correct": true},
+        {"text": "Maladie d'Alzheimer", "correct": false},
+        {"text": "Corps de Lewy", "correct": false},
+        {"text": "Frontotemporale", "correct": false}
+      ],
+      "explanation": "La démence vasculaire est souvent due à de multiples infarctus cérébraux."
+    },
+    {
+      "question": "Quels traitements pour l'AVC ischémique aigu?",
+      "type": "multiple",
+      "options": [
+        {"text": "Thrombolyse IV", "correct": true},
+        {"text": "Thrombectomie", "correct": true},
+        {"text": "Aspirine", "correct": true},
+        {"text": "Héparine", "correct": false},
+        {"text": "Antiagrégants", "correct": true}
+      ],
+      "explanation": "Thrombolyse dans les 4.5h, thrombectomie pour occlusions proximales, et aspirine en prévention secondaire."
+    },
+    {
+      "question": "Quel est le signe de la lésion du nerf facial?",
+      "type": "single",
+      "options": [
+        {"text": "Paralysie faciale périphérique", "correct": true},
+        {"text": "Hémianopsie", "correct": false},
+        {"text": "Anosmie", "correct": false},
+        {"text": "Dysphagie", "correct": false}
+      ],
+      "explanation": "La paralysie faciale périphérique affecte tout l'hémivisage."
+    },
+    {
+      "question": "Quels sont les critères de la mort cérébrale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Coma aréactif", "correct": true},
+        {"text": "Absence de réflexes du tronc", "correct": true},
+        {"text": "Apnée confirmée", "correct": true},
+        {"text": "EEG isoélectrique", "correct": true},
+        {"text": "Hypothermie", "correct": false}
+      ],
+      "explanation": "Les critères incluent coma aréactif, absence de réflexes troncals, apnée et EEG plat."
+    },
+    {
+      "question": "Quelle est la pathologie associée au tremblement essentiel?",
+      "type": "single",
+      "options": [
+        {"text": "Trouble du mouvement idiopathique", "correct": true},
+        {"text": "Parkinson", "correct": false},
+        {"text": "Hyperthyroïdie", "correct": false},
+        {"text": "Alcoolisme", "correct": false}
+      ],
+      "explanation": "Le tremblement essentiel est un trouble génétique idiopathique bilatéral."
+    },
+    {
+      "question": "Quels examens pour la myopathie?",
+      "type": "multiple",
+      "options": [
+        {"text": "CK sériques", "correct": true},
+        {"text": "EMG", "correct": true},
+        {"text": "Biopsie musculaire", "correct": true},
+        {"text": "IRM musculaire", "correct": true},
+        {"text": "LCR", "correct": false}
+      ],
+      "explanation": "Élévation des CK, EMG myopathique, biopsie et IRM confirment les myopathies."
+    },
+    {
+      "question": "Quel est le traitement de la crise migraineuse?",
+      "type": "single",
+      "options": [
+        {"text": "Triptans", "correct": true},
+        {"text": "Bêta-bloquants", "correct": false},
+        {"text": "Antidépresseurs", "correct": false},
+        {"text": "Anticonvulsivants", "correct": false}
+      ],
+      "explanation": "Les triptans sont efficaces pour abortir les crises migraineuses."
+    },
+    {
+      "question": "Quels sont les signes d'une lésion pyramidale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hyperréflexie", "correct": true},
+        {"text": "Signe de Babinski", "correct": true},
+        {"text": "Spasticité", "correct": true},
+        {"text": "Hypotonie", "correct": false},
+        {"text": "Clonus", "correct": true}
+      ],
+      "explanation": "Les signes incluent hyperréflexie, Babinski, spasticité et clonus."
+    },
+    {
+      "question": "Quelle est la cause de la chorée dans la maladie de Sydenham?",
+      "type": "single",
+      "options": [
+        {"text": "Rhumatisme articulaire aigu", "correct": true},
+        {"text": "Huntington", "correct": false},
+        {"text": "Wilson", "correct": false},
+        {"text": "Parkinson", "correct": false}
+      ],
+      "explanation": "La chorée de Sydenham est une manifestation neurologique du RAA post-streptococcique."
+    },
+    {
+      "question": "Quels traitements pour la démence à corps de Lewy?",
+      "type": "multiple",
+      "options": [
+        {"text": "Inhibiteurs de la cholinestérase", "correct": true},
+        {"text": "Antipsychotiques atypiques", "correct": false},
+        {"text": "Lévodopa", "correct": true},
+        {"text": "Memantine", "correct": true},
+        {"text": "Benzodiazépines", "correct": false}
+      ],
+      "explanation": "Inhibiteurs cholinestérase pour cognition, lévodopa pour parkinsonisme, memantine pour symptômes."
+    },
+    {
+      "question": "Quel est le signe de la radiculopathie L5?",
+      "type": "single",
+      "options": [
+        {"text": "Déficit extension orteil", "correct": true},
+        {"text": "Déficit flexion plantaire", "correct": false},
+        {"text": "Déficit abduction hanche", "correct": false},
+        {"text": "Déficit adduction", "correct": false}
+      ],
+      "explanation": "La radiculopathie L5 cause un déficit de l'extenseur hallucis longus."
+    },
+    {
+      "question": "Quels sont les symptômes de l'ataxie de Friedreich?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ataxie progressive", "correct": true},
+        {"text": "Cardiomyopathie", "correct": true},
+        {"text": "Diabète", "correct": true},
+        {"text": "Scoliose", "correct": true},
+        {"text": "Épilepsie", "correct": false}
+      ],
+      "explanation": "Ataxie, cardiomyopathie, diabète et scoliose sont associés à la mutation GAA sur FRDA."
+    },
+    {
+      "question": "Quelle est la localisation dans le syndrome de Wallenberg?",
+      "type": "single",
+      "options": [
+        {"text": "Artère vertébrale latérale", "correct": true},
+        {"text": "Artère cérébrale moyenne", "correct": false},
+        {"text": "Artère basilaire", "correct": false},
+        {"text": "Artère carotide interne", "correct": false}
+      ],
+      "explanation": "Le syndrome de Wallenberg est dû à une occlusion de l'artère vertébrale ou PICA."
+    },
+    {
+      "question": "Quels examens pour le diagnostic de la SLA?",
+      "type": "multiple",
+      "options": [
+        {"text": "EMG", "correct": true},
+        {"text": "IRM médullaire", "correct": true},
+        {"text": "Dosage SOD1", "correct": false},
+        {"text": "LCR", "correct": true},
+        {"text": "Biopsie musculaire", "correct": true}
+      ],
+      "explanation": "EMG montre dénervation, IRM exclut autres causes, LCR normal, biopsie confirme atrophie."
+    },
+    {
+      "question": "Quel est le traitement prophylactique de la migraine?",
+      "type": "single",
+      "options": [
+        {"text": "Propranolol", "correct": true},
+        {"text": "Sumatriptan", "correct": false},
+        {"text": "Paracétamol", "correct": false},
+        {"text": "Ibuprofène", "correct": false}
+      ],
+      "explanation": "Les bêta-bloquants comme propranolol réduisent la fréquence des crises."
+    },
+    {
+      "question": "Quels sont les signes d'une lésion du nerf optique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Perte visuelle unilatérale", "correct": true},
+        {"text": "Défaut pupillaire afférent", "correct": true},
+        {"text": "Papilloedème", "correct": false},
+        {"text": "Hémianopsie", "correct": false},
+        {"text": "Atrophie optique", "correct": true}
+      ],
+      "explanation": "Perte visuelle, défaut pupillaire et atrophie optique indiquent une neuropathie optique."
+    },
+    {
+      "question": "Quelle est la cause de la dystonie focale?",
+      "type": "single",
+      "options": [
+        {"text": "Idiopathique ou secondaire", "correct": true},
+        {"text": "Parkinson", "correct": false},
+        {"text": "AVC", "correct": false},
+        {"text": "Trauma", "correct": false}
+      ],
+      "explanation": "La dystonie focale est souvent idiopathique, mais peut être secondaire à des lésions basales."
+    },
+    {
+      "question": "Quels traitements pour l'hydrocéphalie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dérivation ventriculo-péritonéale", "correct": true},
+        {"text": "Venticulostomie endoscopique", "correct": true},
+        {"text": "Diurétiques", "correct": false},
+        {"text": "Ponction lombaire", "correct": true},
+        {"text": "Chirurgie tumorale", "correct": true}
+      ],
+      "explanation": "Dérivations, venticulostomie et ponctions traitent l'hydrocéphalie obstructive ou communicative."
+    },
+    {
+      "question": "Quel est le signe de la méningite chronique?",
+      "type": "single",
+      "options": [
+        {"text": "Syndrome méningé subaigu", "correct": true},
+        {"text": "Fièvre aiguë", "correct": false},
+        {"text": "Rash", "correct": false},
+        {"text": "Coma", "correct": false}
+      ],
+      "explanation": "Le syndrome méningé subaigu avec céphalées persistantes évoque une méningite chronique."
+    },
+    {
+      "question": "Quels sont les symptômes de la maladie de Charcot-Marie-Tooth?",
+      "type": "multiple",
+      "options": [
+        {"text": "Atrophie péronière", "correct": true},
+        {"text": "Pieds creux", "correct": true},
+        {"text": "Déficit sensitif", "correct": true},
+        {"text": "Aréflexie", "correct": true},
+        {"text": "Tremblement", "correct": false}
+      ],
+      "explanation": "CMT cause atrophie distale, déformations podales, déficit sensitif et aréflexie."
+    },
+    {
+      "question": "Quelle est la localisation dans le syndrome de Gerstmann?",
+      "type": "single",
+      "options": [
+        {"text": "Gyrus angulaire gauche", "correct": true},
+        {"text": "Frontal", "correct": false},
+        {"text": "Temporal", "correct": false},
+        {"text": "Occipital", "correct": false}
+      ],
+      "explanation": "Le syndrome de Gerstmann inclut agraphie, acalculie, agnosie digitale et confusion droite-gauche."
+    },
+    {
+      "question": "Quels examens pour l'épilepsie réfractaire?",
+      "type": "multiple",
+      "options": [
+        {"text": "EEG vidéo", "correct": true},
+        {"text": "IRM haute résolution", "correct": true},
+        {"text": "PET", "correct": true},
+        {"text": "SPECT", "correct": true},
+        {"text": "LCR", "correct": false}
+      ],
+      "explanation": "EEG vidéo, IRM, PET et SPECT localisent le foyer épileptogène pour chirurgie."
+    },
+    {
+      "question": "Quel est le traitement de la neuropathie optique ischémique?",
+      "type": "single",
+      "options": [
+        {"text": "Contrôle facteurs vasculaires", "correct": true},
+        {"text": "Corticostéroïdes", "correct": false},
+        {"text": "Anticoagulants", "correct": false},
+        {"text": "Chirurgie", "correct": false}
+      ],
+      "explanation": "Le traitement vise le contrôle des facteurs de risque vasculaires sans thérapie spécifique aiguë."
+    },
+    {
+      "question": "Quels sont les signes d'une encéphalopathie hépatique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Asterixis", "correct": true},
+        {"text": "Confusion", "correct": true},
+        {"text": "Coma", "correct": true},
+        {"text": "Hyperammoniémie", "correct": true},
+        {"text": "Ictère", "correct": false}
+      ],
+      "explanation": "Asterixis, troubles cognitifs et hyperammoniémie caractérisent l'encéphalopathie hépatique."
+    },
+    {
+      "question": "Quelle est la cause de la paralysie de Bell?",
+      "type": "single",
+      "options": [
+        {"text": "Idiopathique, possible HSV", "correct": true},
+        {"text": "AVC", "correct": false},
+        {"text": "Tumeur", "correct": false},
+        {"text": "Trauma", "correct": false}
+      ],
+      "explanation": "La paralysie de Bell est idiopathique, avec rôle possible de réactivation herpétique."
+    },
+    {
+      "question": "Quels traitements pour la maladie de Parkinson avancée?",
+      "type": "multiple",
+      "options": [
+        {"text": "Stimulation cérébrale profonde", "correct": true},
+        {"text": "Apomorphine", "correct": true},
+        {"text": "Duodopa", "correct": true},
+        {"text": "Inhibiteurs COMT", "correct": true},
+        {"text": "Anticholinergiques", "correct": false}
+      ],
+      "explanation": "DBS, apomorphine, duodopa et inhibiteurs COMT gèrent les fluctuations motrices."
+    },
+    {
+      "question": "Quel est le signe de la syringomyélie?",
+      "type": "single",
+      "options": [
+        {"text": "Dissociation thermo-algique", "correct": true},
+        {"text": "Paraplégie", "correct": false},
+        {"text": "Ataxie", "correct": false},
+        {"text": "Nystagmus", "correct": false}
+      ],
+      "explanation": "La dissociation thermo-algique en cape est classique de la syringomyélie."
+    },
+    {
+      "question": "Quels sont les symptômes de la démence frontotemporale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Troubles du comportement", "correct": true},
+        {"text": "Aphasie progressive", "correct": true},
+        {"text": "Déclin exécutif", "correct": true},
+        {"text": "Hallucinations", "correct": false},
+        {"text": "Déficit mnésique précoce", "correct": false}
+      ],
+      "explanation": "Troubles comportementaux, aphasie et déclin exécutif dominent sans déficit mnésique initial."
+    },
+    {
+      "question": "Quelle est la localisation dans le syndrome de Millard-Gubler?",
+      "type": "single",
+      "options": [
+        {"text": "Pont basal", "correct": true},
+        {"text": "Mésencéphale", "correct": false},
+        {"text": "Bulbe", "correct": false},
+        {"text": "Cervelet", "correct": false}
+      ],
+      "explanation": "Paralysie faciale périphérique et hémiparésie controlatérale dans le pont."
+    },
+    {
+      "question": "Quels examens pour la maladie de Creutzfeldt-Jakob?",
+      "type": "multiple",
+      "options": [
+        {"text": "EEG avec complexes périodiques", "correct": true},
+        {"text": "IRM avec hyperintensité DWI", "correct": true},
+        {"text": "Protéine 14-3-3 dans LCR", "correct": true},
+        {"text": "Biopsie cérébrale", "correct": true},
+        {"text": "TDM", "correct": false}
+      ],
+      "explanation": "EEG, IRM, 14-3-3 et biopsie confirment la MCJ."
+    },
+    {
+      "question": "Quel est le traitement de l'abscès cérébral?",
+      "type": "single",
+      "options": [
+        {"text": "Antibiotiques et drainage", "correct": true},
+        {"text": "Corticostéroïdes seuls", "correct": false},
+        {"text": "Observation", "correct": false},
+        {"text": "Radiothérapie", "correct": false}
+      ],
+      "explanation": "Antibiotiques empiriques et drainage chirurgical sont essentiels."
+    },
+    {
+      "question": "Quels sont les signes d'une myélite transverse?",
+      "type": "multiple",
+      "options": [
+        {"text": "Paraplégie", "correct": true},
+        {"text": "Niveau sensitif", "correct": true},
+        {"text": "Troubles sphinctériens", "correct": true},
+        {"text": "Fièvre", "correct": false},
+        {"text": "Céphalées", "correct": false}
+      ],
+      "explanation": "Paraplégie, niveau sensitif et troubles vésico-sphinctériens caractérisent la myélite."
+    },
+    {
+      "question": "Quelle est la cause de la neuropathie amyloïde?",
+      "type": "single",
+      "options": [
+        {"text": "Dépôts amyloïdes", "correct": true},
+        {"text": "Diabète", "correct": false},
+        {"text": "Alcool", "correct": false},
+        {"text": "Carence vitaminique", "correct": false}
+      ],
+      "explanation": "Dépôts amyloïdes dans les nerfs causent une neuropathie sensitive et autonome."
+    },
+    {
+      "question": "Quels traitements pour le glioblastome?",
+      "type": "multiple",
+      "options": [
+        {"text": "Chirurgie", "correct": true},
+        {"text": "Radiothérapie", "correct": true},
+        {"text": "Temozolomide", "correct": true},
+        {"text": "Immunothérapie", "correct": false},
+        {"text": "Bevacizumab", "correct": true}
+      ],
+      "explanation": "Résection, radio-chimiothérapie avec temozolomide et bevacizumab en rechute."
+    },
+    {
+      "question": "Quel est le signe de la lésion du nerf trijumeau?",
+      "type": "single",
+      "options": [
+        {"text": "Névralgie trigéminale", "correct": true},
+        {"text": "Ptosis", "correct": false},
+        {"text": "Anisocorie", "correct": false},
+        {"text": "Dysphonie", "correct": false}
+      ],
+      "explanation": "La névralgie du trijumeau est une douleur paroxystique dans le territoire V."
+    },
+    {
+      "question": "Quels sont les symptômes de l'apnée du sommeil?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ronflements", "correct": true},
+        {"text": "Somnolence diurne", "correct": true},
+        {"text": "Apnées nocturnes", "correct": true},
+        {"text": "Hypertension", "correct": true},
+        {"text": "Insomnie", "correct": false}
+      ],
+      "explanation": "Ronflements, apnées, somnolence et HTA sont classiques de l'OSA."
+    },
+    {
+      "question": "Quelle est la localisation dans l'hémiballisme?",
+      "type": "single",
+      "options": [
+        {"text": "Noyau sous-thalamique", "correct": true},
+        {"text": "Globus pallidus", "correct": false},
+        {"text": "Putamen", "correct": false},
+        {"text": "Thalamus", "correct": false}
+      ],
+      "explanation": "L'hémiballisme résulte d'une lésion du noyau sous-thalamique controlatéral."
+    },
+    {
+      "question": "Quels examens pour la dystrophie myotonique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Test génétique CTG", "correct": true},
+        {"text": "EMG myotonique", "correct": true},
+        {"text": "Biopsie musculaire", "correct": true},
+        {"text": "Échocardiogramme", "correct": true},
+        {"text": "IRM cérébrale", "correct": false}
+      ],
+      "explanation": "Expansion CTG, EMG, biopsie et écho cardiaque diagnostiquent DM1."
+    },
+    {
+      "question": "Quel est le traitement de la neuralgie post-herpétique?",
+      "type": "single",
+      "options": [
+        {"text": "Gabapentine", "correct": true},
+        {"text": "Aciclovir", "correct": false},
+        {"text": "Aspirine", "correct": false},
+        {"text": "Chirurgie", "correct": false}
+      ],
+      "explanation": "Gabapentinoïdes et antidépresseurs traitent la douleur chronique post-zona."
+    },
+    {
+      "question": "Quels sont les signes d'une lésion cérébelleuse?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ataxie ipsilatérale", "correct": true},
+        {"text": "Hypotonie", "correct": true},
+        {"text": "Dysdiadochokinésie", "correct": true},
+        {"text": "Signe de Babinski", "correct": false},
+        {"text": "Hyperréflexie", "correct": false}
+      ],
+      "explanation": "Ataxie, hypotonie et dysdiadochokinésie sont ipsilatéraux à la lésion."
+    },
+    {
+      "question": "Quelle est la cause de la leucoencéphalopathie multifocale progressive?",
+      "type": "single",
+      "options": [
+        {"text": "Virus JC", "correct": true},
+        {"text": "HIV", "correct": false},
+        {"text": "EBV", "correct": false},
+        {"text": "CMV", "correct": false}
+      ],
+      "explanation": "Le virus JC cause la LEMP chez les immunodéprimés."
+    },
+    {
+      "question": "Quels traitements pour l'ataxie télangiectasie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Symptomatique", "correct": true},
+        {"text": "Immunoglobulines", "correct": true},
+        {"text": "Antibiotiques prophylactiques", "correct": true},
+        {"text": "Chimiothérapie", "correct": false},
+        {"text": "Physiothérapie", "correct": true}
+      ],
+      "explanation": "Traitement symptomatique, IVIG, prophylaxie infectieuse et physiothérapie."
+    },
+    {
+      "question": "Quel est le signe de la compression du chiasma optique?",
+      "type": "single",
+      "options": [
+        {"text": "Hémianopsie bitemporale", "correct": true},
+        {"text": "Scotome central", "correct": false},
+        {"text": "Quadrantanopsie", "correct": false},
+        {"text": "Amaurose", "correct": false}
+      ],
+      "explanation": "L'hémianopsie bitemporale est classique des lésions chiasmatiques."
+    },
+    {
+      "question": "Quels sont les symptômes de la sclérose tubéreuse de Bourneville?",
+      "type": "multiple",
+      "options": [
+        {"text": "Taches hypopigmentées", "correct": true},
+        {"text": "Angiofibromes", "correct": true},
+        {"text": "Épilepsie", "correct": true},
+        {"text": "Retard mental", "correct": true},
+        {"text": "Ataxie", "correct": false}
+      ],
+      "explanation": "Taches cutanées, angiofibromes, épilepsie et retard sont des critères majeurs."
+    },
+    {
+      "question": "Quelle est la localisation dans le syndrome de Kluver-Bucy?",
+      "type": "single",
+      "options": [
+        {"text": "Lobules temporaux bilatéraux", "correct": true},
+        {"text": "Frontal", "correct": false},
+        {"text": "Pariétal", "correct": false},
+        {"text": "Occipital", "correct": false}
+      ],
+      "explanation": "Hyperoralité, hypersexualité et agnosie visuelle dans les lésions temporales bilatérales."
+    },
+    {
+      "question": "Quels examens pour la neurofibromatose?",
+      "type": "multiple",
+      "options": [
+        {"text": "IRM cérébrale et médullaire", "correct": true},
+        {"text": "Test génétique NF1/NF2", "correct": true},
+        {"text": "Ophtalmologie", "correct": true},
+        {"text": "Audiométrie", "correct": true},
+        {"text": "EEG", "correct": false}
+      ],
+      "explanation": "IRM pour tumeurs, génétique, ophtalmo pour Lisch, audiométrie pour schwannomes."
+    },
+    {
+      "question": "Quel est le traitement de la spasmophilie?",
+      "type": "single",
+      "options": [
+        {"text": "Supplémentation magnésium", "correct": true},
+        {"text": "Anticonvulsivants", "correct": false},
+        {"text": "Bêta-bloquants", "correct": false},
+        {"text": "Antidépresseurs", "correct": false}
+      ],
+      "explanation": "La spasmophilie, souvent liée à hypomagnésémie, répond à la supplémentation."
+    },
+    {
+      "question": "Quels sont les signes d'une encéphalite limbique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Crises épileptiques", "correct": true},
+        {"text": "Troubles mnésiques", "correct": true},
+        {"text": "Hallucinations", "correct": true},
+        {"text": "Hyponatrémie", "correct": true},
+        {"text": "Paraplégie", "correct": false}
+      ],
+      "explanation": "Crises, amnésie, hallucinations et SIADH dans l'encéphalite auto-immune."
+    },
+    {
+      "question": "Quelle est la cause de la maladie de Marchiafava-Bignami?",
+      "type": "single",
+      "options": [
+        {"text": "Carence nutritionnelle alcoolique", "correct": true},
+        {"text": "Infection", "correct": false},
+        {"text": "Trauma", "correct": false},
+        {"text": "Génétique", "correct": false}
+      ],
+      "explanation": "Démyélinisation du corps calleux chez les alcooliques chroniques."
+    },
+    {
+      "question": "Quels traitements pour la neuropathie axonale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Traitement étiologique", "correct": true},
+        {"text": "Antidouleurs neuropathiques", "correct": true},
+        {"text": "Physiothérapie", "correct": true},
+        {"text": "Immunosuppresseurs", "correct": false},
+        {"text": "Vitamines B", "correct": true}
+      ],
+      "explanation": "Étiologique, symptomatique pour douleur, rééducation et vitamines si carence."
+    },
+    {
+      "question": "Quel est le signe de la lésion du nerf radial?",
+      "type": "single",
+      "options": [
+        {"text": "Main tombante", "correct": true},
+        {"text": "Griffe ulnaire", "correct": false},
+        {"text": "Opposition pouce", "correct": false},
+        {"text": "Froissement", "correct": false}
+      ],
+      "explanation": "La paralysie radiale cause une extension du poignet déficitaire."
+    },
+    {
+      "question": "Quels sont les symptômes de la maladie de Fabry?",
+      "type": "multiple",
+      "options": [
+        {"text": "Acroparesthésies", "correct": true},
+        {"text": "Angiokératomes", "correct": true},
+        {"text": "Cardiomyopathie", "correct": true},
+        {"text": "Insuffisance rénale", "correct": true},
+        {"text": "Épilepsie", "correct": false}
+      ],
+      "explanation": "Douleurs, lésions cutanées, cardiaques et rénales dues à déficit alpha-galactosidase."
+    },
+    {
+      "question": "Quelle est la localisation dans le syndrome de Balint?",
+      "type": "single",
+      "options": [
+        {"text": "Lobules pariétaux bilatéraux", "correct": true},
+        {"text": "Temporal", "correct": false},
+        {"text": "Frontal", "correct": false},
+        {"text": "Occipital", "correct": false}
+      ],
+      "explanation": "Ataxie optique, apraxie oculomotrice et simultanagnosie."
+    },
+    {
+      "question": "Quels examens pour la polyradiculonévrite?",
+      "type": "multiple",
+      "options": [
+        {"text": "LCR albumino-cytologique dissociation", "correct": true},
+        {"text": "EMG", "correct": true},
+        {"text": "Anticorps anti-gangliosides", "correct": true},
+        {"text": "IRM médullaire", "correct": true},
+        {"text": "Biopsie nerveuse", "correct": false}
+      ],
+      "explanation": "Dissociation albumino-cytologique, EMG démyélinisant, anticorps et IRM."
+    },
+    {
+      "question": "Quel est le traitement de la chorée gravidique?",
+      "type": "single",
+      "options": [
+        {"text": "Halopéridol", "correct": true},
+        {"text": "Lévodopa", "correct": false},
+        {"text": "Valproate", "correct": false},
+        {"text": "Clonazépam", "correct": false}
+      ],
+      "explanation": "Neuroleptiques comme halopéridol contrôlent la chorée pendant la grossesse."
+    },
+    {
+      "question": "Quels sont les signes d'une vascularite cérébrale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Céphalées", "correct": true},
+        {"text": "Déficits focaux", "correct": true},
+        {"text": "Crises", "correct": true},
+        {"text": "Troubles cognitifs", "correct": true},
+        {"text": "Fièvre", "correct": false}
+      ],
+      "explanation": "Céphalées, déficits, crises et cognition altérée dans la PACNS."
+    },
+    {
+      "question": "Quelle est la cause de la neuropathie héréditaire à la pression?",
+      "type": "single",
+      "options": [
+        {"text": "Mutation PMP22", "correct": true},
+        {"text": "Diabète", "correct": false},
+        {"text": "Alcool", "correct": false},
+        {"text": "Trauma", "correct": false}
+      ],
+      "explanation": "HNPP due à délétion PMP22 cause des parésies récurrentes."
+    },
+    {
+      "question": "Quels traitements pour le méningiome?",
+      "type": "multiple",
+      "options": [
+        {"text": "Chirurgie", "correct": true},
+        {"text": "Radiothérapie", "correct": true},
+        {"text": "Observation", "correct": true},
+        {"text": "Chimiothérapie", "correct": false},
+        {"text": "Embolisation", "correct": true}
+      ],
+      "explanation": "Résection, radio, observation pour petits, embolisation préop."
+    },
+    {
+      "question": "Quel est le signe de la lésion du nerf ulnaire?",
+      "type": "single",
+      "options": [
+        {"text": "Griffe ulnaire", "correct": true},
+        {"text": "Main tombante", "correct": false},
+        {"text": "Signe de Tinel", "correct": false},
+        {"text": "Déficit extension", "correct": false}
+      ],
+      "explanation": "La griffe des 4-5e doigts indique une lésion ulnaire."
+    },
+    {
+      "question": "Quels sont les symptômes de la maladie de Refsum?",
+      "type": "multiple",
+      "options": [
+        {"text": "Rétinite pigmentaire", "correct": true},
+        {"text": "Neuropathie", "correct": true},
+        {"text": "Ichtyose", "correct": true},
+        {"text": "Ataxie", "correct": true},
+        {"text": "Démence", "correct": false}
+      ],
+      "explanation": "Déficit phytanate oxydase cause rétinite, neuropathie, ichtyose et ataxie."
+    },
+    {
+      "question": "Quelle est la localisation dans le syndrome d'Anton?",
+      "type": "single",
+      "options": [
+        {"text": "Cortex occipital bilatéral", "correct": true},
+        {"text": "Chiasma", "correct": false},
+        {"text": "Tractus optique", "correct": false},
+        {"text": "Nerf optique", "correct": false}
+      ],
+      "explanation": "Cécité corticale avec anosognosie."
+    },
+    {
+      "question": "Quels examens pour l'encéphalopathie de Wernicke?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dosage thiamine", "correct": true},
+        {"text": "IRM avec hypersignaux mamillaires", "correct": true},
+        {"text": "EEG", "correct": false},
+        {"text": "LCR", "correct": false},
+        {"text": "Glycémie", "correct": true}
+      ],
+      "explanation": "Hypothiamine, IRM et correction glycémique pour prévenir."
+    },
+    {
+      "question": "Quel est le traitement de la myoclonie?",
+      "type": "single",
+      "options": [
+        {"text": "Clonazépam", "correct": true},
+        {"text": "Lévodopa", "correct": false},
+        {"text": "Carbamazépine", "correct": false},
+        {"text": "Propranolol", "correct": false}
+      ],
+      "explanation": "Benzodiazépines comme clonazépam sont efficaces pour myoclonies."
+    },
+    {
+      "question": "Quels sont les signes d'une lésion thalamique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Syndrome thalamique", "correct": true},
+        {"text": "Hémianesthésie", "correct": true},
+        {"text": "Douleur centrale", "correct": true},
+        {"text": "Ataxie", "correct": true},
+        {"text": "Parésie", "correct": false}
+      ],
+      "explanation": "Hémianesthésie, douleur, ataxie et choréoathétose dans les lésions thalamiques."
+    },
+    {
+      "question": "Quelle est la cause de la maladie de Binswanger?",
+      "type": "single",
+      "options": [
+        {"text": "Leucoaraïose vasculaire", "correct": true},
+        {"text": "Démyélinisation", "correct": false},
+        {"text": "Infection", "correct": false},
+        {"text": "Trauma", "correct": false}
+      ],
+      "explanation": "Maladie de la substance blanche sous-corticale due à artériolosclérose."
+    },
+    {
+      "question": "Quels traitements pour la neuroborréliose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ceftriaxone IV", "correct": true},
+        {"text": "Doxycycline", "correct": true},
+        {"text": "Amoxicilline", "correct": false},
+        {"text": "Antiviraux", "correct": false},
+        {"text": "Corticostéroïdes", "correct": false}
+      ],
+      "explanation": "Antibiotiques comme ceftriaxone pour Lyme neurologique."
+    },
+    {
+      "question": "Quel est le signe de la compression du nerf médian?",
+      "type": "single",
+      "options": [
+        {"text": "Syndrome du canal carpien", "correct": true},
+        {"text": "Griffe", "correct": false},
+        {"text": "Main tombante", "correct": false},
+        {"text": "Froissement", "correct": false}
+      ],
+      "explanation": "Paresthésies nocturnes et atrophie thénar dans SCC."
+    },
+    {
+      "question": "Quels sont les symptômes de la porphyrie aiguë intermittente?",
+      "type": "multiple",
+      "options": [
+        {"text": "Douleur abdominale", "correct": true},
+        {"text": "Neuropathie", "correct": true},
+        {"text": "Troubles psychiatriques", "correct": true},
+        {"text": "Hyponatrémie", "correct": true},
+        {"text": "Rash", "correct": false}
+      ],
+      "explanation": "Douleur, neuropathie, psychose et SIADH dans les crises porphyriniques."
+    },
+    {
+      "question": "Quelle est la localisation dans le syndrome de Prosopagnosie?",
+      "type": "single",
+      "options": [
+        {"text": "Gyrus fusiforme", "correct": true},
+        {"text": "Pariétal", "correct": false},
+        {"text": "Frontal", "correct": false},
+        {"text": "Temporal supérieur", "correct": false}
+      ],
+      "explanation": "Incapacité à reconnaître les visages due à lésion fusiforme."
+    },
+    {
+      "question": "Quels examens pour la myasthénie oculaire?",
+      "type": "multiple",
+      "options": [
+        {"text": "Test au Tensilon", "correct": true},
+        {"text": "Anticorps anti-AChR", "correct": true},
+        {"text": "EMG répétitif", "correct": true},
+        {"text": "TDM thoracique", "correct": true},
+        {"text": "LCR", "correct": false}
+      ],
+      "explanation": "Test édrophonium, anticorps, EMG et TDM pour thymome."
+    },
+    {
+      "question": "Quel est le traitement de l'oedème cérébral?",
+      "type": "single",
+      "options": [
+        {"text": "Mannitol", "correct": true},
+        {"text": "Diurétiques boucle", "correct": false},
+        {"text": "Anticoagulants", "correct": false},
+        {"text": "Antibiotiques", "correct": false}
+      ],
+      "explanation": "Osmothérapie avec mannitol réduit l'oedème vasogène."
+    },
+    {
+      "question": "Quels sont les signes d'une lésion bulbaire?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dysphonie", "correct": true},
+        {"text": "Dysphagie", "correct": true},
+        {"text": "Atrophie linguale", "correct": true},
+        {"text": "Ptosis", "correct": false},
+        {"text": "Nystagmus", "correct": true}
+      ],
+      "explanation": "Troubles de déglutition, phonation, atrophie et nystagmus dans les lésions bulbaires."
+    },
+    {
+      "question": "Quelle est la cause de la panencéphalite sclérosante subaiguë?",
+      "type": "single",
+      "options": [
+        {"text": "Virus rougeole persistant", "correct": true},
+        {"text": "Rubéole", "correct": false},
+        {"text": "Varicelle", "correct": false},
+        {"text": "HIV", "correct": false}
+      ],
+      "explanation": "PESS due à persistance du virus measles chez immunodéprimés."
+    },
+    {
+      "question": "Quels traitements pour la sclérose en plaques progressive?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ocrelizumab", "correct": true},
+        {"text": "Siponimod", "correct": true},
+        {"text": "Cladribine", "correct": false},
+        {"text": "Interféron", "correct": false},
+        {"text": "Symptomatique", "correct": true}
+      ],
+      "explanation": "Ocrelizumab pour PPMS, siponimod pour SPMS, et gestion symptomatique."
+    },
+    {
+      "question": "Quel est le signe de la radiculopathie S1?",
+      "type": "single",
+      "options": [
+        {"text": "Déficit flexion plantaire", "correct": true},
+        {"text": "Déficit extension orteil", "correct": false},
+        {"text": "Aréflexie rotulienne", "correct": false},
+        {"text": "Paresthésies cuisse", "correct": false}
+      ],
+      "explanation": "Déficit du triceps sural et aréflexie achilléenne dans S1."
+    },
+    {
+      "question": "Quels sont les symptômes de la maladie de Tangier?",
+      "type": "multiple",
+      "options": [
+        {"text": "Amygdalite orange", "correct": true},
+        {"text": "Neuropathie", "correct": true},
+        {"text": "Hypocholestérolémie", "correct": true},
+        {"text": "Splénomégalie", "correct": true},
+        {"text": "Démence", "correct": false}
+      ],
+      "explanation": "Déficit ABCA1 cause amygdales orange, neuropathie et hypoHDL."
+    },
+    {
+      "question": "Quelle est la localisation dans le syndrome de Capgras?",
+      "type": "single",
+      "options": [
+        {"text": "Déconnexion temporo-limbique", "correct": true},
+        {"text": "Frontal", "correct": false},
+        {"text": "Pariétal", "correct": false},
+        {"text": "Occipital", "correct": false}
+      ],
+      "explanation": "Délire d'illusion des sosies due à déconnexion émotionnelle."
+    },
+    {
+      "question": "Quels examens pour la neuromyelite optique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Anticorps anti-AQP4", "correct": true},
+        {"text": "IRM avec lésions longitudinales", "correct": true},
+        {"text": "Bandes oligoclonales", "correct": false},
+        {"text": "Potentiels évoqués visuels", "correct": true},
+        {"text": "Biopsie", "correct": false}
+      ],
+      "explanation": "AQP4, IRM LETM, PEV pour NMO spectrum disorder."
+    },
+    {
+      "question": "Quel est le traitement de la dystonie généralisée?",
+      "type": "single",
+      "options": [
+        {"text": "Toxine botulique locale", "correct": false},
+        {"text": "DBS pallidale", "correct": true},
+        {"text": "Baclofène", "correct": false},
+        {"text": "Tétrabénazine", "correct": false}
+      ],
+      "explanation": "Stimulation profonde du globus pallidus pour dystonies sévères."
+    },
+    {
+      "question": "Quels sont les signes d'une lésion mésencéphalique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Paralysie oculomotrice", "correct": true},
+        {"text": "Hémiparésie controlatérale", "correct": true},
+        {"text": "Ataxie", "correct": true},
+        {"text": "Syndrome de Weber", "correct": true},
+        {"text": "Dysphagie", "correct": false}
+      ],
+      "explanation": "Oculomotricité, hémiparésie et ataxie dans les syndromes pédonculaires."
+    },
+    {
+      "question": "Quelle est la cause de la neuropathie paraxanéoplasique?",
+      "type": "single",
+      "options": [
+        {"text": "Anticorps onconeuraux", "correct": true},
+        {"text": "Chimiothérapie", "correct": false},
+        {"text": "Radiation", "correct": false},
+        {"text": "Infection", "correct": false}
+      ],
+      "explanation": "Anticorps anti-Hu, anti-Yo dans cancers sous-jacents."
+    },
+    {
+      "question": "Quels traitements pour l'astrocytome pilocytique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Résection complète", "correct": true},
+        {"text": "Radiothérapie adjuvante", "correct": true},
+        {"text": "Chimiothérapie", "correct": false},
+        {"text": "Observation postop", "correct": true},
+        {"text": "Immunothérapie", "correct": false}
+      ],
+      "explanation": "Chirurgie curative, radio si résiduel, observation si total."
+    },
+    {
+      "question": "Quel est le signe de la lésion du nerf péronier?",
+      "type": "single",
+      "options": [
+        {"text": "Step page", "correct": true},
+        {"text": "Griffe", "correct": false},
+        {"text": "Main bénédiction", "correct": false},
+        {"text": "Déficit abduction", "correct": false}
+      ],
+      "explanation": "Parésie des releveurs du pied cause steppage."
+    },
+    {
+      "question": "Quels sont les symptômes de la leucodystrophie métachromatique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Déclin cognitif", "correct": true},
+        {"text": "Spasticité", "correct": true},
+        {"text": "Neuropathie", "correct": true},
+        {"text": "Ataxie", "correct": true},
+        {"text": "Épilepsie", "correct": false}
+      ],
+      "explanation": "Déficit arylsulfatase A cause démyélinisation centrale et périphérique."
+    },
+    {
+      "question": "Quelle est la localisation dans le syndrome de Fregoli?",
+      "type": "single",
+      "options": [
+        {"text": "Déconnexion temporo-limbique", "correct": true},
+        {"text": "Pariétal droit", "correct": false},
+        {"text": "Frontal", "correct": false},
+        {"text": "Occipital", "correct": false}
+      ],
+      "explanation": "Délire de persécution avec sosies."
+    },
+    {
+      "question": "Quels examens pour la myélopathie vacuolaire?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dosage vitamine B12", "correct": true},
+        {"text": "IRM médullaire hypersignal T2", "correct": true},
+        {"text": "EMG", "correct": true},
+        {"text": "Anticorps anti-IF", "correct": true},
+        {"text": "Biopsie gastrique", "correct": false}
+      ],
+      "explanation": "B12 basse, IRM, EMG et anticorps pour carence B12."
+    },
+    {
+      "question": "Quel est le traitement de l'akinésie pure?",
+      "type": "single",
+      "options": [
+        {"text": "Lévodopa", "correct": true},
+        {"text": "Anticholinergiques", "correct": false},
+        {"text": "DBS", "correct": false},
+        {"text": "Physiothérapie", "correct": false}
+      ],
+      "explanation": "Réponse à lévodopa dans les formes parkinsoniennes."
+    },
+    {
+      "question": "Quels sont les signes d'une lésion pontine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Paralysie faciale", "correct": true},
+        {"text": "Hémiparésie", "correct": true},
+        {"text": "Ataxie", "correct": true},
+        {"text": "Syndrome locked-in", "correct": true},
+        {"text": "Ptosis", "correct": false}
+      ],
+      "explanation": "Faciale, hémiparésie, ataxie et locked-in dans occlusions basilaires."
+    },
+    {
+      "question": "Quelle est la cause de la neuropathie critique?",
+      "type": "single",
+      "options": [
+        {"text": "Sepsis en réanimation", "correct": true},
+        {"text": "Diabète", "correct": false},
+        {"text": "Alcool", "correct": false},
+        {"text": "Médicaments", "correct": false}
+      ],
+      "explanation": "CIP chez patients septiques prolongés en ICU."
+    },
+    {
+      "question": "Quels traitements pour l'épendymome?",
+      "type": "multiple",
+      "options": [
+        {"text": "Chirurgie", "correct": true},
+        {"text": "Radiothérapie", "correct": true},
+        {"text": "Chimiothérapie", "correct": true},
+        {"text": "Observation", "correct": false},
+        {"text": "Dérivation", "correct": true}
+      ],
+      "explanation": "Résection, radio, chimio et dérivation pour hydrocéphalie."
+    },
+    {
+      "question": "Quel est le signe de la radiculopathie C7?",
+      "type": "single",
+      "options": [
+        {"text": "Déficit triceps", "correct": true},
+        {"text": "Déficit biceps", "correct": false},
+        {"text": "Paresthésies index", "correct": false},
+        {"text": "Aréflexie stylo-radiale", "correct": false}
+      ],
+      "explanation": "Déficit extension coude et aréflexie tricipitale."
+    },
+    {
+      "question": "Quels sont les symptômes de la maladie de Krabbe?",
+      "type": "multiple",
+      "options": [
+        {"text": "Irritabilité", "correct": true},
+        {"text": "Spasticité", "correct": true},
+        {"text": "Démyélinisation", "correct": true},
+        {"text": "Neuropathie", "correct": true},
+        {"text": "Retard de croissance", "correct": false}
+      ],
+      "explanation": "Déficit galactocérébrosidase cause leucodystrophie globoïde."
+    },
+    {
+      "question": "Quelle est la localisation dans le syndrome de Cotard?",
+      "type": "single",
+      "options": [
+        {"text": "Dépression avec délire nihiliste", "correct": true},
+        {"text": "Temporal", "correct": false},
+        {"text": "Frontal", "correct": false},
+        {"text": "Pariétal", "correct": false}
+      ],
+      "explanation": "Délire de négation d'organes ou de soi."
+    },
+    {
+      "question": "Quels examens pour la polyradiculopathie?",
+      "type": "multiple",
+      "options": [
+        {"text": "LCR", "correct": true},
+        {"text": "EMG", "correct": true},
+        {"text": "IRM lombaire", "correct": true},
+        {"text": "Biopsie sural", "correct": true},
+        {"text": "EEG", "correct": false}
+      ],
+      "explanation": "LCR, EMG, IRM et biopsie pour diagnostiquer."
+    },
+    {
+      "question": "Quel est le traitement de la tic douloureux?",
+      "type": "single",
+      "options": [
+        {"text": "Carbamazépine", "correct": true},
+        {"text": "Gabapentine", "correct": false},
+        {"text": "Baclofène", "correct": false},
+        {"text": "Clonazépam", "correct": false}
+      ],
+      "explanation": "Carbamazépine est première ligne pour névralgie trigéminale."
+    },
+    {
+      "question": "Quels sont les signes d'une lésion du tronc cérébral?",
+      "type": "multiple",
+      "options": [
+        {"text": "Vertiges", "correct": true},
+        {"text": "Diplopie", "correct": true},
+        {"text": "Dysarthrie", "correct": true},
+        {"text": "Hémiparésie", "correct": true},
+        {"text": "Céphalées", "correct": false}
+      ],
+      "explanation": "Signes croisés et troubles crâniens dans les lésions tronc."
+    },
+    {
+      "question": "Quelle est la cause de la neuropathie tomaculaire?",
+      "type": "single",
+      "options": [
+        {"text": "HNPP génétique", "correct": true},
+        {"text": "Compression", "correct": false},
+        {"text": "Inflammation", "correct": false},
+        {"text": "Toxique", "correct": false}
+      ],
+      "explanation": "Tomacules sur biopsie dans HNPP."
+    },
+    {
+      "question": "Quels traitements pour le neurinome de l'acoustique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Chirurgie", "correct": true},
+        {"text": "Radiothérapie stéréotaxique", "correct": true},
+        {"text": "Observation", "correct": true},
+        {"text": "Chimiothérapie", "correct": false},
+        {"text": "Antibiotiques", "correct": false}
+      ],
+      "explanation": "Microchirurgie, Gamma Knife ou watch and wait."
+    },
+    {
+      "question": "Quel est le signe de la compression du nerf sciatique?",
+      "type": "single",
+      "options": [
+        {"text": "Sciatalgie", "correct": true},
+        {"text": "Cruralgie", "correct": false},
+        {"text": "Déficit quadriceps", "correct": false},
+        {"text": "Aréflexie rotulienne", "correct": false}
+      ],
+      "explanation": "Douleur irradiant dans le territoire sciatique."
+    },
+    {
+      "question": "Quels sont les symptômes de la maladie de Canavan?",
+      "type": "multiple",
+      "options": [
+        {"text": "Macrocrânie", "correct": true},
+        {"text": "Hypotonie", "correct": true},
+        {"text": "Retard développement", "correct": true},
+        {"text": "Spasticité", "correct": true},
+        {"text": "Épilepsie", "correct": true}
+      ],
+      "explanation": "Déficit aspartoacylase cause leucodystrophie spongieuse."
+    },
+    {
+      "question": "Quelle est la localisation dans le syndrome de Reduplicative paramnesia?",
+      "type": "single",
+      "options": [
+        {"text": "Pariétal droit", "correct": true},
+        {"text": "Temporal", "correct": false},
+        {"text": "Frontal", "correct": false},
+        {"text": "Occipital", "correct": false}
+      ],
+      "explanation": "Délire de duplication des lieux."
+    },
+    {
+      "question": "Quels examens pour la neuropathie autonomique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Tests autonomiques", "correct": true},
+        {"text": "EMG", "correct": true},
+        {"text": "Biopsie cutanée", "correct": true},
+        {"text": "IRM", "correct": false},
+        {"text": "LCR", "correct": false}
+      ],
+      "explanation": "Tests RR, sudation, biopsie pour fibres petites."
+    },
+    {
+      "question": "Quel est le traitement de la ballisme?",
+      "type": "single",
+      "options": [
+        {"text": "Tétrabénazine", "correct": true},
+        {"text": "Lévodopa", "correct": false},
+        {"text": "Carbamazépine", "correct": false},
+        {"text": "Propranolol", "correct": false}
+      ],
+      "explanation": "Dépléteurs dopaminergiques comme tétrabénazine."
+    },
+    {
+      "question": "Quels sont les signes d'une lésion du lobe occipital?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hémianopsie homonyme", "correct": true},
+        {"text": "Hallucinations visuelles", "correct": true},
+        {"text": "Agnosie visuelle", "correct": true},
+        {"text": "Prosopagnosie", "correct": false},
+        {"text": "Achromatopsie", "correct": true}
+      ],
+      "explanation": "Déficits champs visuels, hallucinations et agnosies visuelles."
+    },
+    {
+      "question": "Quelle est la cause de la myopathie nemaline?",
+      "type": "single",
+      "options": [
+        {"text": "Mutation actine", "correct": true},
+        {"text": "Inflammation", "correct": false},
+        {"text": "Toxique", "correct": false},
+        {"text": "Métabolique", "correct": false}
+      ],
+      "explanation": "Nemalines sur biopsie dans myopathies congénitales."
+    },
+    {
+      "question": "Quels traitements pour la maladie de Lyme neurologique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ceftriaxone", "correct": true},
+        {"text": "Doxycycline", "correct": true},
+        {"text": "Amoxicilline", "correct": false},
+        {"text": "Corticostéroïdes", "correct": false},
+        {"text": "IVIG", "correct": false}
+      ],
+      "explanation": "Antibiotiques IV pour neuroborréliose."
+    },
+    {
+      "question": "Quel est le signe de la compression du nerf fémoral?",
+      "type": "single",
+      "options": [
+        {"text": "Cruralgie", "correct": true},
+        {"text": "Sciatalgie", "correct": false},
+        {"text": "Déficit triceps sural", "correct": false},
+        {"text": "Aréflexie achilléenne", "correct": false}
+      ],
+      "explanation": "Douleur antéro-interne cuisse et déficit quadriceps."
+    },
+    {
+      "question": "Quels sont les symptômes de la maladie d'Alexander?",
+      "type": "multiple",
+      "options": [
+        {"text": "Macrocrânie", "correct": true},
+        {"text": "Spasticité", "correct": true},
+        {"text": "Ataxie", "correct": true},
+        {"text": "Épilepsie", "correct": true},
+        {"text": "Retard", "correct": true}
+      ],
+      "explanation": "Mutation GFAP cause leucodystrophie rosenthal."
+    },
+    {
+      "question": "Quelle est la localisation dans le syndrome de Charles Bonnet?",
+      "type": "single",
+      "options": [
+        {"text": "Voies visuelles périphériques", "correct": true},
+        {"text": "Cortex occipital", "correct": false},
+        {"text": "Temporal", "correct": false},
+        {"text": "Frontal", "correct": false}
+      ],
+      "explanation": "Hallucinations visuelles complexes chez malvoyants."
+    },
+    {
+      "question": "Quels examens pour la myopathie mitochondriale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Biopsie musculaire ragged red", "correct": true},
+        {"text": "Dosage lactates", "correct": true},
+        {"text": "Génétique mtDNA", "correct": true},
+        {"text": "EMG", "correct": true},
+        {"text": "IRM", "correct": false}
+      ],
+      "explanation": "Ragged red fibers, hyperlactatémie, mutations mtDNA."
+    },
+    {
+      "question": "Quel est le traitement de l'athétose?",
+      "type": "single",
+      "options": [
+        {"text": "Antidopaminergiques", "correct": true},
+        {"text": "Lévodopa", "correct": false},
+        {"text": "Baclofène", "correct": false},
+        {"text": "Clonazépam", "correct": false}
+      ],
+      "explanation": "Blocage dopaminergique pour mouvements lents."
+    },
+    {
+      "question": "Quels sont les signes d'une lésion du lobe temporal?",
+      "type": "multiple",
+      "options": [
+        {"text": "Aphasie de Wernicke", "correct": true},
+        {"text": "Quadrantanopsie supérieure", "correct": true},
+        {"text": "Hallucinations auditives", "correct": true},
+        {"text": "Agnosie olfactive", "correct": true},
+        {"text": "Apraxie", "correct": false}
+      ],
+      "explanation": "Aphasie fluente, déficits champs, hallucinations sensorielles."
+    },
+    {
+      "question": "Quelle est la cause de la myopathie centronucléaire?",
+      "type": "single",
+      "options": [
+        {"text": "Mutation DNM2", "correct": true},
+        {"text": "Inflammatoire", "correct": false},
+        {"text": "Métabolique", "correct": false},
+        {"text": "Toxique", "correct": false}
+      ],
+      "explanation": "Noyaux centraux sur biopsie dans myopathies congénitales."
+    },
+    {
+      "question": "Quels traitements pour l'encéphalite anti-NMDA?",
+      "type": "multiple",
+      "options": [
+        {"text": "Immunosuppresseurs", "correct": true},
+        {"text": "IVIG", "correct": true},
+        {"text": "Plasmaphérèse", "correct": true},
+        {"text": "Rituximab", "correct": true},
+        {"text": "Antibiotiques", "correct": false}
+      ],
+      "explanation": "Immunothérapie pour encéphalite paraneoplasique."
+    },
+    {
+      "question": "Quel est le signe de la compression du nerf tibial?",
+      "type": "single",
+      "options": [
+        {"text": "Syndrome du tunnel tarsien", "correct": true},
+        {"text": "Step page", "correct": false},
+        {"text": "Griffe", "correct": false},
+        {"text": "Déficit releveur", "correct": false}
+      ],
+      "explanation": "Paresthésies plantaires dans tunnel tarsien."
+    },
+    {
+      "question": "Quels sont les symptômes de la maladie de Pelizaeus-Merzbacher?",
+      "type": "multiple",
+      "options": [
+        {"text": "Nystagmus", "correct": true},
+        {"text": "Spasticité", "correct": true},
+        {"text": "Ataxie", "correct": true},
+        {"text": "Retard", "correct": true},
+        {"text": "Neuropathie", "correct": false}
+      ],
+      "explanation": "Mutation PLP1 cause hypomyélinisation."
+    },
+    {
+      "question": "Quelle est la localisation dans le syndrome de Alice au pays des merveilles?",
+      "type": "single",
+      "options": [
+        {"text": "Pariétal ou temporal", "correct": true},
+        {"text": "Frontal", "correct": false},
+        {"text": "Occipital", "correct": false},
+        {"text": "Tronc", "correct": false}
+      ],
+      "explanation": "Distorsions perceptuelles corporelles ou visuelles."
+    },
+    {
+      "question": "Quels examens pour la dystrophie facio-scapulo-humérale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Test génétique D4Z4", "correct": true},
+        {"text": "EMG", "correct": true},
+        {"text": "Biopsie", "correct": true},
+        {"text": "CK", "correct": true},
+        {"text": "IRM", "correct": false}
+      ],
+      "explanation": "Contraction D4Z4, EMG myopathique, biopsie, CK modérée."
     }
   ],
   "clinical_cases": [
     {
-      "title": "Déficit neurologique brutal",
+      "title": "Accident vasculaire cérébral ischémique chez un jeune adulte",
       "difficulty": "Avancé",
       "steps": [
         {
-          "title": "Appel SAMU",
-          "content": "Madame P., 72 ans, HTA traitée, appelle le SAMU pour un déficit brutal du bras et de la jambe droits apparus il y a 2 heures. Elle présente des difficultés d'élocution.",
+          "title": "Présentation initiale",
+          "content": "Madame L., 35 ans, sans antécédents, présente une hémiplégie droite brutale avec aphasie, survenue il y a 2 heures. TA 140/80 mmHg, FC 90/min, glycémie normale.",
           "type": "multiple_choice",
           "question": "Quelle est votre première action?",
-          "options": ["Conseiller de consulter son médecin", "Orienter vers une consultation spécialisée", "Déclencher une équipe mobile AVC", "Programmer un scanner pour le lendemain"],
-          "correct_answer": "Déclencher une équipe mobile AVC",
-          "explanation": "Tout déficit neurologique brutal doit faire suspecter un AVC et déclencher la filière AVC en urgence."
+          "options": ["IRM en urgence", "Thrombolyse IV", "Évaluation NIHSS", "Appel neuroradiologue"],
+          "correct_answer": "Évaluation NIHSS",
+          "explanation": "L'évaluation du score NIHSS est prioritaire pour quantifier la gravité et guider la thérapeutique."
         },
         {
-          "title": "Arrivée aux urgences",
-          "content": "NIHSS à 12 (aphasie, hémiparésie droite). Délai depuis le début des symptômes : 2h30. Pas de contre-indication à la thrombolyse.",
+          "title": "Bilan initial",
+          "content": "TDM cérébrale normale, pas d'hémorragie. ECG sinusal, pas de trouble du rythme.",
           "type": "multiple",
-          "question": "Quelles actions thérapeutiques envisagez-vous?",
-          "options": ["Thrombolyse IV", "Thrombectomie mécanique", "Aspirine", "Héparine", "Imagerie vasculaire en urgence"],
-          "correct_options": ["Thrombolyse IV", "Thrombectomie mécanique", "Imagerie vasculaire en urgence"],
-          "explanation": "Dans la fenêtre thérapeutique, la thrombolyse IV et/ou la thrombectomie mécanique sont indiquées après imagerie."
+          "question": "Quels examens complémentaires demandez-vous?",
+          "options": ["IRM-ARM", "Écho-Doppler cervical", "Holter ECG", "Échographie cardiaque", "Bilan coag"],
+          "correct_options": ["IRM-ARM", "Écho-Doppler cervical", "Holter ECG", "Échographie cardiaque"],
+          "explanation": "IRM pour confirmer ischémie, Doppler pour dissection, Holter et écho pour source cardio-embolique."
         },
         {
-          "title": "Bilan étiologique",
-          "content": "Le scanner cérébral sans injection est normal. L'angio-scanner montre une occlusion de l'artère cérébrale moyenne gauche.",
+          "title": "Prise en charge thérapeutique",
+          "content": "IRM montre occlusion M1 droite, fenêtre thrombolytique ouverte.",
           "type": "multiple_choice",
-          "question": "Quel est le mécanisme le plus probable?",
-          "options": ["Cardio-embolique", "Athérothrombotique", "Lacunaire", "Dissection"],
-          "correct_answer": "Cardio-embolique",
-          "explanation": "L'occlusion d'un gros tronc artériel chez une patiente âgée avec HTA évoque une origine cardio-embolique (FA notamment)."
+          "question": "Quel geste réalisez-vous?",
+          "options": ["Thrombolyse IV seule", "Thrombectomie mécanique", "Aspirine", "Héparine"],
+          "correct_answer": "Thrombectomie mécanique",
+          "explanation": "La thrombectomie est indiquée pour occlusions proximales dans les 6-24h selon critères."
         }
       ],
-      "solution": "**Diagnostic final:** AVC ischémique carotidien gauche par occlusion de l'ACM.\n\n**Prise en charge:** Thrombolyse IV dans la fenêtre thérapeutique, puis thrombectomie mécanique. Bilan étiologique complet.\n\n**Points clés:**\n- Urgence absolue : time is brain\n- NIHSS pour évaluation quantitative\n- Imagerie vasculaire indispensable\n- Recherche systématique de FA"
+      "solution": "**Diagnostic final:** AVC ischémique sylvien droit par dissection carotidienne chez adulte jeune.\n\n**Prise en charge:** Thrombolyse si <4.5h, thrombectomie, antiagrégants secondaires.\n\n**Points clés:**\n- Bilan étiologique exhaustif\n- Prévention récidive par anticoagulants si cardio-embolique\n- Rééducation précoce\n- Surveillance complications"
+    },
+    {
+      "title": "Crise épileptique inaugurale chez l'enfant",
+      "difficulty": "Intermédiaire",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Enfant de 8 ans, sans antécédents, présente une crise tonico-clonique généralisée de 3 minutes, post-critique confuse.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Benzodiazépine IV", "EEG urgent", "TDM cérébrale", "Mise en PLS"],
+          "correct_answer": "Mise en PLS",
+          "explanation": "Sécurisation des voies aériennes et position latérale de sécurité en post-critique."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Examen neurologique normal, pas de fièvre, glycémie normale.",
+          "type": "multiple",
+          "question": "Quels examens demandez-vous?",
+          "options": ["EEG", "IRM cérébrale", "Ponction lombaire", "Bilan sanguin", "Toxicologie"],
+          "correct_options": ["EEG", "IRM cérébrale", "Bilan sanguin"],
+          "explanation": "EEG pour type de crise, IRM pour lésion structurale, bilan pour métabolique."
+        },
+        {
+          "title": "Prise en charge",
+          "content": "EEG montre pointes rolandiques, compatible avec épilepsie rolandique bénigne.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["Valproate", "Carbamazépine", "Observation", "Levetiracetam"],
+          "correct_answer": "Observation",
+          "explanation": "L'épilepsie rolandique bénigne souvent ne nécessite pas de traitement si crises rares."
+        }
+      ],
+      "solution": "**Diagnostic final:** Épilepsie rolandique bénigne de l'enfant.\n\n**Prise en charge:** Observation, éducation parentale, traitement si récurrent.\n\n**Points clés:**\n- Pronostic favorable, rémission à l'adolescence\n- Éviter triggers comme sommeil\n- Suivi EEG\n- Différentiel avec lésions focales"
+    },
+    {
+      "title": "Démence rapidly progressive chez l'âgé",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Homme de 72 ans présente déclin cognitif rapide sur 3 mois, avec myoclonies et ataxie.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["IRM cérébrale", "EEG", "Ponction lombaire", "Test cognitif"],
+          "correct_answer": "Test cognitif",
+          "explanation": "Évaluation cognitive comme MMSE pour quantifier le déclin."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "MMSE 18/30, ataxie à la marche, myoclonies aux stimuli.",
+          "type": "multiple",
+          "question": "Quels examens complémentaires?",
+          "options": ["EEG", "IRM DWI", "LCR 14-3-3", "Biopsie cérébrale", "PET amyloïde"],
+          "correct_options": ["EEG", "IRM DWI", "LCR 14-3-3"],
+          "explanation": "EEG pour complexes périodiques, IRM pour ruban cortical, LCR pour marqueurs prions."
+        },
+        {
+          "title": "Prise en charge",
+          "content": "EEG montre triphasiques périodiques, IRM hypersignal cortical, 14-3-3 positif.",
+          "type": "multiple_choice",
+          "question": "Quel diagnostic posez-vous?",
+          "options": ["Alzheimer", "Creutzfeldt-Jakob", "Vascularite", "Encéphalite"],
+          "correct_answer": "Creutzfeldt-Jakob",
+          "explanation": "La MCJ sporadique se manifeste par démence rapide, myoclonies et signes EEG/IRM caractéristiques."
+        }
+      ],
+      "solution": "**Diagnostic final:** Maladie de Creutzfeldt-Jakob sporadique.\n\n**Prise en charge:** Symptomatique, isolation précautions prions, soutien palliatif.\n\n**Points clés:**\n- Progression fatale en mois\n- Diagnostic probabiliste sans biopsie\n- Exclusion autres causes traitables\n- Conseil génétique si familial"
+    },
+    {
+      "title": "Neuropathie périphérique subaiguë",
+      "difficulty": "Intermédiaire",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Femme de 50 ans, diabétique, présente paresthésies distales ascendantes sur 2 semaines, avec aréflexie.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["EMG", "Bilan sanguin", "IRM médullaire", "Examen clinique détaillé"],
+          "correct_answer": "Examen clinique détaillé",
+          "explanation": "Évaluation du type de neuropathie: sensitive, motrice, autonome."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Déficit sensitivo-moteur distal symétrique, aréflexie globale.",
+          "type": "multiple",
+          "question": "Quels examens demandez-vous?",
+          "options": ["EMG/VCN", "Bilan vitaminique", "Électrophorèse protéines", "Anticorps anti-gangliosides", "Biopsie nerveuse"],
+          "correct_options": ["EMG/VCN", "Bilan vitaminique", "Électrophorèse protéines"],
+          "explanation": "EMG pour axonale vs démyélinisante, bilan pour causes métaboliques, protéinogramme pour dysglobulinémie."
+        },
+        {
+          "title": "Prise en charge",
+          "content": "EMG montre démyélinisation segmentaire, LCR dissociation albumino-cytologique.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous?",
+          "options": ["IVIG", "Plasmaphérèse", "Corticostéroïdes", "Gabapentine"],
+          "correct_answer": "IVIG",
+          "explanation": "Les immunoglobulines IV sont traitement de première ligne pour Guillain-Barré."
+        }
+      ],
+      "solution": "**Diagnostic final:** Syndrome de Guillain-Barré aigu.\n\n**Prise en charge:** IVIG ou plasmaphérèse, surveillance respiratoire, rééducation.\n\n**Points clés:**\n- Post-infectieux souvent\n- Risque insuffisance respiratoire\n- Bon pronostic si traité tôt\n- Différentiel avec CIDP"
+    },
+    {
+      "title": "Migraine chronique réfractaire",
+      "difficulty": "Débutant",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Homme de 40 ans avec migraines quotidiennes depuis 6 mois, résistantes aux triptans.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action?",
+          "options": ["Journal des crises", "IRM cérébrale", "Traitement prophylactique", "Analgésiques"],
+          "correct_answer": "Journal des crises",
+          "explanation": "Identification des triggers via journal pour gestion non pharmacologique."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Pas de signes focaux, fond d'œil normal, surconsommation analgésiques.",
+          "type": "multiple",
+          "question": "Quels examens demandez-vous?",
+          "options": ["IRM", "EEG", "Bilan sanguin", "Consult ophtalmo", "Holter TA"],
+          "correct_options": ["IRM", "Bilan sanguin"],
+          "explanation": "IRM pour exclure secondaire, bilan pour comorbidités."
+        },
+        {
+          "title": "Prise en charge",
+          "content": "Diagnostic de migraine chronique avec abus médicamenteux.",
+          "type": "multiple_choice",
+          "question": "Quel traitement proposez-vous?",
+          "options": ["Topiramate", "Botox", "Propranolol", "Amitriptyline"],
+          "correct_answer": "Botox",
+          "explanation": "Injections de toxine botulique pour migraine chronique réfractaire."
+        }
+      ],
+      "solution": "**Diagnostic final:** Migraine chronique avec surconsommation analgésique.\n\n**Prise en charge:** Sevrage analgésiques, prophylaxie (bêta-bloquants, antiépileptiques), botox si >15j/mois.\n\n**Points clés:**\n- Éducation patient\n- Gestion triggers\n- Suivi fréquence crises\n- Risque transformation"
     }
   ]
 }

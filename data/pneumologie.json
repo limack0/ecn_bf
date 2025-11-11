@@ -1,86 +1,406 @@
 {
   "quizzes": [
     {
-      "question": "Quel est le traitement de première intention de la crise d'asthme aiguë grave?",
+      "question": "Quelle est la principale cause de la bronchopneumopathie chronique obstructive (BPCO) ?",
       "type": "single",
       "options": [
-        {"text": "Corticoïdes intraveineux", "correct": false},
-        {"text": "Bronchodilatateurs en nébulisation", "correct": true},
-        {"text": "Antibiotiques", "correct": false},
-        {"text": "Oxygénothérapie seule", "correct": false}
+        {"text": "Tabagisme", "correct": true},
+        {"text": "Pollution atmosphérique", "correct": false},
+        {"text": "Facteurs génétiques", "correct": false},
+        {"text": "Infections respiratoires récurrentes", "correct": false}
       ],
-      "explanation": "Les bronchodilatateurs bêta-2 agonistes en nébulisation sont le traitement de première intention de la crise d'asthme."
+      "explanation": "Le tabagisme est responsable de 80 à 90 % des cas de BPCO, par altération des voies aériennes et destruction alvéolaire."
     },
     {
-      "question": "Quels sont les critères d'hospitalisation d'une pneumopathie communautaire?",
+      "question": "Quels sont les critères de gravité de la pneumonie communautaire selon le score CURB-65 ?",
       "type": "multiple",
       "options": [
-        {"text": "Fréquence respiratoire > 30/min", "correct": true},
-        {"text": "Pression artérielle systolique < 90 mmHg", "correct": true},
         {"text": "Confusion", "correct": true},
-        {"text": "Fièvre > 38.5°C", "correct": false},
-        {"text": "Âge > 65 ans", "correct": true}
+        {"text": "Uurée > 7 mmol/L", "correct": true},
+        {"text": "Fréquence respiratoire ≥ 30/min", "correct": true},
+        {"text": "Tension artérielle systolique < 90 mmHg", "correct": true},
+        {"text": "Âge ≥ 65 ans", "correct": true}
       ],
-      "explanation": "Les critères de CURB-65 incluent confusion, urée élevée, fréquence respiratoire, pression artérielle basse et âge > 65 ans."
+      "explanation": "Le score CURB-65 évalue la gravité de la pneumonie et guide l'hospitalisation ; chaque critère vaut 1 point."
     },
     {
-      "question": "Quelle est la cause la plus fréquente d'hémoptysie abondante?",
+      "question": "Quelle est la bactérie la plus fréquente dans les pneumonies communautaires de l'adulte ?",
       "type": "single",
       "options": [
-        {"text": "Cancer bronchique", "correct": false},
-        {"text": "Bronchectasies", "correct": true},
-        {"text": "Tuberculose", "correct": false},
-        {"text": "Embolie pulmonaire", "correct": false}
+        {"text": "Streptococcus pneumoniae", "correct": true},
+        {"text": "Haemophilus influenzae", "correct": false},
+        {"text": "Mycoplasma pneumoniae", "correct": false},
+        {"text": "Legionella pneumophila", "correct": false}
       ],
-      "explanation": "Les bronchectasies sont la cause la plus fréquente d'hémoptysie abondante dans les pays développés."
+      "explanation": "Streptococcus pneumoniae est l'agent pathogène le plus courant dans les pneumonies communautaires, responsable de 30 à 50 % des cas."
     },
     {
-      "question": "Quels examens sont indispensables au diagnostic de BPCO?",
+      "question": "Quels signes cliniques évoquent un embolisme pulmonaire ?",
       "type": "multiple",
       "options": [
-        {"text": "Spirométrie", "correct": true},
-        {"text": "Radiographie thoracique", "correct": false},
-        {"text": "Gaz du sang artériel", "correct": false},
-        {"text": "Test de réversibilité aux bronchodilatateurs", "correct": true},
-        {"text": "Scanner thoracique", "correct": false}
+        {"text": "Dyspnée brutale", "correct": true},
+        {"text": "Tachycardie", "correct": true},
+        {"text": "Hémoptysie", "correct": true},
+        {"text": "Douleur thoracique pleurétique", "correct": true},
+        {"text": "Fièvre élevée", "correct": false}
       ],
-      "explanation": "La spirométrie avec test de réversibilité est indispensable au diagnostic de BPCO (rapport VEMS/CV < 0.7)."
+      "explanation": "L'embolie pulmonaire se manifeste par dyspnée, tachycardie, hémoptysie et douleur pleurétique ; la fièvre n'est pas systématique."
+    },
+    {
+      "question": "Quelle est la classification GOLD pour la BPCO modérée ?",
+      "type": "single",
+      "options": [
+        {"text": "VEMS 50-80 % de la valeur théorique", "correct": true},
+        {"text": "VEMS < 30 %", "correct": false},
+        {"text": "VEMS 30-50 %", "correct": false},
+        {"text": "VEMS > 80 %", "correct": false}
+      ],
+      "explanation": "La classification GOLD définit la BPCO modérée par un VEMS post-bronchodilatateur entre 50 et 80 % de la valeur prédite."
+    },
+    {
+      "question": "Quels sont les facteurs de risque de cancer bronchopulmonaire ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Tabagisme", "correct": true},
+        {"text": "Exposition à l'amiante", "correct": true},
+        {"text": "Antécédents familiaux", "correct": true},
+        {"text": "Infection par HPV", "correct": false},
+        {"text": "Radon", "correct": true}
+      ],
+      "explanation": "Le tabagisme est le principal facteur, suivi de l'exposition professionnelle (amiante, radon) et génétique."
+    },
+    {
+      "question": "Quel est le traitement de première intention de l'asthme persistant modéré ?",
+      "type": "single",
+      "options": [
+        {"text": "Corticostéroïdes inhalés + agonistes bêta-2 de longue durée d'action", "correct": true},
+        {"text": "Agonistes bêta-2 de courte durée d'action seuls", "correct": false},
+        {"text": "Antileucotriènes", "correct": false},
+        {"text": "Théophylline", "correct": false}
+      ],
+      "explanation": "Selon les recommandations GINA, l'association CSI + LABA est le traitement de fond pour l'asthme persistant modéré."
+    },
+    {
+      "question": "Quels examens confirment le diagnostic de tuberculose pulmonaire ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Examen direct des crachats (BAAR)", "correct": true},
+        {"text": "Culture mycobactérienne", "correct": true},
+        {"text": "Test interféron gamma (IGRA)", "correct": true},
+        {"text": "Radiographie thoracique", "correct": true},
+        {"text": "Hémoculture", "correct": false}
+      ],
+      "explanation": "Le diagnostic repose sur la microbiologie (BAAR, culture) et l'imagerie ; les IGRA détectent l'infection latente."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente d'épanchement pleural malin ?",
+      "type": "single",
+      "options": [
+        {"text": "Cancer bronchopulmonaire", "correct": true},
+        {"text": "Cancer du sein", "correct": false},
+        {"text": "Lymphome", "correct": false},
+        {"text": "Mésothéliome", "correct": false}
+      ],
+      "explanation": "Le cancer bronchopulmonaire est responsable de 40 % des épanchements pleuraux malins."
+    },
+    {
+      "question": "Quels sont les critères diagnostiques de la fibrose pulmonaire idiopathique ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Aspect en rayon de miel au TDM-HR", "correct": true},
+        {"text": "Traction bronchique", "correct": true},
+        {"text": "Distribution basale et subpleurale", "correct": true},
+        {"text": "Absence d'exposition connue", "correct": true},
+        {"text": "Présence de nodules", "correct": false}
+      ],
+      "explanation": "La FPI se caractérise par un pattern UIP au scanner, avec rayon de miel, traction, sans cause identifiée."
+    },
+    {
+      "question": "Quel est le score utilisé pour évaluer la probabilité d'embolie pulmonaire ?",
+      "type": "single",
+      "options": [
+        {"text": "Score de Wells", "correct": true},
+        {"text": "Score de Geneva", "correct": false},
+        {"text": "Score de CURB-65", "correct": false},
+        {"text": "Score de CHA2DS2-VASc", "correct": false}
+      ],
+      "explanation": "Le score de Wells stratifie la probabilité clinique d'embolie pulmonaire."
+    },
+    {
+      "question": "Quels agents pathogènes sont couverts par l'antibiothérapie empirique en pneumonie nosocomiale ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Pseudomonas aeruginosa", "correct": true},
+        {"text": "Staphylococcus aureus", "correct": true},
+        {"text": "Enterobacteriaceae", "correct": true},
+        {"text": "Streptococcus pneumoniae", "correct": true},
+        {"text": "Mycoplasma pneumoniae", "correct": false}
+      ],
+      "explanation": "L'antibiothérapie cible les germes multirésistants comme P. aeruginosa et S. aureus méticilline-résistant."
+    },
+    {
+      "question": "Quelle est la manifestation extra-pulmonaire la plus fréquente de la sarcoidose ?",
+      "type": "single",
+      "options": [
+        {"text": "Atteinte cutanée (érythème noueux)", "correct": true},
+        {"text": "Atteinte cardiaque", "correct": false},
+        {"text": "Atteinte rénale", "correct": false},
+        {"text": "Atteinte neurologique", "correct": false}
+      ],
+      "explanation": "L'érythème noueux est la manifestation cutanée classique dans la sarcoidose aiguë."
+    },
+    {
+      "question": "Quels sont les traitements de l'exacerbation de BPCO ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Bronchodilatateurs", "correct": true},
+        {"text": "Corticostéroïdes systémiques", "correct": true},
+        {"text": "Antibiotiques si signes infectieux", "correct": true},
+        {"text": "Oxygénothérapie", "correct": true},
+        {"text": "Ventilation invasive d'emblée", "correct": false}
+      ],
+      "explanation": "La prise en charge inclut bronchodilatateurs, corticoides, antibiotiques si nécessaire, et oxygène titré."
+    },
+    {
+      "question": "Quel est le stade TNM pour un cancer pulmonaire limité au poumon sans métastases ?",
+      "type": "single",
+      "options": [
+        {"text": "Stade I", "correct": true},
+        {"text": "Stade II", "correct": false},
+        {"text": "Stade III", "correct": false},
+        {"text": "Stade IV", "correct": false}
+      ],
+      "explanation": "Le stade I correspond à une tumeur localisée sans atteinte ganglionnaire ni métastase."
+    },
+    {
+      "question": "Quels sont les signes radiologiques de la tuberculose pulmonaire ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Cavitation apicale", "correct": true},
+        {"text": "Adénopathies hilaires", "correct": true},
+        {"text": "Infiltrats lobaires", "correct": true},
+        {"text": "Épanchement pleural", "correct": true},
+        {"text": "Nodules centrolobulaires", "correct": false}
+      ],
+      "explanation": "La TB pulmonaire montre cavitations, infiltrats, adénopathies ; les nodules centrolobulaires sont plus pour les bronchiolites."
+    },
+    {
+      "question": "Quelle est la molécule de première ligne dans le traitement de la tuberculose ?",
+      "type": "single",
+      "options": [
+        {"text": "Isoniazide + Rifampicine + Pyrazinamide + Éthambutol", "correct": true},
+        {"text": "Ciprofloxacine", "correct": false},
+        {"text": "Amoxicilline", "correct": false},
+        {"text": "Azithromycine", "correct": false}
+      ],
+      "explanation": "Le quadrithérapie standard est utilisée pour la phase initiale de 2 mois."
+    },
+    {
+      "question": "Quels facteurs prédisposent à l'aspergillose pulmonaire invasive ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Neutropénie prolongée", "correct": true},
+        {"text": "Traitement immunosupresseur", "correct": true},
+        {"text": "Greffe d'organe", "correct": true},
+        {"text": "Diabète", "correct": true},
+        {"text": "Hypertension", "correct": false}
+      ],
+      "explanation": "L'aspergillose invasive survient chez les immunodéprimés avec neutropénie ou corticothérapie prolongée."
+    },
+    {
+      "question": "Quelle est la fonction respiratoire caractéristique de la fibrose pulmonaire ?",
+      "type": "single",
+      "options": [
+        {"text": "Syndrome restrictif", "correct": true},
+        {"text": "Syndrome obstructif", "correct": false},
+        {"text": "Hypercapnie isolée", "correct": false},
+        {"text": "Hypoxémie isolée", "correct": false}
+      ],
+      "explanation": "La fibrose entraîne une restriction avec réduction de la CV et CPT, et altération de la DLCO."
+    },
+    {
+      "question": "Quels sont les critères de sevrage tabagique dans la BPCO ?",
+      "type": "multiple",
+      "options": [
+        {"text": "Thérapies de remplacement nicotinique", "correct": true},
+        {"text": "Varenicline", "correct": true},
+        {"text": "Bupropion", "correct": true},
+        {"text": "Soutien psychologique", "correct": true},
+        {"text": "Antibiotiques", "correct": false}
+      ],
+      "explanation": "Le sevrage tabagique combine pharmacothérapie et soutien comportemental."
     }
   ],
   "clinical_cases": [
     {
-      "title": "Dyspnée aiguë chez un fumeur",
+      "title": "Embolie pulmonaire chez une patiente post-opératoire",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Madame L., 45 ans, opérée d'une hystérectomie il y a 5 jours, se présente aux urgences pour dyspnée brutale, douleur thoracique droite et tachycardie à 110/min. TA 110/70 mmHg, SaO2 92% en air ambiant.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action ?",
+          "options": ["Mise en condition et oxygénothérapie", "Scanner thoracique immediat", "Traitement anticoagulante d'emblée", "Appel du cardiologue"],
+          "correct_answer": "Mise en condition et oxygénothérapie",
+          "explanation": "La priorité est la stabilisation hémodynamique et respiratoire avec oxygène et surveillance."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "D-dimères élevés à 2500 ng/mL, ECG avec tachycardie sinusale, gaz du sang : hypoxémie avec PaO2 65 mmHg.",
+          "type": "multiple",
+          "question": "Quels examens complémentaires demandez-vous ?",
+          "options": ["Angioscanner pulmonaire", "Échographie veineuse des membres inférieurs", "Dosage des troponines", "Radiographie thoracique", "IRM cardiaque"],
+          "correct_options": ["Angioscanner pulmonaire", "Échographie veineuse des membres inférieurs", "Dosage des troponines"],
+          "explanation": "L'angioscanner confirme l'EP, l'écho cherche une TVP, les troponines évaluent l'atteinte cardiaque."
+        },
+        {
+          "title": "Prise en charge thérapeutique",
+          "content": "L'angioscanner montre une embolie pulmonaire bilatérale segmentaire.",
+          "type": "multiple_choice",
+          "question": "Quel traitement instaurez-vous ?",
+          "options": ["Anticoagulants oraux directs", "Héparine de bas poids moléculaire", "Thrombolyse", "Embolectomie"],
+          "correct_answer": "Héparine de bas poids moléculaire",
+          "explanation": "L'HBPM est le traitement initial pour l'EP non massive chez un patient stable."
+        }
+      ],
+      "solution": "**Diagnostic final:** Embolie pulmonaire post-opératoire.\n\n**Prise en charge:** Oxygénothérapie, anticoagulants (HBPM relais AVK ou AOD), prévention des récidives.\n\n**Points clés:**\n- Score de Wells élevé\n- Recherche de facteurs de risque thrombotique\n- Suivi échographique\n- Discussion prophylaxie prolongée"
+    },
+    {
+      "title": "Exacerbation de BPCO infectieuse",
       "difficulty": "Intermédiaire",
       "steps": [
         {
           "title": "Présentation initiale",
-          "content": "Monsieur L., 68 ans, fumeur (40 PA), consulte pour dyspnée aiguë d'aggravation progressive depuis 48 heures. Il présente une toux productive avec expectorations purulentes. Pas de fièvre.",
+          "content": "Monsieur P., 68 ans, BPCO GOLD D, tabagisme sevré, présente dyspnée aggravée, toux productive purulente et fièvre à 38.5°C. FC 100/min, FR 28/min, SaO2 88%.",
           "type": "multiple_choice",
-          "question": "Quel diagnostic évoquez-vous en premier?",
-          "options": ["Exacerbation de BPCO", "Pneumopathie", "Insuffisance cardiaque", "Embolie pulmonaire"],
-          "correct_answer": "Exacerbation de BPCO",
-          "explanation": "Le terrain (fumeur âgé) et les symptômes (dyspnée, expectorations purulentes) sont très évocateurs d'exacerbation de BPCO."
+          "question": "Quelle est votre première action ?",
+          "options": ["Oxygénothérapie titrée", "Antibiothérapie immédiate", "Corticoïdes IV", "Ventilation non invasive"],
+          "correct_answer": "Oxygénothérapie titrée",
+          "explanation": "Maintenir SaO2 entre 88-92% pour éviter l'hyperoxie chez le BPCO."
         },
         {
-          "title": "Examen clinique",
-          "content": "À l'examen : FR 28/min, SpO2 88% air ambiant, sibilants diffus, temps expiratoire prolongé. Pas de crépitants.",
+          "title": "Bilan initial",
+          "content": "Hyperleucocytose à 15 000/mm3, CRP 120 mg/L, gaz du sang : pH 7.32, PaCO2 55 mmHg, PaO2 50 mmHg.",
           "type": "multiple",
-          "question": "Quels traitements initiez-vous en urgence?",
-          "options": ["Oxygénothérapie", "Bronchodilatateurs", "Corticoïdes", "Antibiotiques", "Diurétiques"],
-          "correct_options": ["Oxygénothérapie", "Bronchodilatateurs", "Corticoïdes"],
-          "explanation": "La triade oxygène-bronchodilatateurs-corticoïdes est le traitement de base de l'exacerbation de BPCO."
+          "question": "Quels traitements spécifiques instaurez-vous ?",
+          "options": ["Bronchodilatateurs nébulisés", "Antibiotiques (amoxicilline-acide clavulanique)", "Corticostéroïdes oraux", "Ventilation non invasive", "Diurétiques"],
+          "correct_options": ["Bronchodilatateurs nébulisés", "Antibiotiques (amoxicilline-acide clavulanique)", "Corticostéroïdes oraux", "Ventilation non invasive"],
+          "explanation": "Traitement de l'exacerbation : bronchodilatateurs, antibiotiques si purulence, corticoides, VNI si acidose."
         },
         {
           "title": "Évolution",
-          "content": "Sous traitement, la SpO2 remonte à 92% sous 2L/min. La dyspnée persiste modérée. Les gaz du sang montrent une PaCO2 à 55 mmHg.",
+          "content": "Amélioration sous traitement, normalisation des gaz du sang.",
           "type": "multiple_choice",
-          "question": "Quelle est la conduite à tenir?",
-          "options": ["Ventilation non invasive", "Intubation", "Augmentation de l'oxygène", "Arrêt des corticoïdes"],
-          "correct_answer": "Ventilation non invasive",
-          "explanation": "L'hypercapnie sous traitement médical bien conduit est une indication de ventilation non invasive dans la BPCO."
+          "question": "Quelle mesure de prévention proposez-vous ?",
+          "options": ["Vaccination anti-pneumococcique", "Réhabilitation respiratoire", "Sevrage tabagique si actif", "Oxygénothérapie de longue durée"],
+          "correct_answer": "Vaccination anti-pneumococcique",
+          "explanation": "La vaccination réduit le risque d'exacerbations infectieuses."
         }
       ],
-      "solution": "**Diagnostic final:** Exacerbation sévère de BPCO avec hypercapnie.\n\n**Prise en charge:** Ventilation non invasive, bronchodilatateurs nébulisés, corticoïdes systémiques, oxygénothérapie contrôlée.\n\n**Points clés:**\n- Ne pas sur-oxygéner un BPCO (risque d'hypercapnie)\n- La VNI réduit la mortalité dans les exacerbations sévères\n- Évaluation systématique de la gazométrie"
+      "solution": "**Diagnostic final:** Exacerbation infectieuse de BPCO.\n\n**Prise en charge:** Oxygénothérapie, bronchodilatateurs, antibiotiques, corticoides, VNI si nécessaire.\n\n**Points clés:**\n- Évaluation de la gravité (Anthonisen)\n- Recherche d'insuffisance respiratoire\n- Prévention des récidives\n- Éducation thérapeutique"
+    },
+    {
+      "title": "Pneumonie à coronavirus MERS",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Monsieur R. A., 66 ans, DNID, bronchite chronique, retour de voyage au Qatar et Arabie Saoudite, fièvre à 40°C, toux sèche depuis 5 jours. Hospitalisé en pneumologie puis transféré en réanimation pour IRA.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action ?",
+          "options": ["Isolement et mesures barrières", "Antibiothérapie empirique", "Intubation immédiate", "Scanner thoracique"],
+          "correct_answer": "Isolement et mesures barrières",
+          "explanation": "Suspicion de pathogène émergent nécessite isolation pour prévenir transmission."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Fièvre 38.5°C, FR 40/min, SaO2 80% sous O2, râles diffus, CRP 595 mg/L, hyponatrémie, créatinine 223 μmol/L, gaz du sang : hypoxémie.",
+          "type": "multiple",
+          "question": "Quels examens étiologiques demandez-vous ?",
+          "options": ["PCR pour coronavirus", "Culture des crachats", "Sérologies atypiques", "Mini-LBA", "Échocardiographie"],
+          "correct_options": ["PCR pour coronavirus", "Culture des crachats", "Sérologies atypiques", "Mini-LBA"],
+          "explanation": "Bilan infectieux complet pour identifier l'agent, avec focus sur virus émergents en cas de voyage."
+        },
+        {
+          "title": "Prise en charge",
+          "content": "Diagnostic de MERS-CoV confirmé par PCR, évolution vers SDRA et choc septique.",
+          "type": "multiple_choice",
+          "question": "Quel geste thérapeutique réalisez-vous ?",
+          "options": ["Ventilation protectrice", "Décubitus ventral", "Antibiotiques larges", "Corticoïdes stress dose"],
+          "correct_answer": "Ventilation protectrice",
+          "explanation": "Pour le SDRA, ventilation avec Vt 6 mL/kg, PEEP adaptée."
+        }
+      ],
+      "solution": "**Diagnostic final:** Pneumonie à MERS-CoV avec SDRA.\n\n**Prise en charge:** Support ventilatoire, antibiotiques, mesures de réanimation, isolement.\n\n**Points clés:**\n- Histoire de voyage essentielle\n- Transmission interhumaine possible\n- Mortalité élevée\n- Recherche de contacts"
+    },
+    {
+      "title": "Cancer bronchopulmonaire non à petites cellules",
+      "difficulty": "Avancé",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Monsieur S., 72 ans, tabagisme 50 PA, toux chronique, hémoptysie, amaigrissement 8 kg. Examen : diminution du MV droit.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action ?",
+          "options": ["Radiographie thoracique", "Bronchoscopie", "Dosage des marqueurs tumoraux", "Consultation oncologique"],
+          "correct_answer": "Radiographie thoracique",
+          "explanation": "L'imagerie initiale pour évaluer une masse pulmonaire suspecte."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Radio : masse hilaire droite, TDM : tumeur lobaire supérieure droite, adénopathies médiastinales.",
+          "type": "multiple",
+          "question": "Quels examens pour stadification ?",
+          "options": ["PET-scan", "Biopsie bronchique", "Médiastinoscopie", "IRM cérébrale", "Scintigraphie osseuse"],
+          "correct_options": ["PET-scan", "Biopsie bronchique", "Médiastinoscopie"],
+          "explanation": "PET pour métastases, biopsie pour histologie, médiastinoscopie pour N."
+        },
+        {
+          "title": "Prise en charge",
+          "content": "Adénocarcinome stade IIIA.",
+          "type": "multiple_choice",
+          "question": "Quel traitement proposez-vous ?",
+          "options": ["Chimiothérapie néoadjuvante + chirurgie", "Radiothérapie seule", "Immunothérapie", "Chirurgie d'emblée"],
+          "correct_answer": "Chimiothérapie néoadjuvante + chirurgie",
+          "explanation": "Pour stade IIIA, approche multimodale avec chimio puis résection si réponse."
+        }
+      ],
+      "solution": "**Diagnostic final:** Cancer bronchopulmonaire non à petites cellules stade IIIA.\n\n**Prise en charge:** Stadification complète, traitement multimodal (chimio, radio, chirurgie).\n\n**Points clés:**\n- Tabagisme principal facteur\n- Mutation EGFR/ALK pour thérapies ciblées\n- Pronostic selon stade\n- Soutien palliatif"
+    },
+    {
+      "title": "Tuberculose pulmonaire cavitaire",
+      "difficulty": "Intermédiaire",
+      "steps": [
+        {
+          "title": "Présentation initiale",
+          "content": "Madame T., 35 ans, immigrée, toux chronique, hémoptysie, fièvre vespérale, amaigrissement. Contact TB connu.",
+          "type": "multiple_choice",
+          "question": "Quelle est votre première action ?",
+          "options": ["Isolement respiratoire", "Antituberculeux d'emblée", "Radiographie thoracique", "Test cutané à la tuberculine"],
+          "correct_answer": "Isolement respiratoire",
+          "explanation": "Suspicion de TB contagieuse nécessite isolement jusqu'à négativation des crachats."
+        },
+        {
+          "title": "Bilan initial",
+          "content": "Radio : cavitation apicale gauche, BAAR positif aux crachats.",
+          "type": "multiple",
+          "question": "Quels traitements instaurez-vous ?",
+          "options": ["Isoniazide", "Rifampicine", "Pyrazinamide", "Éthambutol", "Streptomycine"],
+          "correct_options": ["Isoniazide", "Rifampicine", "Pyrazinamide", "Éthambutol"],
+          "explanation": "Quadrithérapie standard pour TB sensible."
+        },
+        {
+          "title": "Suivi",
+          "content": "Culture positive à M. tuberculosis sensible.",
+          "type": "multiple_choice",
+          "question": "Quelle durée de traitement ?",
+          "options": ["6 mois", "9 mois", "12 mois", "3 mois"],
+          "correct_answer": "6 mois",
+          "explanation": "Phase intensive 2 mois, continuation 4 mois pour TB pulmonaire non compliquée."
+        }
+      ],
+      "solution": "**Diagnostic final:** Tuberculose pulmonaire cavitaire.\n\n**Prise en charge:** Isolement, quadrithérapie, suivi microbiologique.\n\n**Points clés:**\n- Contagiosité élevée\n- Recherche de résistances\n- Dépistage des contacts\n- Observance thérapeutique"
     }
   ]
 }
