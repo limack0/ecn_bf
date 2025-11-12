@@ -7,11 +7,11 @@ load_dotenv()
 
 @dataclass
 class DatabaseConfig:
-    host: str = os.getenv("DB_HOST", "ep-aged-mountain-abjlkg92-pooler.eu-west-2.aws.neon.tech")
+    host: str = os.getenv("DB_HOST", "localhost")
     port: str = os.getenv("DB_PORT", "5432")
-    database: str = os.getenv("DB_NAME", "neondb")
-    user: str = os.getenv("DB_USER", "neondb_owner")
-    password: str = os.getenv("DB_PASSWORD", "npg_kMHRaSc1x4oA")
+    database: str = os.getenv("DB_NAME", "ecn_prep_dev")
+    user: str = os.getenv("DB_USER", "postgres")
+    password: str = os.getenv("DB_PASSWORD", "password")
     # Configuration spécifique pour Neon
     sslmode: str = "require"
 
