@@ -1211,38 +1211,41 @@ elif choice == "🏆 Simulations ECN":
                 
                 st.session_state.ecn_answers[current_question_global]['selected'] = selected
             
-            # Navigation entre questions - AVEC GESTION CORRIGÉE
+            # ✅ Navigation entre questions - VERSION STABLE
             st.markdown("---")
             nav_col1, nav_col2, nav_col3 = st.columns([1, 2, 1])
-            
+
+            # ⬅️ Question précédente
             with nav_col1:
                 if current_question_global > 0:
-                    if st.button("⬅️ Précédente", use_container_width=True, key="prev_btn"):
+                    if st.button("⬅️ Précédente", use_container_width=True, key=f"prev_btn_{current_question_global}"):
                         st.session_state.ecn_current_question -= 1
-                        # Mettre à jour la section si nécessaire
                         new_section = st.session_state.ecn_current_question // 30
                         if new_section != current_section:
                             st.session_state.ecn_current_section = new_section
                         st.rerun()
-            
+
+            # 🧭 Sélecteur de question stable
             with nav_col2:
-                # Sélecteur de question avec état préservé
                 question_options = list(range(1, len(session['questions']) + 1))
+
                 selected_q = st.selectbox(
-                    "Aller à la question:", 
-                    question_options, 
+                    "Aller à la question :", 
+                    question_options,
                     index=current_question_global,
                     key=f"question_selector_{st.session_state.ecn_session['id']}"
                 )
-                # Vérifier si la sélection a changé
+
+                # Si changement manuel de question
                 if selected_q - 1 != current_question_global:
                     st.session_state.ecn_current_question = selected_q - 1
                     st.session_state.ecn_current_section = (selected_q - 1) // 30
                     st.rerun()
-            
+
+            # ➡️ Question suivante ou Terminer
             with nav_col3:
                 if current_question_global < len(session['questions']) - 1:
-                    if st.button("Suivante ➡️", use_container_width=True, key="next_btn"):
+                    if st.button("Suivante ➡️", use_container_width=True, key=f"next_btn_{current_question_global}"):
                         st.session_state.ecn_current_question += 1
                         new_section = st.session_state.ecn_current_question // 30
                         if new_section != current_section:
@@ -1252,7 +1255,6 @@ elif choice == "🏆 Simulations ECN":
                     if st.button("✅ Terminer", type="primary", use_container_width=True, key="finish_btn"):
                         st.session_state.ecn_simulation_finished = True
                         st.session_state.ecn_end_time = time.time()
-                        # Calculer les résultats
                         time_taken = st.session_state.ecn_end_time - st.session_state.ecn_start_time
                         results = simulator.calculate_ecn_score(st.session_state.ecn_answers, session['questions'])
                         st.session_state.ecn_results = {
@@ -1262,6 +1264,7 @@ elif choice == "🏆 Simulations ECN":
                             'user_answers': st.session_state.ecn_answers
                         }
                         st.rerun()
+
             
         # Bouton d'abandon
             if st.button("⏹️ Abandonner", type="secondary", use_container_width=True, key="abandon_btn"):
