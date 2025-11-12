@@ -1232,7 +1232,7 @@ elif choice == "🏆 Simulations ECN":
                     "Aller à la question:", 
                     question_options, 
                     index=current_question_global,
-                    key="question_selector"
+                    key=f"question_selector_{st.session_state.ecn_session['id']}"
                 )
                 # Vérifier si la sélection a changé
                 if selected_q - 1 != current_question_global:
