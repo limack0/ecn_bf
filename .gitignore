@@ -1,4 +1,25 @@
+# Fichiers sensibles
+.env
+*.env
+.env.local
+.env.production
 
+# Fichiers de configuration sensibles
+config/secrets.py
+config/credentials.json
 
-#Ignore vscode AI rules
-.github\instructions\codacy.instructions.md
+# Fichiers de base de données locaux
+*.db
+*.sqlite
+*.sqlite3
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
