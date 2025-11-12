@@ -1248,6 +1248,48 @@ elif choice == "🏆 Simulations ECN":
                             'user_answers': st.session_state.ecn_answers
                         }
                         st.rerun()
+            # 🟢 BARRE DE PROGRESSION PAR SECTION
+            st.markdown("---")
+            st.markdown("### 📂 Progression par section")
+
+            section_titles = [
+                "Médecine Interne",
+                "Urgences",
+                "Diagnostic & Thérapeutique",
+                "Situations Complexes"
+            ]
+
+            section_cols = st.columns(4)
+            questions_per_section = 30
+
+            for i, col in enumerate(section_cols):
+                with col:
+                    start = i * questions_per_section
+                    end = min(start + questions_per_section, len(st.session_state.ecn_answers))
+                    answered = sum(1 for ans in st.session_state.ecn_answers[start:end] if ans.get('selected'))
+                    progress = answered / (end - start) if end - start > 0 else 0
+
+                    # Couleur selon progression
+                    if progress == 1:
+                        color = "#198754"  # vert complet
+                    elif progress > 0:
+                        color = "#ffc107"  # jaune partiel
+                    else:
+                        color = "#6c757d"  # gris vide
+
+                    progress_pct = int(progress * 100)
+                    section_label = f"Section {i+1} ({progress_pct}%)"
+
+                    if st.button(section_label, key=f"section_progress_{i}", use_container_width=True):
+                        st.session_state.ecn_current_section = i
+                        st.session_state.ecn_current_question = start
+                        st.rerun()
+
+                    st.markdown(
+                        f"<style>div[data-testid='stButton'][key='section_progress_{i}'] button{{background-color:{color};color:white;border-radius:8px;font-weight:bold;}}</style>",
+                        unsafe_allow_html=True
+                    )
+
 
             # 🧭 NAVIGATION RAPIDE PAR GRILLE
             st.markdown("---")
