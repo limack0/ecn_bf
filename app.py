@@ -1212,8 +1212,9 @@ elif choice == "🏆 Simulations ECN":
                 st.session_state.ecn_answers[current_question_global]['selected'] = selected
             
             # ✅ Navigation entre questions - VERSION STABLE
+            # ✅ Navigation entre questions - VERSION GRILLE COMPACTE
             st.markdown("---")
-            nav_col1, nav_col2, nav_col3 = st.columns([1, 2, 1])
+            nav_col1, nav_col3 = st.columns([1, 1])
 
             # ⬅️ Question précédente
             with nav_col1:
@@ -1224,23 +1225,6 @@ elif choice == "🏆 Simulations ECN":
                         if new_section != current_section:
                             st.session_state.ecn_current_section = new_section
                         st.rerun()
-
-            # 🧭 Sélecteur de question stable
-            with nav_col2:
-                question_options = list(range(1, len(session['questions']) + 1))
-
-                selected_q = st.selectbox(
-                    "Aller à la question :", 
-                    question_options,
-                    index=current_question_global,
-                    key=f"question_selector_{st.session_state.ecn_session['id']}"
-                )
-
-                # Si changement manuel de question
-                if selected_q - 1 != current_question_global:
-                    st.session_state.ecn_current_question = selected_q - 1
-                    st.session_state.ecn_current_section = (selected_q - 1) // 30
-                    st.rerun()
 
             # ➡️ Question suivante ou Terminer
             with nav_col3:
@@ -1264,6 +1248,41 @@ elif choice == "🏆 Simulations ECN":
                             'user_answers': st.session_state.ecn_answers
                         }
                         st.rerun()
+
+            # 🧭 NAVIGATION RAPIDE PAR GRILLE
+            st.markdown("---")
+            st.markdown("### 🧭 Navigation rapide")
+
+            total_questions = len(session['questions'])
+            cols_per_row = 10  # 10 boutons par ligne
+            rows = (total_questions // cols_per_row) + (1 if total_questions % cols_per_row != 0 else 0)
+
+            for row in range(rows):
+                cols = st.columns(cols_per_row)
+                for col_idx, col in enumerate(cols):
+                    q_index = row * cols_per_row + col_idx
+                    if q_index >= total_questions:
+                        break
+
+                    # Statut visuel : déjà répondu / actuelle / vide
+                    answer_data = st.session_state.ecn_answers[q_index]
+                    if answer_data.get('selected'):
+                        style = "background-color:#198754;color:white;"  # vert = répondu
+                    elif q_index == current_question_global:
+                        style = "background-color:#0d6efd;color:white;"  # bleu = actuelle
+                    else:
+                        style = "background-color:#f8f9fa;color:black;"  # neutre
+
+                    with col:
+                        if st.button(f"{q_index+1}", key=f"nav_q_{q_index}", use_container_width=True):
+                            st.session_state.ecn_current_question = q_index
+                            st.session_state.ecn_current_section = q_index // 30
+                            st.rerun()
+                        st.markdown(
+                            f"<style>div[data-testid='stButton'][key='nav_q_{q_index}'] button{{{style}border-radius:6px;font-weight:bold;}}</style>",
+                            unsafe_allow_html=True
+                        )
+
 
             
         # Bouton d'abandon
