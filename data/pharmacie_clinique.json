@@ -1,0 +1,349 @@
+{
+  "quizzes": [
+    {
+      "question": "Quel est l'antidote spécifique de l'intoxication aux opiacés?",
+      "type": "single",
+      "options": [
+        {"text": "Flumazénil", "correct": false},
+        {"text": "Naloxone", "correct": true},
+        {"text": "Vitamine K", "correct": false},
+        {"text": "N-acétylcystéine", "correct": false}
+      ],
+      "explanation": "La naloxone est un antagoniste compétitif des récepteurs aux opiacés, utilisé comme antidote spécifique."
+    },
+    {
+      "question": "Quels sont les médicaments nécessitant une surveillance particulière de l'intervalle QT?",
+      "type": "multiple",
+      "options": [
+        {"text": "Amiodarone", "correct": true},
+        {"text": "Ciprofloxacine", "correct": false},
+        {"text": "Erythromycine", "correct": true},
+        {"text": "Sotalol", "correct": true},
+        {"text": "Paracétamol", "correct": false}
+      ],
+      "explanation": "L'amiodarone, l'érythromycine et le sotalol sont connus pour allonger l'intervalle QT, nécessitant une surveillance ECG."
+    },
+    {
+      "question": "Quelle est la posologie initiale recommandée de metformine chez un patient diabétique de type 2?",
+      "type": "single",
+      "options": [
+        {"text": "500 mg 2 fois par jour", "correct": true},
+        {"text": "1000 mg 3 fois par jour", "correct": false},
+        {"text": "850 mg 1 fois par jour", "correct": false},
+        {"text": "2000 mg le soir", "correct": false}
+      ],
+      "explanation": "La posologie initiale recommandée est 500 mg 2 fois par jour ou 850 mg 1 fois par jour, avec augmentation progressive."
+    },
+    {
+      "question": "Quels paramètres biologiques doivent être surveillés sous traitement par diurétiques thiazidiques?",
+      "type": "multiple",
+      "options": [
+        {"text": "Natrémie", "correct": true},
+        {"text": "Kaliémie", "correct": true},
+        {"text": "Glycémie", "correct": true},
+        {"text": "Calcémie", "correct": true},
+        {"text": "Créatininémie", "correct": true}
+      ],
+      "explanation": "Les diurétiques thiazidiques peuvent causer hyponatrémie, hypokaliémie, hyperglycémie, hypercalcémie et insuffisance rénale."
+    },
+    {
+      "question": "Quel antiagrégant plaquettaire est indiqué en prévention secondaire après un syndrome coronarien aigu?",
+      "type": "single",
+      "options": [
+        {"text": "Clopidogrel", "correct": true},
+        {"text": "Warfarine", "correct": false},
+        {"text": "Héparine non fractionnée", "correct": false},
+        {"text": "Dabigatran", "correct": false}
+      ],
+      "explanation": "Le clopidogrel est un antiagrégant plaquettaire de la classe des thiénopyridines, utilisé en prévention secondaire des événements athérothrombotiques."
+    },
+    {
+      "question": "Quelles sont les classes médicamenteuses contre-indiquées dans l'insuffisance cardiaque sévère?",
+      "type": "multiple",
+      "options": [
+        {"text": "AINS", "correct": true},
+        {"text": "Glitazones", "correct": true},
+        {"text": "Bêta-bloquants", "correct": false},
+        {"text": "Verapamil", "correct": true},
+        {"text": "IEC", "correct": false}
+      ],
+      "explanation": "Les AINS, glitazones et vérapamil peuvent aggraver l'insuffisance cardiaque. Les bêta-bloquants et IEC sont au contraire recommandés."
+    },
+    {
+      "question": "Quel est le traitement de première intention de l'hypertension artérielle non compliquée chez le sujet jeune?",
+      "type": "single",
+      "options": [
+        {"text": "IEC", "correct": true},
+        {"text": "Diurétique thiazidique", "correct": false},
+        {"text": "Bêta-bloquant", "correct": false},
+        {"text": "Antagoniste calcique", "correct": false}
+      ],
+      "explanation": "Les IEC sont recommandés en première intention chez le sujet jeune pour leur efficacité et leur bon profil de tolérance."
+    },
+    {
+      "question": "Quels sont les effets indésirables des statines?",
+      "type": "multiple",
+      "options": [
+        {"text": "Myalgies", "correct": true},
+        {"text": "Hépatotoxicité", "correct": true},
+        {"text": "Rhabdomyolyse", "correct": true},
+        {"text": "Hyperglycémie", "correct": true},
+        {"text": "Insomnie", "correct": false}
+      ],
+      "explanation": "Les statines peuvent causer des effets musculaires, une hépatotoxicité et une augmentation modérée de la glycémie."
+    },
+    {
+      "question": "Quel antibiotique est contre-indiqué chez la femme enceinte?",
+      "type": "single",
+      "options": [
+        {"text": "Doxycycline", "correct": true},
+        {"text": "Amoxicilline", "correct": false},
+        {"text": "Céfuroxime", "correct": false},
+        {"text": "Azithromycine", "correct": false}
+      ],
+      "explanation": "La doxycycline est contre-indiquée pendant la grossesse en raison de son risque de toxicité pour le développement osseux et dentaire du fœtus."
+    },
+    {
+      "question": "Quels médicaments nécessitent une adaptation posologique en cas d'insuffisance rénale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Metformine", "correct": true},
+        {"text": "Digoxine", "correct": true},
+        {"text": "Allopurinol", "correct": true},
+        {"text": "Lévothyroxine", "correct": false},
+        {"text": "Warfarine", "correct": false}
+      ],
+      "explanation": "La metformine, digoxine et allopurinol sont éliminés par voie rénale et nécessitent une adaptation posologique en cas d'insuffisance rénale."
+    },
+    {
+      "question": "Quel est l'antidote de l'intoxication au paracétamol?",
+      "type": "single",
+      "options": [
+        {"text": "N-acétylcystéine", "correct": true},
+        {"text": "Flumazénil", "correct": false},
+        {"text": "Vitamine K", "correct": false},
+        {"text": "Physostigmine", "correct": false}
+      ],
+      "explanation": "La N-acétylcystéine est l'antidote spécifique du paracétamol, reconstituant les stocks de glutathion hépatique."
+    },
+    {
+      "question": "Quels sont les facteurs de risque d'hémorragie sous AVK?",
+      "type": "multiple",
+      "options": [
+        {"text": "Âge > 65 ans", "correct": true},
+        {"text": "Antécédent d'AVC", "correct": true},
+        {"text": "INR instable", "correct": true},
+        {"text": "Insuffisance rénale", "correct": true},
+        {"text": "Tabagisme", "correct": false}
+      ],
+      "explanation": "Les principaux facteurs de risque hémorragique sous AVK sont l'âge, les antécédents, l'instabilité de l'INR et l'insuffisance rénale."
+    },
+    {
+      "question": "Quelle classe d'antihypertenseur est privilégiée en cas de néphropathie diabétique?",
+      "type": "single",
+      "options": [
+        {"text": "IEC ou ARA II", "correct": true},
+        {"text": "Bêta-bloquant", "correct": false},
+        {"text": "Diurétique thiazidique", "correct": false},
+        {"text": "Antagoniste calcique", "correct": false}
+      ],
+      "explanation": "Les IEC et ARA II ont démontré un effet néphroprotecteur spécifique dans la néphropathie diabétique."
+    },
+    {
+      "question": "Quels médicaments peuvent interférer avec le dosage de l'INR?",
+      "type": "multiple",
+      "options": [
+        {"text": "Amiodarone", "correct": true},
+        {"text": "Paracétamol", "correct": true},
+        {"text": "Fluconazole", "correct": true},
+        {"text": "Metformine", "correct": false},
+        {"text": "Aspirine à faible dose", "correct": true}
+      ],
+      "explanation": "Plusieurs médicaments peuvent potentialiser l'effet des AVK et augmenter l'INR par interactions médicamenteuses."
+    },
+    {
+      "question": "Quel est le traitement de première intention de la maladie de Parkinson?",
+      "type": "single",
+      "options": [
+        {"text": "Lévodopa", "correct": true},
+        {"text": "Ropinirole", "correct": false},
+        {"text": "Amantadine", "correct": false},
+        {"text": "Sélégiline", "correct": false}
+      ],
+      "explanation": "La lévodopa reste le traitement de référence et le plus efficace de la maladie de Parkinson, surtout chez les patients âgés."
+    },
+    {
+      "question": "Quels sont les signes de sevrage alcoolique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Tremblements", "correct": true},
+        {"text": "Sueurs", "correct": true},
+        {"text": "Hypertension artérielle", "correct": true},
+        {"text": "Tachycardie", "correct": true},
+        {"text": "Hypothermie", "correct": false}
+      ],
+      "explanation": "Le sevrage alcoolique se manifeste par une hyperactivité neurovégétative avec tremblements, sueurs, hypertension et tachycardie."
+    },
+    {
+      "question": "Quel antibiotique est recommandé dans le traitement des pneumonies communautaires?",
+      "type": "single",
+      "options": [
+        {"text": "Amoxicilline", "correct": true},
+        {"text": "Ciprofloxacine", "correct": false},
+        {"text": "Doxycycline", "correct": false},
+        {"text": "Aztréonam", "correct": false}
+      ],
+      "explanation": "L'amoxicilline est l'antibiotique de première intention dans les pneumonies communautaires non graves de l'adulte."
+    },
+    {
+      "question": "Quels sont les effets indésirables des corticoides au long cours?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ostéoporose", "correct": true},
+        {"text": "Hyperglycémie", "correct": true},
+        {"text": "Cushing iatrogène", "correct": true},
+        {"text": "Insuffisance surrénale", "correct": true},
+        {"text": "Hypokaliémie", "correct": false}
+      ],
+      "explanation": "Les corticoides au long cours entraînent de multiples effets métaboliques, osseux et endocriniens."
+    },
+    {
+      "question": "Quel est le traitement de l'angor stable?",
+      "type": "single",
+      "options": [
+        {"text": "Dérivés nitrés", "correct": true},
+        {"text": "Digoxine", "correct": false},
+        {"text": "Amiodarone", "correct": false},
+        {"text": "Furosémide", "correct": false}
+      ],
+      "explanation": "Les dérivés nitrés sont utilisés comme traitement symptomatique de la crise angineuse grâce à leur effet vasodilatateur."
+    },
+    {
+      "question": "Quels médicaments sont contre-indiqués dans le glaucome par fermeture de l'angle?",
+      "type": "multiple",
+      "options": [
+        {"text": "Atropine", "correct": true},
+        {"text": "Antidépresseurs tricycliques", "correct": true},
+        {"text": "Antihistaminiques H1", "correct": true},
+        {"text": "Bêta-bloquants", "correct": false},
+        {"text": "Prostaglandines", "correct": false}
+      ],
+      "explanation": "Les médicaments à effet anticholinergique peuvent provoquer une crise aiguë de glaucome par fermeture de l'angle."
+    },
+    {
+      "question": "Quel est le traitement de première intention de la dépression majeure?",
+      "type": "single",
+      "options": [
+        {"text": "ISRS", "correct": true},
+        {"text": "IMAO", "correct": false},
+        {"text": "Tricycliques", "correct": false},
+        {"text": "Lithium", "correct": false}
+      ],
+      "explanation": "Les ISRS sont recommandés en première intention pour leur efficacité et leur meilleure tolérance par rapport aux tricycliques."
+    },
+    {
+      "question": "Quels sont les signes d'intoxication digitalique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Nausées", "correct": true},
+        {"text": "Troubles visuels", "correct": true},
+        {"text": "Bradycardie", "correct": true},
+        {"text": "Troubles du rythme", "correct": true},
+        {"text": "Hypertension", "correct": false}
+      ],
+      "explanation": "L'intoxication digitalique se manifeste par des signes digestifs, neurologiques et cardiaques, notamment des troubles du rythme."
+    },
+    {
+      "question": "Quel antiviral est utilisé dans le traitement de l'infection VIH?",
+      "type": "single",
+      "options": [
+        {"text": "Ténofovir", "correct": true},
+        {"text": "Aciclovir", "correct": false},
+        {"text": "Oseltamivir", "correct": false},
+        {"text": "Ribavirine", "correct": false}
+      ],
+      "explanation": "Le ténofovir est un inhibiteur nucléosidique de la transcriptase inverse, utilisé dans les associations antirétrovirales."
+    },
+    {
+      "question": "Quels sont les effets indésirables des antipsychotiques atypiques?",
+      "type": "multiple",
+      "options": [
+        {"text": "Prise de poids", "correct": true},
+        {"text": "Hyperlipidémie", "correct": true},
+        {"text": "Diabète", "correct": true},
+        {"text": "Syndrome métabolique", "correct": true},
+        {"text": "Hypotension orthostatique", "correct": true}
+      ],
+      "explanation": "Les antipsychotiques atypiques sont associés à des perturbations métaboliques significatives et des effets cardiovasculaires."
+    },
+    {
+      "question": "Quel est l'antidote de l'intoxication aux benzodiazépines?",
+      "type": "single",
+      "options": [
+        {"text": "Flumazénil", "correct": true},
+        {"text": "Naloxone", "correct": false},
+        {"text": "Physostigmine", "correct": false},
+        {"text": "Atropine", "correct": false}
+      ],
+      "explanation": "Le flumazénil est un antagoniste compétitif des récepteurs aux benzodiazépines, utilisé comme antidote spécifique."
+    },
+    {
+      "question": "Quels médicaments sont tératogènes?",
+      "type": "multiple",
+      "options": [
+        {"text": "Isotrétinoïne", "correct": true},
+        {"text": "Acide valproïque", "correct": true},
+        {"text": "Warfarine", "correct": true},
+        {"text": "Méthotrexate", "correct": true},
+        {"text": "Paracétamol", "correct": false}
+      ],
+      "explanation": "Ces médicaments sont connus pour leur potentiel tératogène et sont contre-indiqués pendant la grossesse."
+    },
+    {
+      "question": "Quel est le traitement de l'ostéoporose post-ménopausique?",
+      "type": "single",
+      "options": [
+        {"text": "Bisphosphonates", "correct": true},
+        {"text": "Corticoides", "correct": false},
+        {"text": "Diurétiques", "correct": false},
+        {"text": "Statines", "correct": false}
+      ],
+      "explanation": "Les bisphosphonates sont le traitement de première intention de l'ostéoporose post-ménopausique pour réduire le risque fracturaire."
+    },
+    {
+      "question": "Quels sont les critères d'efficacité d'un traitement antihypertenseur?",
+      "type": "multiple",
+      "options": [
+        {"text": "PAS < 140 mmHg", "correct": true},
+        {"text": "PAD < 90 mmHg", "correct": true},
+        {"text": "Adhérence au traitement", "correct": true},
+        {"text": "Absence d'effets indésirables", "correct": true},
+        {"text": "Normalisation en 24h", "correct": false}
+      ],
+      "explanation": "L'objectif thérapeutique est une pression artérielle contrôlée avec une bonne tolérance et une adhérence au long cours."
+    },
+    {
+      "question": "Quel antibiotique est actif sur Pseudomonas aeruginosa?",
+      "type": "single",
+      "options": [
+        {"text": "Ceftazidime", "correct": true},
+        {"text": "Céfuroxime", "correct": false},
+        {"text": "Amoxicilline", "correct": false},
+        {"text": "Azithromycine", "correct": false}
+      ],
+      "explanation": "La ceftazidime est une céphalosporine de 3ème génération ayant une activité sur Pseudomonas aeruginosa."
+    },
+    {
+      "question": "Quels sont les facteurs modifiant la pharmacocinétique des médicaments chez le sujet âgé?",
+      "type": "multiple",
+      "options": [
+        {"text": "Diminution de la filtration glomérulaire", "correct": true},
+        {"text": "Augmentation de la masse grasse", "correct": true},
+        {"text": "Diminution de l'absorption", "correct": false},
+        {"text": "Diminution de l'albumine plasmatique", "correct": true},
+        {"text": "Modification du métabolisme hépatique", "correct": true}
+      ],
+      "explanation": "Le vieillissement modifie la distribution, le métabolisme et l'élimination des médicaments, nécessitant des adaptations posologiques."
+    }
+  ]
+}

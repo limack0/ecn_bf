@@ -1,84 +1,268 @@
 {
   "quizzes": [
     {
-      "question": "Quel est l'antidote spécifique de l'intoxication au paracétamol?",
+      "question": "Quelle est l'antidote spécifique de l'intoxication au monoxyde de carbone?",
       "type": "single",
       "options": [
-        {"text": "Flumazénil", "correct": false},
-        {"text": "N-acétylcystéine", "correct": true},
-        {"text": "Naloxone", "correct": false},
-        {"text": "Vitamine K", "correct": false}
+        {"text": "N-acétylcystéine", "correct": false},
+        {"text": "Oxygénothérapie normobare", "correct": false},
+        {"text": "Oxygénothérapie hyperbare", "correct": true},
+        {"text": "Flumazénil", "correct": false}
       ],
-      "explanation": "La N-acétylcystéine est l'antidote spécifique qui restaure les réserves de glutathion hépatique."
+      "explanation": "L'oxygénothérapie hyperbare est le traitement spécifique qui permet de déplacer le CO de l'hémoglobine."
     },
     {
-      "question": "Quels sont les signes cliniques d'une intoxication aiguë aux organophosphorés?",
+      "question": "Quels sont les signes du syndrome anticholinergique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Myosis", "correct": false},
+        {"text": "Peau sèche et chaude", "correct": true},
+        {"text": "Rétention urinaire", "correct": true},
+        {"text": "Hypersalivation", "correct": false},
+        {"text": "Délire", "correct": true}
+      ],
+      "explanation": "Le syndrome anticholinergique associe 'sec comme un coup de pistolet, chaud comme un lièvre, rouge comme une betterave, fou comme un hanneton'."
+    },
+    {
+      "question": "Quel est l'antidote de l'intoxication aux opiacés?",
+      "type": "single",
+      "options": [
+        {"text": "Naloxone", "correct": true},
+        {"text": "Flumazénil", "correct": false},
+        {"text": "Atropine", "correct": false},
+        {"text": "Physostigmine", "correct": false}
+      ],
+      "explanation": "La naloxone est un antagoniste compétitif des récepteurs opiacés."
+    },
+    {
+      "question": "Quels paramètres sont caractéristiques d'une intoxication aux salicylés?",
+      "type": "multiple",
+      "options": [
+        {"text": "Alcalose respiratoire", "correct": true},
+        {"text": "Acidose métabolique", "correct": true},
+        {"text": "Hypoglycémie", "correct": true},
+        {"text": "Hypercalcémie", "correct": false},
+        {"text": "Hypokaliémie", "correct": false}
+      ],
+      "explanation": "L'intoxication aux salicylés provoque une acidose métabolique à trou anionique augmenté et une alcalose respiratoire initiale."
+    },
+    {
+      "question": "Quelle est la conduite à tenir face à une intoxication alcoolique aiguë avec coma?",
+      "type": "single",
+      "options": [
+        {"text": "Administration systématique de flumazénil", "correct": false},
+        {"text": "Mise en décubitus latéral de sécurité", "correct": true},
+        {"text": "Lavage gastrique systématique", "correct": false},
+        {"text": "Administration de charbon activé", "correct": false}
+      ],
+      "explanation": "La priorité est la protection des voies aériennes et la prévention de l'inhalation bronchique."
+    },
+    {
+      "question": "Quels sont les effets toxiques du paracétamol à dose suicidaire?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hépatotoxicité", "correct": true},
+        {"text": "Néphrotoxicité", "correct": true},
+        {"text": "Cardiotoxicité", "correct": false},
+        {"text": "Hémolyse", "correct": false},
+        {"text": "Nécrose tubulaire aiguë", "correct": true}
+      ],
+      "explanation": "Le paracétamol à forte dose cause une nécrose hépatique centrolobulaire et peut entraîner une insuffisance rénale aiguë."
+    },
+    {
+      "question": "Quel est le traitement spécifique de l'intoxication au paracétamol?",
+      "type": "single",
+      "options": [
+        {"text": "N-acétylcystéine", "correct": true},
+        {"text": "Dimercaprol", "correct": false},
+        {"text": "Digibind", "correct": false},
+        {"text": "Physostigmine", "correct": false}
+      ],
+      "explanation": "La N-acétylcystéine reconstitue les stocks de glutathion hépatique nécessaire à la détoxification du NAPQI."
+    },
+    {
+      "question": "Quels sont les signes d'une intoxication digitalique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Tachycardie", "correct": false},
+        {"text": "Troubles de la vision (xanthopsie)", "correct": true},
+        {"text": "Nausées et vomissements", "correct": true},
+        {"text": "Bloc auriculo-ventriculaire", "correct": true},
+        {"text": "Hypertension artérielle", "correct": false}
+      ],
+      "explanation": "L'intoxication digitalique se manifeste par des troubles digestifs, neurologiques et cardiaques (troubles de conduction et excitabilité)."
+    },
+    {
+      "question": "Quel est l'antidote de l'intoxication aux benzodiazépines?",
+      "type": "single",
+      "options": [
+        {"text": "Naloxone", "correct": false},
+        {"text": "Flumazénil", "correct": true},
+        {"text": "Atropine", "correct": false},
+        {"text": "N-acétylcystéine", "correct": false}
+      ],
+      "explanation": "Le flumazénil est un antagoniste compétitif des récepteurs aux benzodiazépines."
+    },
+    {
+      "question": "Quels sont les éléments du traitement d'une intoxication aux champignons amanites?",
+      "type": "multiple",
+      "options": [
+        {"text": "Silibinine", "correct": true},
+        {"text": "Charbon activé", "correct": true},
+        {"text": "Penicillin G", "correct": true},
+        {"text": "N-acétylcystéine", "correct": false},
+        {"text": "Atropine", "correct": false}
+      ],
+      "explanation": "Le traitement associe des mesures d'épuration digestive et des antidotes spécifiques comme la silibinine et la pénicilline G."
+    },
+    {
+      "question": "Quelle est la manifestation principale d'une intoxication aux inhibiteurs de la cholinestérase?",
+      "type": "single",
+      "options": [
+        {"text": "Syndrome anticholinergique", "correct": false},
+        {"text": "Syndrome cholinergique", "correct": true},
+        {"text": "Syndrome sérotoninergique", "correct": false},
+        {"text": "Syndrome extrapyramidal", "correct": false}
+      ],
+      "explanation": "Les inhibiteurs de cholinestérase entraînent un excès d'acétylcholine avec syndrome muscarinique, nicotinique et central."
+    },
+    {
+      "question": "Quels sont les signes du syndrome cholinergique?",
       "type": "multiple",
       "options": [
         {"text": "Myosis", "correct": true},
         {"text": "Bradycardie", "correct": true},
-        {"text": "Hypersialorrhée", "correct": true},
+        {"text": "Hypersalivation", "correct": true},
+        {"text": "Peau sèche", "correct": false},
+        {"text": "Rétention urinaire", "correct": false}
+      ],
+      "explanation": "Le syndrome cholinergique associe des signes muscariniques (SLUDGE), nicotiniques et centraux."
+    },
+    {
+      "question": "Quel est l'antidote du syndrome cholinergique?",
+      "type": "single",
+      "options": [
+        {"text": "Atropine", "correct": true},
+        {"text": "Pralidoxime", "correct": false},
+        {"text": "Physostigmine", "correct": false},
+        {"text": "Flumazénil", "correct": false}
+      ],
+      "explanation": "L'atropine est l'antagoniste compétitif des récepteurs muscariniques de l'acétylcholine."
+    },
+    {
+      "question": "Quels sont les critères de gravité d'une intoxication aux champignons amanites?",
+      "type": "multiple",
+      "options": [
+        {"text": "Délai d'apparition des symptômes >6h", "correct": true},
+        {"text": "Cyclopeptides à l'analyse", "correct": true},
+        {"text": "Augmentation des transaminases", "correct": true},
+        {"text": "Troubles neurologiques précoces", "correct": false},
+        {"text": "Syndrome anticholinergique", "correct": false}
+      ],
+      "explanation": "Les amanites phalloïdes contiennent des cyclopeptides hépatotoxiques avec symptômes retardés après 6-24h."
+    },
+    {
+      "question": "Quelle est la conduite à tenir face à une intoxication caustique?",
+      "type": "single",
+      "options": [
+        {"text": "Lavage gastrique systématique", "correct": false},
+        {"text": "Vomissements provoqués", "correct": false},
+        {"text": "Endoscopie digestive haute en urgence", "correct": true},
+        {"text": "Administration de charbon activé", "correct": false}
+      ],
+      "explanation": "L'endoscopie permet d'évaluer l'étendue des lésions et de guider la prise en charge."
+    },
+    {
+      "question": "Quels sont les signes d'une intoxication aux neuroleptiques?",
+      "type": "multiple",
+      "options": [
+        {"text": "Syndrome extrapyramidal", "correct": true},
+        {"text": "Effet anticholinergique", "correct": true},
+        {"text": "Allongement de l'intervalle QT", "correct": true},
         {"text": "Hypertension artérielle", "correct": false},
+        {"text": "Tachycardie", "correct": true}
+      ],
+      "explanation": "Les neuroleptiques peuvent provoquer des effets neurologiques, cardiovasculaires et anticholinergiques."
+    },
+    {
+      "question": "Quel est le traitement du syndrome malin des neuroleptiques?",
+      "type": "single",
+      "options": [
+        {"text": "Bromocriptine", "correct": true},
+        {"text": "Atropine", "correct": false},
+        {"text": "Flumazénil", "correct": false},
+        {"text": "Naloxone", "correct": false}
+      ],
+      "explanation": "La bromocriptine, un agoniste dopaminergique, est utilisée dans le traitement du syndrome malin des neuroleptiques."
+    },
+    {
+      "question": "Quels sont les éléments du traitement d'une intoxication à l'éthylène glycol?",
+      "type": "multiple",
+      "options": [
+        {"text": "Éthanol", "correct": true},
+        {"text": "Fomépizole", "correct": true},
+        {"text": "Pyridoxine", "correct": true},
+        {"text": "Thiamine", "correct": true},
+        {"text": "N-acétylcystéine", "correct": false}
+      ],
+      "explanation": "Le traitement inhibe l'alcool déshydrogénase et favorise la métabolisation vers des voies non toxiques."
+    },
+    {
+      "question": "Quelle est la manifestation caractéristique d'une intoxication au mercure?",
+      "type": "single",
+      "options": [
+        {"text": "Tremblements et érythisme", "correct": true},
+        {"text": "Ligne de Burton", "correct": false},
+        {"text": "Coliques de plomb", "correct": false},
+        {"text": "Anémie hémolytique", "correct": false}
+      ],
+      "explanation": "L'intoxication mercurielle chronique provoque des troubles neurologiques (tremblements) et psychiques (érythisme)."
+    },
+    {
+      "question": "Quels sont les signes d'une intoxication au monoxyde de carbone?",
+      "type": "multiple",
+      "options": [
+        {"text": "Céphalées", "correct": true},
+        {"text": "Nausées et vomissements", "correct": true},
+        {"text": "Douleur thoracique", "correct": true},
+        {"text": "Cherry-red skin", "correct": false},
         {"text": "Hyperthermie", "correct": false}
       ],
-      "explanation": "Le syndrome muscarinique associe myosis, bradycardie et hypersécrétions. L'hypotension est plus fréquente."
+      "explanation": "Les symptômes sont aspécifiques et liés à l'hypoxie tissulaire. La 'cherry-red skin' est rare."
     },
     {
-      "question": "Quelle est la dose toxique du paracétamol chez l'adulte?",
+      "question": "Quel est l'antidote de l'intoxication aux métaux lourds?",
       "type": "single",
       "options": [
-        {"text": "50 mg/kg", "correct": false},
-        {"text": "100 mg/kg", "correct": false},
-        {"text": "150 mg/kg", "correct": true},
-        {"text": "200 mg/kg", "correct": false}
+        {"text": "Dimercaprol", "correct": true},
+        {"text": "N-acétylcystéine", "correct": false},
+        {"text": "Flumazénil", "correct": false},
+        {"text": "Atropine", "correct": false}
       ],
-      "explanation": "La dose toxique est de 150 mg/kg en une prise, pouvant entraîner une hépatite cytolytique."
+      "explanation": "Le dimercaprol est un chélateur utilisé dans les intoxications aux métaux lourds comme l'arsenic, le mercure et le plomb."
     },
     {
-      "question": "Quels antidotes sont correctement appariés à leur toxique?",
+      "question": "Quels sont les critères d'hémodialyse dans une intoxication au lithium?",
       "type": "multiple",
       "options": [
-        {"text": "Benzodiazépines - Flumazénil", "correct": true},
-        {"text": "Digitalique - Fragments Fab", "correct": true},
-        {"text": "Méthanol - Éthanol", "correct": true},
-        {"text": "Paracétamol - Naloxone", "correct": false},
-        {"text": "Cyanure - Hydroxocobalamine", "correct": true}
+        {"text": "Lithium >4 mmol/L", "correct": true},
+        {"text": "Troubles de conscience", "correct": true},
+        {"text": "Insuffisance rénale", "correct": true},
+        {"text": "Troubles du rythme", "correct": false},
+        {"text": "Hypotension", "correct": true}
       ],
-      "explanation": "Le paracétamol a pour antidote la N-acétylcystéine, pas la naloxone."
+      "explanation": "L'hémodialyse est indiquée en cas de lithium élevé, de signes de gravité ou d'insuffisance rénale."
     },
     {
-      "question": "Quel est le mécanisme d'action de l'intoxication au monoxyde de carbone?",
+      "question": "Quelle est la manifestation principale d'une intoxication aux amphétamines?",
       "type": "single",
       "options": [
-        {"text": "Inhibition de la pompe Na/K", "correct": false},
-        {"text": "Déplacement de l'oxygène de l'hémoglobine", "correct": true},
-        {"text": "Inhibition de la cytochrome oxydase", "correct": false},
-        {"text": "Blocage des canaux sodiques", "correct": false}
+        {"text": "Dépression respiratoire", "correct": false},
+        {"text": "Effet sédatif", "correct": false},
+        {"text": "Syndrome sérotoninergique", "correct": false},
+        {"text": "Effet sympathomimétique", "correct": true}
       ],
-      "explanation": "Le CO se fixe sur l'hémoglobine avec une affinité 250 fois supérieure à l'oxygène, formant la carboxyhémoglobine."
-    },
-    {
-      "question": "Quels paramètres biologiques doivent être surveillés dans une intoxication au méthanol?",
-      "type": "multiple",
-      "options": [
-        {"text": "Glycémie", "correct": true},
-        {"text": "Gap anionique", "correct": true},
-        {"text": "Osmolarité plasmatique", "correct": true},
-        {"text": "Bilirubine", "correct": false},
-        {"text": "Amylasémie", "correct": true}
-      ],
-      "explanation": "L'acidose métabolique à gap anionique élevé, l'écart osmolaire et la pancréatite sont caractéristiques."
-    },
-    {
-      "question": "Quel toxique provoque classiquement un élargissement de l'espace QRS à l'ECG?",
-      "type": "single",
-      "options": [
-        {"text": "Paracétamol", "correct": false},
-        {"text": "Digoxine", "correct": false},
-        {"text": "Tricycliques", "correct": true},
-        {"text": "Benzodiazépines", "correct": false}
-      ],
-      "explanation": "Les antidépresseurs tricycliques bloquent les canaux sodiques, élargissant le QRS (>100 ms)."
+      "explanation": "Les amphétamines provoquent une libération de catécholamines entraînant un effet sympathomimétique."
     },
     {
       "question": "Quels sont les signes du syndrome sérotoninergique?",
@@ -90,30 +274,87 @@
         {"text": "Bradycardie", "correct": false},
         {"text": "Hypotension", "correct": false}
       ],
-      "explanation": "Triade: troubles neuro-musculaires (myoclonies), autonomes (tachycardie, hyperthermie) et mentaux."
+      "explanation": "La triade classique comprend troubles mentaux, autonomiques et neuromusculaires."
     },
     {
-      "question": "Quel est le traitement de première intention d'une intoxication aux bêta-bloquants?",
+      "question": "Quel est le traitement du syndrome sérotoninergique?",
       "type": "single",
       "options": [
+        {"text": "Cyproheptadine", "correct": true},
+        {"text": "Atropine", "correct": false},
         {"text": "Flumazénil", "correct": false},
-        {"text": "Glucagon", "correct": true},
-        {"text": "Naloxone", "correct": false},
-        {"text": "Atropine", "correct": false}
+        {"text": "Naloxone", "correct": false}
       ],
-      "explanation": "Le glucagon stimule la production d'AMPc indépendamment des récepteurs bêta-adrénergiques."
+      "explanation": "La cyproheptadine est un antagoniste des récepteurs sérotoninergiques utilisé dans le traitement."
     },
     {
-      "question": "Quelles intoxications justifient une épuration digestive?",
+      "question": "Quels sont les effets toxiques du plomb?",
       "type": "multiple",
       "options": [
-        {"text": "Paracétamol <2h", "correct": true},
-        {"text": "Corrosifs", "correct": false},
-        {"text": "Hydrocarbures", "correct": false},
-        {"text": "Tricycliques <1h", "correct": true},
-        {"text": "Digitalique <2h", "correct": true}
+        {"text": "Anémie", "correct": true},
+        {"text": "Coliques saturnines", "correct": true},
+        {"text": "Ligne de Burton", "correct": true},
+        {"text": "Neuropathie périphérique", "correct": true},
+        {"text": "Hépatotoxicité", "correct": false}
       ],
-      "explanation": "Contre-indications: corrosifs, hydrocarbures (risque d'inhalation), troubles de la conscience."
+      "explanation": "Le saturnisme affecte principalement les systèmes hématologique, digestif et neurologique."
+    },
+    {
+      "question": "Quel est l'antidote de l'intoxication à la warfarine?",
+      "type": "single",
+      "options": [
+        {"text": "Vitamine K", "correct": true},
+        {"text": "Protamine", "correct": false},
+        {"text": "N-acétylcystéine", "correct": false},
+        {"text": "Phytoménadione", "correct": false}
+      ],
+      "explanation": "La vitamine K est l'antidote spécifique des antivitamines K comme la warfarine."
+    },
+    {
+      "question": "Quels sont les signes d'une intoxication aux cyanures?",
+      "type": "multiple",
+      "options": [
+        {"text": "Goût d'amande amère", "correct": true},
+        {"text": "Cherry-red skin", "correct": true},
+        {"text": "Acidose lactique", "correct": true},
+        {"text": "Bradycardie", "correct": false},
+        {"text": "Hypertension", "correct": false}
+      ],
+      "explanation": "Les cyanures inhibent la cytochrome oxydase provoquant une anoxie cellulaire avec acidose lactique."
+    },
+    {
+      "question": "Quel est le traitement spécifique de l'intoxication aux cyanures?",
+      "type": "single",
+      "options": [
+        {"text": "Kit cyanure (hydroxocobalamine)", "correct": true},
+        {"text": "Atropine", "correct": false},
+        {"text": "Naloxone", "correct": false},
+        {"text": "Flumazénil", "correct": false}
+      ],
+      "explanation": "L'hydroxocobalamine se lie au cyanure pour former de la cyanocobalamine (vitamine B12) non toxique."
+    },
+    {
+      "question": "Quels sont les principes de l'épuration digestive?",
+      "type": "multiple",
+      "options": [
+        {"text": "Charbon activé", "correct": true},
+        {"text": "Lavage gastrique précoce", "correct": true},
+        {"text": "Ipeca", "correct": false},
+        {"text": "Laxatifs", "correct": true},
+        {"text": "Aspiration nasogastrique", "correct": false}
+      ],
+      "explanation": "L'épuration digestive comprend charbon activé, lavage gastrique (précoce) et laxatifs. L'ipeca n'est plus recommandé."
+    },
+    {
+      "question": "Quelle est la particularité de l'intoxication au colchique?",
+      "type": "single",
+      "options": [
+        {"text": "Effet hépatotoxique retardé", "correct": false},
+        {"text": "Alcaloïde à marge thérapeutique étroite", "correct": true},
+        {"text": "Syndrome cholinergique", "correct": false},
+        {"text": "Antidote spécifique disponible", "correct": false}
+      ],
+      "explanation": "La colchicine a une marge thérapeutique très étroite avec risque important de surdosage."
     }
   ]
 }

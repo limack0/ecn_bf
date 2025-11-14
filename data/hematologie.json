@@ -1,0 +1,349 @@
+{
+  "quizzes": [
+    {
+      "question": "Quelle est la première intention thérapeutique dans une anémie ferriprive symptomatique?",
+      "type": "single",
+      "options": [
+        {"text": "Transfusion sanguine", "correct": false},
+        {"text": "Suppléméntation martiale orale", "correct": true},
+        {"text": "Injection de vitamine B12", "correct": false},
+        {"text": "Splénectomie", "correct": false}
+      ],
+      "explanation": "La supplémentation en fer par voie orale est le traitement de première intention, les transfusions étant réservées aux cas sévères ou mal tolérés."
+    },
+    {
+      "question": "Quels sont les critères biologiques d'une anémie macrocytaire?",
+      "type": "multiple",
+      "options": [
+        {"text": "VGM > 100 fL", "correct": true},
+        {"text": "Taux de réticulocytes augmenté", "correct": false},
+        {"text": "Hyperleucocytose", "correct": false},
+        {"text": "Hb < 13 g/dL chez l'homme", "correct": true},
+        {"text": "Carence en vitamine B12", "correct": false}
+      ],
+      "explanation": "La macrocytose est définie par un VGM > 100 fL. L'anémie par Hb basse est nécessaire au diagnostic."
+    },
+    {
+      "question": "Quelle anomalie génétique est caractéristique de la leucémie myéloïde chronique?",
+      "type": "single",
+      "options": [
+        {"text": "Translocation t(8;14)", "correct": false},
+        {"text": "Chromosome Philadelphie [t(9;22)]", "correct": true},
+        {"text": "Trisomie 21", "correct": false},
+        {"text": "Délétion 5q", "correct": false}
+      ],
+      "explanation": "Le chromosome Philadelphie résultant de la translocation t(9;22) est pathognomonique de la LMC."
+    },
+    {
+      "question": "Quels sont les éléments du diagnostic de maladie de Vaquez?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hémoglobine > 16,5 g/dL chez l'homme", "correct": true},
+        {"text": "Mutation JAK2 V617F", "correct": true},
+        {"text": "Hypocellularité médullaire", "correct": false},
+        {"text": "Splénomégalie", "correct": true},
+        {"text": "Thrombopénie", "correct": false}
+      ],
+      "explanation": "Les critères majeurs incluent l'hémoglobine élevée, la mutation JAK2 et la splénomégalie."
+    },
+    {
+      "question": "Quel traitement inhibe spécifiquement la tyrosine kinase BCR-ABL dans la LMC?",
+      "type": "single",
+      "options": [
+        {"text": "Hydroxyurée", "correct": false},
+        {"text": "Imatinib", "correct": true},
+        {"text": "Rituximab", "correct": false},
+        {"text": "Chimiothérapie intensive", "correct": false}
+      ],
+      "explanation": "L'imatinib est un inhibiteur spécifique de la tyrosine kinase BCR-ABL, ciblant directement l'anomalie moléculaire de la LMC."
+    },
+    {
+      "question": "Quelles sont les complications de la drépanocytose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Crise vaso-occlusive", "correct": true},
+        {"text": "Syndrome thoracique aigu", "correct": true},
+        {"text": "Thrombose veineuse profonde", "correct": true},
+        {"text": "Splénomégalie progressive", "correct": false},
+        {"text": "Hémochromatose", "correct": true}
+      ],
+      "explanation": "La drépanocytose entraîne des crises vaso-occlusives, des syndromes thoraciques aigus, des thromboses et une hémochromatose secondaire aux transfusions."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente de purpura thrombopénique immunologique?",
+      "type": "single",
+      "options": [
+        {"text": "Leucémie aiguë", "correct": false},
+        {"text": "Auto-anticorps anti-glycoprotéine IIb/IIIa", "correct": true},
+        {"text": "Carence en vitamine K", "correct": false},
+        {"text": "Hypersplénisme", "correct": false}
+      ],
+      "explanation": "Le PTI est causé par des auto-anticorps dirigés contre les glycoprotéines membranaires des plaquettes, principalement IIb/IIIa."
+    },
+    {
+      "question": "Quels sont les facteurs de risque de thrombose veineuse profonde?",
+      "type": "multiple",
+      "options": [
+        {"text": "Mutation du facteur V Leiden", "correct": true},
+        {"text": "Déficit en protéine C", "correct": true},
+        {"text": "Anticoagulant lupique", "correct": true},
+        {"text": "Thrombocytopénie", "correct": false},
+        {"text": "Anémie falciforme", "correct": true}
+      ],
+      "explanation": "Les thrombophilies héréditaires et acquises, ainsi que certaines pathologies comme la drépanocytose, augmentent le risque thrombotique."
+    },
+    {
+      "question": "Quel marqueur tumoral est utilisé pour le suivi du myélome multiple?",
+      "type": "single",
+      "options": [
+        {"text": "ACE", "correct": false},
+        {"text": "Bêta-2-microglobuline", "correct": true},
+        {"text": "PSA", "correct": false},
+        {"text": "CA 19-9", "correct": false}
+      ],
+      "explanation": "La bêta-2-microglobuline est un marqueur pronostique important dans le myélome multiple."
+    },
+    {
+      "question": "Quelles sont les caractéristiques de l'anémie hémolytique auto-immune?",
+      "type": "multiple",
+      "options": [
+        {"text": "Test de Coombs positif", "correct": true},
+        {"text": "Haptoglobine basse", "correct": true},
+        {"text": "Hyperleucocytose", "correct": false},
+        {"text": "LDH élevée", "correct": true},
+        {"text": "Thrombopénie", "correct": false}
+      ],
+      "explanation": "L'anémie hémolytique auto-immune montre un Coombs positif, une haptoglobine basse et une LDH élevée témoignant de l'hémolyse."
+    },
+    {
+      "question": "Quel traitement est indiqué dans l'hémophilie A sévère?",
+      "type": "single",
+      "options": [
+        {"text": "Transfusion de plaquettes", "correct": false},
+        {"text": "Facteur VIII recombinant", "correct": true},
+        {"text": "Vitamine K", "correct": false},
+        {"text": "Aspirine", "correct": false}
+      ],
+      "explanation": "L'hémophilie A est un déficit en facteur VIII, traité par administration de facteur VIII recombinant."
+    },
+    {
+      "question": "Quels sont les critères diagnostiques de la leucémie aiguë promyélocytaire?",
+      "type": "multiple",
+      "options": [
+        {"text": "Translocation t(15;17)", "correct": true},
+        {"text": "Coagulopathie de consommation", "correct": true},
+        {"text": "Blastes CD34+", "correct": false},
+        {"text": "Hyperleucocytose constante", "correct": false},
+        {"text": "Réponse à l'acide rétinoïque", "correct": true}
+      ],
+      "explanation": "La LAP15 est caractérisée par la t(15;17), une CIVD et une sensibilité à l'ATRA."
+    },
+    {
+      "question": "Quelle est la complication la plus grave de la transfusion sanguine?",
+      "type": "single",
+      "options": [
+        {"text": "Réaction fébrile", "correct": false},
+        {"text": "Hémolyse aiguë", "correct": true},
+        {"text": "Surcharge volémique", "correct": false},
+        {"text": "Allergie mineure", "correct": false}
+      ],
+      "explanation": "L'hémolyse aiguë transfusionnelle est la complication la plus grave, potentiellement mortelle."
+    },
+    {
+      "question": "Quels sont les signes biologiques de la coagulation intravasculaire disséminée?",
+      "type": "multiple",
+      "options": [
+        {"text": "Allongement du TP et TCA", "correct": true},
+        {"text": "Thrombopénie", "correct": true},
+        {"text": "PDF et D-Dimères élevés", "correct": true},
+        {"text": "Fibrinogène élevé", "correct": false},
+        {"text": "Prolongation du temps de saignement", "correct": true}
+      ],
+      "explanation": "La CIVD associe consommation des facteurs de coagulation, thrombopénie et activation de la fibrinolyse."
+    },
+    {
+      "question": "Quelle cytopénie est caractéristique de l'anémie de Blackfan-Diamond?",
+      "type": "single",
+      "options": [
+        {"text": "Anémie arégénérative", "correct": true},
+        {"text": "Neutropénie isolée", "correct": false},
+        {"text": "Thrombopénie périphérique", "correct": false},
+        {"text": "Pancytopénie", "correct": false}
+      ],
+      "explanation": "L'anémie de Blackfan-Diamond est une anémie arégénérative congénitale par atteinte de l'érythropoïèse."
+    },
+    {
+      "question": "Quels sont les éléments du syndrome myéloprolifératif?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hyperplasie médullaire", "correct": true},
+        {"text": "Splénomégalie", "correct": true},
+        {"text": "Excès de cellules matures", "correct": true},
+        {"text": "Blastose médullaire > 20%", "correct": false},
+        {"text": "Fibrose médullaire", "correct": true}
+      ],
+      "explanation": "Les SMP associent hyperplasie médullaire, excès de cellules matures, splénomégalie et possible fibrose."
+    },
+    {
+      "question": "Quel est le traitement de première intention de la thrombopénie immune?",
+      "type": "single",
+      "options": [
+        {"text": "Splénectomie", "correct": false},
+        {"text": "Corticoïdes", "correct": true},
+        {"text": "Immunoglobulines IV", "correct": false},
+        {"text": "Rituximab", "correct": false}
+      ],
+      "explanation": "Les corticoïdes sont le traitement de première intention du PTI chez l'adulte."
+    },
+    {
+      "question": "Quelles sont les causes d'érythroblastopénie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Infection à Parvovirus B19", "correct": true},
+        {"text": "Thymome", "correct": true},
+        {"text": "Carence en fer", "correct": false},
+        {"text": "Leucémie aiguë", "correct": true},
+        {"text": "Déficit en G6PD", "correct": false}
+      ],
+      "explanation": "L'érythroblastopénie peut être virale (Parvovirus), associée au thymome ou leucémique."
+    },
+    {
+      "question": "Quelle anomalie observe-t-on dans la maladie de Willebrand?",
+      "type": "single",
+      "options": [
+        {"text": "Déficit en facteur IX", "correct": false},
+        {"text": "Anomalie du facteur Willebrand", "correct": true},
+        {"text": "Anticorps anti-facteur VIII", "correct": false},
+        {"text": "Déficit en fibrinogène", "correct": false}
+      ],
+      "explanation": "La maladie de Willebrand est liée à un déficit quantitatif ou qualitatif en facteur Willebrand."
+    },
+    {
+      "question": "Quels sont les signes de la leucémie aiguë?",
+      "type": "multiple",
+      "options": [
+        {"text": "Syndrome anémique", "correct": true},
+        {"text": "Syndrome hémorragique", "correct": true},
+        {"text": "Infections répétées", "correct": true},
+        {"text": "Hépatomégalie", "correct": true},
+        {"text": "Hyperéosinophilie", "correct": false}
+      ],
+      "explanation": "Les leucémies aiguës se manifestent par une insuffisance médullaire et une infiltration tissulaire."
+    },
+    {
+      "question": "Quel est le mécanisme de l'anémie dans l'insuffisance rénale chronique?",
+      "type": "single",
+      "options": [
+        {"text": "Carence en fer", "correct": false},
+        {"text": "Déficit en érythropoïétine", "correct": true},
+        {"text": "Hémolyse mécanique", "correct": false},
+        {"text": "Carence en folates", "correct": false}
+      ],
+      "explanation": "L'anémie de l'IRC est principalement due à un déficit en érythropoïétine."
+    },
+    {
+      "question": "Quels sont les éléments du diagnostic de lymphome hodgkinien?",
+      "type": "multiple",
+      "options": [
+        {"text": "Cellules de Reed-Sternberg", "correct": true},
+        {"text": "Adénopathies cervicales", "correct": true},
+        {"text": "Syndrome tumoral médullaire", "correct": false},
+        {"text": "Fièvre et sueurs nocturnes", "correct": true},
+        {"text": "Splénomégalie", "correct": true}
+      ],
+      "explanation": "Le diagnostic repose sur l'histologie avec cellules de Reed-Sternberg et le tableau clinique."
+    },
+    {
+      "question": "Quel traitement permet de chélater le fer en cas d'hémochromatose?",
+      "type": "single",
+      "options": [
+        {"text": "Desferroxamine", "correct": true},
+        {"text": "Penicillamine", "correct": false},
+        {"text": "Acide tranéxamique", "correct": false},
+        {"text": "Vitamine C", "correct": false}
+      ],
+      "explanation": "La desferroxamine est un chélateur du fer utilisé dans les surcharges martiales."
+    },
+    {
+      "question": "Quelles sont les complications de la drépanocytose chez l'enfant?",
+      "type": "multiple",
+      "options": [
+        {"text": "Séquestration splénique aiguë", "correct": true},
+        {"text": "Accident vasculaire cérébral", "correct": true},
+        {"text": "Syndrome thoracique aigu", "correct": true},
+        {"text": "Ostéonécrose aseptique", "correct": true},
+        {"text": "Hémarthrose", "correct": false}
+      ],
+      "explanation": "Les complications vaso-occlusives de la drépanocytose sont multiples et potentiellement graves."
+    },
+    {
+      "question": "Quel est le marqueur immunophénotypique des lymphocytes B?",
+      "type": "single",
+      "options": [
+        {"text": "CD3", "correct": false},
+        {"text": "CD19", "correct": true},
+        {"text": "CD4", "correct": false},
+        {"text": "CD33", "correct": false}
+      ],
+      "explanation": "CD19 est un marqueur spécifique de la lignée B lymphocytaire."
+    },
+    {
+      "question": "Quels sont les facteurs pronostiques du myélome multiple?",
+      "type": "multiple",
+      "options": [
+        {"text": "Bêta-2-microglobuline élevée", "correct": true},
+        {"text": "Délétion 17p", "correct": true},
+        {"text": "Albumine basse", "correct": true},
+        {"text": "Age < 40 ans", "correct": false},
+        {"text": "Présence de protéine de Bence-Jones", "correct": false}
+      ],
+      "explanation": "Le pronostic dépend de marqueurs biologiques comme la bêta-2-microglobuline, l'albumine et les anomalies cytogénétiques."
+    },
+    {
+      "question": "Quelle est la conduite à tenir devant un purpura thrombopénique aigu de l'enfant?",
+      "type": "single",
+      "options": [
+        {"text": "Traitement systématique par corticoïdes", "correct": false},
+        {"text": "Surveillance simple dans la majorité des cas", "correct": true},
+        {"text": "Splénectomie en urgence", "correct": false},
+        {"text": "Transfusion de plaquettes systématique", "correct": false}
+      ],
+      "explanation": "Le PTI de l'enfant guérit spontanément dans 80% des cas, justifiant une attitude expectative initiale."
+    },
+    {
+      "question": "Quels sont les signes de la leucostase en hématologie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Céphalées et troubles neurologiques", "correct": true},
+        {"text": "Dyspnée et hypoxémie", "correct": true},
+        {"text": "Priapisme", "correct": true},
+        {"text": "Hémorragies cutanées", "correct": false},
+        {"text": "Ictère", "correct": false}
+      ],
+      "explanation": "La leucostase entraîne des symptômes par obstruction vasculaire dans différents organes."
+    },
+    {
+      "question": "Quel est le traitement curatif de la bêta-thalassémie majeure?",
+      "type": "single",
+      "options": [
+        {"text": "Transfusions mensuelles", "correct": false},
+        {"text": "Greffe de cellules souches hématopoïétiques", "correct": true},
+        {"text": "Supplémentation en fer", "correct": false},
+        {"text": "Splénectomie", "correct": false}
+      ],
+      "explanation": "La greffe de CSH est le seul traitement curateur de la bêta-thalassémie majeure."
+    },
+    {
+      "question": "Quels sont les critères de réponse complète dans la leucémie aiguë?",
+      "type": "multiple",
+      "options": [
+        {"text": "Blastes médullaires < 5%", "correct": true},
+        {"text": "Normalisation de l'hémogramme", "correct": true},
+        {"text": "Disparition des blastes sanguins", "correct": true},
+        {"text": "Disparition de toutes les adénopathies", "correct": true},
+        {"text": "Normalisation du caryotype", "correct": true}
+      ],
+      "explanation": "La réponse complète nécessite une normalisation hématologique, médullaire et cytogénétique."
+    }
+  ]
+}

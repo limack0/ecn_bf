@@ -1,0 +1,349 @@
+{
+  "quizzes": [
+    {
+      "question": "Quelle est la structure primaire d'une protéine?",
+      "type": "single",
+      "options": [
+        {"text": "La séquence linéaire des acides aminés", "correct": true},
+        {"text": "L'arrangement spatial de la chaîne polypeptidique", "correct": false},
+        {"text": "L'association de plusieurs sous-unités protéiques", "correct": false},
+        {"text": "La structure en hélice alpha ou feuillet bêta", "correct": false}
+      ],
+      "explanation": "La structure primaire correspond à l'ordre séquentiel des acides aminés liés par des liaisons peptidiques."
+    },
+    {
+      "question": "Quelles sont les bases puriques de l'ADN?",
+      "type": "multiple",
+      "options": [
+        {"text": "Adénine", "correct": true},
+        {"text": "Thymine", "correct": false},
+        {"text": "Guanine", "correct": true},
+        {"text": "Cytosine", "correct": false},
+        {"text": "Uracile", "correct": false}
+      ],
+      "explanation": "L'adénine et la guanine sont des bases puriques. La thymine, cytosine et uracile sont des bases pyrimidiques."
+    },
+    {
+      "question": "Quel est le coenzyme transporteur d'hydrogène dans les réactions d'oxydoréduction?",
+      "type": "single",
+      "options": [
+        {"text": "ATP", "correct": false},
+        {"text": "NAD+", "correct": true},
+        {"text": "Coenzyme A", "correct": false},
+        {"text": "FAD", "correct": false}
+      ],
+      "explanation": "Le NAD+ est le principal coenzyme transporteur d'hydrogène, réduit en NADH lors des réactions d'oxydoréduction."
+    },
+    {
+      "question": "Quelles enzymes sont impliquées dans la glycolyse?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hexokinase", "correct": true},
+        {"text": "Pyruvate kinase", "correct": true},
+        {"text": "Citrate synthase", "correct": false},
+        {"text": "Phosphofructokinase", "correct": true},
+        {"text": "Isocitrate déshydrogénase", "correct": false}
+      ],
+      "explanation": "L'hexokinase, phosphofructokinase et pyruvate kinase sont des enzymes clés de la glycolyse. Les autres enzymes citées appartiennent au cycle de Krebs."
+    },
+    {
+      "question": "Quelle est la fonction principale de l'ADN polymérase?",
+      "type": "single",
+      "options": [
+        {"text": "Dégrader l'ADN", "correct": false},
+        {"text": "Synthétiser l'ARN", "correct": false},
+        {"text": "Synthétiser l'ADN", "correct": true},
+        {"text": "Lire l'ADN", "correct": false}
+      ],
+      "explanation": "L'ADN polymérase catalyse la polymérisation des désoxyribonucléotides lors de la réplication de l'ADN."
+    },
+    {
+      "question": "Quels acides aminés sont considérés comme essentiels?",
+      "type": "multiple",
+      "options": [
+        {"text": "Leucine", "correct": true},
+        {"text": "Glycine", "correct": false},
+        {"text": "Lysine", "correct": true},
+        {"text": "Phénylalanine", "correct": true},
+        {"text": "Alanine", "correct": false}
+      ],
+      "explanation": "Les acides aminés essentiels ne peuvent pas être synthétisés par l'organisme et doivent être apportés par l'alimentation."
+    },
+    {
+      "question": "Quelle est la molécule qui stocke l'énergie dans les cellules?",
+      "type": "single",
+      "options": [
+        {"text": "ADP", "correct": false},
+        {"text": "AMP", "correct": false},
+        {"text": "ATP", "correct": true},
+        {"text": "NAD+", "correct": false}
+      ],
+      "explanation": "L'ATP (adénosine triphosphate) est la principale molécule de stockage et de transfert d'énergie dans les cellules."
+    },
+    {
+      "question": "Quelles sont les caractéristiques des enzymes?",
+      "type": "multiple",
+      "options": [
+        {"text": "Elles modifient l'équilibre des réactions", "correct": false},
+        {"text": "Elles accélèrent les réactions", "correct": true},
+        {"text": "Elles sont spécifiques à leur substrat", "correct": true},
+        {"text": "Elles sont consommées lors de la réaction", "correct": false},
+        {"text": "Elles diminuent l'énergie d'activation", "correct": true}
+      ],
+      "explanation": "Les enzymes sont des catalyseurs biologiques qui accélèrent les réactions sans être consommées et sans modifier l'équilibre."
+    },
+    {
+      "question": "Quel est le produit final de la glycolyse?",
+      "type": "single",
+      "options": [
+        {"text": "Acétyl-CoA", "correct": false},
+        {"text": "Glucose", "correct": false},
+        {"text": "Pyruvate", "correct": true},
+        {"text": "Lactate", "correct": false}
+      ],
+      "explanation": "Le pyruvate est le produit final de la glycolyse aérobie. En anaérobie, il est réduit en lactate."
+    },
+    {
+      "question": "Quelles molécules sont des lipides?",
+      "type": "multiple",
+      "options": [
+        {"text": "Triglycérides", "correct": true},
+        {"text": "Glucose", "correct": false},
+        {"text": "Phospholipides", "correct": true},
+        {"text": "Cholestérol", "correct": true},
+        {"text": "Glycogène", "correct": false}
+      ],
+      "explanation": "Les triglycérides, phospholipides et cholestérol sont des lipides. Le glucose et le glycogène sont des glucides."
+    },
+    {
+      "question": "Quelle hormone stimule la glycogénolyse?",
+      "type": "single",
+      "options": [
+        {"text": "Insuline", "correct": false},
+        {"text": "Glucagon", "correct": true},
+        {"text": "Cortisol", "correct": false},
+        {"text": "Adrénaline", "correct": false}
+      ],
+      "explanation": "Le glucagon stimule la glycogénolyse hépatique pour libérer du glucose dans le sang en période de jeûne."
+    },
+    {
+      "question": "Quels éléments sont des cofacteurs enzymatiques?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ions zinc", "correct": true},
+        {"text": "Ions sodium", "correct": false},
+        {"text": "Ions magnésium", "correct": true},
+        {"text": "Ions potassium", "correct": false},
+        {"text": "Ions fer", "correct": true}
+      ],
+      "explanation": "Les ions zinc, magnésium et fer sont des cofacteurs métalliques essentiels pour de nombreuses enzymes."
+    },
+    {
+      "question": "Quelle est la fonction de la transcriptase inverse?",
+      "type": "single",
+      "options": [
+        {"text": "Transcrire l'ADN en ARN", "correct": false},
+        {"text": "Traduire l'ARN en protéine", "correct": false},
+        {"text": "Transcrire l'ARN en ADN", "correct": true},
+        {"text": "Répliquer l'ADN", "correct": false}
+      ],
+      "explanation": "La transcriptase inverse permet la synthèse d'ADN complémentaire à partir d'une matrice ARN."
+    },
+    {
+      "question": "Quelles sont les propriétés des acides gras insaturés?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ils ont au moins une double liaison", "correct": true},
+        {"text": "Ils sont solides à température ambiante", "correct": false},
+        {"text": "Ils sont liquides à température ambiante", "correct": true},
+        {"text": "Ils n'ont pas de double liaison", "correct": false},
+        {"text": "Ils abaissent le point de fusion", "correct": true}
+      ],
+      "explanation": "Les acides gras insaturés ont une ou plusieurs doubles liaisons, ce qui diminue leur point de fusion et les rend liquides à température ambiante."
+    },
+    {
+      "question": "Quel cycle métabolique produit le plus d'ATP?",
+      "type": "single",
+      "options": [
+        {"text": "Cycle de Krebs", "correct": false},
+        {"text": "Chaîne respiratoire", "correct": true},
+        {"text": "Glycolyse", "correct": false},
+        {"text": "Cycle de l'urée", "correct": false}
+      ],
+      "explanation": "La chaîne respiratoire (phosphorylation oxydative) produit la majorité de l'ATP cellulaire (environ 28-30 ATP par glucose)."
+    },
+    {
+      "question": "Quelles molécules sont des nucléosides?",
+      "type": "multiple",
+      "options": [
+        {"text": "Adénosine", "correct": true},
+        {"text": "Adénosine monophosphate", "correct": false},
+        {"text": "Guanosine", "correct": true},
+        {"text": "Désoxyguanosine triphosphate", "correct": false},
+        {"text": "Cytidine", "correct": true}
+      ],
+      "explanation": "Les nucléosides sont composés d'une base azotée liée à un sucre (ribose ou désoxyribose), sans groupement phosphate."
+    },
+    {
+      "question": "Quelle enzyme catalyse la fixation du CO₂ dans la photosynthèse?",
+      "type": "single",
+      "options": [
+        {"text": "Rubisco", "correct": true},
+        {"text": "PEP carboxylase", "correct": false},
+        {"text": "Catalase", "correct": false},
+        {"text": "Hexokinase", "correct": false}
+      ],
+      "explanation": "La Rubisco (ribulose-1,5-bisphosphate carboxylase/oxygénase) est l'enzyme clé du cycle de Calvin fixant le CO₂."
+    },
+    {
+      "question": "Quels acides aminés ont des chaînes latérales chargées positivement à pH physiologique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Lysine", "correct": true},
+        {"text": "Arginine", "correct": true},
+        {"text": "Histidine", "correct": true},
+        {"text": "Acide glutamique", "correct": false},
+        {"text": "Asparagine", "correct": false}
+      ],
+      "explanation": "La lysine, arginine et histidine ont des groupements basiques qui sont protonés à pH physiologique."
+    },
+    {
+      "question": "Quelle est la structure quaternaire d'une protéine?",
+      "type": "single",
+      "options": [
+        {"text": "L'agencement des sous-unités protéiques", "correct": true},
+        {"text": "La séquence en acides aminés", "correct": false},
+        {"text": "La structure en hélice alpha", "correct": false},
+        {"text": "Le repliement de la chaîne polypeptidique", "correct": false}
+      ],
+      "explanation": "La structure quaternaire décrit l'association de plusieurs chaînes polypeptidiques (sous-unités) en une protéine fonctionnelle."
+    },
+    {
+      "question": "Quelles sont les fonctions des protéines?",
+      "type": "multiple",
+      "options": [
+        {"text": "Catalyse enzymatique", "correct": true},
+        {"text": "Stockage d'information génétique", "correct": false},
+        {"text": "Transport d'oxygène", "correct": true},
+        {"text": "Défense immunitaire", "correct": true},
+        {"text": "Support structural", "correct": true}
+      ],
+      "explanation": "Les protéines ont des fonctions variées : enzymatique, structurelle, de transport, immunitaire, etc. L'ADN stocke l'information génétique."
+    },
+    {
+      "question": "Quel sucre est présent dans l'ARN mais pas dans l'ADN?",
+      "type": "single",
+      "options": [
+        {"text": "Désoxyribose", "correct": false},
+        {"text": "Ribose", "correct": true},
+        {"text": "Glucose", "correct": false},
+        {"text": "Fructose", "correct": false}
+      ],
+      "explanation": "L'ARN contient du ribose comme sucre, tandis que l'ADN contient du désoxyribose (qui a un atome d'oxygène en moins)."
+    },
+    {
+      "question": "Quelles caractéristiques définissent un acide aminé?",
+      "type": "multiple",
+      "options": [
+        {"text": "Groupe amine", "correct": true},
+        {"text": "Groupe carboxyle", "correct": true},
+        {"text": "Chaîne latérale variable", "correct": true},
+        {"text": "Noyau stéroïdien", "correct": false},
+        {"text": "Cycle benzénique", "correct": false}
+      ],
+      "explanation": "Tous les acides aminés protéinogènes ont un groupe amine, un groupe carboxyle et une chaîne latérale spécifique."
+    },
+    {
+      "question": "Quelle est la réaction catalysée par les aminoacyl-ARNt synthétases?",
+      "type": "single",
+      "options": [
+        {"text": "Transcription de l'ADN", "correct": false},
+        {"text": "Chargement des ARNt", "correct": true},
+        {"text": "Élongation de la chaîne polypeptidique", "correct": false},
+        {"text": "Réplication de l'ARN", "correct": false}
+      ],
+      "explanation": "Les aminoacyl-ARNt synthétases attachent spécifiquement les acides aminés à leurs ARNt correspondants."
+    },
+    {
+      "question": "Quels facteurs affectent l'activité enzymatique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Température", "correct": true},
+        {"text": "pH", "correct": true},
+        {"text": "Concentration en substrat", "correct": true},
+        {"text": "Pression atmosphérique", "correct": false},
+        {"text": "Couleur de la solution", "correct": false}
+      ],
+      "explanation": "La température, le pH et la concentration en substrat sont des facteurs majeurs influençant l'activité enzymatique."
+    },
+    {
+      "question": "Quelle molécule est le précurseur de la synthèse des stéroïdes?",
+      "type": "single",
+      "options": [
+        {"text": "Glucose", "correct": false},
+        {"text": "Acétyl-CoA", "correct": false},
+        {"text": "Cholestérol", "correct": true},
+        {"text": "Glycérol", "correct": false}
+      ],
+      "explanation": "Le cholestérol est le précurseur de tous les stéroïdes : hormones stéroïdiennes, acides biliaires, vitamine D."
+    },
+    {
+      "question": "Quelles sont les étapes de la réplication de l'ADN?",
+      "type": "multiple",
+      "options": [
+        {"text": "Initiation", "correct": true},
+        {"text": "Transcription", "correct": false},
+        {"text": "Élongation", "correct": true},
+        {"text": "Traduction", "correct": false},
+        {"text": "Terminaison", "correct": true}
+      ],
+      "explanation": "La réplication de l'ADN comprend l'initiation, l'élongation et la terminaison. La transcription et la traduction concernent l'expression des gènes."
+    },
+    {
+      "question": "Quel est le rôle principal des chaperonnes moléculaires?",
+      "type": "single",
+      "options": [
+        {"text": "Dégrader les protéines", "correct": false},
+        {"text": "Aider au repliement des protéines", "correct": true},
+        {"text": "Catalyser les réactions", "correct": false},
+        {"text": "Transporter l'oxygène", "correct": false}
+      ],
+      "explanation": "Les chaperonnes moléculaires aident les protéines à adopter leur conformation tridimensionnelle correcte."
+    },
+    {
+      "question": "Quelles molécules sont des neurotransmetteurs?",
+      "type": "multiple",
+      "options": [
+        {"text": "Acétylcholine", "correct": true},
+        {"text": "Dopamine", "correct": true},
+        {"text": "Glucose", "correct": false},
+        {"text": "Sérotonine", "correct": true},
+        {"text": "ATP", "correct": false}
+      ],
+      "explanation": "L'acétylcholine, dopamine et sérotonine sont des neurotransmetteurs. Le glucose et l'ATP ont d'autres fonctions métaboliques."
+    },
+    {
+      "question": "Quelle est la fonction de la cytochrome c oxydase?",
+      "type": "single",
+      "options": [
+        {"text": "Réduire l'oxygène en eau", "correct": true},
+        {"text": "Oxyder le NADH", "correct": false},
+        {"text": "Synthétiser l'ATP", "correct": false},
+        {"text": "Transporter les électrons", "correct": false}
+      ],
+      "explanation": "La cytochrome c oxydase catalyse la réduction de l'oxygène moléculaire en eau dans la chaîne respiratoire."
+    },
+    {
+      "question": "Quelles sont les propriétés de la double hélice d'ADN?",
+      "type": "multiple",
+      "options": [
+        {"text": "Antiparallèle", "correct": true},
+        {"text": "Complementaire", "correct": true},
+        {"text": "Identique", "correct": false},
+        {"text": "Parallèle", "correct": false},
+        {"text": "Hélicoïdale", "correct": true}
+      ],
+      "explanation": "La double hélice d'ADN est antiparallèle (les deux brins vont dans des directions opposées), complémentaire (A-T, G-C) et hélicoïdale."
+    }
+  ]
+}

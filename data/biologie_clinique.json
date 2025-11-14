@@ -1,0 +1,349 @@
+{
+  "quizzes": [
+    {
+      "question": "Quelle est la première intention devant une hyperkaliémie sévère (>6,5 mmol/L) avec modifications ECG?",
+      "type": "single",
+      "options": [
+        {"text": "Charbon de bois activé", "correct": false},
+        {"text": "Gluconate de calcium IV", "correct": true},
+        {"text": "Insuline rapide seule", "correct": false},
+        {"text": "Diurétiques de l'anse", "correct": false}
+      ],
+      "explanation": "Le gluconate de calcium stabilise la membrane myocardique et prévient les troubles du rythme cardiaque."
+    },
+    {
+      "question": "Quels paramètres biologiques définissent un syndrome de détresse respiratoire aiguë (SDRA)?",
+      "type": "multiple",
+      "options": [
+        {"text": "PaO2/FiO2 < 300 mmHg", "correct": true},
+        {"text": "Oedèmes des membres inférieurs", "correct": false},
+        {"text": "Opacités bilatérales à la radiographie pulmonaire", "correct": true},
+        {"text": "Pression artérielle pulmonaire > 35 mmHg", "correct": false},
+        {"text": "Absence d'insuffisance cardiaque gauche", "correct": true}
+      ],
+      "explanation": "Les critères de Berlin définissent le SDRA par l'hypoxémie, les opacités bilatérales et l'exclusion de l'œdème cardiogénique."
+    },
+    {
+      "question": "Quel marqueur biologique est le plus spécifique de l'infarctus du myocarde dans les 3 premières heures?",
+      "type": "single",
+      "options": [
+        {"text": "Troponine ultra-sensible", "correct": true},
+        {"text": "Créatine kinase (CK)", "correct": false},
+        {"text": "Myoglobine", "correct": false},
+        {"text": "Transaminases (ASAT)", "correct": false}
+      ],
+      "explanation": "La troponine ultra-sensible est actuellement le marqueur de référence pour le diagnostic précoce de l'IDM."
+    },
+    {
+      "question": "Quelles anomalies biologiques sont caractéristiques d'une acidocétose diabétique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Glycémie > 2,5 g/L", "correct": true},
+        {"text": "pH artériel < 7,30", "correct": true},
+        {"text": "Bicarbonates > 24 mmol/L", "correct": false},
+        {"text": "Corps cétoniques positifs", "correct": true},
+        {"text": "Anion gap normal", "correct": false}
+      ],
+      "explanation": "L'ACD associe hyperglycémie, acidose métabolique et augmentation des corps cétoniques avec anion gap élevé."
+    },
+    {
+      "question": "Quelle est la conduite à tenir devant une hyponatrémie hypovolémique?",
+      "type": "single",
+      "options": [
+        {"text": "Restriction hydrique stricte", "correct": false},
+        {"text": "Perfusions de sérum salé isotonique", "correct": true},
+        {"text": "Déméclocycline", "correct": false},
+        {"text": "Tolvaptan", "correct": false}
+      ],
+      "explanation": "La correction du dévolémie par sérum salé isotonique est le traitement de première intention de l'hyponatrémie hypovolémique."
+    },
+    {
+      "question": "Quels éléments du bilan hépatique sont typiquement élevés dans la cholestase?",
+      "type": "multiple",
+      "options": [
+        {"text": "Phosphatases alcalines", "correct": true},
+        {"text": "Gamma-GT", "correct": true},
+        {"text": "Bilirubine conjuguée", "correct": true},
+        {"text": "Transaminases (ALAT)", "correct": false},
+        {"text": "Albumine", "correct": false}
+      ],
+      "explanation": "La cholestase se caractérise par l'élévation des enzymes d'excrétion biliaire (PAL, GGT) et de la bilirubine conjuguée."
+    },
+    {
+      "question": "Quel paramètre définit le sepsis grave selon les critères de 1991?",
+      "type": "single",
+      "options": [
+        {"text": "Hyperthermie > 38°C", "correct": false},
+        {"text": "Hypotension artérielle", "correct": true},
+        {"text": "Leucocytose > 12 000/mm3", "correct": false},
+        {"text": "Tachycardie > 90/min", "correct": false}
+      ],
+      "explanation": "Le sepsis grave est défini par un sepsis avec dysfonction d'organe, dont l'hypotension est un marqueur important."
+    },
+    {
+      "question": "Quelles sont les causes d'anémie microcytaire?",
+      "type": "multiple",
+      "options": [
+        {"text": "Carence martiale", "correct": true},
+        {"text": "Déficit en vitamine B12", "correct": false},
+        {"text": "Thalassémie", "correct": true},
+        {"text": "Anémie des maladies chroniques", "correct": true},
+        {"text": "Hémolyse aiguë", "correct": false}
+      ],
+      "explanation": "L'anémie microcytaire est principalement due à des troubles de la synthèse de l'hème (fer) ou de la globine (thalassémie)."
+    },
+    {
+      "question": "Quelle est la première étape du diagnostic d'un syndrome néphrotique?",
+      "type": "single",
+      "options": [
+        {"text": "Biopsie rénale", "correct": false},
+        {"text": "Dosage de la protéinurie des 24h", "correct": true},
+        {"text": "Échographie doppler rénale", "correct": false},
+        {"text": "Dosage du complément", "correct": false}
+      ],
+      "explanation": "Le diagnostic de syndrome néphrotique repose sur la protéinurie > 3g/24h, associée à une hypoalbuminémie."
+    },
+    {
+      "question": "Quels marqueurs biologiques sont utilisés dans le suivi du cancer colorectal?",
+      "type": "multiple",
+      "options": [
+        {"text": "ACE (Antigène Carcino-Embryonnaire)", "correct": true},
+        {"text": "CA 19-9", "correct": true},
+        {"text": "PSA", "correct": false},
+        {"text": "CA 15-3", "correct": false},
+        {"text": "Alpha-foetoprotéine", "correct": false}
+      ],
+      "explanation": "L'ACE est le marqueur principal pour le cancer colorectal, le CA 19-9 peut être associé dans certaines formes."
+    },
+    {
+      "question": "Quelle est la valeur seuil de la créatininémie pour définir une insuffisance rénale aiguë selon KDIGO?",
+      "type": "single",
+      "options": [
+        {"text": "Augmentation de 26,5 μmol/L en 48h", "correct": true},
+        {"text": "Créatininémie > 150 μmol/L", "correct": false},
+        {"text": "DFG < 60 mL/min/1,73m²", "correct": false},
+        {"text": "Proteinurie > 1g/L", "correct": false}
+      ],
+      "explanation": "Les critères KDIGO définissent l'IRA par une augmentation de la créatininémie ≥ 26,5 μmol/L en 48h ou ≥ 1,5 fois la baseline."
+    },
+    {
+      "question": "Quelles sont les caractéristiques biologiques du myélome multiple?",
+      "type": "multiple",
+      "options": [
+        {"text": "Pic monoclonal à l'électrophorèse", "correct": true},
+        {"text": "Insuffisance rénale", "correct": true},
+        {"text": "Hypercalcémie", "correct": true},
+        {"text": "Thrombocytose", "correct": false},
+        {"text": "Anémie normocytaire", "correct": true}
+      ],
+      "explanation": "Le myélome multiple se caractérise par la triade CRAB : Calcium élevé, insuffisance Rénale, Anémie, lésions Osseuses."
+    },
+    {
+      "question": "Quel est le traitement de première intention d'une hypercalcémie maligne sévère?",
+      "type": "single",
+      "options": [
+        {"text": "Corticoides", "correct": false},
+        {"text": "Bisphosphonates IV", "correct": true},
+        {"text": "Diurétiques de l'anse", "correct": false},
+        {"text": "Calcitonine", "correct": false}
+      ],
+      "explanation": "Les bisphosphonates IV sont le traitement de référence de l'hypercalcémie maligne en raison de leur efficacité inhibitrice de la résorption osseuse."
+    },
+    {
+      "question": "Quels paramètres définissent un SIRS (Systemic Inflammatory Response Syndrome)?",
+      "type": "multiple",
+      "options": [
+        {"text": "Température > 38°C ou < 36°C", "correct": true},
+        {"text": "Fréquence cardiaque > 90/min", "correct": true},
+        {"text": "Leucocytes > 12 000 ou < 4 000/mm3", "correct": true},
+        {"text": "PaO2 < 60 mmHg", "correct": false},
+        {"text": "Pression artérielle systolique < 90 mmHg", "correct": false}
+      ],
+      "explanation": "Le SIRS est défini par au moins 2 des 4 critères : température, fréquence cardiaque, fréquence respiratoire, leucocytes."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente d'hypoglycémie chez le diabétique traité?",
+      "type": "single",
+      "options": [
+        {"text": "Insulinome", "correct": false},
+        {"text": "Déficit en cortisol", "correct": false},
+        {"text": "Sulfamides hypoglycémiants", "correct": true},
+        {"text": "Insuffisance hépatique", "correct": false}
+      ],
+      "explanation": "Les sulfamides hypoglycémiants sont une cause fréquente d'hypoglycémie iatrogène chez le diabétique de type 2."
+    },
+    {
+      "question": "Quelles sont les indications de la transfusion de plaquettes?",
+      "type": "multiple",
+      "options": [
+        {"text": "Plaquettes < 10 000/mm3 sans saignement", "correct": true},
+        {"text": "Plaquettes < 50 000/mm3 avant chirurgie", "correct": true},
+        {"text": "Plaquettes < 100 000/mm3 asymptomatique", "correct": false},
+        {"text": "Saignement actif avec plaquettes < 50 000/mm3", "correct": true},
+        {"text": "Purpura pétéchial isolé", "correct": false}
+      ],
+      "explanation": "Les transfusions plaquettaires sont indiquées en prévention des hémorragies en cas de thrombopénie sévère ou avant geste invasif."
+    },
+    {
+      "question": "Quel examen permet le diagnostic de certitude de la maladie coeliaque?",
+      "type": "single",
+      "options": [
+        {"text": "Sérologie anti-transglutaminase", "correct": false},
+        {"text": "Biopsie duodénale", "correct": true},
+        {"text": "Test respiratoire à l'hydrogène", "correct": false},
+        {"text": "Marqueurs génétiques HLA", "correct": false}
+      ],
+      "explanation": "La biopsie duodénale montrant une atrophie villositaire est l'examen de référence pour confirmer le diagnostic de maladie coeliaque."
+    },
+    {
+      "question": "Quels sont les critères biologiques du syndrome de Conn?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hypokaliémie", "correct": true},
+        {"text": "Hypernatrémie", "correct": false},
+        {"text": "Aldostéronémie élevée", "correct": true},
+        {"text": "Rénine basse", "correct": true},
+        {"text": "Acidose métabolique", "correct": false}
+      ],
+      "explanation": "Le syndrome de Conn associe hypertension artérielle, hypokaliémie, aldostéronémie élevée et rénine basse."
+    },
+    {
+      "question": "Quelle est la conduite à tenir devant une hyperleucocytose à 50 000/mm3 avec blastes?",
+      "type": "single",
+      "options": [
+        {"text": "Antibiothérapie probabiliste", "correct": false},
+        {"text": "Urgence hématologique", "correct": true},
+        {"text": "Corticothérapie", "correct": false},
+        {"text": "Saignées", "correct": false}
+      ],
+      "explanation": "La présence de blastes dans le sang périphérique évoque une leucémie aiguë nécessitant une prise en charge hématologique urgente."
+    },
+    {
+      "question": "Quels paramètres définissent un LBA positif pour une PCP?",
+      "type": "multiple",
+      "options": [
+        {"text": "Présence de Pneumocystis jirovecii", "correct": true},
+        {"text": "Cultures positives", "correct": false},
+        {"text": "Cellules malignes", "correct": false},
+        {"text": "Rapport CD4/CD8 inversé", "correct": false},
+        {"text": "Lymphocytes > 50%", "correct": false}
+      ],
+      "explanation": "La mise en évidence de Pneumocystis jirovecii par coloration ou PCR dans le LBA confirme le diagnostic de pneumocystose."
+    },
+    {
+      "question": "Quel est le traitement de première intention d'une crise de goutte aiguë?",
+      "type": "single",
+      "options": [
+        {"text": "Allopurinol", "correct": false},
+        {"text": "Colchicine", "correct": true},
+        {"text": "Diurétiques thiazidiques", "correct": false},
+        {"text": "Corticoides IV", "correct": false}
+      ],
+      "explanation": "La colchicine est le traitement de référence de la crise de goutte aiguë, efficace si administrée précocement."
+    },
+    {
+      "question": "Quelles sont les causes d'allongement du TP?",
+      "type": "multiple",
+      "options": [
+        {"text": "Déficit en vitamine K", "correct": true},
+        {"text": "Traitement par héparine", "correct": false},
+        {"text": "Insuffisance hépatique", "correct": true},
+        {"text": "Traitement par AVK", "correct": true},
+        {"text": "Déficit en facteur VIII", "correct": false}
+      ],
+      "explanation": "Le TP explore la voie extrinsèque de la coagulation (facteurs II, V, VII, X) sensible aux carences en vitamine K et à l'insuffisance hépatique."
+    },
+    {
+      "question": "Quelle est la valeur seuil de la troponine pour diagnostiquer un IDM?",
+      "type": "single",
+      "options": [
+        {"text": "Au-dessus du 99e percentile", "correct": true},
+        {"text": "2 fois la normale", "correct": false},
+        {"text": "5 ng/L", "correct": false},
+        {"text": "50 ng/L", "correct": false}
+      ],
+      "explanation": "Le diagnostic d'IDM repose sur une valeur de troponine supérieure au 99e percentile de la population de référence avec une variation significative."
+    },
+    {
+      "question": "Quels sont les critères biologiques du diabète gestationnel?",
+      "type": "multiple",
+      "options": [
+        {"text": "Glycémie à jeun ≥ 0,92 g/L", "correct": true},
+        {"text": "Glycémie 1h ≥ 1,80 g/L après HGPO", "correct": true},
+        {"text": "Glycémie 2h ≥ 1,53 g/L après HGPO", "correct": true},
+        {"text": "HbA1c ≥ 6,5%", "correct": false},
+        {"text": "Glycémie aléatoire ≥ 2 g/L", "correct": false}
+      ],
+      "explanation": "Le diabète gestationnel est diagnostiqué si au moins une des trois valeurs de l'HGPO est anormale selon les critères IADPSG."
+    },
+    {
+      "question": "Quel est le premier traitement d'une hyperkaliémie modérée sans signes ECG?",
+      "type": "single",
+      "options": [
+        {"text": "Gluconate de calcium", "correct": false},
+        {"text": "Résines échangeuses d'ions", "correct": true},
+        {"text": "Insuline + glucose", "correct": false},
+        {"text": "Hemodialyse", "correct": false}
+      ],
+      "explanation": "Les résines échangeuses d'ions (Kayexalate) permettent l'élimination du potassium en l'absence d'urgence vitale."
+    },
+    {
+      "question": "Quels paramètres définissent un syndrome inflammatoire biologique?",
+      "type": "multiple",
+      "options": [
+        {"text": "CRP élevée", "correct": true},
+        {"text": "VS accélérée", "correct": true},
+        {"text": "Hyperleucocytose", "correct": true},
+        {"text": "Thrombocytose", "correct": true},
+        {"text": "Hypoalbuminémie", "correct": true}
+      ],
+      "explanation": "Le syndrome inflammatoire associe typiquement élévation de la CRP et VS, hyperleucocytose, thrombocytose et hypoalbuminémie."
+    },
+    {
+      "question": "Quelle est la cause la plus fréquente d'insuffisance surrénale aiguë?",
+      "type": "single",
+      "options": [
+        {"text": "Tuberculose surrénale", "correct": false},
+        {"text": "Arrêt brutal de corticothérapie", "correct": true},
+        {"text": "Métastases surrénaliennes", "correct": false},
+        {"text": "Maladie d'Addison auto-immune", "correct": false}
+      ],
+      "explanation": "L'arrêt brutal d'une corticothérapie au long cours est la cause la plus fréquente d'insuffisance surrénale aiguë."
+    },
+    {
+      "question": "Quels sont les marqueurs de l'insuffisance cardiaque aiguë?",
+      "type": "multiple",
+      "options": [
+        {"text": "BNP > 100 pg/mL", "correct": true},
+        {"text": "NT-proBNP > 300 pg/mL", "correct": true},
+        {"text": "Troponine élevée", "correct": true},
+        {"text": "CRP > 50 mg/L", "correct": false},
+        {"text": "D-dimères positifs", "correct": false}
+      ],
+      "explanation": "Les peptides natriurétiques (BNP/NT-proBNP) sont les marqueurs de référence de l'insuffisance cardiaque, la troponine peut être élevée en cas de souffrance myocardique."
+    },
+    {
+      "question": "Quel est le traitement de première intention d'une hypomagnésémie sévère?",
+      "type": "single",
+      "options": [
+        {"text": "Comprimés de magnésium", "correct": false},
+        {"text": "Sulfate de magnésium IV", "correct": true},
+        {"text": "Régime riche en magnésium", "correct": false},
+        {"text": "Diurétiques épargneurs", "correct": false}
+      ],
+      "explanation": "L'hypomagnésémie sévère (< 0,5 mmol/L) ou symptomatique nécessite une supplementation IV lente sous monitoring cardiaque."
+    },
+    {
+      "question": "Quelles sont les caractéristiques biologiques du lupus érythémateux disséminé?",
+      "type": "multiple",
+      "options": [
+        {"text": "Anticorps antinucléaires positifs", "correct": true},
+        {"text": "Anticorps anti-ADN natif", "correct": true},
+        {"text": "Anticorps anti-Sm", "correct": true},
+        {"text": "Facteur rhumatoïde positif", "correct": false},
+        {"text": "Anticorps anti-CCP", "correct": false}
+      ],
+      "explanation": "Le LED se caractérise par la présence d'anticorps antinucléaires avec spécificité anti-ADN natif et anti-Sm, spécifiques de la maladie."
+    }
+  ]
+}
