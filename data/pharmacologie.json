@@ -1,0 +1,1361 @@
+{
+  "quizzes": [
+    {
+      "question": "Quel est le mécanisme d'action principal des inhibiteurs de la pompe à protons (IPP) comme l'oméprazole?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition irréversible de la H+/K+-ATPase", "correct": true},
+        {"text": "Blocage des récepteurs H2", "correct": false},
+        {"text": "Neutralisation de l'acide gastrique", "correct": false},
+        {"text": "Stimulation de la production de mucus", "correct": false}
+      ],
+      "explanation": "Les IPP inhibent irréversiblement la pompe à protons, réduisant la sécrétion acide gastrique."
+    },
+    {
+      "question": "Quels sont les effets indésirables courants des statines comme l'atorvastatine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Myalgies", "correct": true},
+        {"text": "Hépatotoxicité", "correct": true},
+        {"text": "Hypotension", "correct": false},
+        {"text": "Élévation des transaminases", "correct": true},
+        {"text": "Rhabdomyolyse", "correct": true}
+      ],
+      "explanation": "Les statines peuvent causer des troubles musculaires et hépatiques, mais pas typiquement de l'hypotension."
+    },
+    {
+      "question": "Quelle est la classe pharmacologique du propranolol?",
+      "type": "single",
+      "options": [
+        {"text": "Bêta-bloquant non sélectif", "correct": true},
+        {"text": "Alpha-bloquant", "correct": false},
+        {"text": "Inhibiteur calcique", "correct": false},
+        {"text": "Diurétique", "correct": false}
+      ],
+      "explanation": "Le propranolol est un bêta-bloquant non sélectif utilisé dans l'hypertension et les arythmies."
+    },
+    {
+      "question": "Quels médicaments sont des inhibiteurs de l'enzyme de conversion de l'angiotensine (IEC)?",
+      "type": "multiple",
+      "options": [
+        {"text": "Énalapril", "correct": true},
+        {"text": "Losartan", "correct": false},
+        {"text": "Ramipril", "correct": true},
+        {"text": "Captopril", "correct": true},
+        {"text": "Valsartan", "correct": false}
+      ],
+      "explanation": "Les IEC incluent énalapril, ramipril et captopril; losartan et valsartan sont des ARA II."
+    },
+    {
+      "question": "Quel est l'antidote spécifique de l'héparine?",
+      "type": "single",
+      "options": [
+        {"text": "Protamine sulfate", "correct": true},
+        {"text": "Vitamine K", "correct": false},
+        {"text": "Acide tranexamique", "correct": false},
+        {"text": "Idarucizumab", "correct": false}
+      ],
+      "explanation": "La protamine sulfate neutralise l'héparine en formant un complexe stable."
+    },
+    {
+      "question": "Quels sont les effets secondaires des corticoïdes systémiques comme la prednisone?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ostéoporose", "correct": true},
+        {"text": "Hypertension", "correct": true},
+        {"text": "Hypoglycémie", "correct": false},
+        {"text": "Syndrome de Cushing", "correct": true},
+        {"text": "Immunosuppression", "correct": true}
+      ],
+      "explanation": "Les corticoïdes causent ostéoporose, hypertension, Cushing et immunosuppression; ils induisent plutôt l'hyperglycémie."
+    },
+    {
+      "question": "Quelle est la voie d'administration préférentielle de l'insuline rapide?",
+      "type": "single",
+      "options": [
+        {"text": "Sous-cutanée", "correct": true},
+        {"text": "Intraveineuse", "correct": false},
+        {"text": "Orale", "correct": false},
+        {"text": "Intramusculaire", "correct": false}
+      ],
+      "explanation": "L'insuline est administrée par voie sous-cutanée pour un effet contrôlé."
+    },
+    {
+      "question": "Quels antibiotiques sont des bêta-lactamines?",
+      "type": "multiple",
+      "options": [
+        {"text": "Pénicilline", "correct": true},
+        {"text": "Ciprofloxacine", "correct": false},
+        {"text": "Céphalosporines", "correct": true},
+        {"text": "Carbapénèmes", "correct": true},
+        {"text": "Vancomycine", "correct": false}
+      ],
+      "explanation": "Les bêta-lactamines incluent pénicillines, céphalosporines et carbapénèmes; ciprofloxacine est une quinolone, vancomycine un glycopeptide."
+    },
+    {
+      "question": "Quel est le mécanisme d'action de l'aspirine à faible dose?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition irréversible de la COX-1 dans les plaquettes", "correct": true},
+        {"text": "Inhibition de la COX-2", "correct": false},
+        {"text": "Antagonisme des récepteurs P2Y12", "correct": false},
+        {"text": "Inhibition de la thrombine", "correct": false}
+      ],
+      "explanation": "L'aspirine inhibe la COX-1, empêchant la synthèse de thromboxane A2."
+    },
+    {
+      "question": "Quels sont les signes d'intoxication aux opioïdes comme la morphine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Myosis", "correct": true},
+        {"text": "Dépression respiratoire", "correct": true},
+        {"text": "Tachycardie", "correct": false},
+        {"text": "Constipation", "correct": true},
+        {"text": "Hypotension", "correct": true}
+      ],
+      "explanation": "Les opioïdes causent myosis, dépression respiratoire, constipation et hypotension; la tachycardie n'est pas typique."
+    },
+    {
+      "question": "Quelle est la classe du médicament digoxine?",
+      "type": "single",
+      "options": [
+        {"text": "Glycoside cardiaque", "correct": true},
+        {"text": "Bêta-bloquant", "correct": false},
+        {"text": "Diurétique", "correct": false},
+        {"text": "IEC", "correct": false}
+      ],
+      "explanation": "La digoxine est un glycoside cardiaque utilisé dans l'insuffisance cardiaque et les arythmies."
+    },
+    {
+      "question": "Quels médicaments peuvent causer une interaction avec les AVK comme la warfarine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Amiodarone", "correct": true},
+        {"text": "Aspirine", "correct": true},
+        {"text": "Paracétamol", "correct": false},
+        {"text": "Fluconazole", "correct": true},
+        {"text": "Vitamine K", "correct": true}
+      ],
+      "explanation": "Amiodarone, aspirine, fluconazole potentialisent; vitamine K antagonise; paracétamol est généralement sûr."
+    },
+    {
+      "question": "Quel est l'effet principal des diurétiques thiazidiques comme l'hydrochlorothiazide?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de la réabsorption du sodium dans le tube distal", "correct": true},
+        {"text": "Blocage de l'aldostérone", "correct": false},
+        {"text": "Inhibition de l'anhydrase carbonique", "correct": false},
+        {"text": "Inhibition du cotransport Na/K/2Cl", "correct": false}
+      ],
+      "explanation": "Les thiazides inhibent le cotransport Na/Cl dans le tube distal."
+    },
+    {
+      "question": "Quels sont les effets indésirables des aminoglycosides comme la gentamicine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Néphrotoxicité", "correct": true},
+        {"text": "Ototoxicité", "correct": true},
+        {"text": "Hépatotoxicité", "correct": false},
+        {"text": "Bloc neuromusculaire", "correct": true},
+        {"text": "Rash cutané", "correct": false}
+      ],
+      "explanation": "Les aminoglycosides causent néphro et ototoxicité, et bloc neuromusculaire; pas typiquement hépatotoxicité ou rash."
+    },
+    {
+      "question": "Quelle est la cible moléculaire des benzodiazépines comme le diazépam?",
+      "type": "single",
+      "options": [
+        {"text": "Récepteur GABA-A", "correct": true},
+        {"text": "Récepteur NMDA", "correct": false},
+        {"text": "Récepteur opioïde", "correct": false},
+        {"text": "Récepteur adrénergique", "correct": false}
+      ],
+      "explanation": "Les benzodiazépines potentialisent l'effet du GABA sur le récepteur GABA-A."
+    },
+    {
+      "question": "Quels anticancéreux sont des alkylants?",
+      "type": "multiple",
+      "options": [
+        {"text": "Cyclophosphamide", "correct": true},
+        {"text": "Méthotrexate", "correct": false},
+        {"text": "Cisplatine", "correct": true},
+        {"text": "Vincristine", "correct": false},
+        {"text": "Busulfan", "correct": true}
+      ],
+      "explanation": "Alkylants : cyclophosphamide, cisplatine, busulfan ; méthotrexate est antimetabolite, vincristine alcaloïde."
+    },
+    {
+      "question": "Quel est l'antidote de l'intoxication au paracétamol?",
+      "type": "single",
+      "options": [
+        {"text": "N-acétylcystéine", "correct": true},
+        {"text": "Flumazénil", "correct": false},
+        {"text": "Naloxone", "correct": false},
+        {"text": "Atropine", "correct": false}
+      ],
+      "explanation": "La N-acétylcystéine régénère le glutathion pour détoxifier le métabolite NAPQI."
+    },
+    {
+      "question": "Quels sont les effets secondaires des ISRS comme la sertraline?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dysfonction sexuelle", "correct": true},
+        {"text": "Prise de poids", "correct": true},
+        {"text": "Hypotension orthostatique", "correct": false},
+        {"text": "Nausées", "correct": true},
+        {"text": "Syndrome sérotoninergique", "correct": true}
+      ],
+      "explanation": "ISRS causent dysfonction sexuelle, prise de poids, nausées et risque de syndrome sérotoninergique; hypotension plus pour tricycliques."
+    },
+    {
+      "question": "Quelle est la classe du médicament furosémide?",
+      "type": "single",
+      "options": [
+        {"text": "Diurétique de l'anse", "correct": true},
+        {"text": "Thiazidique", "correct": false},
+        {"text": "Épargneur de potassium", "correct": false},
+        {"text": "Osmotique", "correct": false}
+      ],
+      "explanation": "Le furosémide inhibe le cotransport Na/K/2Cl dans l'anse de Henle."
+    },
+    {
+      "question": "Quels médicaments sont des anti-TNF comme l'adalimumab?",
+      "type": "multiple",
+      "options": [
+        {"text": "Infliximab", "correct": true},
+        {"text": "Rituximab", "correct": false},
+        {"text": "Etanercept", "correct": true},
+        {"text": "Tocilizumab", "correct": false},
+        {"text": "Golimumab", "correct": true}
+      ],
+      "explanation": "Anti-TNF : infliximab, etanercept, golimumab ; rituximab anti-CD20, tocilizumab anti-IL6."
+    },
+    {
+      "question": "Quel est le mécanisme d'action de la metformine?",
+      "type": "single",
+      "options": [
+        {"text": "Activation de l'AMPK, réduction de la gluconéogenèse hépatique", "correct": true},
+        {"text": "Stimulation de la sécrétion d'insuline", "correct": false},
+        {"text": "Inhibition de l'alpha-glucosidase", "correct": false},
+        {"text": "Agoniste GLP-1", "correct": false}
+      ],
+      "explanation": "La metformine active l'AMPK, diminuant la production hépatique de glucose."
+    },
+    {
+      "question": "Quels sont les risques des quinolones comme la ciprofloxacine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Tendinopathie", "correct": true},
+        {"text": "Prolongation QT", "correct": true},
+        {"text": "Néphrotoxicité", "correct": false},
+        {"text": "Photosensibilité", "correct": true},
+        {"text": "Risque de rupture aortique", "correct": true}
+      ],
+      "explanation": "Quinolones causent tendinopathie, QT long, photosensibilité et risque aortique; néphrotoxicité moins courante."
+    },
+    {
+      "question": "Quelle est la cible des bisphosphonates comme l'alendronate?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de la résorption osseuse par les ostéoclastes", "correct": true},
+        {"text": "Stimulation des ostéoblastes", "correct": false},
+        {"text": "Augmentation de l'absorption calcique", "correct": false},
+        {"text": "Inhibition de la PTH", "correct": false}
+      ],
+      "explanation": "Les bisphosphonates induisent l'apoptose des ostéoclastes."
+    },
+    {
+      "question": "Quels médicaments sont des agonistes bêta-2 comme le salbutamol?",
+      "type": "multiple",
+      "options": [
+        {"text": "Formotérol", "correct": true},
+        {"text": "Atropine", "correct": false},
+        {"text": "Terbutaline", "correct": true},
+        {"text": "Ipratropium", "correct": false},
+        {"text": "Salmétérol", "correct": true}
+      ],
+      "explanation": "Agonistes bêta-2 : formotérol, terbutaline, salmétérol ; atropine et ipratropium sont anticholinergiques."
+    },
+    {
+      "question": "Quel est l'effet principal de la lévodopa dans la maladie de Parkinson?",
+      "type": "single",
+      "options": [
+        {"text": "Précurseur de la dopamine", "correct": true},
+        {"text": "Inhibiteur de la MAO", "correct": false},
+        {"text": "Agoniste dopaminergique", "correct": false},
+        {"text": "Anticholinergique", "correct": false}
+      ],
+      "explanation": "La lévodopa traverse la barrière hémato-encéphalique et est convertie en dopamine."
+    },
+    {
+      "question": "Quels sont les effets indésirables des antipsychotiques atypiques comme la risperidone?",
+      "type": "multiple",
+      "options": [
+        {"text": "Syndrome métabolique", "correct": true},
+        {"text": "Hyperprolactinémie", "correct": true},
+        {"text": "Symptômes extrapyramidaux", "correct": true},
+        {"text": "Hypotension", "correct": false},
+        {"text": "Prolongation QT", "correct": true}
+      ],
+      "explanation": "Atypiques causent métabolique, hyperprolactinémie, EPS (moins), QT long; hypotension plus pour certains."
+    },
+    {
+      "question": "Quelle est la classe du médicament omalizumab?",
+      "type": "single",
+      "options": [
+        {"text": "Anticorps monoclonal anti-IgE", "correct": true},
+        {"text": "Antileucotriène", "correct": false},
+        {"text": "Corticoïde inhalé", "correct": false},
+        {"text": "Agoniste bêta-2", "correct": false}
+      ],
+      "explanation": "L'omalizumab lie les IgE libres, utilisé dans l'asthme allergique."
+    },
+    {
+      "question": "Quels médicaments peuvent causer une hépatotoxicité?",
+      "type": "multiple",
+      "options": [
+        {"text": "Paracétamol", "correct": true},
+        {"text": "Méthotrexate", "correct": true},
+        {"text": "Amoxicilline", "correct": false},
+        {"text": "Isoniazide", "correct": true},
+        {"text": "Statines", "correct": true}
+      ],
+      "explanation": "Paracétamol, méthotrexate, isoniazide, statines sont hépatotoxiques; amoxicilline moins couramment."
+    },
+    {
+      "question": "Quel est le mécanisme d'action du sildenafil?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de la PDE5", "correct": true},
+        {"text": "Blocage alpha", "correct": false},
+        {"text": "Agoniste dopaminergique", "correct": false},
+        {"text": "Inhibiteur de la recapture de la sérotonine", "correct": false}
+      ],
+      "explanation": "Le sildenafil inhibe la PDE5, augmentant le GMPc et causant vasodilatation."
+    },
+    {
+      "question": "Quels sont les signes d'intoxication aux anticholinergiques?",
+      "type": "multiple",
+      "options": [
+        {"text": "Mydriase", "correct": true},
+        {"text": "Tachycardie", "correct": true},
+        {"text": "Bradypnée", "correct": false},
+        {"text": "Sécheresse buccale", "correct": true},
+        {"text": "Confusion", "correct": true}
+      ],
+      "explanation": "Anticholinergiques causent mydriase, tachycardie, sécheresse, confusion; pas bradypnée."
+    },
+    {
+      "question": "Quelle est la cible des fibrates comme le fénofibrate?",
+      "type": "single",
+      "options": [
+        {"text": "Activation des PPAR-alpha", "correct": true},
+        {"text": "Inhibition de la HMG-CoA réductase", "correct": false},
+        {"text": "Inhibition de l'absorption du cholestérol", "correct": false},
+        {"text": "Séquestration des acides biliaires", "correct": false}
+      ],
+      "explanation": "Les fibrates activent PPAR-alpha, réduisant les triglycérides."
+    },
+    {
+      "question": "Quels antibiotiques couvrent les anaérobies?",
+      "type": "multiple",
+      "options": [
+        {"text": "Métronidazole", "correct": true},
+        {"text": "Clindamycine", "correct": true},
+        {"text": "Gentamicine", "correct": false},
+        {"text": "Pipéracilline-tazobactam", "correct": true},
+        {"text": "Vancomycine", "correct": false}
+      ],
+      "explanation": "Métronidazole, clindamycine, pip-tazo couvrent anaérobies; gentamicine et vancomycine non."
+    },
+    {
+      "question": "Quel est l'antidote des benzodiazépines?",
+      "type": "single",
+      "options": [
+        {"text": "Flumazénil", "correct": true},
+        {"text": "Naloxone", "correct": false},
+        {"text": "Atropine", "correct": false},
+        {"text": "Physostigmine", "correct": false}
+      ],
+      "explanation": "Le flumazénil est un antagoniste compétitif des récepteurs GABA-A."
+    },
+    {
+      "question": "Quels sont les effets secondaires des inhibiteurs calciques comme l'amlodipine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Œdèmes des membres inférieurs", "correct": true},
+        {"text": "Bradycardie", "correct": false},
+        {"text": "Flush facial", "correct": true},
+        {"text": "Constipation", "correct": true},
+        {"text": "Hypotension", "correct": true}
+      ],
+      "explanation": "Inhibiteurs calciques causent œdèmes, flush, constipation, hypotension; bradycardie plus pour non-dihydropyridines."
+    },
+    {
+      "question": "Quelle est la classe du médicament allopurinol?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibiteur de la xanthine oxydase", "correct": true},
+        {"text": "Uricosurique", "correct": false},
+        {"text": "Anti-inflammatoire", "correct": false},
+        {"text": "Analgésique", "correct": false}
+      ],
+      "explanation": "L'allopurinol réduit la production d'acide urique."
+    },
+    {
+      "question": "Quels médicaments sont utilisés dans le traitement de l'hépatite C?",
+      "type": "multiple",
+      "options": [
+        {"text": "Sofosbuvir", "correct": true},
+        {"text": "Ribavirine", "correct": true},
+        {"text": "Acyclovir", "correct": false},
+        {"text": "Ledipasvir", "correct": true},
+        {"text": "Interféron", "correct": true}
+      ],
+      "explanation": "Traitements HCV : sofosbuvir, ribavirine, ledipasvir, interféron ; acyclovir pour HSV."
+    },
+    {
+      "question": "Quel est le mécanisme d'action de l'ondansétron?",
+      "type": "single",
+      "options": [
+        {"text": "Antagoniste 5-HT3", "correct": true},
+        {"text": "Agoniste dopaminergique", "correct": false},
+        {"text": "Antihistaminique", "correct": false},
+        {"text": "Anticholinergique", "correct": false}
+      ],
+      "explanation": "L'ondansétron bloque les récepteurs 5-HT3 dans le système nerveux central et périphérique."
+    },
+    {
+      "question": "Quels sont les risques des AINS comme l'ibuprofène?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ulcère gastroduodénal", "correct": true},
+        {"text": "Insuffisance rénale", "correct": true},
+        {"text": "Hypotension", "correct": false},
+        {"text": "Risque cardiovasculaire", "correct": true},
+        {"text": "Hépatotoxicité", "correct": true}
+      ],
+      "explanation": "AINS causent ulcères, IR, CV, hépatotoxicité; pas hypotension."
+    },
+    {
+      "question": "Quelle est la cible des inhibiteurs de la tyrosine kinase comme l'imatinib?",
+      "type": "single",
+      "options": [
+        {"text": "BCR-ABL dans la LMC", "correct": true},
+        {"text": "HER2", "correct": false},
+        {"text": "EGFR", "correct": false},
+        {"text": "VEGF", "correct": false}
+      ],
+      "explanation": "L'imatinib inhibe BCR-ABL dans la leucémie myéloïde chronique."
+    },
+    {
+      "question": "Quels médicaments sont des antiviraux pour le VIH?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ténofovir", "correct": true},
+        {"text": "Lamivudine", "correct": true},
+        {"text": "Oseltamivir", "correct": false},
+        {"text": "Dolutégravir", "correct": true},
+        {"text": "Efavirenz", "correct": true}
+      ],
+      "explanation": "Antiviraux VIH : ténofovir, lamivudine, dolutégravir, efavirenz ; oseltamivir pour influenza."
+    },
+    {
+      "question": "Quel est l'effet principal du tamoxifène?",
+      "type": "single",
+      "options": [
+        {"text": "Modulateur sélectif des récepteurs aux estrogènes", "correct": true},
+        {"text": "Inhibiteur de l'aromatase", "correct": false},
+        {"text": "Anticorps anti-HER2", "correct": false},
+        {"text": "Alkylant", "correct": false}
+      ],
+      "explanation": "Le tamoxifène est antagoniste aux estrogènes dans le sein, utilisé dans le cancer du sein ER+."
+    },
+    {
+      "question": "Quels sont les effets indésirables des chimiothérapies comme le cisplatine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Néphrotoxicité", "correct": true},
+        {"text": "Neurotoxicité", "correct": true},
+        {"text": "Cardiotoxicité", "correct": false},
+        {"text": "Ototoxicité", "correct": true},
+        {"text": "Myélosuppression", "correct": true}
+      ],
+      "explanation": "Cisplatine cause néphro, neuro, oto, myélosuppression; cardiotoxicité plus pour anthracyclines."
+    },
+    {
+      "question": "Quelle est la classe du médicament rivaroxaban?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibiteur direct du facteur Xa", "correct": true},
+        {"text": "Inhibiteur de la thrombine", "correct": false},
+        {"text": "Antiagrégant plaquettaire", "correct": false},
+        {"text": "Fibrinolytique", "correct": false}
+      ],
+      "explanation": "Le rivaroxaban inhibe le facteur Xa, anticoagulant oral."
+    },
+    {
+      "question": "Quels médicaments traitent l'hypertension portale?",
+      "type": "multiple",
+      "options": [
+        {"text": "Propranolol", "correct": true},
+        {"text": "Octréotide", "correct": true},
+        {"text": "Furosémide", "correct": false},
+        {"text": "Terlipressine", "correct": true},
+        {"text": "Spironolactone", "correct": false}
+      ],
+      "explanation": "Propranolol, octréotide, terlipressine réduisent la pression portale; furosémide et spironolactone pour ascite."
+    },
+    {
+      "question": "Quel est le mécanisme d'action de la colchicine?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de la polymérisation des microtubules", "correct": true},
+        {"text": "Inhibition de la COX", "correct": false},
+        {"text": "Inhibition de la xanthine oxydase", "correct": false},
+        {"text": "Uricosurique", "correct": false}
+      ],
+      "explanation": "La colchicine empêche la migration des neutrophiles dans la goutte."
+    },
+    {
+      "question": "Quels sont les signes d'intoxication à la digoxine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Nausées", "correct": true},
+        {"text": "Troubles visuels", "correct": true},
+        {"text": "Tachycardie", "correct": false},
+        {"text": "Arythmies", "correct": true},
+        {"text": "Hyperkaliémie", "correct": true}
+      ],
+      "explanation": "Digoxine cause nausées, xanthopsie, arythmies, hyperkaliémie; pas tachycardie typiquement."
+    },
+    {
+      "question": "Quelle est la cible des statines?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de la HMG-CoA réductase", "correct": true},
+        {"text": "Activation PPAR", "correct": false},
+        {"text": "Inhibition PCSK9", "correct": false},
+        {"text": "Séquestration biliaire", "correct": false}
+      ],
+      "explanation": "Les statines bloquent la synthèse du cholestérol."
+    },
+    {
+      "question": "Quels médicaments sont des antipaludéens?",
+      "type": "multiple",
+      "options": [
+        {"text": "Chloroquine", "correct": true},
+        {"text": "Artémisinine", "correct": true},
+        {"text": "Azithromycine", "correct": false},
+        {"text": "Méfloquine", "correct": true},
+        {"text": "Primaquine", "correct": true}
+      ],
+      "explanation": "Antipaludéens : chloroquine, artémisinine, méfloquine, primaquine ; azithromycine est antibiotique."
+    },
+    {
+      "question": "Quel est l'effet de la naloxone?",
+      "type": "single",
+      "options": [
+        {"text": "Antagoniste opioïde", "correct": true},
+        {"text": "Agoniste opioïde", "correct": false},
+        {"text": "Antidépresseur", "correct": false},
+        {"text": "Anticonvulsivant", "correct": false}
+      ],
+      "explanation": "La naloxone inverse les effets des opioïdes."
+    },
+    {
+      "question": "Quels sont les effets secondaires des bêta-bloquants?",
+      "type": "multiple",
+      "options": [
+        {"text": "Bradycardie", "correct": true},
+        {"text": "Bronchospasme", "correct": true},
+        {"text": "Hypertension", "correct": false},
+        {"text": "Fatigue", "correct": true},
+        {"text": "Dysfonction érectile", "correct": true}
+      ],
+      "explanation": "Bêta-bloquants causent bradycardie, bronchospasme, fatigue, DE; pas hypertension."
+    },
+    {
+      "question": "Quelle est la classe du médicament lévothyroxine?",
+      "type": "single",
+      "options": [
+        {"text": "Hormone thyroïdienne T4", "correct": true},
+        {"text": "Antithyroïdien", "correct": false},
+        {"text": "Iode radioactif", "correct": false},
+        {"text": "Bêta-bloquant", "correct": false}
+      ],
+      "explanation": "La lévothyroxine remplace la T4 dans l'hypothyroïdie."
+    },
+    {
+      "question": "Quels médicaments traitent la tuberculose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Isoniazide", "correct": true},
+        {"text": "Rifampicine", "correct": true},
+        {"text": "Amoxicilline", "correct": false},
+        {"text": "Pyrazinamide", "correct": true},
+        {"text": "Éthambutol", "correct": true}
+      ],
+      "explanation": "Traitement TB : INH, RIF, PZA, EMB ; amoxicilline non."
+    },
+    {
+      "question": "Quel est le mécanisme d'action des sulfamides?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de la synthèse de l'acide folique", "correct": true},
+        {"text": "Inhibition de la paroi cellulaire", "correct": false},
+        {"text": "Inhibition de la synthèse protéique", "correct": false},
+        {"text": "Inhibition de l'ADN gyrase", "correct": false}
+      ],
+      "explanation": "Les sulfamides sont analogues du PABA, bloquant la folate synthétase."
+    },
+    {
+      "question": "Quels sont les risques des corticoïdes inhalés?",
+      "type": "multiple",
+      "options": [
+        {"text": "Candidose orale", "correct": true},
+        {"text": "Ostéoporose", "correct": false},
+        {"text": "Dysphonie", "correct": true},
+        {"text": "Suppression surrénalienne", "correct": false},
+        {"text": "Cataracte", "correct": false}
+      ],
+      "explanation": "Inhalés causent candidose, dysphonie; systémiques ostéoporose, suppression, cataracte."
+    },
+    {
+      "question": "Quelle est la cible de l'ézétimibe?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de l'absorption intestinale du cholestérol", "correct": true},
+        {"text": "Inhibition HMG-CoA", "correct": false},
+        {"text": "Activation PPAR", "correct": false},
+        {"text": "Inhibition PCSK9", "correct": false}
+      ],
+      "explanation": "L'ézétimibe bloque NPC1L1 dans l'intestin."
+    },
+    {
+      "question": "Quels médicaments sont des antileucotriènes?",
+      "type": "multiple",
+      "options": [
+        {"text": "Montélukast", "correct": true},
+        {"text": "Zafirlukast", "correct": true},
+        {"text": "Salbutamol", "correct": false},
+        {"text": "Omalizumab", "correct": false},
+        {"text": "Zileuton", "correct": true}
+      ],
+      "explanation": "Antileucotriènes : montélukast, zafirlukast, zileuton ; salbutamol bêta-2, omalizumab anti-IgE."
+    },
+    {
+      "question": "Quel est l'effet de l'atropine?",
+      "type": "single",
+      "options": [
+        {"text": "Antagoniste muscarinique", "correct": true},
+        {"text": "Agoniste adrénergique", "correct": false},
+        {"text": "Inhibiteur de la recapture", "correct": false},
+        {"text": "Blocant calcique", "correct": false}
+      ],
+      "explanation": "L'atropine bloque les récepteurs muscariniques, causant tachycardie, mydriase."
+    },
+    {
+      "question": "Quels sont les effets indésirables des macrolides comme l'érythromycine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Prolongation QT", "correct": true},
+        {"text": "Troubles gastro-intestinaux", "correct": true},
+        {"text": "Ototoxicité", "correct": true},
+        {"text": "Néphrotoxicité", "correct": false},
+        {"text": "Interactions CYP3A4", "correct": true}
+      ],
+      "explanation": "Macrolides causent QT, GI, oto, interactions ; pas néphro."
+    },
+    {
+      "question": "Quelle est la classe du médicament sumatriptan?",
+      "type": "single",
+      "options": [
+        {"text": "Agoniste 5-HT1B/1D", "correct": true},
+        {"text": "Antagoniste opioïde", "correct": false},
+        {"text": "AINS", "correct": false},
+        {"text": "Bêta-bloquant", "correct": false}
+      ],
+      "explanation": "Le sumatriptan est utilisé dans la migraine, vasoconstricteur."
+    },
+    {
+      "question": "Quels médicaments traitent l'ostéoporose?",
+      "type": "multiple",
+      "options": [
+        {"text": "Bisphosphonates", "correct": true},
+        {"text": "Dénosumab", "correct": true},
+        {"text": "Corticoïdes", "correct": false},
+        {"text": "Tériparatide", "correct": true},
+        {"text": "Raloxifène", "correct": true}
+      ],
+      "explanation": "Traitements : bisphos, dénosumab, tériparatide, raloxifène ; corticoïdes causent ostéoporose."
+    },
+    {
+      "question": "Quel est le mécanisme d'action de la ciclosporine?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de la calcineurine", "correct": true},
+        {"text": "Inhibition mTOR", "correct": false},
+        {"text": "Anticorps anti-CD3", "correct": false},
+        {"text": "Inhibition purine", "correct": false}
+      ],
+      "explanation": "La ciclosporine inhibe la calcineurine, empêchant l'activation des lymphocytes T."
+    },
+    {
+      "question": "Quels sont les signes d'intoxication aux salicylés comme l'aspirine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Acouphènes", "correct": true},
+        {"text": "Hyperventilation", "correct": true},
+        {"text": "Bradycardie", "correct": false},
+        {"text": "Acidose métabolique", "correct": true},
+        {"text": "Fièvre", "correct": true}
+      ],
+      "explanation": "Salicylés causent acouphènes, hyperventilation, acidose, fièvre; pas bradycardie."
+    },
+    {
+      "question": "Quelle est la cible des inhibiteurs PCSK9 comme l'alirocumab?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de PCSK9, augmentation des récepteurs LDL", "correct": true},
+        {"text": "Inhibition HMG-CoA", "correct": false},
+        {"text": "Activation PPAR", "correct": false},
+        {"text": "Inhibition absorption", "correct": false}
+      ],
+      "explanation": "Les anti-PCSK9 augmentent le clairance du LDL."
+    },
+    {
+      "question": "Quels antibiotiques sont efficaces contre Pseudomonas?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ciprofloxacine", "correct": true},
+        {"text": "Pipéracilline-tazobactam", "correct": true},
+        {"text": "Vancomycine", "correct": false},
+        {"text": "Ceftazidime", "correct": true},
+        {"text": "Meropénem", "correct": true}
+      ],
+      "explanation": "Anti-Pseudomonas : cipro, pip-tazo, ceftaz, mero ; vancomycine contre Gram+."
+    },
+    {
+      "question": "Quel est l'antidote de la warfarine?",
+      "type": "single",
+      "options": [
+        {"text": "Vitamine K", "correct": true},
+        {"text": "Protamine", "correct": false},
+        {"text": "Idarucizumab", "correct": false},
+        {"text": "Andexanet", "correct": false}
+      ],
+      "explanation": "La vitamine K inverse les effets des AVK."
+    },
+    {
+      "question": "Quels sont les effets secondaires des agonistes GLP-1 comme l'exénatide?",
+      "type": "multiple",
+      "options": [
+        {"text": "Nausées", "correct": true},
+        {"text": "Perte de poids", "correct": true},
+        {"text": "Hypoglycémie sévère", "correct": false},
+        {"text": "Pancréatite", "correct": true},
+        {"text": "Risque cardiovasculaire réduit", "correct": false}
+      ],
+      "explanation": "GLP-1 causent nausées, perte poids, pancréatite; hypoglycémie rare, CV réduit est bénéfice."
+    },
+    {
+      "question": "Quelle est la classe du médicament clopidogrel?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibiteur P2Y12", "correct": true},
+        {"text": "Inhibiteur GPIIb/IIIa", "correct": false},
+        {"text": "Anticoagulant", "correct": false},
+        {"text": "Fibrinolytique", "correct": false}
+      ],
+      "explanation": "Le clopidogrel inhibe l'agrégation plaquettaire via P2Y12."
+    },
+    {
+      "question": "Quels médicaments sont utilisés dans la BPCO?",
+      "type": "multiple",
+      "options": [
+        {"text": "Tiotropium", "correct": true},
+        {"text": "Salmétérol", "correct": true},
+        {"text": "Montélukast", "correct": false},
+        {"text": "Fluticasone", "correct": true},
+        {"text": "Roflumilast", "correct": true}
+      ],
+      "explanation": "BPCO : tiotropium, salmétérol, fluticasone, roflumilast ; montélukast plus pour asthme."
+    },
+    {
+      "question": "Quel est le mécanisme d'action du méthotrexate?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de la dihydrofolate réductase", "correct": true},
+        {"text": "Alkylation ADN", "correct": false},
+        {"text": "Inhibition topoisomérase", "correct": false},
+        {"text": "Inhibition microtubule", "correct": false}
+      ],
+      "explanation": "Le méthotrexate bloque la synthèse des purines et pyrimidines."
+    },
+    {
+      "question": "Quels sont les risques des tétracyclines?",
+      "type": "multiple",
+      "options": [
+        {"text": "Photosensibilité", "correct": true},
+        {"text": "Coloration dentaire", "correct": true},
+        {"text": "Ototoxicité", "correct": false},
+        {"text": "Troubles GI", "correct": true},
+        {"text": "Inhibition croissance osseuse", "correct": true}
+      ],
+      "explanation": "Tétracyclines causent photosens, dents, GI, os; ototoxicité pour aminoglycosides."
+    },
+    {
+      "question": "Quelle est la cible de l'ivermectine?",
+      "type": "single",
+      "options": [
+        {"text": "Augmentation du GABA chez les parasites", "correct": true},
+        {"text": "Inhibition synthèse protéique", "correct": false},
+        {"text": "Inhibition paroi", "correct": false},
+        {"text": "Antiviral", "correct": false}
+      ],
+      "explanation": "L'ivermectine est antiparasitaire, paralysant les vers."
+    },
+    {
+      "question": "Quels médicaments sont des inhibiteurs SGLT2?",
+      "type": "multiple",
+      "options": [
+        {"text": "Dapagliflozine", "correct": true},
+        {"text": "Empagliflozine", "correct": true},
+        {"text": "Metformine", "correct": false},
+        {"text": "Canagliflozine", "correct": true},
+        {"text": "Sitagliptine", "correct": false}
+      ],
+      "explanation": "SGLT2 : dapa, empa, cana ; metformine biguanide, sita DPP4."
+    },
+    {
+      "question": "Quel est l'effet de la physostigmine?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibiteur de l'acétylcholinestérase", "correct": true},
+        {"text": "Antagoniste muscarinique", "correct": false},
+        {"text": "Agoniste adrénergique", "correct": false},
+        {"text": "Blocant calcique", "correct": false}
+      ],
+      "explanation": "La physostigmine augmente l'ACh, utilisée dans l'intoxication anticholinergique."
+    },
+    {
+      "question": "Quels sont les effets indésirables des inhibiteurs de la pompe à protons?",
+      "type": "multiple",
+      "options": [
+        {"text": "Risque d'infections gastro-intestinales", "correct": true},
+        {"text": "Ostéoporose", "correct": true},
+        {"text": "Hypermagnésémie", "correct": false},
+        {"text": "Déficit en vitamine B12", "correct": true},
+        {"text": "Risque de pneumonie", "correct": true}
+      ],
+      "explanation": "IPP causent infections, ostéoporose, B12 bas, pneumonie; hypomagnésémie, pas hyper."
+    },
+    {
+      "question": "Quelle est la classe du médicament rituximab?",
+      "type": "single",
+      "options": [
+        {"text": "Anticorps anti-CD20", "correct": true},
+        {"text": "Anti-TNF", "correct": false},
+        {"text": "Inhibiteur JAK", "correct": false},
+        {"text": "Anti-IL6", "correct": false}
+      ],
+      "explanation": "Le rituximab cible les lymphocytes B."
+    },
+    {
+      "question": "Quels médicaments traitent l'hyperthyroïdie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Thiamazole", "correct": true},
+        {"text": "Propylthiouracile", "correct": true},
+        {"text": "Lévothyroxine", "correct": false},
+        {"text": "Propranolol", "correct": true},
+        {"text": "Iode radioactif", "correct": true}
+      ],
+      "explanation": "Antithyroïdiens : thiamazole, PTU ; propranolol pour symptômes, iode ablative ; lévo pour hypo."
+    },
+    {
+      "question": "Quel est le mécanisme d'action de l'oseltamivir?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibiteur de la neuraminidase", "correct": true},
+        {"text": "Inhibiteur de la transcriptase inverse", "correct": false},
+        {"text": "Inhibiteur protéase", "correct": false},
+        {"text": "Anticorps monoclonal", "correct": false}
+      ],
+      "explanation": "L'oseltamivir empêche la libération virale dans l'influenza."
+    },
+    {
+      "question": "Quels sont les risques des diurétiques épargneurs de potassium comme la spironolactone?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hyperkaliémie", "correct": true},
+        {"text": "Gynécomastie", "correct": true},
+        {"text": "Hypotension", "correct": true},
+        {"text": "Hyponatrémie", "correct": false},
+        {"text": "Acidose", "correct": true}
+      ],
+      "explanation": "Spironolactone cause hyperK, gynéco, hypoTA, acidose; hyponatrémie moins courante."
+    },
+    {
+      "question": "Quelle est la cible des anticorps anti-VEGF comme le bévacizumab?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de l'angiogenèse", "correct": true},
+        {"text": "Inhibition EGFR", "correct": false},
+        {"text": "Inhibition BRAF", "correct": false},
+        {"text": "Inhibition ALK", "correct": false}
+      ],
+      "explanation": "Le bévacizumab lie le VEGF, empêchant la formation de vaisseaux."
+    },
+    {
+      "question": "Quels médicaments sont des fibrinoltiques?",
+      "type": "multiple",
+      "options": [
+        {"text": "Alteplase", "correct": true},
+        {"text": "Streptokinase", "correct": true},
+        {"text": "Héparine", "correct": false},
+        {"text": "Tenecteplase", "correct": true},
+        {"text": "Urokinase", "correct": true}
+      ],
+      "explanation": "Fibrinolytics : alteplase, strepto, tenecte, uro ; héparine anticoagulant."
+    },
+    {
+      "question": "Quel est l'effet principal du finastéride?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de la 5-alpha réductase", "correct": true},
+        {"text": "Blocage alpha", "correct": false},
+        {"text": "Agoniste dopaminergique", "correct": false},
+        {"text": "Inhibiteur PDE5", "correct": false}
+      ],
+      "explanation": "Le finastéride réduit la DHT, utilisé dans HBP et alopécie."
+    },
+    {
+      "question": "Quels sont les effets secondaires des inhibiteurs DPP4 comme la sitagliptine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Nausées", "correct": false},
+        {"text": "Pancréatite", "correct": true},
+        {"text": "Hypoglycémie", "correct": false},
+        {"text": "Infections des voies respiratoires", "correct": true},
+        {"text": "Arthralgies", "correct": true}
+      ],
+      "explanation": "DPP4 causent pancréatite, IVR, arthralgies; nausées plus GLP1, hypo rare."
+    },
+    {
+      "question": "Quelle est la classe du médicament amiodarone?",
+      "type": "single",
+      "options": [
+        {"text": "Antiarythmique classe III", "correct": true},
+        {"text": "Bêta-bloquant", "correct": false},
+        {"text": "Inhibiteur calcique", "correct": false},
+        {"text": "Glycoside cardiaque", "correct": false}
+      ],
+      "explanation": "L'amiodarone prolonge le potentiel d'action."
+    },
+    {
+      "question": "Quels médicaments traitent le glaucome?",
+      "type": "multiple",
+      "options": [
+        {"text": "Timolol", "correct": true},
+        {"text": "Latanoprost", "correct": true},
+        {"text": "Atropine", "correct": false},
+        {"text": "Brimonidine", "correct": true},
+        {"text": "Pilocarpine", "correct": true}
+      ],
+      "explanation": "Glaucome : timolol, latano, brimo, pilo ; atropine contre-indiquée."
+    },
+    {
+      "question": "Quel est le mécanisme d'action de l'aciclovir?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de l'ADN polymérase virale", "correct": true},
+        {"text": "Inhibition neuraminidase", "correct": false},
+        {"text": "Inhibition protéase", "correct": false},
+        {"text": "Inhibition entrée virale", "correct": false}
+      ],
+      "explanation": "L'aciclovir est phosphorylé par la thymidine kinase virale."
+    },
+    {
+      "question": "Quels sont les risques des antidépresseurs tricycliques?",
+      "type": "multiple",
+      "options": [
+        {"text": "Anticholinergiques effets", "correct": true},
+        {"text": "Prolongation QT", "correct": true},
+        {"text": "Hypotension orthostatique", "correct": true},
+        {"text": "Prise de poids", "correct": true},
+        {"text": "Dysfonction sexuelle", "correct": false}
+      ],
+      "explanation": "Tricycliques causent antichol, QT, hypo ortho, poids; DS plus ISRS."
+    },
+    {
+      "question": "Quelle est la cible de la varénicline?",
+      "type": "single",
+      "options": [
+        {"text": "Agoniste partiel des récepteurs nicotiniques", "correct": true},
+        {"text": "Inhibiteur MAO", "correct": false},
+        {"text": "Antidépresseur", "correct": false},
+        {"text": "Substitut nicotinique", "correct": false}
+      ],
+      "explanation": "La varénicline aide au sevrage tabagique."
+    },
+    {
+      "question": "Quels médicaments sont des antimycotiques azolés?",
+      "type": "multiple",
+      "options": [
+        {"text": "Fluconazole", "correct": true},
+        {"text": "Amphotéricine B", "correct": false},
+        {"text": "Itraconazole", "correct": true},
+        {"text": "Voriconazole", "correct": true},
+        {"text": "Terbinafine", "correct": false}
+      ],
+      "explanation": "Azolés : flu, itra, vori ; ampho polyène, terbi allylamine."
+    },
+    {
+      "question": "Quel est l'effet de l'édrophonium?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibiteur cholinestérase réversible court", "correct": true},
+        {"text": "Antagoniste muscarinique", "correct": false},
+        {"text": "Agoniste nicotinique", "correct": false},
+        {"text": "Blocant neuromusculaire", "correct": false}
+      ],
+      "explanation": "L'édrophonium est utilisé dans le diagnostic de la myasthénie."
+    },
+    {
+      "question": "Quels sont les effets indésirables des inhibiteurs JAK comme le tofacitinib?",
+      "type": "multiple",
+      "options": [
+        {"text": "Infections", "correct": true},
+        {"text": "Thromboses", "correct": true},
+        {"text": "Hépatotoxicité", "correct": false},
+        {"text": "Anémie", "correct": true},
+        {"text": "Risque de cancer", "correct": true}
+      ],
+      "explanation": "JAKi causent infections, thromboses, anémie, cancer; hépatotoxicité moins spécifique."
+    },
+    {
+      "question": "Quelle est la classe du médicament dabigatran?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibiteur direct de la thrombine", "correct": true},
+        {"text": "Inhibiteur Xa", "correct": false},
+        {"text": "Antiplaquettaire", "correct": false},
+        {"text": "Fibrinolytique", "correct": false}
+      ],
+      "explanation": "Le dabigatran inhibe la thrombine."
+    },
+    {
+      "question": "Quels médicaments traitent la migraine en prophylaxie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Propranolol", "correct": true},
+        {"text": "Topiramate", "correct": true},
+        {"text": "Sumatriptan", "correct": false},
+        {"text": "Amitriptyline", "correct": true},
+        {"text": "Valproate", "correct": true}
+      ],
+      "explanation": "Prophy : propra, topi, ami, valpro ; suma pour crise."
+    },
+    {
+      "question": "Quel est le mécanisme d'action de la mémantine?",
+      "type": "single",
+      "options": [
+        {"text": "Antagoniste NMDA", "correct": true},
+        {"text": "Inhibiteur cholinestérase", "correct": false},
+        {"text": "Agoniste dopaminergique", "correct": false},
+        {"text": "Antidépresseur", "correct": false}
+      ],
+      "explanation": "La mémantine est utilisée dans Alzheimer, bloquant l'excitotoxicité."
+    },
+    {
+      "question": "Quels sont les risques des agonistes alpha-2 comme la clonidine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Rebond hypertensif à l'arrêt", "correct": true},
+        {"text": "Sédation", "correct": true},
+        {"text": "Tachycardie", "correct": false},
+        {"text": "Sécheresse buccale", "correct": true},
+        {"text": "Hypotension", "correct": true}
+      ],
+      "explanation": "Clonidine cause rebond, sédation, sèche, hypo; pas tachy."
+    },
+    {
+      "question": "Quelle est la cible des alcaloïdes de la vinca comme la vincristine?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition des microtubules", "correct": true},
+        {"text": "Alkylation ADN", "correct": false},
+        {"text": "Inhibition topoisomérase", "correct": false},
+        {"text": "Antimetabolite", "correct": false}
+      ],
+      "explanation": "La vincristine empêche la mitose."
+    },
+    {
+      "question": "Quels médicaments sont des anti-épileptiques sodiques comme la phénytoïne?",
+      "type": "multiple",
+      "options": [
+        {"text": "Carbamazépine", "correct": true},
+        {"text": "Lamotrigine", "correct": true},
+        {"text": "Valproate", "correct": false},
+        {"text": "Lévétiracétam", "correct": false},
+        {"text": "Oxcarbazépine", "correct": true}
+      ],
+      "explanation": "Blocants Na : carba, lamo, oxca ; valpro multi, lévé SV2A."
+    },
+    {
+      "question": "Quel est l'antidote des bêta-bloquants?",
+      "type": "single",
+      "options": [
+        {"text": "Glucagon", "correct": true},
+        {"text": "Atropine", "correct": false},
+        {"text": "Naloxone", "correct": false},
+        {"text": "Flumazénil", "correct": false}
+      ],
+      "explanation": "Le glucagon augmente le cAMP indépendamment des bêta-récepteurs."
+    },
+    {
+      "question": "Quels sont les effets secondaires des inhibiteurs de la recapture de la noradrénaline comme la duloxétine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Nausées", "correct": true},
+        {"text": "Hypertension", "correct": true},
+        {"text": "Sueurs", "correct": true},
+        {"text": "Somnolence", "correct": false},
+        {"text": "Dysfonction sexuelle", "correct": true}
+      ],
+      "explanation": "IRSN causent nausées, HTA, sueurs, DS; somnolence moins."
+    },
+    {
+      "question": "Quelle est la classe du médicament sildenafil?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibiteur PDE5", "correct": true},
+        {"text": "Blocant alpha", "correct": false},
+        {"text": "Hormone", "correct": false},
+        {"text": "Antidépresseur", "correct": false}
+      ],
+      "explanation": "Déjà demandé, mais ok."
+    },
+    {
+      "question": "Quels médicaments sont utilisés dans la sclérose en plaques?",
+      "type": "multiple",
+      "options": [
+        {"text": "Interféron bêta", "correct": true},
+        {"text": "Natalizumab", "correct": true},
+        {"text": "Methotrexate", "correct": false},
+        {"text": "Fingolimod", "correct": true},
+        {"text": "Ocrelizumab", "correct": true}
+      ],
+      "explanation": "SEP : IFN, nata, fingo, ocre ; metho plus RA."
+    },
+    {
+      "question": "Quel est le mécanisme d'action de l'hydroxychloroquine?",
+      "type": "single",
+      "options": [
+        {"text": "Augmentation pH lysosomal, immunomodulateur", "correct": true},
+        {"text": "Inhibition synthèse ADN", "correct": false},
+        {"text": "Anti-TNF", "correct": false},
+        {"text": "Inhibition IL1", "correct": false}
+      ],
+      "explanation": "L'HCQ est utilisé dans lupus et RA."
+    },
+    {
+      "question": "Quels sont les signes d'intoxication aux ISRS?",
+      "type": "multiple",
+      "options": [
+        {"text": "Syndrome sérotoninergique", "correct": true},
+        {"text": "Tremblements", "correct": true},
+        {"text": "Bradycardie", "correct": false},
+        {"text": "Hyperthermie", "correct": true},
+        {"text": "Rigidité", "correct": true}
+      ],
+      "explanation": "ISRS peuvent causer SS avec tremblements, hyperthermie, rigidité; pas bradycardie."
+    },
+    {
+      "question": "Quelle est la cible des taxanes comme le paclitaxel?",
+      "type": "single",
+      "options": [
+        {"text": "Stabilisation des microtubules", "correct": true},
+        {"text": "Inhibition topoisomérase", "correct": false},
+        {"text": "Alkylation", "correct": false},
+        {"text": "Antimetabolite", "correct": false}
+      ],
+      "explanation": "Les taxanes empêchent la dépolymérisation."
+    },
+    {
+      "question": "Quels antibiotiques sont des inhibiteurs de la synthèse protéique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Clindamycine", "correct": true},
+        {"text": "Tétracyclines", "correct": true},
+        {"text": "Pénicillines", "correct": false},
+        {"text": "Macrolides", "correct": true},
+        {"text": "Aminoglycosides", "correct": true}
+      ],
+      "explanation": "Inhib protéine : clinda, tetra, macro, amino ; peni paroi."
+    },
+    {
+      "question": "Quel est l'antidote de l'intoxication au méthanol?",
+      "type": "single",
+      "options": [
+        {"text": "Fomépizole ou éthanol", "correct": true},
+        {"text": "N-acétylcystéine", "correct": false},
+        {"text": "Vitamine K", "correct": false},
+        {"text": "Bicarbonate", "correct": false}
+      ],
+      "explanation": "Inhibe l'alcool déshydrogénase."
+    },
+    {
+      "question": "Quels sont les effets secondaires des agonistes dopaminergiques comme la pramipexole?",
+      "type": "multiple",
+      "options": [
+        {"text": "Hallucinations", "correct": true},
+        {"text": "Troubles du contrôle des impulsions", "correct": true},
+        {"text": "Bradycardie", "correct": false},
+        {"text": "Somnolence", "correct": true},
+        {"text": "Nausées", "correct": true}
+      ],
+      "explanation": "Dopaminergiques causent hallu, impulsions, somno, nausées; pas brady."
+    },
+    {
+      "question": "Quelle est la classe du médicament albuterol?",
+      "type": "single",
+      "options": [
+        {"text": "Agoniste bêta-2 court", "correct": true},
+        {"text": "Anticholinergique", "correct": false},
+        {"text": "Corticoïde", "correct": false},
+        {"text": "Antileucotriène", "correct": false}
+      ],
+      "explanation": "L'albuterol est bronchodilatateur rapide."
+    },
+    {
+      "question": "Quels médicaments sont des inhibiteurs de la MAO?",
+      "type": "multiple",
+      "options": [
+        {"text": "Phénelzine", "correct": true},
+        {"text": "Selegiline", "correct": true},
+        {"text": "Fluoxétine", "correct": false},
+        {"text": "Tranylcypromine", "correct": true},
+        {"text": "Moclobémide", "correct": true}
+      ],
+      "explanation": "MAOi : phen, sele, tran, moclo ; fluo ISRS."
+    },
+    {
+      "question": "Quel est le mécanisme d'action de l'epinéphrine?",
+      "type": "single",
+      "options": [
+        {"text": "Agoniste adrénergique alpha et bêta", "correct": true},
+        {"text": "Antagoniste adrénergique", "correct": false},
+        {"text": "Inhibiteur cholinestérase", "correct": false},
+        {"text": "Blocant calcique", "correct": false}
+      ],
+      "explanation": "L'epinéphrine est utilisée dans l'anaphylaxie et arrêt cardiaque."
+    },
+    {
+      "question": "Quels sont les risques des antimycobactériens comme la rifampicine?",
+      "type": "multiple",
+      "options": [
+        {"text": "Induction CYP450", "correct": true},
+        {"text": "Hépatotoxicité", "correct": true},
+        {"text": "Neuropathie", "correct": false},
+        {"text": "Coloration orange des sécrétions", "correct": true},
+        {"text": "Thrombocytopénie", "correct": true}
+      ],
+      "explanation": "Rif causent induction, hépa, orange, thrombos; neuro pour INH."
+    },
+    {
+      "question": "Quelle est la cible de l'abiraterone?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de la CYP17, réduction androgènes", "correct": true},
+        {"text": "Antagoniste androgène", "correct": false},
+        {"text": "Inhibiteur aromatase", "correct": false},
+        {"text": "Agoniste LHRH", "correct": false}
+      ],
+      "explanation": "L'abiraterone est utilisé dans le cancer de la prostate."
+    },
+    {
+      "question": "Quels médicaments sont des calcimimétiques comme le cinacalcet?",
+      "type": "multiple",
+      "options": [
+        {"text": "Ételcalcetide", "correct": true},
+        {"text": "Paricalcitol", "correct": false},
+        {"text": "Sevelamer", "correct": false},
+        {"text": "Cinacalcet", "correct": true},
+        {"text": "Calcitriol", "correct": false}
+      ],
+      "explanation": "Calcimimétiques : cinacalcet, etel ; parical, calcitriol vit D ; sevelamer chelateur phosphate."
+    },
+    {
+      "question": "Quel est l'effet de la desmopressine?",
+      "type": "single",
+      "options": [
+        {"text": "Analogue de la vasopressine, antidiurétique", "correct": true},
+        {"text": "Diurétique", "correct": false},
+        {"text": "Antihypertenseur", "correct": false},
+        {"text": "Anticoagulant", "correct": false}
+      ],
+      "explanation": "La desmopressine traite le diabetes insipidus et l'énurésie."
+    },
+    {
+      "question": "Quels sont les effets indésirables des antiviraux comme l'aciclovir?",
+      "type": "multiple",
+      "options": [
+        {"text": "Néphrotoxicité", "correct": true},
+        {"text": "Neurotoxicité", "correct": true},
+        {"text": "Hépatotoxicité", "correct": false},
+        {"text": "Rash", "correct": true},
+        {"text": "Nausées", "correct": true}
+      ],
+      "explanation": "Aciclovir cause néphro, neuro, rash, nausées; hépa moins."
+    },
+    {
+      "question": "Quelle est la classe du médicament liraglutide?",
+      "type": "single",
+      "options": [
+        {"text": "Agoniste GLP-1", "correct": true},
+        {"text": "Inhibiteur SGLT2", "correct": false},
+        {"text": "Biguanide", "correct": false},
+        {"text": "Sulfonylurée", "correct": false}
+      ],
+      "explanation": "Le liraglutide est utilisé dans le diabète et obésité."
+    },
+    {
+      "question": "Quels médicaments traitent l'insomnie?",
+      "type": "multiple",
+      "options": [
+        {"text": "Zolpidem", "correct": true},
+        {"text": "Eszopiclone", "correct": true},
+        {"text": "Caffeine", "correct": false},
+        {"text": "Ramelteon", "correct": true},
+        {"text": "Suvorexant", "correct": true}
+      ],
+      "explanation": "Hypnotiques : zolpi, eszo, ramel, suvo ; caffeine stimulant."
+    },
+    {
+      "question": "Quel est le mécanisme d'action de la nifédipine?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibiteur calcique dihydropyridine", "correct": true},
+        {"text": "Bêta-bloquant", "correct": false},
+        {"text": "IEC", "correct": false},
+        {"text": "Diurétique", "correct": false}
+      ],
+      "explanation": "La nifédipine est vasodilatateur."
+    },
+    {
+      "question": "Quels sont les risques des immunodépresseurs comme le tacrolimus?",
+      "type": "multiple",
+      "options": [
+        {"text": "Infections", "correct": true},
+        {"text": "Néphrotoxicité", "correct": true},
+        {"text": "Hypertension", "correct": true},
+        {"text": "Tremblements", "correct": true},
+        {"text": "Hypoglycémie", "correct": false}
+      ],
+      "explanation": "Tacrolimus cause infections, néphro, HTA, tremblements; hyperglycémie, pas hypo."
+    }
+  ]
+}

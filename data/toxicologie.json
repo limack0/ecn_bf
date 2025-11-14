@@ -1,0 +1,119 @@
+{
+  "quizzes": [
+    {
+      "question": "Quel est l'antidote spécifique de l'intoxication au paracétamol?",
+      "type": "single",
+      "options": [
+        {"text": "Flumazénil", "correct": false},
+        {"text": "N-acétylcystéine", "correct": true},
+        {"text": "Naloxone", "correct": false},
+        {"text": "Vitamine K", "correct": false}
+      ],
+      "explanation": "La N-acétylcystéine est l'antidote spécifique qui restaure les réserves de glutathion hépatique."
+    },
+    {
+      "question": "Quels sont les signes cliniques d'une intoxication aiguë aux organophosphorés?",
+      "type": "multiple",
+      "options": [
+        {"text": "Myosis", "correct": true},
+        {"text": "Bradycardie", "correct": true},
+        {"text": "Hypersialorrhée", "correct": true},
+        {"text": "Hypertension artérielle", "correct": false},
+        {"text": "Hyperthermie", "correct": false}
+      ],
+      "explanation": "Le syndrome muscarinique associe myosis, bradycardie et hypersécrétions. L'hypotension est plus fréquente."
+    },
+    {
+      "question": "Quelle est la dose toxique du paracétamol chez l'adulte?",
+      "type": "single",
+      "options": [
+        {"text": "50 mg/kg", "correct": false},
+        {"text": "100 mg/kg", "correct": false},
+        {"text": "150 mg/kg", "correct": true},
+        {"text": "200 mg/kg", "correct": false}
+      ],
+      "explanation": "La dose toxique est de 150 mg/kg en une prise, pouvant entraîner une hépatite cytolytique."
+    },
+    {
+      "question": "Quels antidotes sont correctement appariés à leur toxique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Benzodiazépines - Flumazénil", "correct": true},
+        {"text": "Digitalique - Fragments Fab", "correct": true},
+        {"text": "Méthanol - Éthanol", "correct": true},
+        {"text": "Paracétamol - Naloxone", "correct": false},
+        {"text": "Cyanure - Hydroxocobalamine", "correct": true}
+      ],
+      "explanation": "Le paracétamol a pour antidote la N-acétylcystéine, pas la naloxone."
+    },
+    {
+      "question": "Quel est le mécanisme d'action de l'intoxication au monoxyde de carbone?",
+      "type": "single",
+      "options": [
+        {"text": "Inhibition de la pompe Na/K", "correct": false},
+        {"text": "Déplacement de l'oxygène de l'hémoglobine", "correct": true},
+        {"text": "Inhibition de la cytochrome oxydase", "correct": false},
+        {"text": "Blocage des canaux sodiques", "correct": false}
+      ],
+      "explanation": "Le CO se fixe sur l'hémoglobine avec une affinité 250 fois supérieure à l'oxygène, formant la carboxyhémoglobine."
+    },
+    {
+      "question": "Quels paramètres biologiques doivent être surveillés dans une intoxication au méthanol?",
+      "type": "multiple",
+      "options": [
+        {"text": "Glycémie", "correct": true},
+        {"text": "Gap anionique", "correct": true},
+        {"text": "Osmolarité plasmatique", "correct": true},
+        {"text": "Bilirubine", "correct": false},
+        {"text": "Amylasémie", "correct": true}
+      ],
+      "explanation": "L'acidose métabolique à gap anionique élevé, l'écart osmolaire et la pancréatite sont caractéristiques."
+    },
+    {
+      "question": "Quel toxique provoque classiquement un élargissement de l'espace QRS à l'ECG?",
+      "type": "single",
+      "options": [
+        {"text": "Paracétamol", "correct": false},
+        {"text": "Digoxine", "correct": false},
+        {"text": "Tricycliques", "correct": true},
+        {"text": "Benzodiazépines", "correct": false}
+      ],
+      "explanation": "Les antidépresseurs tricycliques bloquent les canaux sodiques, élargissant le QRS (>100 ms)."
+    },
+    {
+      "question": "Quels sont les signes du syndrome sérotoninergique?",
+      "type": "multiple",
+      "options": [
+        {"text": "Agitation", "correct": true},
+        {"text": "Myoclonies", "correct": true},
+        {"text": "Hyperthermie", "correct": true},
+        {"text": "Bradycardie", "correct": false},
+        {"text": "Hypotension", "correct": false}
+      ],
+      "explanation": "Triade: troubles neuro-musculaires (myoclonies), autonomes (tachycardie, hyperthermie) et mentaux."
+    },
+    {
+      "question": "Quel est le traitement de première intention d'une intoxication aux bêta-bloquants?",
+      "type": "single",
+      "options": [
+        {"text": "Flumazénil", "correct": false},
+        {"text": "Glucagon", "correct": true},
+        {"text": "Naloxone", "correct": false},
+        {"text": "Atropine", "correct": false}
+      ],
+      "explanation": "Le glucagon stimule la production d'AMPc indépendamment des récepteurs bêta-adrénergiques."
+    },
+    {
+      "question": "Quelles intoxications justifient une épuration digestive?",
+      "type": "multiple",
+      "options": [
+        {"text": "Paracétamol <2h", "correct": true},
+        {"text": "Corrosifs", "correct": false},
+        {"text": "Hydrocarbures", "correct": false},
+        {"text": "Tricycliques <1h", "correct": true},
+        {"text": "Digitalique <2h", "correct": true}
+      ],
+      "explanation": "Contre-indications: corrosifs, hydrocarbures (risque d'inhalation), troubles de la conscience."
+    }
+  ]
+}
